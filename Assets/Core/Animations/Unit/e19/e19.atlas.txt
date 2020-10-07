@@ -1,0 +1,146 @@
+
+e19.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: false
+  xy: 2, 83
+  size: 154, 169
+  orig: 154, 169
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 130, 8
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 268, 121
+  size: 128, 131
+  orig: 128, 131
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 398, 149
+  size: 106, 103
+  orig: 106, 103
+  offset: 0, 0
+  index: -1
+d-02
+  rotate: true
+  xy: 77, 5
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 2, 2
+  size: 79, 43
+  orig: 79, 43
+  offset: 0, 0
+  index: -1
+face_die
+  rotate: true
+  xy: 47, 4
+  size: 77, 28
+  orig: 77, 28
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 266, 98
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+hand5
+  rotate: true
+  xy: 470, 93
+  size: 54, 36
+  orig: 54, 36
+  offset: 0, 0
+  index: -1
+hand_left_bis
+  rotate: true
+  xy: 343, 2
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1
+hand_right_bis
+  rotate: false
+  xy: 456, 8
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 297, 24
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: false
+  xy: 470, 45
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 408, 8
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+pack
+  rotate: false
+  xy: 201, 4
+  size: 94, 82
+  orig: 94, 82
+  offset: 0, 0
+  index: -1
+rocket
+  rotate: true
+  xy: 158, 117
+  size: 135, 108
+  orig: 135, 108
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 398, 77
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 343, 69
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: true
+  xy: 158, 88
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 212, 88
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1

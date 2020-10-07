@@ -1,0 +1,1 @@
+[{"id":1,"rateDropGold":5,"timeRespawnGold":15,"maxIndexDropGold":3,"rateDropFood":5,"timeRespawnFood":15,"maxIndexDropFood":5}]

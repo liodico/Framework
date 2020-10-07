@@ -1,0 +1,167 @@
+
+A1.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: true
+  xy: 195, 70
+  size: 183, 139
+  orig: 183, 139
+  offset: 0, 0
+  index: -1
+CC3-02
+  rotate: true
+  xy: 924, 200
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-02b
+  rotate: true
+  xy: 924, 145
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: false
+  xy: 269, 6
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: false
+  xy: 322, 6
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-04
+  rotate: true
+  xy: 547, 125
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+CC3-04b
+  rotate: true
+  xy: 634, 125
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 867, 196
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+CC3-08
+  rotate: true
+  xy: 807, 193
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: true
+  xy: 2, 3
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+bhand
+  rotate: false
+  xy: 799, 78
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+bhand-02
+  rotate: true
+  xy: 195, 2
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 721, 165
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+c2
+  rotate: false
+  xy: 713, 35
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+exp1
+  rotate: true
+  xy: 375, 10
+  size: 97, 96
+  orig: 97, 96
+  offset: 0, 0
+  index: -1
+exp2
+  rotate: true
+  xy: 473, 7
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+exp3
+  rotate: true
+  xy: 553, 9
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+exp4
+  rotate: true
+  xy: 633, 9
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+fxMeleeCritical
+  rotate: false
+  xy: 2, 49
+  size: 191, 204
+  orig: 191, 204
+  offset: 0, 0
+  index: -1
+knife
+  rotate: false
+  xy: 471, 123
+  size: 74, 130
+  orig: 74, 130
+  offset: 0, 0
+  index: -1
+knifeb
+  rotate: true
+  xy: 336, 109
+  size: 144, 133
+  orig: 144, 133
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 799, 6
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 871, 144
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1 @@
+{"InfoAttackUnit":"[{\"id\":1,\"typeAttack\":1,\"damAttack\":1,\"indexTargetGetDam\":1,\"maxRangeAttackX\":1,\"sizeCollX\":1.1,\"sizeCollY\":0.5,\"offsetCollX\":0.5},{\"id\":2,\"indexAttack\":1,\"typeAttack\":1,\"damAttack\":1,\"indexTargetGetDam\":1,\"maxRangeAttackX\":1,\"sizeCollX\":1.1,\"sizeCollY\":0.5,\"offsetCollX\":0.5}]"}

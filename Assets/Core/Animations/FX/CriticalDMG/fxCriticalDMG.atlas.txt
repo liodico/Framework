@@ -1,0 +1,111 @@
+
+fxCriticalDMG.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: false
+  xy: 2, 37
+  size: 319, 262
+  orig: 458, 407
+  offset: 135, 55
+  index: -1
+a2
+  rotate: false
+  xy: 403, 701
+  size: 397, 321
+  orig: 458, 407
+  offset: 57, 50
+  index: -1
+a3
+  rotate: false
+  xy: 2, 665
+  size: 399, 357
+  orig: 458, 407
+  offset: 21, 40
+  index: -1
+a4
+  rotate: false
+  xy: 2, 301
+  size: 389, 362
+  orig: 458, 407
+  offset: 21, 39
+  index: -1
+a5
+  rotate: true
+  xy: 403, 364
+  size: 335, 362
+  orig: 458, 407
+  offset: 30, 39
+  index: -1
+a6
+  rotate: true
+  xy: 393, 58
+  size: 304, 311
+  orig: 458, 407
+  offset: 30, 39
+  index: -1
+a7
+  rotate: false
+  xy: 767, 396
+  size: 234, 273
+  orig: 458, 407
+  offset: 60, 41
+  index: -1
+bloodDot
+  rotate: false
+  xy: 955, 760
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 767, 360
+  size: 203, 34
+  orig: 458, 407
+  offset: 159, 43
+  index: -1
+g3
+  rotate: true
+  xy: 955, 804
+  size: 218, 48
+  orig: 458, 407
+  offset: 135, 30
+  index: -1
+g4
+  rotate: true
+  xy: 706, 92
+  size: 270, 53
+  orig: 458, 407
+  offset: 83, 25
+  index: -1
+g5
+  rotate: true
+  xy: 323, 2
+  size: 297, 59
+  orig: 458, 407
+  offset: 56, 22
+  index: -1
+g6
+  rotate: true
+  xy: 883, 688
+  size: 334, 70
+  orig: 458, 407
+  offset: 19, 22
+  index: -1
+g7
+  rotate: true
+  xy: 802, 671
+  size: 351, 79
+  orig: 458, 407
+  offset: 2, 2
+  index: -1
+t_shadow
+  rotate: false
+  xy: 2, 34
+  size: 1, 1
+  orig: 50, 50
+  offset: 24, 24
+  index: -1

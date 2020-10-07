@@ -1,0 +1,1 @@
+[{"heroRarity":1,"ratio":25},{"heroRarity":2,"ratio":50},{"heroRarity":3,"ratio":20},{"heroRarity":4,"ratio":5}]

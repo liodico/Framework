@@ -1,0 +1,118 @@
+
+chest.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chest1/Ellipse_effect
+  rotate: false
+  xy: 1189, 109
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+chest1/chest_body
+  rotate: false
+  xy: 782, 176
+  size: 389, 177
+  orig: 389, 177
+  offset: 0, 0
+  index: -1
+chest1/chest_hat_close
+  rotate: false
+  xy: 1534, 324
+  size: 431, 249
+  orig: 431, 249
+  offset: 0, 0
+  index: -1
+chest1/chest_hat_open
+  rotate: false
+  xy: 2, 425
+  size: 416, 232
+  orig: 416, 232
+  offset: 0, 0
+  index: -1
+chest1/light
+  rotate: true
+  xy: 1566, 575
+  size: 691, 343
+  orig: 691, 343
+  offset: 0, 0
+  index: -1
+chest1/shadow
+  rotate: true
+  xy: 1911, 805
+  size: 461, 127
+  orig: 461, 127
+  offset: 0, 0
+  index: -1
+chest2/chest_body
+  rotate: false
+  xy: 393, 222
+  size: 387, 188
+  orig: 387, 188
+  offset: 0, 0
+  index: -1
+chest2/chest_hat_close
+  rotate: false
+  xy: 2, 214
+  size: 389, 209
+  orig: 389, 209
+  offset: 0, 0
+  index: -1
+chest2/chest_hat_open
+  rotate: false
+  xy: 393, 10
+  size: 307, 210
+  orig: 307, 210
+  offset: 0, 0
+  index: -1
+chest2/light
+  rotate: false
+  xy: 837, 831
+  size: 727, 435
+  orig: 883, 435
+  offset: 0, 0
+  index: -1
+chest3/chest_body
+  rotate: false
+  xy: 837, 566
+  size: 432, 263
+  orig: 432, 264
+  offset: 0, 0
+  index: -1
+chest3/chest_hat_close
+  rotate: true
+  xy: 1271, 395
+  size: 434, 261
+  orig: 434, 261
+  offset: 0, 0
+  index: -1
+chest3/chest_hat_open
+  rotate: false
+  xy: 420, 412
+  size: 376, 245
+  orig: 376, 245
+  offset: 0, 0
+  index: -1
+chest3/light
+  rotate: false
+  xy: 2, 659
+  size: 833, 607
+  orig: 1012, 607
+  offset: 0, 0
+  index: -1
+chest4/chest_hat_close
+  rotate: false
+  xy: 798, 355
+  size: 389, 209
+  orig: 389, 209
+  offset: 0, 0
+  index: -1
+chest4/chest_hat_open
+  rotate: false
+  xy: 2, 2
+  size: 307, 210
+  orig: 307, 210
+  offset: 0, 0
+  index: -1

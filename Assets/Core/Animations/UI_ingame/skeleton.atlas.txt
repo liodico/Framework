@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Ellipse_effect
+  rotate: false
+  xy: 723, 563
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+images/Mission Completed
+  rotate: false
+  xy: 2, 774
+  size: 719, 73
+  orig: 719, 73
+  offset: 0, 0
+  index: -1
+images/Mission Failed
+  rotate: true
+  xy: 394, 171
+  size: 601, 80
+  orig: 601, 80
+  offset: 0, 0
+  index: -1
+images/Rectangle_effect
+  rotate: true
+  xy: 476, 299
+  size: 100, 262
+  orig: 100, 262
+  offset: 0, 0
+  index: -1
+images/Rib_FAIL_center
+  rotate: true
+  xy: 476, 401
+  size: 371, 81
+  orig: 371, 81
+  offset: 0, 0
+  index: -1
+images/Rib_FAIL_left
+  rotate: false
+  xy: 701, 461
+  size: 129, 100
+  orig: 129, 100
+  offset: 0, 0
+  index: -1
+images/Rib_VIC_center
+  rotate: true
+  xy: 559, 401
+  size: 371, 81
+  orig: 371, 81
+  offset: 0, 0
+  index: -1
+images/Rib_VIC_left
+  rotate: true
+  xy: 687, 168
+  size: 129, 97
+  orig: 129, 97
+  offset: 0, 0
+  index: -1
+images/glow
+  rotate: false
+  xy: 2, 2
+  size: 375, 378
+  orig: 375, 378
+  offset: 0, 0
+  index: -1
+images/iconCoin
+  rotate: true
+  xy: 688, 416
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+images/iconCoin1
+  rotate: true
+  xy: 642, 645
+  size: 127, 79
+  orig: 127, 79
+  offset: 0, 0
+  index: -1
+images/iconCoin2
+  rotate: false
+  xy: 545, 200
+  size: 140, 97
+  orig: 140, 97
+  offset: 0, 0
+  index: -1
+images/iconCoin3
+  rotate: true
+  xy: 379, 15
+  size: 154, 164
+  orig: 154, 164
+  offset: 0, 0
+  index: -1
+images/iconUpgrade
+  rotate: true
+  xy: 642, 402
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+images/iconZbrain
+  rotate: false
+  xy: 740, 331
+  size: 100, 84
+  orig: 100, 84
+  offset: 0, 0
+  index: -1
+images/line_effect
+  rotate: false
+  xy: 2, 382
+  size: 390, 390
+  orig: 390, 390
+  offset: 0, 0
+  index: -1
+images/star
+  rotate: true
+  xy: 734, 417
+  size: 42, 64
+  orig: 42, 64
+  offset: 0, 0
+  index: -1
+images/star2
+  rotate: false
+  xy: 476, 235
+  size: 41, 62
+  orig: 41, 62
+  offset: 0, 0
+  index: -1
+images/star3
+  rotate: false
+  xy: 642, 568
+  size: 58, 75
+  orig: 58, 75
+  offset: 0, 0
+  index: -1
+images/star4
+  rotate: false
+  xy: 642, 487
+  size: 57, 79
+  orig: 57, 79
+  offset: 0, 0
+  index: -1
+images/star_yellow
+  rotate: true
+  xy: 642, 439
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1

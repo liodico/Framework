@@ -1,0 +1,300 @@
+
+Unit11.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Skin2/body
+  rotate: false
+  xy: 978, 404
+  size: 104, 106
+  orig: 104, 106
+  offset: 0, 0
+  index: -1
+Skin2/head
+  rotate: true
+  xy: 189, 36
+  size: 213, 185
+  orig: 213, 185
+  offset: 0, 0
+  index: -1
+Skin3/katana
+  rotate: false
+  xy: 71, 251
+  size: 67, 259
+  orig: 67, 259
+  offset: 0, 0
+  index: -1
+Skin3/sheath
+  rotate: true
+  xy: 809, 4
+  size: 57, 208
+  orig: 57, 208
+  offset: 0, 0
+  index: -1
+Skin3/upperarm_left
+  rotate: true
+  xy: 386, 252
+  size: 43, 52
+  orig: 43, 52
+  offset: 0, 0
+  index: -1
+Skin4/face_normal
+  rotate: false
+  xy: 347, 11
+  size: 96, 23
+  orig: 96, 23
+  offset: 0, 0
+  index: -1
+Skin4/head
+  rotate: true
+  xy: 209, 297
+  size: 213, 185
+  orig: 213, 185
+  offset: 0, 0
+  index: -1
+Skin4/katana
+  rotate: false
+  xy: 140, 251
+  size: 67, 259
+  orig: 67, 259
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 891, 382
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: false
+  xy: 249, 10
+  size: 96, 24
+  orig: 96, 24
+  offset: 0, 0
+  index: -1
+face_happy
+  rotate: false
+  xy: 150, 10
+  size: 97, 24
+  orig: 97, 24
+  offset: 0, 0
+  index: -1
+face_hurt
+  rotate: false
+  xy: 636, 275
+  size: 93, 23
+  orig: 93, 23
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: false
+  xy: 538, 275
+  size: 96, 23
+  orig: 96, 23
+  offset: 0, 0
+  index: -1
+foot
+  rotate: true
+  xy: 519, 260
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+fxMeleeCritical
+  rotate: false
+  xy: 871, 94
+  size: 191, 204
+  orig: 191, 204
+  offset: 0, 0
+  index: -1
+fx_smoke_1
+  rotate: true
+  xy: 376, 39
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+fx_smoke_2
+  rotate: true
+  xy: 396, 300
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+fx_smoke_3
+  rotate: true
+  xy: 561, 300
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+fx_smoke_4
+  rotate: true
+  xy: 541, 63
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+fx_smoke_5
+  rotate: true
+  xy: 726, 300
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+fx_smoke_6
+  rotate: true
+  xy: 706, 63
+  size: 210, 163
+  orig: 210, 163
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 1037, 302
+  size: 106, 100
+  orig: 106, 100
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: false
+  xy: 1084, 438
+  size: 61, 72
+  orig: 61, 72
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 891, 301
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 964, 301
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 541, 2
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+hand5
+  rotate: false
+  xy: 283, 251
+  size: 51, 44
+  orig: 51, 44
+  offset: 0, 0
+  index: -1
+hand7
+  rotate: true
+  xy: 440, 257
+  size: 41, 77
+  orig: 41, 77
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: true
+  xy: 336, 251
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 1064, 173
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 36
+  size: 213, 185
+  orig: 213, 185
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 110, 7
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+katana
+  rotate: false
+  xy: 2, 251
+  size: 67, 259
+  orig: 67, 259
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 209, 251
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: true
+  xy: 445, 2
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 493, 2
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1064, 230
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+sheath
+  rotate: true
+  xy: 599, 4
+  size: 57, 208
+  orig: 57, 208
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 1064, 121
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: true
+  xy: 2, 7
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 56, 7
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+woodlog
+  rotate: true
+  xy: 1019, 3
+  size: 89, 99
+  orig: 89, 99
+  offset: 0, 0
+  index: -1

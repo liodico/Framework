@@ -1,0 +1,188 @@
+
+A12.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: false
+  xy: 2, 58
+  size: 183, 196
+  orig: 183, 196
+  offset: 0, 0
+  index: -1
+CC3-02
+  rotate: false
+  xy: 2, 2
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-02b
+  rotate: false
+  xy: 57, 2
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: true
+  xy: 152, 5
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: true
+  xy: 152, 5
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-04
+  rotate: true
+  xy: 741, 122
+  size: 132, 121
+  orig: 132, 121
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: true
+  xy: 216, 3
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+CC3-08
+  rotate: true
+  xy: 974, 194
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: false
+  xy: 640, 31
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+bhand
+  rotate: false
+  xy: 462, 18
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+bhand-02
+  rotate: false
+  xy: 572, 31
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 290, 15
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+c - Copy
+  rotate: false
+  xy: 376, 15
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+exp1
+  rotate: true
+  xy: 875, 13
+  size: 118, 105
+  orig: 118, 105
+  offset: 0, 0
+  index: -1
+exp3
+  rotate: true
+  xy: 758, 2
+  size: 118, 115
+  orig: 118, 115
+  offset: 0, 0
+  index: -1
+fxBulletShell
+  rotate: false
+  xy: 686, 2
+  size: 40, 29
+  orig: 40, 29
+  offset: 0, 0
+  index: -1
+fxRange1_1
+  rotate: false
+  xy: 253, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_2
+  rotate: false
+  xy: 375, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_3
+  rotate: false
+  xy: 497, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_4
+  rotate: false
+  xy: 619, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+gunA
+  rotate: true
+  xy: 187, 80
+  size: 174, 64
+  orig: 174, 64
+  offset: 0, 0
+  index: -1
+gunB
+  rotate: true
+  xy: 533, 28
+  size: 75, 37
+  orig: 75, 37
+  offset: 0, 0
+  index: -1
+handB2
+  rotate: true
+  xy: 112, 3
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 864, 133
+  size: 121, 108
+  orig: 121, 108
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 686, 33
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 974, 142
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+fxSpikeWall.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3-02
+  rotate: false
+  xy: 456, 2
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: true
+  xy: 511, 5
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 596, 125
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: true
+  xy: 131, 6
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+box
+  rotate: true
+  xy: 131, 52
+  size: 202, 101
+  orig: 202, 101
+  offset: 0, 0
+  index: -1
+box-02
+  rotate: false
+  xy: 234, 54
+  size: 109, 200
+  orig: 109, 200
+  offset: 0, 0
+  index: -1
+box-03
+  rotate: true
+  xy: 456, 58
+  size: 196, 138
+  orig: 196, 138
+  offset: 0, 0
+  index: -1
+boxFace
+  rotate: false
+  xy: 345, 54
+  size: 109, 200
+  orig: 109, 200
+  offset: 0, 0
+  index: -1
+brokenBox
+  rotate: true
+  xy: 2, 24
+  size: 230, 127
+  orig: 230, 127
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 596, 184
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 234, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

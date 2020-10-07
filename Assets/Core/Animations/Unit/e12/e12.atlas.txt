@@ -1,0 +1,216 @@
+
+e12.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 224, 11
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 354, 8
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 725, 16
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+d-02
+  rotate: false
+  xy: 578, 2
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 440, 52
+  size: 100, 44
+  orig: 100, 44
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 760, 79
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+fxSkillB1
+  rotate: true
+  xy: 810, 237
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB2
+  rotate: true
+  xy: 998, 237
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB3
+  rotate: false
+  xy: 1032, 49
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB4
+  rotate: true
+  xy: 1186, 237
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+gunHand
+  rotate: false
+  xy: 1306, 8
+  size: 201, 227
+  orig: 201, 227
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 514, 6
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+handle
+  rotate: false
+  xy: 656, 11
+  size: 67, 56
+  orig: 67, 56
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1712, 72
+  size: 212, 179
+  orig: 212, 179
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 440, 6
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: true
+  xy: 542, 55
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 597, 55
+  size: 41, 53
+  orig: 41, 53
+  offset: 0, 0
+  index: -1
+platform
+  rotate: false
+  xy: 2, 7
+  size: 220, 89
+  orig: 220, 89
+  offset: 0, 0
+  index: -1
+platform_light
+  rotate: false
+  xy: 810, 136
+  size: 220, 99
+  orig: 220, 99
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 848, 22
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+skillFx1
+  rotate: true
+  xy: 2, 98
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx2
+  rotate: true
+  xy: 204, 98
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx3
+  rotate: true
+  xy: 406, 98
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx4
+  rotate: true
+  xy: 608, 98
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skin2/gunHand
+  rotate: false
+  xy: 1374, 282
+  size: 201, 227
+  orig: 201, 227
+  offset: 0, 0
+  index: -1
+skin2/gunHandFx
+  rotate: false
+  xy: 1509, 53
+  size: 201, 227
+  orig: 201, 227
+  offset: 0, 0
+  index: -1
+skin2/tank
+  rotate: false
+  xy: 1577, 286
+  size: 190, 223
+  orig: 190, 223
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 796, 27
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: true
+  xy: 652, 69
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 706, 69
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,335 @@
+
+Unit8.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3-02b
+  rotate: true
+  xy: 941, 2
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: false
+  xy: 997, 3
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+Skin2/body2
+  rotate: true
+  xy: 1012, 364
+  size: 146, 97
+  orig: 146, 97
+  offset: 0, 0
+  index: -1
+Skin2/gun
+  rotate: true
+  xy: 2, 12
+  size: 248, 93
+  orig: 248, 93
+  offset: 0, 0
+  index: -1
+Skin3/body2
+  rotate: true
+  xy: 958, 148
+  size: 146, 97
+  orig: 146, 97
+  offset: 0, 0
+  index: -1
+Skin3/cape
+  rotate: true
+  xy: 1057, 167
+  size: 127, 101
+  orig: 127, 101
+  offset: 0, 0
+  index: -1
+Skin3/gun
+  rotate: true
+  xy: 97, 262
+  size: 248, 93
+  orig: 248, 93
+  offset: 0, 0
+  index: -1
+Skin3/head2
+  rotate: true
+  xy: 192, 28
+  size: 240, 197
+  orig: 240, 197
+  offset: 0, 0
+  index: -1
+Skin3/upperarm_left
+  rotate: true
+  xy: 391, 9
+  size: 36, 59
+  orig: 36, 59
+  offset: 0, 0
+  index: -1
+Skin4/gun
+  rotate: true
+  xy: 97, 12
+  size: 248, 93
+  orig: 248, 93
+  offset: 0, 0
+  index: -1
+Skin4/head2
+  rotate: true
+  xy: 391, 270
+  size: 240, 197
+  orig: 240, 197
+  offset: 0, 0
+  index: -1
+Skin4/rocket
+  rotate: true
+  xy: 1108, 14
+  size: 58, 115
+  orig: 58, 115
+  offset: 0, 0
+  index: -1
+bhand
+  rotate: true
+  xy: 1098, 74
+  size: 91, 74
+  orig: 91, 74
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 913, 364
+  size: 146, 97
+  orig: 146, 97
+  offset: 0, 0
+  index: -1
+c - Copy
+  rotate: false
+  xy: 592, 48
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+hand7
+  rotate: false
+  xy: 592, 48
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 863, 293
+  size: 78, 66
+  orig: 78, 66
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: true
+  xy: 964, 67
+  size: 79, 65
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+face_happy
+  rotate: true
+  xy: 822, 53
+  size: 83, 67
+  orig: 83, 67
+  offset: 0, 0
+  index: -1
+face_hurt
+  rotate: false
+  xy: 1101, 296
+  size: 76, 66
+  orig: 76, 66
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 192, 9
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+fxBox
+  rotate: true
+  xy: 678, 52
+  size: 84, 142
+  orig: 84, 142
+  offset: 0, 0
+  index: -1
+fxRange1_1
+  rotate: false
+  xy: 592, 138
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_2
+  rotate: false
+  xy: 714, 138
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_3
+  rotate: false
+  xy: 791, 361
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_4
+  rotate: false
+  xy: 836, 138
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+gun
+  rotate: true
+  xy: 2, 262
+  size: 248, 93
+  orig: 248, 93
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 891, 57
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 1050, 7
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+hand5
+  rotate: false
+  xy: 452, 9
+  size: 52, 36
+  orig: 52, 36
+  offset: 0, 0
+  index: -1
+hand6
+  rotate: true
+  xy: 729, 3
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: true
+  xy: 676, 2
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 1160, 239
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+head2
+  rotate: true
+  xy: 192, 270
+  size: 240, 197
+  orig: 240, 197
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 602, 2
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: true
+  xy: 506, 10
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 554, 10
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+magazine
+  rotate: true
+  xy: 781, 5
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+saiyan/face_attack_saiyan
+  rotate: true
+  xy: 1031, 68
+  size: 78, 65
+  orig: 78, 65
+  offset: 0, 0
+  index: -1
+saiyan/face_hurt_saiyan
+  rotate: false
+  xy: 943, 296
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+saiyan/face_saiyan
+  rotate: false
+  xy: 1022, 296
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+saiyan/hair_saiyan
+  rotate: false
+  xy: 391, 47
+  size: 199, 221
+  orig: 199, 221
+  offset: 0, 0
+  index: -1
+saiyan/hair_saiyan2
+  rotate: false
+  xy: 590, 289
+  size: 199, 221
+  orig: 199, 221
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 791, 289
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 1160, 187
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: true
+  xy: 833, 24
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 887, 24
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1

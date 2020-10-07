@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: A12_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: 5a381088e4ffa8342b5df2c5c874607f, type: 2}
+  scale: 0.0045
+  skeletonJSON: {fileID: 4900000, guid: 074ca9183f49bd140b0849a42059a621, type: 3}
+  skeletonDataModifiers: []
+  fromAnimation:
+  - attackRange1
+  - attackRange1
+  - attackRange1
+  toAnimation:
+  - idle1
+  - attackRange1
+  - reload_Loop
+  duration:
+  - 0
+  - 0
+  - 0
+  defaultMix: 0
+  controller: {fileID: 0}

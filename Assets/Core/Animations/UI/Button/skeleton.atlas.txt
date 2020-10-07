@@ -1,0 +1,48 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buttonGray
+  rotate: true
+  xy: 195, 30
+  size: 208, 53
+  orig: 208, 53
+  offset: 0, 0
+  index: -1
+images/buttonGreen
+  rotate: true
+  xy: 250, 30
+  size: 208, 53
+  orig: 208, 53
+  offset: 0, 0
+  index: -1
+images/buttonOrange
+  rotate: true
+  xy: 305, 30
+  size: 208, 53
+  orig: 208, 53
+  offset: 0, 0
+  index: -1
+images/buttonRed
+  rotate: true
+  xy: 140, 6
+  size: 232, 53
+  orig: 232, 53
+  offset: 0, 0
+  index: -1
+images/button_stroke
+  rotate: true
+  xy: 2, 5
+  size: 233, 73
+  orig: 233, 73
+  offset: 0, 0
+  index: -1
+images/light_run
+  rotate: false
+  xy: 77, 2
+  size: 61, 236
+  orig: 61, 236
+  offset: 0, 0
+  index: -1

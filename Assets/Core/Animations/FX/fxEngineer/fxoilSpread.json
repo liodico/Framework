@@ -1,0 +1,141 @@
+{
+"skeleton": { "hash": "+c5bkk8HkyUUpRpNCiZow8VDtww", "spine": "3.7.91", "width": 759.6, "height": 547.2, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "subRoot", "parent": "root", "length": 499.82, "y": -299.89 },
+	{
+		"name": "oil",
+		"parent": "subRoot",
+		"length": 337.63,
+		"rotation": 90.58,
+		"y": 273.75,
+		"scaleX": 1.2,
+		"scaleY": 1.2
+	}
+],
+"slots": [
+	{ "name": "o1", "bone": "oil", "attachment": "oil" },
+	{ "name": "t_shadow", "bone": "root", "attachment": "t_shadow" }
+],
+"skins": {
+	"default": {
+		"o1": {
+			"o1": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 },
+			"o2": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 },
+			"o3": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 },
+			"o4": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 },
+			"o5": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 },
+			"o6": { "x": 156.37, "y": -8.96, "rotation": -90.58, "width": 633, "height": 456 }
+		},
+		"t_shadow": {
+			"t_shadow": { "width": 100, "height": 100 }
+		}
+	},
+	"1": {
+		"o1": {
+			"oil": {
+				"name": "o7",
+				"path": "o7_1",
+				"x": 156.37,
+				"y": -8.96,
+				"rotation": -90.58,
+				"width": 633,
+				"height": 456
+			}
+		}
+	},
+	"2": {
+		"o1": {
+			"oil": {
+				"name": "o7",
+				"path": "o7_2",
+				"x": 156.37,
+				"y": -8.96,
+				"rotation": -90.58,
+				"width": 633,
+				"height": 456
+			}
+		}
+	},
+	"3": {
+		"o1": {
+			"oil": {
+				"name": "o7",
+				"path": "o7_3",
+				"x": 156.37,
+				"y": -8.96,
+				"rotation": -90.58,
+				"width": 633,
+				"height": 456
+			}
+		}
+	}
+},
+"animations": {
+	"oilSpread": {
+		"slots": {
+			"o1": {
+				"attachment": [
+					{ "time": 0, "name": "o1" },
+					{ "time": 0.0667, "name": "o2" },
+					{ "time": 0.1, "name": "o3" },
+					{ "time": 0.1333, "name": "o4" },
+					{ "time": 0.2, "name": "o5" },
+					{ "time": 0.2667, "name": "o6" },
+					{ "time": 0.3333, "name": "oil" }
+				]
+			}
+		},
+		"bones": {
+			"subRoot": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"oil": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1.083,
+						"y": 1.083,
+						"curve": [ 0, 0.21, 0.339, 1 ]
+					},
+					{ "time": 0.6333, "x": 1.333, "y": 1.333 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "o1", "offset": 1 }
+				]
+			},
+			{ "time": 0.3333 }
+		]
+	}
+}
+}

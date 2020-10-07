@@ -1,0 +1,279 @@
+
+Unit12.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Skin2/body
+  rotate: true
+  xy: 1442, 129
+  size: 125, 87
+  orig: 125, 87
+  offset: 0, 0
+  index: -1
+Skin3/hair
+  rotate: false
+  xy: 2, 62
+  size: 184, 192
+  orig: 184, 192
+  offset: 0, 0
+  index: -1
+Skin3/magazine
+  rotate: true
+  xy: 2, 3
+  size: 57, 64
+  orig: 57, 64
+  offset: 0, 0
+  index: -1
+Skin4/chainsaw1
+  rotate: false
+  xy: 1413, 8
+  size: 298, 95
+  orig: 298, 95
+  offset: 0, 0
+  index: -1
+Skin4/chainsaw2
+  rotate: false
+  xy: 1713, 62
+  size: 298, 95
+  orig: 298, 95
+  offset: 0, 0
+  index: -1
+Skin4/face_1
+  rotate: false
+  xy: 68, 5
+  size: 87, 55
+  orig: 87, 55
+  offset: 0, 0
+  index: -1
+Skin4/head
+  rotate: true
+  xy: 786, 83
+  size: 171, 148
+  orig: 171, 148
+  offset: 0, 0
+  index: -1
+Skin4/knife
+  rotate: false
+  xy: 228, 3
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1531, 140
+  size: 114, 85
+  orig: 114, 85
+  offset: 0, 0
+  index: -1
+chainsaw
+  rotate: false
+  xy: 1113, 8
+  size: 298, 95
+  orig: 298, 95
+  offset: 0, 0
+  index: -1
+chainsaw2
+  rotate: false
+  xy: 1713, 159
+  size: 298, 95
+  orig: 298, 95
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: false
+  xy: 906, 4
+  size: 105, 32
+  orig: 105, 32
+  offset: 0, 0
+  index: -1
+face_happy
+  rotate: false
+  xy: 1015, 57
+  size: 93, 32
+  orig: 93, 32
+  offset: 0, 0
+  index: -1
+face_hurt
+  rotate: false
+  xy: 1013, 4
+  size: 98, 32
+  orig: 98, 32
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: false
+  xy: 906, 38
+  size: 107, 43
+  orig: 107, 43
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 188, 62
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+fxRange1_1
+  rotate: false
+  xy: 1076, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_3
+  rotate: false
+  xy: 1198, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_4
+  rotate: false
+  xy: 1320, 105
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fx_chainsaw1
+  rotate: true
+  xy: 188, 81
+  size: 173, 110
+  orig: 173, 110
+  offset: 0, 0
+  index: -1
+fx_chainsaw2
+  rotate: true
+  xy: 300, 81
+  size: 173, 110
+  orig: 173, 110
+  offset: 0, 0
+  index: -1
+fx_chainsaw3
+  rotate: true
+  xy: 412, 81
+  size: 173, 110
+  orig: 173, 110
+  offset: 0, 0
+  index: -1
+fx_chainsaw4
+  rotate: true
+  xy: 524, 81
+  size: 173, 110
+  orig: 173, 110
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 319, 7
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 431, 8
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 569, 26
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+hand6
+  rotate: false
+  xy: 622, 27
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 734, 30
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 157, 5
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 636, 83
+  size: 171, 148
+  orig: 171, 148
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 385, 7
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: false
+  xy: 832, 35
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: false
+  xy: 869, 35
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+magazine
+  rotate: true
+  xy: 734, 2
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 497, 9
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 780, 31
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: false
+  xy: 676, 29
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: false
+  xy: 705, 29
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+uzi
+  rotate: true
+  xy: 936, 91
+  size: 163, 138
+  orig: 163, 138
+  offset: 0, 0
+  index: -1

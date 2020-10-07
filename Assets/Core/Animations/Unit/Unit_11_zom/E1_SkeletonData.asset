@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: E1_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: 7e77f4116025009449bc84c03e65a27a, type: 2}
+  scale: 0.0045
+  skeletonJSON: {fileID: 4900000, guid: de73835399cc4c14f855cb3099af7e43, type: 3}
+  skeletonDataModifiers: []
+  fromAnimation:
+  - die1
+  - die2
+  - die2
+  - die1
+  - die2
+  - die1
+  - die1
+  - die2
+  - die2
+  - die1
+  toAnimation:
+  - idle1
+  - idle1
+  - idle2
+  - idle2
+  - run1
+  - run1
+  - run2
+  - run2
+  - run3
+  - run3
+  duration:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  defaultMix: 0.2
+  controller: {fileID: 0}

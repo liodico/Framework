@@ -1,0 +1,31 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:967f8e74f35cb7ae1188f06fb7e6f74e:ae02dfcde69fadf62b6d809cc50dbea7:2511aee30a0ac95447a3e881094db198$
+#
+:format=40300
+:texture=atlas_all_2.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=enabled
+
+chest_BW;1;1450;535;374; 0.5;0.5; 0;0;0;0
+frame_chat;538;1577;405;247; 0.5;0.5; 15;15;15;62
+frameChest;1;1826;1092;221; 0.5;0.5; 0;0;0;0
+frameTopPrize;1069;1056;253;586; 0.5;0.5; 0;0;0;0
+frameUnitBackground;1095;1644;797;403; 0.5;0.5; 0;0;0;0
+iconArrow;871;1438;47;73; 0.5;0.5; 0;0;0;0
+iconBossmini;802;1450;67;61; 0.5;0.5; 0;0;0;0
+iconBossRaid;1894;1929;152;118; 0.5;0.5; 0;0;0;0
+iconCoin2small;538;1467;154;108; 0.5;0.5; 0;0;0;0
+iconGbrain;802;1513;74;62; 0.5;0.5; 0;0;0;0
+iconLondon;694;1395;106;180; 0.5;0.5; 0;0;0;0
+iconMoscow;1894;1568;129;178; 0.5;0.5; 0;0;0;0
+iconNewYork;1894;1748;145;179; 0.5;0.5; 0;0;0;0
+iconNotification;878;1513;53;62; 0.5;0.5; 0;0;0;0
+iconSafe;945;1456;114;130; 0.5;0.5; 0;0;0;0
+iconStar;945;1707;122;117; 0.5;0.5; 0;0;0;0
+iconStar0;945;1588;122;117; 0.5;0.5; 0;0;0;0

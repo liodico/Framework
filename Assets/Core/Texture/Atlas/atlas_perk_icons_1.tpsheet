@@ -1,0 +1,34 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:99f21cbacc3cf5525b34fadd42cdf5cc:4165da7ba1a78b9f8ad45de1f76197dd:26dae6723f7a6b59ff57fe4fde55f77d$
+#
+:format=40300
+:texture=atlas_perk_icons_1.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+
+icon_0000_chainsaw;780;811;126;95; 0.5;0.5; 0;0;0;0
+icon_0000_explosion;780;908;127;115; 0.5;0.5; 0;0;0;0
+iconSkillFlame;156;760;107;111; 0.5;0.5; 0;0;0;0
+iconSkillframe;644;892;134;131; 0.5;0.5; 0;0;0;0
+iconSkillPoison;156;636;105;122; 0.5;0.5; 0;0;0;0
+perk_icon_armoured;361;657;104;117; 0.5;0.5; 0;0;0;0
+perk_icon_fury;644;765;122;125; 0.5;0.5; 0;0;0;0
+perk_icon_generade;263;635;96;119; 0.5;0.5; 0;0;0;0
+perk_icon_long_range;909;811;109;100; 0.5;0.5; 0;0;0;0
+perk_icon_multi_arrows;265;756;94;115; 0.5;0.5; 0;0;0;0
+perk_icon_regen;909;913;109;110; 0.5;0.5; 0;0;0;0
+perk_icon_revive;508;782;109;100; 0.5;0.5; 0;0;0;0
+perk_icon_self_regen;1;663;80;80; 0.5;0.5; 0;0;0;0
+perk_icon_spread_dmg;361;776;109;100; 0.5;0.5; 0;0;0;0
+perk_icon_stun_atk;472;680;109;100; 0.5;0.5; 0;0;0;0
+power_up_01;1;895;186;128; 0.5;0.5; 0;0;0;0
+power_up_02;1;745;153;148; 0.5;0.5; 0;0;0;0
+power_up_03;508;884;134;139; 0.5;0.5; 0;0;0;0
+power_up_04;189;873;170;150; 0.5;0.5; 0;0;0;0
+power_up_05;361;878;145;145; 0.5;0.5; 0;0;0;0

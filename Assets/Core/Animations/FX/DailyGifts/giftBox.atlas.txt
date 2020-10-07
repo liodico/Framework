@@ -1,0 +1,48 @@
+
+giftBox.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+iconGift1
+  rotate: false
+  xy: 350, 159
+  size: 137, 106
+  orig: 137, 106
+  offset: 0, 0
+  index: -1
+iconGift1Open
+  rotate: false
+  xy: 211, 214
+  size: 137, 189
+  orig: 137, 189
+  offset: 0, 0
+  index: -1
+iconGift2
+  rotate: false
+  xy: 211, 93
+  size: 137, 119
+  orig: 137, 119
+  offset: 0, 0
+  index: -1
+iconGift2Open
+  rotate: false
+  xy: 2, 2
+  size: 198, 196
+  orig: 198, 196
+  offset: 0, 0
+  index: -1
+iconGift3
+  rotate: false
+  xy: 350, 267
+  size: 144, 136
+  orig: 144, 136
+  offset: 0, 0
+  index: -1
+iconGift3Open
+  rotate: false
+  xy: 2, 200
+  size: 207, 203
+  orig: 207, 203
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+E2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Barm
+  rotate: true
+  xy: 261, 208
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+Barm - Copy
+  rotate: false
+  xy: 261, 161
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+Bear
+  rotate: false
+  xy: 198, 161
+  size: 61, 93
+  orig: 61, 93
+  offset: 0, 0
+  index: -1
+Farm
+  rotate: false
+  xy: 308, 209
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+Farm - Copy
+  rotate: false
+  xy: 309, 162
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+Fear
+  rotate: false
+  xy: 194, 56
+  size: 61, 93
+  orig: 61, 93
+  offset: 0, 0
+  index: -1
+body1
+  rotate: false
+  xy: 2, 8
+  size: 99, 116
+  orig: 99, 116
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 104, 151
+  size: 103, 92
+  orig: 103, 92
+  offset: 0, 0
+  index: -1
+foreArm
+  rotate: false
+  xy: 342, 217
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+foreArm - Copy
+  rotate: false
+  xy: 333, 123
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+foreArm copy
+  rotate: false
+  xy: 333, 84
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+foreArm copy - Copy
+  rotate: false
+  xy: 343, 178
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 103, 9
+  size: 115, 89
+  orig: 115, 89
+  offset: 0, 0
+  index: -1
+jawB
+  rotate: false
+  xy: 257, 74
+  size: 74, 85
+  orig: 74, 85
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 306, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 254, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 194, 2
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1
+tounge1
+  rotate: true
+  xy: 2, 126
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1

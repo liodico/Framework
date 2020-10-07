@@ -1,0 +1,1 @@
+[{"id":1,"rewardType":3,"rewardId":2,"rewardValue":1,"ratio":10},{"id":2,"rewardType":3,"rewardId":5,"rewardValue":1,"ratio":10},{"id":2,"rewardType":3,"rewardId":4,"rewardValue":1,"ratio":10},{"id":3,"rewardType":5,"rewardId":-1,"rewardValue":1,"ratio":10}]

@@ -1,0 +1,153 @@
+
+E4.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: true
+  xy: 147, 122
+  size: 132, 113
+  orig: 132, 113
+  offset: 0, 0
+  index: -1
+CC3-02
+  rotate: false
+  xy: 600, 64
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-02b
+  rotate: false
+  xy: 600, 8
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: false
+  xy: 567, 120
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: false
+  xy: 582, 192
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-04
+  rotate: true
+  xy: 337, 126
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 461, 13
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1
+CC3-08
+  rotate: true
+  xy: 2, 2
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: true
+  xy: 147, 76
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 2, 75
+  size: 179, 143
+  orig: 179, 143
+  offset: 0, 0
+  index: -1
+a-03
+  rotate: false
+  xy: 70, 3
+  size: 124, 70
+  orig: 124, 70
+  offset: 0, 0
+  index: -1
+a-04
+  rotate: false
+  xy: 532, 44
+  size: 66, 67
+  orig: 66, 67
+  offset: 0, 0
+  index: -1
+a-06
+  rotate: true
+  xy: 262, 125
+  size: 129, 73
+  orig: 129, 73
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 424, 166
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 514, 113
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+d-02
+  rotate: true
+  xy: 461, 88
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+p1
+  rotate: true
+  xy: 398, 28
+  size: 96, 61
+  orig: 96, 61
+  offset: 0, 0
+  index: -1
+p2
+  rotate: true
+  xy: 221, 4
+  size: 116, 100
+  orig: 116, 100
+  offset: 0, 0
+  index: -1
+p3
+  rotate: true
+  xy: 323, 8
+  size: 115, 73
+  orig: 115, 73
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 510, 184
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 620, 140
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

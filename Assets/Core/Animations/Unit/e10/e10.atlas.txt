@@ -1,0 +1,125 @@
+
+e10.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 430, 77
+  size: 166, 176
+  orig: 166, 176
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 195, 3
+  size: 100, 47
+  orig: 100, 47
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 141, 25
+  size: 49, 22
+  orig: 49, 22
+  offset: 0, 0
+  index: -1
+fxMeleeCritical
+  rotate: false
+  xy: 2, 49
+  size: 191, 204
+  orig: 191, 204
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 609, 3
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: false
+  xy: 365, 2
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+hand_right2
+  rotate: true
+  xy: 689, 6
+  size: 77, 85
+  orig: 77, 85
+  offset: 0, 0
+  index: -1
+hand_right3
+  rotate: false
+  xy: 2, 2
+  size: 68, 45
+  orig: 68, 45
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 195, 52
+  size: 201, 168
+  orig: 201, 168
+  offset: 0, 0
+  index: -1
+jaw
+  rotate: true
+  xy: 654, 176
+  size: 77, 76
+  orig: 77, 76
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 72, 5
+  size: 42, 67
+  orig: 42, 67
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: false
+  xy: 365, 74
+  size: 63, 179
+  orig: 63, 179
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 513, 12
+  size: 63, 94
+  orig: 63, 94
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 441, 5
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 691, 124
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: false
+  xy: 598, 141
+  size: 54, 112
+  orig: 54, 112
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 598, 85
+  size: 54, 91
+  orig: 54, 91
+  offset: 0, 0
+  index: -1

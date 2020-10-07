@@ -1,0 +1,1 @@
+{"InfoAttackUnit":"[{\"id\":1,\"typeAttack\":3,\"raceAttack\":10,\"timeActiveEffect\":5,\"damAttack\":1,\"maxRangeAttackX\":1,\"sizeCollX\":8,\"sizeCollY\":6}]"}

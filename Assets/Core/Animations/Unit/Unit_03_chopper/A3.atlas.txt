@@ -1,0 +1,181 @@
+
+A3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: false
+  xy: 2, 2
+  size: 174, 114
+  orig: 174, 114
+  offset: 0, 0
+  index: -1
+CC3-02
+  rotate: false
+  xy: 717, 191
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-02b
+  rotate: false
+  xy: 762, 319
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: false
+  xy: 712, 375
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: false
+  xy: 716, 447
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 717, 247
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+CC3-08
+  rotate: true
+  xy: 644, 303
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: true
+  xy: 542, 5
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+bhand
+  rotate: false
+  xy: 719, 12
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+bhand-02
+  rotate: false
+  xy: 644, 365
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 400, 6
+  size: 143, 140
+  orig: 143, 140
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 631, 189
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+c - Copy
+  rotate: false
+  xy: 640, 99
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+exp1
+  rotate: true
+  xy: 178, 2
+  size: 114, 109
+  orig: 114, 109
+  offset: 0, 0
+  index: -1
+exp2
+  rotate: true
+  xy: 289, 2
+  size: 114, 109
+  orig: 114, 109
+  offset: 0, 0
+  index: -1
+exp3
+  rotate: true
+  xy: 533, 395
+  size: 114, 109
+  orig: 114, 109
+  offset: 0, 0
+  index: -1
+exp4
+  rotate: true
+  xy: 533, 279
+  size: 114, 109
+  orig: 114, 109
+  offset: 0, 0
+  index: -1
+exp5
+  rotate: false
+  xy: 533, 165
+  size: 96, 112
+  orig: 96, 112
+  offset: 0, 0
+  index: -1
+exp6
+  rotate: false
+  xy: 542, 51
+  size: 96, 112
+  orig: 96, 112
+  offset: 0, 0
+  index: -1
+fxSkill1
+  rotate: false
+  xy: 2, 118
+  size: 387, 391
+  orig: 387, 391
+  offset: 0, 0
+  index: -1
+fxSkill2
+  rotate: false
+  xy: 704, 306
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+itemApple
+  rotate: true
+  xy: 640, 7
+  size: 90, 77
+  orig: 90, 77
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 644, 439
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 765, 395
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+wand
+  rotate: false
+  xy: 391, 151
+  size: 140, 358
+  orig: 140, 358
+  offset: 0, 0
+  index: -1

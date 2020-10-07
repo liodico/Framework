@@ -1,0 +1,202 @@
+
+Thief.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Skin2/safe
+  rotate: false
+  xy: 352, 71
+  size: 154, 183
+  orig: 154, 183
+  offset: 0, 0
+  index: -1
+Skin3/safe
+  rotate: false
+  xy: 2, 51
+  size: 172, 203
+  orig: 172, 203
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 508, 85
+  size: 123, 169
+  orig: 123, 169
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 633, 126
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 720, 126
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: true
+  xy: 823, 7
+  size: 88, 55
+  orig: 88, 55
+  offset: 0, 0
+  index: -1
+face_happy
+  rotate: false
+  xy: 325, 9
+  size: 88, 42
+  orig: 88, 42
+  offset: 0, 0
+  index: -1
+face_hurt
+  rotate: false
+  xy: 2, 3
+  size: 83, 46
+  orig: 83, 46
+  offset: 0, 0
+  index: -1
+face_normal
+  rotate: true
+  xy: 693, 2
+  size: 86, 56
+  orig: 86, 56
+  offset: 0, 0
+  index: -1
+face_whistling
+  rotate: false
+  xy: 681, 90
+  size: 88, 34
+  orig: 88, 34
+  offset: 0, 0
+  index: -1
+foot
+  rotate: true
+  xy: 662, 86
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 415, 8
+  size: 61, 72
+  orig: 61, 72
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 547, 4
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 620, 4
+  size: 71, 79
+  orig: 71, 79
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 489, 10
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: true
+  xy: 272, 7
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 807, 199
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+hand_right_bis
+  rotate: true
+  xy: 161, 4
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 176, 53
+  size: 201, 174
+  orig: 201, 174
+  offset: 0, 0
+  index: -1
+heart
+  rotate: true
+  xy: 633, 86
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 198, 7
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: false
+  xy: 87, 3
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: false
+  xy: 124, 3
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 825, 119
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 751, 18
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 836, 147
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: true
+  xy: 771, 97
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: false
+  xy: 807, 145
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1

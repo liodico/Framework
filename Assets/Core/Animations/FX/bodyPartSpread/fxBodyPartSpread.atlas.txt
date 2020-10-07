@@ -1,0 +1,111 @@
+
+fxBodyPartSpread.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BP-01
+  rotate: true
+  xy: 123, 27
+  size: 98, 53
+  orig: 98, 53
+  offset: 0, 0
+  index: -1
+BP-02
+  rotate: true
+  xy: 324, 70
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+BP-03
+  rotate: true
+  xy: 203, 54
+  size: 71, 28
+  orig: 71, 28
+  offset: 0, 0
+  index: -1
+BP-04
+  rotate: true
+  xy: 272, 67
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+BP-05
+  rotate: true
+  xy: 233, 66
+  size: 59, 37
+  orig: 59, 37
+  offset: 0, 0
+  index: -1
+GB-01
+  rotate: false
+  xy: 233, 32
+  size: 145, 32
+  orig: 145, 32
+  offset: 0, 0
+  index: -1
+GB-02
+  rotate: true
+  xy: 43, 3
+  size: 122, 25
+  orig: 122, 25
+  offset: 0, 0
+  index: -1
+GB-03
+  rotate: true
+  xy: 2, 2
+  size: 123, 24
+  orig: 123, 24
+  offset: 0, 0
+  index: -1
+GB-04
+  rotate: true
+  xy: 85, 10
+  size: 115, 23
+  orig: 115, 23
+  offset: 0, 0
+  index: -1
+GB-05
+  rotate: true
+  xy: 178, 29
+  size: 96, 23
+  orig: 96, 23
+  offset: 0, 0
+  index: -1
+GBM (1)
+  rotate: false
+  xy: 198, 5
+  size: 145, 22
+  orig: 145, 32
+  offset: 0, 0
+  index: -1
+GBM (2)
+  rotate: true
+  xy: 70, 3
+  size: 122, 13
+  orig: 122, 25
+  offset: 0, 0
+  index: -1
+GBM (3)
+  rotate: true
+  xy: 28, 2
+  size: 123, 13
+  orig: 123, 24
+  offset: 0, 0
+  index: -1
+GBM (4)
+  rotate: true
+  xy: 110, 22
+  size: 103, 11
+  orig: 115, 23
+  offset: 0, 0
+  index: -1
+GBM (5)
+  rotate: false
+  xy: 110, 7
+  size: 86, 13
+  orig: 96, 23
+  offset: 0, 0
+  index: -1

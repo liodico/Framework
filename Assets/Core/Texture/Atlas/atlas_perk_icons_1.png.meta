@@ -1,0 +1,734 @@
+fileFormatVersion: 2
+guid: 6561d9f5fc631664a8aff7493e97d94b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8718776187709576395
+    second: iconSkillframe
+  - first:
+      213: 7790634551054910853
+    second: perk_icon_alahu_akbar
+  - first:
+      213: -7161811901636213638
+    second: perk_icon_armoured
+  - first:
+      213: -5181176913667596200
+    second: perk_icon_bear_hug
+  - first:
+      213: -5644899064631238117
+    second: perk_icon_bear_skin
+  - first:
+      213: -973802400158944982
+    second: perk_icon_bomb
+  - first:
+      213: -8909375000596908034
+    second: perk_icon_bullet_resist
+  - first:
+      213: 1769476135258559537
+    second: perk_icon_charged_attack
+  - first:
+      213: -3060881167824047107
+    second: perk_icon_close_combat
+  - first:
+      213: -2477771111811308263
+    second: perk_icon_critical_resist
+  - first:
+      213: 2307915061002514513
+    second: perk_icon_dead_spike
+  - first:
+      213: 223418269326122213
+    second: perk_icon_empty
+  - first:
+      213: 6488356606525309578
+    second: perk_icon_evade
+  - first:
+      213: 5501189186843322774
+    second: perk_icon_explosion_immunity
+  - first:
+      213: -97089175330736690
+    second: perk_icon_fast_speed
+  - first:
+      213: -5987590397852485411
+    second: perk_icon_fear_resist
+  - first:
+      213: 4850311171637175017
+    second: perk_icon_fire_rate
+  - first:
+      213: 74451431548579518
+    second: perk_icon_fire_resist
+  - first:
+      213: 5395842494617007761
+    second: perk_icon_flying
+  - first:
+      213: -4669988595405143430
+    second: perk_icon_free_drop
+  - first:
+      213: 5976137918343092121
+    second: perk_icon_freeze
+  - first:
+      213: -1700163591079807322
+    second: perk_icon_fury
+  - first:
+      213: -6746690853461069691
+    second: perk_icon_generade
+  - first:
+      213: 8444303773712850233
+    second: perk_icon_knockback
+  - first:
+      213: 6985070473903406713
+    second: perk_icon_knockback_2
+  - first:
+      213: 4204771420278927202
+    second: perk_icon_knockback_resist
+  - first:
+      213: 5831191273173314112
+    second: perk_icon_lightning_resist
+  - first:
+      213: -3320852929094345164
+    second: perk_icon_long_range
+  - first:
+      213: -801772105724397110
+    second: perk_icon_melee_resist
+  - first:
+      213: 6695353167446789882
+    second: perk_icon_money
+  - first:
+      213: -6540311370082568873
+    second: perk_icon_multi_arrows
+  - first:
+      213: -2909256362457507340
+    second: perk_icon_oil
+  - first:
+      213: 834038845665237747
+    second: perk_icon_percing
+  - first:
+      213: 8421919312248966927
+    second: perk_icon_poison_nova
+  - first:
+      213: -1761666990544095948
+    second: perk_icon_poison_resist
+  - first:
+      213: 4148242971518421662
+    second: perk_icon_regen
+  - first:
+      213: -5873939568156832764
+    second: perk_icon_revive
+  - first:
+      213: 6023613871622964587
+    second: perk_icon_revive_2
+  - first:
+      213: 431018521191167062
+    second: perk_icon_self_destruction
+  - first:
+      213: -3030683254744358643
+    second: perk_icon_self_regen
+  - first:
+      213: -242727579089940741
+    second: perk_icon_sheild_mode
+  - first:
+      213: -7276442487881553961
+    second: perk_icon_smash_attack
+  - first:
+      213: 8491165346083195566
+    second: perk_icon_spike_wall
+  - first:
+      213: 8115346825907608784
+    second: perk_icon_spread_dmg
+  - first:
+      213: 2277767316439286671
+    second: perk_icon_stinger
+  - first:
+      213: -5553833864419190876
+    second: perk_icon_stun_atk
+  - first:
+      213: -4428063545936204704
+    second: perk_icon_stun_resist
+  - first:
+      213: -6681310978853407800
+    second: perk_icon_summoner
+  - first:
+      213: -6407362903402885713
+    second: perk_icon_team_play
+  - first:
+      213: -7773216779352239534
+    second: perk_icon_undead
+  - first:
+      213: 3584339332189349485
+    second: power_up_01
+  - first:
+      213: 4158065120646808458
+    second: power_up_02
+  - first:
+      213: -3624233881085493107
+    second: power_up_03
+  - first:
+      213: 2390117036792091633
+    second: power_up_04
+  - first:
+      213: 6171131993822015273
+    second: power_up_05
+  - first:
+      213: -1314246317976078146
+    second: iconSkillunit6
+  - first:
+      213: 2006265081538857711
+    second: iconSkillunit13
+  - first:
+      213: -7056423298958728222
+    second: iconSkillunit15
+  - first:
+      213: 4833678567420474453
+    second: iconSkillFlame
+  - first:
+      213: 4926406218108198077
+    second: iconSkillPoison
+  - first:
+      213: 3071087380803924268
+    second: icon_0000_explosion
+  - first:
+      213: -498209006945635179
+    second: icon_0000_chainsaw
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icon_0000_chainsaw
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 811
+        width: 126
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594fa1d3c810619f0800000000000000
+      internalID: -498209006945635179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_0000_explosion
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 908
+        width: 127
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21b00793b1be9a20800000000000000
+      internalID: 3071087380803924268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSkillFlame
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 760
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55434811c0da41340800000000000000
+      internalID: 4833678567420474453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSkillframe
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 892
+        width: 134
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53baf67504fa00780800000000000000
+      internalID: -8718776187709576395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSkillPoison
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 636
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc5d99aa5c1e5440800000000000000
+      internalID: 4926406218108198077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_armoured
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 657
+        width: 104
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a740fc635022c9c90800000000000000
+      internalID: -7161811901636213638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_fury
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 765
+        width: 122
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6b2a5c83ec768e0800000000000000
+      internalID: -1700163591079807322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_generade
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 635
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580731e0a60fe52a0800000000000000
+      internalID: -6746690853461069691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_long_range
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 811
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e140a0bd5f9e1d0800000000000000
+      internalID: -3320852929094345164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_multi_arrows
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 756
+        width: 94
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755b7c106752c35a0800000000000000
+      internalID: -6540311370082568873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_regen
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 913
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9acd571105819930800000000000000
+      internalID: 4148242971518421662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_revive
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 782
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c86ef85139b7ea0800000000000000
+      internalID: -5873939568156832764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_self_regen
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01ec3613a9d0f5d0800000000000000
+      internalID: -3030683254744358643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_spread_dmg
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 776
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc1153f0f08f9070800000000000000
+      internalID: 8115346825907608784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perk_icon_stun_atk
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 680
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a752c99681dce2b0800000000000000
+      internalID: -5553833864419190876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_up_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 895
+        width: 186
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d666b99c1a12eb130800000000000000
+      internalID: 3584339332189349485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_up_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 153
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a834815623a64b930800000000000000
+      internalID: 4158065120646808458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_up_03
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 884
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c6f6bc7224bdc0800000000000000
+      internalID: -3624233881085493107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_up_04
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 873
+        width: 170
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f31a9518c66b2120800000000000000
+      internalID: 2390117036792091633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: power_up_05
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 878
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f2fc13ad344a550800000000000000
+      internalID: 6171131993822015273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+[{"id":10000,"name":"Boss","battleJsonFile":"stage10000","hasBoss":false,"area":1},{"id":10001,"name":"Boss","battleJsonFile":"stage10001","hasBoss":false,"area":2},{"id":10002,"name":"Boss","battleJsonFile":"stage10002","hasBoss":false,"area":3},{"id":10003,"name":"Boss","battleJsonFile":"stage10003","hasBoss":false,"area":3}]

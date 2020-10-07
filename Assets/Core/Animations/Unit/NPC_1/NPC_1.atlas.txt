@@ -1,0 +1,335 @@
+
+NPC_1.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Angten
+  rotate: false
+  xy: 212, 3
+  size: 65, 29
+  orig: 65, 29
+  offset: 0, 0
+  index: -1
+CC3-08
+  rotate: true
+  xy: 295, 186
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+Face1
+  rotate: true
+  xy: 330, 399
+  size: 128, 52
+  orig: 128, 52
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 2, 185
+  size: 209, 159
+  orig: 209, 159
+  offset: 0, 0
+  index: -1
+Loa
+  rotate: false
+  xy: 385, 548
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+beer
+  rotate: false
+  xy: 333, 586
+  size: 33, 96
+  orig: 33, 96
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 353, 906
+  size: 116, 81
+  orig: 116, 81
+  offset: 0, 0
+  index: -1
+chair
+  rotate: true
+  xy: 2, 396
+  size: 282, 207
+  orig: 282, 207
+  offset: 0, 0
+  index: -1
+face_attack
+  rotate: true
+  xy: 211, 399
+  size: 128, 59
+  orig: 128, 59
+  offset: 0, 0
+  index: -1
+face_happy
+  rotate: true
+  xy: 334, 56
+  size: 128, 51
+  orig: 128, 51
+  offset: 0, 0
+  index: -1
+face_hurt
+  rotate: true
+  xy: 272, 399
+  size: 128, 56
+  orig: 128, 56
+  offset: 0, 0
+  index: -1
+food table
+  rotate: true
+  xy: 2, 11
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 221, 191
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+fxBulletShell
+  rotate: false
+  xy: 279, 3
+  size: 40, 29
+  orig: 40, 29
+  offset: 0, 0
+  index: -1
+fxRange1_1
+  rotate: false
+  xy: 212, 34
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_2
+  rotate: false
+  xy: 211, 529
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_3
+  rotate: false
+  xy: 225, 248
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+fxRange1_4
+  rotate: false
+  xy: 347, 248
+  size: 120, 149
+  orig: 120, 149
+  offset: 0, 0
+  index: -1
+hand_gun
+  rotate: true
+  xy: 410, 776
+  size: 48, 33
+  orig: 48, 33
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 456, 10
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+hand_left2
+  rotate: false
+  xy: 436, 950
+  size: 66, 72
+  orig: 66, 72
+  offset: 0, 0
+  index: -1
+hand_left3
+  rotate: false
+  xy: 270, 684
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: false
+  xy: 361, 2
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+hand_right1
+  rotate: false
+  xy: 368, 597
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+hand_right2
+  rotate: false
+  xy: 356, 684
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 126, 19
+  size: 164, 84
+  orig: 164, 84
+  offset: 0, 0
+  index: -1
+khokho
+  rotate: true
+  xy: 270, 774
+  size: 122, 89
+  orig: 122, 89
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 394, 826
+  size: 31, 78
+  orig: 31, 78
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: false
+  xy: 434, 548
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: false
+  xy: 384, 413
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+plate
+  rotate: true
+  xy: 361, 820
+  size: 84, 31
+  orig: 84, 31
+  offset: 0, 0
+  index: -1
+radio
+  rotate: true
+  xy: 387, 63
+  size: 127, 81
+  orig: 127, 81
+  offset: 0, 0
+  index: -1
+sausage
+  rotate: false
+  xy: 225, 210
+  size: 68, 36
+  orig: 68, 36
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 384, 462
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+shotGun
+  rotate: true
+  xy: 163, 210
+  size: 184, 60
+  orig: 184, 60
+  offset: 0, 0
+  index: -1
+skin2/body
+  rotate: true
+  xy: 270, 898
+  size: 124, 81
+  orig: 124, 81
+  offset: 0, 0
+  index: -1
+skin2/foot
+  rotate: false
+  xy: 321, 15
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+skin2/leg
+  rotate: false
+  xy: 427, 826
+  size: 31, 78
+  orig: 31, 78
+  offset: 0, 0
+  index: -1
+skin2/lowerarm_left
+  rotate: true
+  xy: 361, 781
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+skin2/lowerarm_right
+  rotate: true
+  xy: 436, 911
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+skin2/upperarm_left
+  rotate: false
+  xy: 431, 192
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+skin2/upperarm_right
+  rotate: false
+  xy: 418, 7
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 333, 534
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+umbrella
+  rotate: false
+  xy: 2, 680
+  size: 266, 342
+  orig: 266, 342
+  offset: 0, 0
+  index: -1
+upBullet_Shotgun
+  rotate: false
+  xy: 163, 185
+  size: 56, 23
+  orig: 56, 23
+  offset: 0, 0
+  index: -1
+upperarm_left
+  rotate: false
+  xy: 355, 192
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: false
+  xy: 393, 192
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1

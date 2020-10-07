@@ -1,0 +1,174 @@
+
+e9.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3-09
+  rotate: true
+  xy: 317, 11
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 313, 252
+  orig: 313, 252
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 1423, 81
+  size: 173, 142
+  orig: 173, 142
+  offset: 0, 0
+  index: -1
+foot
+  rotate: true
+  xy: 550, 6
+  size: 49, 22
+  orig: 49, 22
+  offset: 0, 0
+  index: -1
+fx1
+  rotate: false
+  xy: 317, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx2
+  rotate: false
+  xy: 475, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx3
+  rotate: false
+  xy: 633, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx4
+  rotate: false
+  xy: 791, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx5
+  rotate: false
+  xy: 949, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx6
+  rotate: false
+  xy: 1107, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+fx7
+  rotate: false
+  xy: 1265, 57
+  size: 156, 197
+  orig: 156, 197
+  offset: 0, 0
+  index: -1
+hand_left
+  rotate: false
+  xy: 1567, 89
+  size: 78, 80
+  orig: 78, 80
+  offset: 0, 0
+  index: -1
+hand_left2
+  rotate: true
+  xy: 1423, 2
+  size: 77, 85
+  orig: 77, 85
+  offset: 0, 0
+  index: -1
+hand_left4
+  rotate: true
+  xy: 1567, 171
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+hand_right
+  rotate: true
+  xy: 1647, 178
+  size: 76, 72
+  orig: 76, 72
+  offset: 0, 0
+  index: -1
+hand_right3
+  rotate: false
+  xy: 391, 10
+  size: 68, 45
+  orig: 68, 45
+  offset: 0, 0
+  index: -1
+hole1
+  rotate: true
+  xy: 1702, 37
+  size: 83, 57
+  orig: 83, 57
+  offset: 0, 0
+  index: -1
+hole2
+  rotate: false
+  xy: 1740, 122
+  size: 56, 60
+  orig: 56, 60
+  offset: 0, 0
+  index: -1
+hole3
+  rotate: false
+  xy: 513, 14
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+lowerarm_left
+  rotate: true
+  xy: 1510, 16
+  size: 63, 94
+  orig: 63, 94
+  offset: 0, 0
+  index: -1
+lowerarm_right
+  rotate: true
+  xy: 1606, 24
+  size: 63, 94
+  orig: 63, 94
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1721, 184
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 461, 5
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+upperarm_right
+  rotate: true
+  xy: 1647, 122
+  size: 54, 91
+  orig: 54, 91
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+dialog.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CC3
+  rotate: true
+  xy: 2, 73
+  size: 180, 153
+  orig: 183, 175
+  offset: 0, 19
+  index: -1
+exp1
+  rotate: false
+  xy: 228, 12
+  size: 111, 63
+  orig: 129, 96
+  offset: 4, 27
+  index: -1
+exp2
+  rotate: false
+  xy: 2, 2
+  size: 111, 69
+  orig: 129, 96
+  offset: 4, 16
+  index: -1
+exp3
+  rotate: true
+  xy: 157, 142
+  size: 111, 82
+  orig: 129, 96
+  offset: 4, 8
+  index: -1
+exp4
+  rotate: false
+  xy: 115, 5
+  size: 111, 66
+  orig: 129, 96
+  offset: 4, 24
+  index: -1
+exp5
+  rotate: true
+  xy: 241, 142
+  size: 111, 63
+  orig: 129, 96
+  offset: 4, 27
+  index: -1
+exp6
+  rotate: false
+  xy: 270, 77
+  size: 111, 63
+  orig: 129, 96
+  offset: 4, 27
+  index: -1
+exp7
+  rotate: false
+  xy: 157, 77
+  size: 111, 63
+  orig: 129, 96
+  offset: 4, 27
+  index: -1

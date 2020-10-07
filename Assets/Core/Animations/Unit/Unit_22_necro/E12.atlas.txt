@@ -1,0 +1,216 @@
+
+E12.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2/CC3
+  rotate: false
+  xy: 982, 9
+  size: 183, 224
+  orig: 183, 224
+  offset: 0, 0
+  index: -1
+2/CC3-03
+  rotate: false
+  xy: 739, 32
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+2/CC3-03b
+  rotate: false
+  xy: 792, 32
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+2/CC3-04
+  rotate: false
+  xy: 280, 9
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+2/throne
+  rotate: false
+  xy: 1562, 246
+  size: 164, 261
+  orig: 164, 261
+  offset: 0, 0
+  index: -1
+CC3
+  rotate: false
+  xy: 1439, 50
+  size: 183, 183
+  orig: 183, 183
+  offset: 0, 0
+  index: -1
+CC3-02
+  rotate: false
+  xy: 845, 40
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-02b
+  rotate: true
+  xy: 900, 41
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+CC3-03
+  rotate: false
+  xy: 633, 32
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-03b
+  rotate: false
+  xy: 686, 32
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+CC3-04
+  rotate: false
+  xy: 150, 9
+  size: 128, 85
+  orig: 128, 85
+  offset: 0, 0
+  index: -1
+CC3-07
+  rotate: false
+  xy: 463, 21
+  size: 69, 73
+  orig: 69, 73
+  offset: 0, 0
+  index: -1
+CC3-09
+  rotate: false
+  xy: 534, 22
+  size: 44, 72
+  orig: 44, 72
+  offset: 0, 0
+  index: -1
+UFO
+  rotate: true
+  xy: 1336, 37
+  size: 196, 101
+  orig: 196, 101
+  offset: 0, 0
+  index: -1
+UFObarrier
+  rotate: true
+  xy: 2, 2
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 64, 6
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 580, 25
+  size: 69, 51
+  orig: 69, 51
+  offset: 0, 0
+  index: -1
+d-02
+  rotate: true
+  xy: 410, 18
+  size: 76, 51
+  orig: 76, 51
+  offset: 0, 0
+  index: -1
+fxSkillB1
+  rotate: true
+  xy: 810, 235
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB2
+  rotate: true
+  xy: 998, 235
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB3
+  rotate: true
+  xy: 1186, 235
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+fxSkillB4
+  rotate: true
+  xy: 1374, 235
+  size: 272, 186
+  orig: 272, 186
+  offset: 0, 0
+  index: -1
+gunHand
+  rotate: true
+  xy: 810, 96
+  size: 137, 170
+  orig: 137, 170
+  offset: 0, 0
+  index: -1
+gunHandFx
+  rotate: false
+  xy: 1167, 26
+  size: 167, 207
+  orig: 167, 207
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1624, 132
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+skillFx1
+  rotate: true
+  xy: 2, 96
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx2
+  rotate: true
+  xy: 204, 96
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx3
+  rotate: true
+  xy: 406, 96
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+skillFx4
+  rotate: true
+  xy: 608, 96
+  size: 411, 200
+  orig: 411, 200
+  offset: 0, 0
+  index: -1
+t_shadow
+  rotate: false
+  xy: 1624, 80
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

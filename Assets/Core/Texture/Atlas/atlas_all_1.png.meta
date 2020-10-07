@@ -1,0 +1,2081 @@
+fileFormatVersion: 2
+guid: 5b28c7f4c9cd62642af899f0d2d2963f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3561412005029760274
+    second: buttonGreen
+  - first:
+      213: 6720312919726569754
+    second: buttonMenu
+  - first:
+      213: -7773321917441842287
+    second: buttonOrange
+  - first:
+      213: -6225156791366752982
+    second: iconCoin
+  - first:
+      213: 1698190144446661474
+    second: iconDiamond
+  - first:
+      213: 1137762935479406637
+    second: iconMark
+  - first:
+      213: -4061569200001428246
+    second: iconPlay
+  - first:
+      213: 6046046982015101473
+    second: iconSetting
+  - first:
+      213: 2440621802754603275
+    second: iconShop
+  - first:
+      213: 7368323627190755380
+    second: iconTeam
+  - first:
+      213: -4558938441079235899
+    second: iconWheel
+  - first:
+      213: -8371959736469382862
+    second: iconZBook
+  - first:
+      213: 6698927781434819959
+    second: iconZbrain
+  - first:
+      213: -2212331907230398118
+    second: buttonExit
+  - first:
+      213: -2509487961172934676
+    second: frameBoard
+  - first:
+      213: -6831057399069951376
+    second: framePaper1
+  - first:
+      213: 613370256251493256
+    second: framePaper2
+  - first:
+      213: -5488417445074101163
+    second: frameStats
+  - first:
+      213: -6538526060345573541
+    second: frameTitlebar
+  - first:
+      213: 6980218780580285034
+    second: frameTitleName
+  - first:
+      213: -828600587314759287
+    second: frameUnitName
+  - first:
+      213: 4665600238752463773
+    second: iconNotice
+  - first:
+      213: 2885961836362699286
+    second: barCurrency
+  - first:
+      213: -1285533657816075079
+    second: iconAD
+  - first:
+      213: 2842634365439669279
+    second: iconDamage
+  - first:
+      213: 3216041598122468140
+    second: iconHealth
+  - first:
+      213: 191031442065482891
+    second: iconSpeed
+  - first:
+      213: -1519704120703325538
+    second: barEXP
+  - first:
+      213: -448792098812980755
+    second: barEXPborder
+  - first:
+      213: -6642524885260502672
+    second: barEXPshadow
+  - first:
+      213: 1523918301625112299
+    second: barMapProgress
+  - first:
+      213: -7751555259752310610
+    second: barMapProgressborder
+  - first:
+      213: -2481519914406928286
+    second: barMapProgressShadow
+  - first:
+      213: -2520652363618493534
+    second: iconRank1
+  - first:
+      213: 6278823039914879513
+    second: barScroll
+  - first:
+      213: -6206444026824121200
+    second: frameUnitBackground
+  - first:
+      213: 3750082001340012615
+    second: iconCheck
+  - first:
+      213: 8624035289913035579
+    second: iconCoin1
+  - first:
+      213: -6469562850574110048
+    second: iconCoin2
+  - first:
+      213: 7654428127769103888
+    second: iconCoin3
+  - first:
+      213: -5148480640583564778
+    second: iconFood
+  - first:
+      213: -9201303428831023620
+    second: iconRank2
+  - first:
+      213: 4641826254654536554
+    second: iconRank3
+  - first:
+      213: 8806345948061894116
+    second: iconRank4
+  - first:
+      213: -1400333479299164929
+    second: iconRank5
+  - first:
+      213: 602393336005948414
+    second: iconRank6
+  - first:
+      213: 7285073405676251650
+    second: iconSausageRequired
+  - first:
+      213: -4385824251711340908
+    second: iconSwitch
+  - first:
+      213: -4005229925747302988
+    second: iconUlocked
+  - first:
+      213: 5266129591052316506
+    second: iconUpgrade
+  - first:
+      213: 5565030262084833802
+    second: buttonPowerup
+  - first:
+      213: 3444996838464132203
+    second: framePlay
+  - first:
+      213: 1063555070408579011
+    second: frameFailed
+  - first:
+      213: -128879875959933932
+    second: frameStats1
+  - first:
+      213: -6072095909442188304
+    second: frameStats2
+  - first:
+      213: -2159163515676078944
+    second: frameVictory
+  - first:
+      213: -7294848491456821512
+    second: glow
+  - first:
+      213: -728161151115306169
+    second: iconFoodSpeed
+  - first:
+      213: 5719142198745828834
+    second: iconStartingFood
+  - first:
+      213: -8718776187709576395
+    second: iconSkillframe
+  - first:
+      213: -5809659028666403708
+    second: iconSkillunit2
+  - first:
+      213: 5448519010373822271
+    second: iconSkillunit3
+  - first:
+      213: -2173299996023233911
+    second: iconSkillunit8
+  - first:
+      213: 1069377202768405252
+    second: iconSkillunit10
+  - first:
+      213: 4453581146754067392
+    second: iconSkilunit9
+  - first:
+      213: 4292299799451398121
+    second: iconADSblock
+  - first:
+      213: -3597888704281681623
+    second: iconDiamond1
+  - first:
+      213: -8042895352097378753
+    second: iconDiamond2
+  - first:
+      213: 299808388810603920
+    second: buttonGray
+  - first:
+      213: -8586683368089753764
+    second: buttonRed
+  - first:
+      213: -627269440455081854
+    second: frameStats3
+  - first:
+      213: 5481332981426931632
+    second: frameZombieName
+  - first:
+      213: -997242288349450331
+    second: iconMusic
+  - first:
+      213: 5559785685237795672
+    second: iconNew
+  - first:
+      213: -3698533538359399467
+    second: iconSound
+  - first:
+      213: 3992665234892420093
+    second: iconVibrate
+  - first:
+      213: 4904439665288990146
+    second: play
+  - first:
+      213: -2540524394031977616
+    second: iconMilestone
+  - first:
+      213: 6086901036593754203
+    second: iconMilestoneDone
+  - first:
+      213: -580863141679023137
+    second: iconWing
+  - first:
+      213: -8497389183799959181
+    second: barIngameShadow
+  - first:
+      213: 3251069703584294821
+    second: barRage
+  - first:
+      213: 8937620926508670403
+    second: barSausage
+  - first:
+      213: 7083572766997668250
+    second: iconPause
+  - first:
+      213: 8562312203023092467
+    second: iconRage
+  - first:
+      213: -7438466738167329716
+    second: iconSausage
+  - first:
+      213: -8824010973181408943
+    second: buttonPause
+  - first:
+      213: -5736492169897037722
+    second: frameTitleName2
+  - first:
+      213: -53271713902351317
+    second: iconHand1
+  - first:
+      213: -588343131451716908
+    second: iconHand2
+  - first:
+      213: 8506245529002126864
+    second: iconBoss
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barCurrency
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 575
+        width: 212
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 60, z: 201, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6129bbbeffefc0820800000000000000
+      internalID: 2885961836362699286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barEXP
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 456
+        width: 152
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 41, z: 10, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ae7c9672de8eae0800000000000000
+      internalID: -1519704120703325538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barEXPborder
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 47, z: 17, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de11044c6f195c9f0800000000000000
+      internalID: -448792098812980755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barEXPshadow
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1210
+        width: 210
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 40, z: 12, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079fa5a7fc201d3a0800000000000000
+      internalID: -6642524885260502672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barIngameShadow
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 3
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 19, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3716b55fe85331a80800000000000000
+      internalID: -8497389183799959181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barMapProgress
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 56
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 7, z: 7, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6d41b0f9b062510800000000000000
+      internalID: 1523918301625112299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barMapProgressborder
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 109
+        width: 267
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 11, z: 11, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea817ad8f81fc6490800000000000000
+      internalID: -7751555259752310610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barMapProgressShadow
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 56
+        width: 259
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 6, z: 6, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260a7b619cedf8dd0800000000000000
+      internalID: -2481519914406928286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barRage
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 72
+        width: 78
+        height: 67
+      alignment: 9
+      pivot: {x: 0.512821, y: 0.492537}
+      border: {x: 7, y: 7, z: 41, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a72d26abae1e1d20800000000000000
+      internalID: 3251069703584294821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barSausage
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 18
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 7, z: 22, w: 6}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd95ad01eec80c70800000000000000
+      internalID: 8937620926508670403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barScroll
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1828
+        width: 17
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 55, z: 4, w: 55}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a2aa5c94cd22750800000000000000
+      internalID: 6278823039914879513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonExit
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 805
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5905401ad73c41e0800000000000000
+      internalID: -2212331907230398118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonGray
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 39
+        width: 416
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dfcb32422292400800000000000000
+      internalID: 299808388810603920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonGreen
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 987
+        width: 415
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 394, y: 71, z: 17, w: 33}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4c92795dac6130800000000000000
+      internalID: 3561412005029760274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonMenu
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1024
+        width: 299
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 197, y: 107, z: 86, w: 35}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1935c7aef8534d50800000000000000
+      internalID: 6720312919726569754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonOrange
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 880
+        width: 415
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 392, y: 71, z: 18, w: 33}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193ee12a6ec9f1490800000000000000
+      internalID: -7773321917441842287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonPause
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 235
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1598f5185c0da8580800000000000000
+      internalID: -8824010973181408943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonPowerup
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 616
+        width: 166
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a029ddfd985fa3d40800000000000000
+      internalID: 5565030262084833802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonRed
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 463
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57614e88f8f5d880800000000000000
+      internalID: -8586683368089753764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameBoard
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1518
+        width: 678
+        height: 529
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 41, y: 278, z: 32, w: 238}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceffa22cef18c2dd0800000000000000
+      internalID: -2509487961172934676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameFailed
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 924
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7d4ca93b182ce00800000000000000
+      internalID: 1063555070408579011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: framePaper1
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1214
+        width: 315
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 17, z: 17, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab120fc753331a0800000000000000
+      internalID: -6831057399069951376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: framePaper2
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 501
+        width: 460
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 23, z: 167, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b19af8ff0238800800000000000000
+      internalID: 613370256251493256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: framePlay
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1210
+        width: 1034
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b649ff84f561fcf20800000000000000
+      internalID: 3444996838464132203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameStats1
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1470
+        width: 287
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41436b68f60263ef0800000000000000
+      internalID: -128879875959933932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameStats2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1255
+        width: 287
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb889311f49bbba0800000000000000
+      internalID: -6072095909442188304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameStats3
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1340
+        width: 314
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280873f64cd7b47f0800000000000000
+      internalID: -627269440455081854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameTitlebar
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1094
+        width: 346
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 322, y: 88, z: 16, w: 18}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fb772d03d7245a0800000000000000
+      internalID: -6538526060345573541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameTitleName
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 401
+        width: 255
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 140, y: 0, z: 28, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a8ff68ff7bed060800000000000000
+      internalID: 6980218780580285034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameTitleName2
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1210
+        width: 316
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 79, y: 0, z: 79, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6603a74c3c2e360b0800000000000000
+      internalID: -5736492169897037722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameUnitBackground
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 805
+        width: 573
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094adce6a084ed9a0800000000000000
+      internalID: -6206444026824121200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameUnitName
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 539
+        width: 203
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 62, y: 24, z: 61, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9897c6ce7283084f0800000000000000
+      internalID: -828600587314759287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameVictory
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1757
+        width: 1323
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acc424e83c1902e0800000000000000
+      internalID: -2159163515676078944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameZombieName
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 802
+        width: 320
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7c5952e4b911c40800000000000000
+      internalID: 5481332981426931632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 750
+        height: 755
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f60c6062fd73ca90800000000000000
+      internalID: -7294848491456821512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconAD
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 87
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4701303fdd82ee0800000000000000
+      internalID: -1285533657816075079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconBoss
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 7
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e2d689d314c0670800000000000000
+      internalID: 8506245529002126864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconCheck
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 160
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748157026b7fa0430800000000000000
+      internalID: 3750082001340012615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconCoin
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1348
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25697b61eccb99a0800000000000000
+      internalID: -6225156791366752982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconCoin1
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 642
+        width: 254
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b03b1776abea770800000000000000
+      internalID: 8624035289913035579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconCoin2
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 828
+        width: 279
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a277775dde7736a0800000000000000
+      internalID: -6469562850574110048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconCoin3
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 172
+        width: 307
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e8f6ac3ddf93a60800000000000000
+      internalID: 7654428127769103888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconDamage
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 169
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14795af4e0137720800000000000000
+      internalID: 2842634365439669279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconDiamond
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1437
+        width: 88
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26300d060fe219710800000000000000
+      internalID: 1698190144446661474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconFoodSpeed
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1140
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b58808a4d05e5f0800000000000000
+      internalID: -728161151115306169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconHand1
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 38
+        width: 106
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c264098adb24ff0800000000000000
+      internalID: -53271713902351317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconHand2
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 39
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da87c30a09c5d7f0800000000000000
+      internalID: -588343131451716908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconHealth
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1210
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2328fe4bcca1ac20800000000000000
+      internalID: 3216041598122468140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconMark
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 36
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d201bd79c552acf00800000000000000
+      internalID: 1137762935479406637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconMilestone
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 122
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b628e168e3ebcd0800000000000000
+      internalID: -2540524394031977616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconMilestoneDone
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 296
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50b0253e34097450800000000000000
+      internalID: 6086901036593754203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconMusic
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 7
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afeeef1c651922f0800000000000000
+      internalID: -997242288349450331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconNew
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1272
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b86ebaf93582d40800000000000000
+      internalID: 5559785685237795672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconNotice
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 85
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b71de92ba8fb040800000000000000
+      internalID: 4665600238752463773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconPause
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1210
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91e685b6e7ed4260800000000000000
+      internalID: 7083572766997668250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconPlay
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 635
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae45f3be45862a7c0800000000000000
+      internalID: -4061569200001428246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRage
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 325
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa0f25659173d670800000000000000
+      internalID: 8562312203023092467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank1
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 258
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab5540c708d40dd0800000000000000
+      internalID: -2520652363618493534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank2
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 432
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd61f538476e4080800000000000000
+      internalID: -9201303428831023620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank3
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 289
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bf3c992641b6040800000000000000
+      internalID: 4641826254654536554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank4
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 432
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e50e635bfc663a70800000000000000
+      internalID: 8806345948061894116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank5
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 289
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4594fae14019ce0800000000000000
+      internalID: -1400333479299164929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconRank6
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 492
+        width: 124
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef372b72c812c5800800000000000000
+      internalID: 602393336005948414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSausage
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 185
+        width: 126
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c4afd89e145c890800000000000000
+      internalID: -7438466738167329716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSausageRequired
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 436
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a6afb1aa7c91560800000000000000
+      internalID: 7285073405676251650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSetting
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 157
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a255262bfd7e350800000000000000
+      internalID: 6046046982015101473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconShop
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 168
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09f2404994ded120800000000000000
+      internalID: 2440621802754603275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSound
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 64
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db2830b75b2cacc0800000000000000
+      internalID: -3698533538359399467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSpeed
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 677
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b846e3d951ea6a200800000000000000
+      internalID: 191031442065482891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconStartingFood
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 579
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed013847897e5f40800000000000000
+      internalID: 5719142198745828834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconSwitch
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 572
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eb375841c6223c0800000000000000
+      internalID: -4385824251711340908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconTeam
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 260
+        width: 176
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430a2d4cc4b814660800000000000000
+      internalID: 7368323627190755380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconUlocked
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 646
+        width: 179
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd51186a909a68c0800000000000000
+      internalID: -4005229925747302988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconUpgrade
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 729
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa8df36fc051940800000000000000
+      internalID: 5266129591052316506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconVibrate
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df370d880ebc86730800000000000000
+      internalID: 3992665234892420093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconWheel
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 433
+        width: 132
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca599264a56bb0c0800000000000000
+      internalID: -4558938441079235899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconWing
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 141
+        width: 163
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbba19dc0c50f7f0800000000000000
+      internalID: -580863141679023137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconZBook
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 44
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2399ed9e9f2d0db80800000000000000
+      internalID: -8371959736469382862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iconZbrain
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 21
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7750b64235f57fc50800000000000000
+      internalID: 6698927781434819959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 589
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdc2e704e1101440800000000000000
+      internalID: 4904439665288990146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

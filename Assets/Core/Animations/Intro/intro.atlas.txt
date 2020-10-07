@@ -1,0 +1,54 @@
+
+intro.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 2, 2
+  size: 1750, 932
+  orig: 1750, 932
+  offset: 0, 0
+  index: -1
+fxFlare
+  rotate: false
+  xy: 2, 1117
+  size: 158, 156
+  orig: 158, 156
+  offset: 0, 0
+  index: -1
+fxGlass
+  rotate: true
+  xy: 1078, 936
+  size: 337, 799
+  orig: 337, 799
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 162, 1003
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 644, 950
+  size: 432, 323
+  orig: 510, 323
+  offset: 0, 0
+  index: -1
+
+intro2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
