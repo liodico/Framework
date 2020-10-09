@@ -63,13 +63,16 @@ MonoBehaviour:
       enabled: 1
     - name: ACTIVE_FBAN
       color: {r: 1, g: 1, b: 1, a: 1}
-      enabled: 1
+      enabled: 0
     - name: ACTIVE_IRONSOURCE
       color: {r: 1, g: 1, b: 1, a: 1}
       enabled: 1
     - name: UNITY_NOTIFICATION
       color: {r: 1, g: 1, b: 1, a: 1}
       enabled: 0
+    - name: ODIN_INSPECTOR
+      color: {r: 1, g: 1, b: 1, a: 1}
+      enabled: 1
     testUserId: 
     testUserName: 
     testEmail: 

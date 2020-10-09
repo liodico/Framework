@@ -1,0 +1,6659 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a68340bc90ad448a53ed92642d5514, type: 3}
+  m_Name: French
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: languageData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 544
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_level_unlock
+    - Name: $v
+      Entry: 1
+      Data: Niveau {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_title_text
+    - Name: $v
+      Entry: 1
+      Data: Niveau {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_reward_text
+    - Name: $v
+      Entry: 1
+      Data: "<size=25>R\xE9compenses:</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goals_text
+    - Name: $v
+      Entry: 1
+      Data: 'Objectif:'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_booster_text
+    - Name: $v
+      Entry: 1
+      Data: Boosts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=36>MISE \xC0 NIVEAU</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_start_button
+    - Name: $v
+      Entry: 1
+      Data: <size=30>COMMENCER</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_find_a_job
+    - Name: $v
+      Entry: 1
+      Data: Trouvez du travail
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_nojob_title
+    - Name: $v
+      Entry: 1
+      Data: "Il n'y a rien \xE0 faire pour le moment\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_nojob_des
+    - Name: $v
+      Entry: 1
+      Data: "\"Si vous avez jou\xE9 aux 3\_stades du niveau, vous avez termin\xE9
+        tous les services disponibles! Parcourez la ville pour offrir vos services\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_title_bonus_level
+    - Name: $v
+      Entry: 1
+      Data: <size=36>Niveau bonus</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_limit_text
+    - Name: $v
+      Entry: 1
+      Data: 'Limites:'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_available_text
+    - Name: $v
+      Entry: 1
+      Data: 'Disponible dans :'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_speed_up
+    - Name: $v
+      Entry: 1
+      Data: "Acc\xE9l\xE9rer pour {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_upgrade_tooltip
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>Faites des am\xE9liorations</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Coin
+    - Name: $v
+      Entry: 1
+      Data: "Gagnez {0} pi\xE8ces avant la fin de votre service\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Like
+    - Name: $v
+      Entry: 1
+      Data: "Recevez {0} 'J'aime' des clients pour terminer le niveau\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Dish
+    - Name: $v
+      Entry: 1
+      Data: "Vendez {0} plats en plus pour terminer le niveau\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Time
+    - Name: $v
+      Entry: 1
+      Data: "Servez le plus de clients possible avant que le temps soit \xE9coul\xE9."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Burn
+    - Name: $v
+      Entry: 1
+      Data: "Attention! Ne g\xE2chez rien durant la pr\xE9paration\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Leave
+    - Name: $v
+      Entry: 1
+      Data: "Ne perdez pas de clients\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Trash
+    - Name: $v
+      Entry: 1
+      Data: "Ne gaspillez rien\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_title_text_silver
+    - Name: $v
+      Entry: 1
+      Data: "\xC9toile d'argent"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_title_text_gold
+    - Name: $v
+      Entry: 1
+      Data: "\xC9toile d'or"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_progress_silver
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9ussissez tous les niveaux pour gagner une \xE9toile d'argent\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_progress_gold
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9ussissez tous les niveaux pour gagner une \xE9toile d'or\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_complete_gold
+    - Name: $v
+      Entry: 1
+      Data: "Badge pour joueur pour terminer le niveau entier \xE0 3 \xE9toiles"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_button_find
+    - Name: $v
+      Entry: 1
+      Data: Obtenir
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: confirm_upgrade_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=40>AM\xC9LIORER</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cofirm_buy_booster_title
+    - Name: $v
+      Entry: 1
+      Data: Boosters
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: confirm_buy_booster_buy_button
+    - Name: $v
+      Entry: 1
+      Data: <size=50>Acheter</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_title_text
+    - Name: $v
+      Entry: 1
+      Data: "Livraison de petits g\xE2teaux"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_countdown_text
+    - Name: $v
+      Entry: 1
+      Data: 'Ils arriveront dans :'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_button_text
+    - Name: $v
+      Entry: 1
+      Data: En livrer maintenant {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_title_text
+    - Name: $v
+      Entry: 1
+      Data: Augmentation du niveau du cupcake
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_description
+    - Name: $v
+      Entry: 1
+      Data: "Augmenter la quantit\xE9 livr\xE9e"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_description_2
+    - Name: $v
+      Entry: 1
+      Data: <size=20>Toutes les 4 heures</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: Augmenter le montant de la livraison
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_not_active_content
+    - Name: $v
+      Entry: 1
+      Data: Vous avez {0}/{1}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_not_active_find_button
+    - Name: $v
+      Entry: 1
+      Data: Obtenir
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gem_pack_title
+    - Name: $v
+      Entry: 1
+      Data: Pas assez de diamants!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_title
+    - Name: $v
+      Entry: 1
+      Data: <size=27>Obtenez plus de vies</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_time
+    - Name: $v
+      Entry: 1
+      Data: Temps pour les prochaines vies
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_description
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>R\xE9g\xE9n\xE9rer les vies de 50</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_refill_value
+    - Name: $v
+      Entry: 1
+      Data: Recharger avec
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_refill_button
+    - Name: $v
+      Entry: 1
+      Data: Rechargez maintenant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_facebook_ask
+    - Name: $v
+      Entry: 1
+      Data: Demander
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_watch_ad
+    - Name: $v
+      Entry: 1
+      Data: "1\_Vie de plus"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gift_level_message
+    - Name: $v
+      Entry: 1
+      Data: Vous avez {0}/{1}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gift_level_find
+    - Name: $v
+      Entry: 1
+      Data: Obtenir {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: infinity_live_title
+    - Name: $v
+      Entry: 1
+      Data: "F\xE9licitations!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: infitity_live_description
+    - Name: $v
+      Entry: 1
+      Data: "Votre booster Imbattable a \xE9t\xE9 activ\xE9\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_title
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>Vous avez perdu\_!</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_goal
+    - Name: $v
+      Entry: 1
+      Data: "Objectifs\_:"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_replay_button
+    - Name: $v
+      Entry: 1
+      Data: Rejouer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_backtomap_button
+    - Name: $v
+      Entry: 1
+      Data: "Retour \xE0 la carte"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_dish_have
+    - Name: $v
+      Entry: 1
+      Data: Vous avez {0}/{1}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_dish_find_button
+    - Name: $v
+      Entry: 1
+      Data: Obtenir
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_title
+    - Name: $v
+      Entry: 1
+      Data: "Pas assez de pi\xE8ces"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_message
+    - Name: $v
+      Entry: 1
+      Data: "Acheter une mise \xE0 niveau avec des pi\xE8ces et des diamants?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_button_upgrade
+    - Name: $v
+      Entry: 1
+      Data: "Am\xE9liorer"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_friends_list
+    - Name: $v
+      Entry: 1
+      Data: Afficher la liste des amis!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_cupcake
+    - Name: $v
+      Entry: 1
+      Data: Restaurant Cupcake!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_achievement
+    - Name: $v
+      Entry: 1
+      Data: "Afficher la fen\xEAtre contextuelle R\xE9ussite!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_gem_title
+    - Name: $v
+      Entry: 1
+      Data: Pas assez de diamants!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_title
+    - Name: $v
+      Entry: 1
+      Data: Notifications
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_title_success
+    - Name: $v
+      Entry: 1
+      Data: "Achat termin\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_retry
+    - Name: $v
+      Entry: 1
+      Data: Recommencez!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_fail
+    - Name: $v
+      Entry: 1
+      Data: "\xC9chec du chargement des annonces!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_error
+    - Name: $v
+      Entry: 1
+      Data: Erreur!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_title
+    - Name: $v
+      Entry: 1
+      Data: Attention!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_live
+    - Name: $v
+      Entry: 1
+      Data: Impossible de regarder les annonces!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_message
+    - Name: $v
+      Entry: 1
+      Data: "L'achat a \xE9chou\xE9."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_message_success
+    - Name: $v
+      Entry: 1
+      Data: <size=28>+{0}</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_subscription_message_success
+    - Name: $v
+      Entry: 1
+      Data: <size=28>+{0}</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_retry
+    - Name: $v
+      Entry: 1
+      Data: "\"Impossible de charger les annonces, r\xE9essayez!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_fail
+    - Name: $v
+      Entry: 1
+      Data: Appuyez pour continuer jouer!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_error
+    - Name: $v
+      Entry: 1
+      Data: "Veuillez r\xE9essayer!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_message
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9serve \xE0 douceurs pleine!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_reach_limit_message
+    - Name: $v
+      Entry: 1
+      Data: "Vous ne pouvez garder que jusqu'\xE0 25 petits g\xE2teaux en r\xE9serve."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_live
+    - Name: $v
+      Entry: 1
+      Data: "Vies r\xE9g\xE9n\xE9r\xE9es\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_live_fail
+    - Name: $v
+      Entry: 1
+      Data: "\"Impossible d'obtenir la vie, veuillez r\xE9essayer!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_title_success
+    - Name: $v
+      Entry: 1
+      Data: "Succ\xE8s"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_message_success
+    - Name: $v
+      Entry: 1
+      Data: "Votre progression a \xE9t\xE9 sauvegard\xE9e."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_title_fail
+    - Name: $v
+      Entry: 1
+      Data: "\xC9chec"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_message_fail
+    - Name: $v
+      Entry: 1
+      Data: "La connexion par Facebook a \xE9chou\xE9!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_turn_on_noti_title
+    - Name: $v
+      Entry: 1
+      Data: Activer la notification
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_turn_on_noti_message
+    - Name: $v
+      Entry: 1
+      Data: "Veuillez activer la notification dans le r\xE9glage!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_sent_request_life_success
+    - Name: $v
+      Entry: 1
+      Data: "Votre demande a \xE9t\xE9 envoy\xE9e\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_sent_life_success
+    - Name: $v
+      Entry: 1
+      Data: "Envoi d'une vie\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_no_internet_title
+    - Name: $v
+      Entry: 1
+      Data: Connexion internet non disponible.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_no_internet_message
+    - Name: $v
+      Entry: 1
+      Data: "\xC9chec du t\xE9l\xE9chargement. Pas de connexion Internet!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_title
+    - Name: $v
+      Entry: 1
+      Data: "Plus de clients\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_title
+    - Name: $v
+      Entry: 1
+      Data: "Temps \xE9coul\xE9 \_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_burn_title
+    - Name: $v
+      Entry: 1
+      Data: "Vous avez br\xFBl\xE9 quelque chose!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_leave_title
+    - Name: $v
+      Entry: 1
+      Data: Vous avez perdu un client!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_leave_trash
+    - Name: $v
+      Entry: 1
+      Data: "Vous avez jet\xE9 quelque chose!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_description
+    - Name: $v
+      Entry: 1
+      Data: "+3\_clients"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_description
+    - Name: $v
+      Entry: 1
+      Data: "+30\_secondes"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_description
+    - Name: $v
+      Entry: 1
+      Data: Rattrapage
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_name
+    - Name: $v
+      Entry: 1
+      Data: "+3\_clients"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_name
+    - Name: $v
+      Entry: 1
+      Data: "+30\_secondes"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_name
+    - Name: $v
+      Entry: 1
+      Data: Rattrapage
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_title
+    - Name: $v
+      Entry: 1
+      Data: Niveau {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_title_bonus
+    - Name: $v
+      Entry: 1
+      Data: Niveau bonus
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_button_continue
+    - Name: $v
+      Entry: 1
+      Data: Continuer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_button_back_map
+    - Name: $v
+      Entry: 1
+      Data: "Retour \xE0 la carte"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: quit_game_text
+    - Name: $v
+      Entry: 1
+      Data: <size=35>Vous voulez vraiment abandonner?</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: quit_game_button
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title1
+    - Name: $v
+      Entry: 1
+      Data: "Param\xE8tres"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title2
+    - Name: $v
+      Entry: 1
+      Data: "<size=28>Communaut\xE9</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title3
+    - Name: $v
+      Entry: 1
+      Data: Assistance technique
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_languages
+    - Name: $v
+      Entry: 1
+      Data: Langues
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_help
+    - Name: $v
+      Entry: 1
+      Data: Aidez
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_credits
+    - Name: $v
+      Entry: 1
+      Data: "Cr\xE9dits"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_sound
+    - Name: $v
+      Entry: 1
+      Data: Son
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_music
+    - Name: $v
+      Entry: 1
+      Data: <size=24>Musique</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook
+    - Name: $v
+      Entry: 1
+      Data: "<size=19>Connectez-vous \xE0 Facebook</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_notify
+    - Name: $v
+      Entry: 1
+      Data: Notifications
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_feedback
+    - Name: $v
+      Entry: 1
+      Data: RETOUR D'INFORMATION
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook_community
+    - Name: $v
+      Entry: 1
+      Data: Facebook
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_instagram
+    - Name: $v
+      Entry: 1
+      Data: Instagram
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_youtube
+    - Name: $v
+      Entry: 1
+      Data: Youtube
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_twitter
+    - Name: $v
+      Entry: 1
+      Data: Twitter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_support
+    - Name: $v
+      Entry: 1
+      Data: Assistance technique
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_privacy
+    - Name: $v
+      Entry: 1
+      Data: "Politique de confidentialit\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_term
+    - Name: $v
+      Entry: 1
+      Data: Conditions d'utilisation
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_community_title
+    - Name: $v
+      Entry: 1
+      Data: "Joignez-vous \xE0 la f\xEAte!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_community_description
+    - Name: $v
+      Entry: 1
+      Data: "\"Soyez le premier au courant des mises \xE0 jour, des \xE9v\xE9nements
+        sp\xE9ciaux et plus encore!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: starter_pack_description
+    - Name: $v
+      Entry: 1
+      Data: "DUR\xC9E LIMIT\xC9E !"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_title
+    - Name: $v
+      Entry: 1
+      Data: "Camion termin\xE9!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_button_ok
+    - Name: $v
+      Entry: 1
+      Data: Bravo!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_button_fb
+    - Name: $v
+      Entry: 1
+      Data: Se connecter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: upgrade_lock_message
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>Atteignez \\nle niveau {0} \\npour d\xE9bloquer ceci</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: upgrade_lock_button
+    - Name: $v
+      Entry: 1
+      Data: <size=55>OK</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_title
+    - Name: $v
+      Entry: 1
+      Data: "Vous avez gagn\xE9!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_countinue
+    - Name: $v
+      Entry: 1
+      Data: Continuer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_great
+    - Name: $v
+      Entry: 1
+      Data: "G\xE9nial\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_double_coin
+    - Name: $v
+      Entry: 1
+      Data: "Doublez vos pi\xE8ces\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loading_text
+    - Name: $v
+      Entry: 1
+      Data: Cuisson{1} {0}%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_0
+    - Name: $v
+      Entry: 1
+      Data: "Utilisez le booster Cuisson instantan\xE9e pr\xE9parer tous les plats
+        instantan\xE9ment!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_1
+    - Name: $v
+      Entry: 1
+      Data: Recevez des boosters en atteignant les objectifs du jour!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_2
+    - Name: $v
+      Entry: 1
+      Data: "\"Plus vous cr\xE9ez de combos, plus vous gagnez de pi\xE8ces!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_3
+    - Name: $v
+      Entry: 1
+      Data: '"Un bonbon, c''est la solution! Le booster Figeur de temps divertit
+        les clients impatients et fige le temps!"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_4
+    - Name: $v
+      Entry: 1
+      Data: Combinez des boosters pour dynamiser votre jeu!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_5
+    - Name: $v
+      Entry: 1
+      Data: "Vous voulez faire de plus gros combos? Servez en m\xEAme temps tous
+        les client qui font la file devant votre comptoir!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_6
+    - Name: $v
+      Entry: 1
+      Data: "Pas besoin d'attendre que les vies se r\xE9g\xE9n\xE8rent quand vous
+        jouez en mode Imbattable!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_7
+    - Name: $v
+      Entry: 1
+      Data: "Utilisez le booster Prix-double pour doubler les pi\xE8ces que vous
+        avez gagn\xE9es!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_8
+    - Name: $v
+      Entry: 1
+      Data: "Raflez des r\xE9compenses quotidiennes et atteignez les objectifs du
+        jour pour gagner des boosters et des pi\xE8ces!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_9
+    - Name: $v
+      Entry: 1
+      Data: "Dissuadez les clients impatients de s'en aller en leur offrant un petit
+        g\xE2teau!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_10
+    - Name: $v
+      Entry: 1
+      Data: "Vous connecter \xE0 des amis sur Facebook vous aidera \xE0 passer les
+        niveaux difficiles!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_11
+    - Name: $v
+      Entry: 1
+      Data: "Consultez la Carte du Monde pour d\xE9couvrir de NOUVELLES villes!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_12
+    - Name: $v
+      Entry: 1
+      Data: "Vos amis jouent \xE0 Crazy Cooking? Connectez-vous \xE0 Facebook pour
+        recevoir tous des boosters et des vies gratuites!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_13
+    - Name: $v
+      Entry: 1
+      Data: "Vous voulez des vies infinies? La plupart des packs de diamants sont
+        livr\xE9s avec une p\xE9riode de jeu illimit\xE9e!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_14
+    - Name: $v
+      Entry: 1
+      Data: Niveau difficile? Mettez le jeu sur pause et allez acheter des boosters
+        dans la boutique!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_15
+    - Name: $v
+      Entry: 1
+      Data: "Des probl\xE8mes avec le jeu? S\xE9lectionnez Aide dans vos param\xE8tres
+        pour d\xE9couvrir des astuces!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_16
+    - Name: $v
+      Entry: 1
+      Data: "Cr\xE9ez des combos en servant des plats aussi rapidement que possible!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_17
+    - Name: $v
+      Entry: 1
+      Data: "Connectez-vous \xE0 Facebook pour enregistrer votre progression dans
+        le jeu!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_18
+    - Name: $v
+      Entry: 1
+      Data: "Rejoignez la communaut\xE9 Crazy Cooking et faites-vous servir les derni\xE8res
+        nouvelles!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_19
+    - Name: $v
+      Entry: 1
+      Data: "Le Rev\xEAtement id\xE9al vous permet de laisser votre plat dans la
+        po\xEAle autant que vous voulez."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_20
+    - Name: $v
+      Entry: 1
+      Data: "Jetez les plats dont vous n'avez pas besoin et faites de la place pour
+        ceux qui sont sur le point de br\xFBler!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_21
+    - Name: $v
+      Entry: 1
+      Data: "Besoin de pi\xE8ces? Jouez aux niveaux roses de Service suppl\xE9mentaire!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_22
+    - Name: $v
+      Entry: 1
+      Data: "Utilisez le booster Rev\xEAtement id\xE9al pour \xE9vider de br\xFBler
+        vos plats ou de les rater!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_23
+    - Name: $v
+      Entry: 1
+      Data: "\"Si vous utilisez un booster Cuisson instantan\xE9e, ayez un booster
+        Rev\xEAtement id\xE9al \xE0 port\xE9e de main!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_24
+    - Name: $v
+      Entry: 1
+      Data: "Vos vies sont dans le rouge? Demandez-en \xE0 vos amis avant de tomber
+        \xE0 court!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_25
+    - Name: $v
+      Entry: 1
+      Data: "\"Pour les niveaux chronom\xE9tr\xE9s, la vitesse est primordiale. Faites
+        avancer la file pour que les clients puissent entrer.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_avoidburn_des
+    - Name: $v
+      Entry: 1
+      Data: "\xC9vite de g\xE2cher les ingr\xE9dients."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_lollipop_des
+    - Name: $v
+      Entry: 1
+      Data: "D\xE9tourne l'attention des clients en figeant le temps!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_cupcake_des
+    - Name: $v
+      Entry: 1
+      Data: "Petits g\xE2teaux"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_doublecoin_des
+    - Name: $v
+      Entry: 1
+      Data: Double la somme d'argent que vous gagnez!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_instantcook_des
+    - Name: $v
+      Entry: 1
+      Data: "Cuit la nourriture instantan\xE9ment!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_helper_des
+    - Name: $v
+      Entry: 1
+      Data: "Sert les plats pr\xEAts automatiquement!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_freezecombo_des
+    - Name: $v
+      Entry: 1
+      Data: Vous donne plus de temps pour effectuer des combos!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_30seconds_des
+    - Name: $v
+      Entry: 1
+      Data: "Ajoute 30\_secondes au niveau\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_3customers_des
+    - Name: $v
+      Entry: 1
+      Data: "Am\xE8ne 3\_clients suppl\xE9mentaires au niveau\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_secondchance_des
+    - Name: $v
+      Entry: 1
+      Data: "Deuxi\xE8me chance pour corriger vos erreurs!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: free_reward
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9compenses gratuites"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: watch_video
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9clamer et regarder"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: watch_video2
+    - Name: $v
+      Entry: 1
+      Data: Regarder
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_title
+    - Name: $v
+      Entry: 1
+      Data: COMME CE JEU?
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_description
+    - Name: $v
+      Entry: 1
+      Data: "Veuillez \xE9valuer et nous aider \xE0 aller mieux"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_button
+    - Name: $v
+      Entry: 1
+      Data: Taux
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_later
+    - Name: $v
+      Entry: 1
+      Data: <size=40>Plus tard</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_title
+    - Name: $v
+      Entry: 1
+      Data: Retour d'information
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_subject
+    - Name: $v
+      Entry: 1
+      Data: "Comment pouvons-nous l'am\xE9liorer?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_subject2
+    - Name: $v
+      Entry: 1
+      Data: Soutenez-nous!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_main
+    - Name: $v
+      Entry: 1
+      Data: "Faites-nous savoir ce qui n'a pas fonctionn\xE9 et nous y travaillerons."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_button
+    - Name: $v
+      Entry: 1
+      Data: Envoyer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_subscription_title
+    - Name: $v
+      Entry: 1
+      Data: ABONNEMENT
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_bundle_title
+    - Name: $v
+      Entry: 1
+      Data: Formule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_title
+    - Name: $v
+      Entry: 1
+      Data: Boosters
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_title
+    - Name: $v
+      Entry: 1
+      Data: DIAMANT
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_subscription_detail
+    - Name: $v
+      Entry: 1
+      Data: "<align=center><size=21><b>Politique d'abonnement</b></size></align>\\n<size=18>Il
+        s'agit d'un abonnement renouvelable automatiquement. Compte factur\xE9 {0}
+        lors de la confirmation. Vous pouvez d\xE9sactiver les renouvellements dans
+        les param\xE8tres de votre compte au moins 24 heures avant la fin de la p\xE9riode
+        VIP. </size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_1
+    - Name: $v
+      Entry: 1
+      Data: 30 jours
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_2
+    - Name: $v
+      Entry: 1
+      Data: 90 jours
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_3
+    - Name: $v
+      Entry: 1
+      Data: 180 jours
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_popular
+    - Name: $v
+      Entry: 1
+      Data: Favori
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_best
+    - Name: $v
+      Entry: 1
+      Data: Meilleure offre
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: vip_add_title
+    - Name: $v
+      Entry: 1
+      Data: "+20% revenu de pi\xE8ces"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_title
+    - Name: $v
+      Entry: 1
+      Data: Devenons un chef VIP!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_des1
+    - Name: $v
+      Entry: 1
+      Data: <size=22>Supprimer toutes les annonces pop-up</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: special_offer_title
+    - Name: $v
+      Entry: 1
+      Data: "Offre sp\xE9ciale"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: off_title
+    - Name: $v
+      Entry: 1
+      Data: '{0}%\n off'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_unlock
+    - Name: $v
+      Entry: 1
+      Data: "{0} d\xE9verrouiller au niveau {1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_have
+    - Name: $v
+      Entry: 1
+      Data: Vous avez {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_buy
+    - Name: $v
+      Entry: 1
+      Data: Acheter {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_hide
+    - Name: $v
+      Entry: 1
+      Data: '"<font=""Latinotype"" material=""Latinotype Outline gray"">{0}</font>"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_STARTERPACK
+    - Name: $v
+      Entry: 1
+      Data: "Kit de d\xE9part 80% de rabais"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_300
+    - Name: $v
+      Entry: 1
+      Data: Coupe de diamants 60% de rabais
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_650
+    - Name: $v
+      Entry: 1
+      Data: Pan de diamants 20% de rabais
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_1400
+    - Name: $v
+      Entry: 1
+      Data: "Bo\xEEte de diamants 30% de rabais"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_3000
+    - Name: $v
+      Entry: 1
+      Data: Pot de diamants 50% de rabais
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_8000
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9frig\xE9rateur de diamants 70% de rabais"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_1MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[30 jours] Supprimer les annonces \xE0 50% de r\xE9duction"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_3MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[90 jours] Supprimer les annonces \xE0 50% de r\xE9duction"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_6MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[180 jours] Supprimez les annonces \xE0 50% de r\xE9duction"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DEMI
+    - Name: $v
+      Entry: 1
+      Data: Demi-chef de rang 40%off
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_SOUSCHEF
+    - Name: $v
+      Entry: 1
+      Data: Sous-chef 30%off
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_STARCHEF
+    - Name: $v
+      Entry: 1
+      Data: Star chef 80%off
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_APPRENTICE
+    - Name: $v
+      Entry: 1
+      Data: Chef de cuisine 60%off
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_EASTER
+    - Name: $v
+      Entry: 1
+      Data: "Pack P\xE2ques"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_DEMI
+    - Name: $v
+      Entry: 1
+      Data: Demi-chef de rang
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_SOUSCHEF
+    - Name: $v
+      Entry: 1
+      Data: Sous-chef
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_STARCHEF
+    - Name: $v
+      Entry: 1
+      Data: Star chef
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_APPRENTICE
+    - Name: $v
+      Entry: 1
+      Data: Chef de cuisine
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_coin
+    - Name: $v
+      Entry: 1
+      Data: 20%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_vip
+    - Name: $v
+      Entry: 1
+      Data: '{0} mois'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_end_in
+    - Name: $v
+      Entry: 1
+      Data: L'offre se termine dans {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_not_enough_diamond
+    - Name: $v
+      Entry: 1
+      Data: Pas assez de diamants!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_title
+    - Name: $v
+      Entry: 1
+      Data: Langues
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_english
+    - Name: $v
+      Entry: 1
+      Data: English
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: credit_title
+    - Name: $v
+      Entry: 1
+      Data: "Cr\xE9dits :"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: credit_main
+    - Name: $v
+      Entry: 1
+      Data: '"<size=43><color=#90506A>Beemob Studio\n</color></size><size=26>Truong
+        Ta Van\nHai Vu Quang\nChuong Dau Phuc\nOanh Doan Van\nTung Luong Son\nThi
+        Le Thi Minh\nCuong Nguyen Van\nHieu Phan Dinh\nNgoc Anh Nguyen Ho\nBach Son
+        Le\nHuyen Vu Thi\nLinh Nguyen Tran Thao\nNghia Dao Tuan\nHa Nghiem Thi Thu\nThuan
+        Nguyen Duc\nVu Le Quang\nTu Nguyen Le\nHang Vo Thi Ngoc\nLuat Nguyen Khac</size>
+        <size=26><color=#90506A>\n\nBeemob Technology and Services Co., Lt All Rights
+        Reserved. Crazy Cooking, the Crazy Cooking logo are trademarks of Beemob
+        Technology and Services Co., Lt.</color></size>"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_title
+    - Name: $v
+      Entry: 1
+      Data: Aide
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost
+    - Name: $v
+      Entry: 1
+      Data: Boosters
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "Petits g\xE2teaux"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo
+    - Name: $v
+      Entry: 1
+      Data: Combo
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money
+    - Name: $v
+      Entry: 1
+      Data: Argent
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_commend
+    - Name: $v
+      Entry: 1
+      Data: "\xC9loge"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_title
+    - Name: $v
+      Entry: 1
+      Data: Boosters
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des1
+    - Name: $v
+      Entry: 1
+      Data: "Des bonus sp\xE9ciaux qui vous aident \xE0 gagner des niveaux."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des2
+    - Name: $v
+      Entry: 1
+      Data: "Certains boosters doivent \xEAtre activ\xE9s avant de commencer un niveau
+        :\\n1. Prix-double - Gagnez deux fois plus en servant des produits biologiques!\\n2.
+        Cuisson instantan\xE9e - \xC9limine le temps de cuisson.\\n3. Rev\xEAtement
+        id\xE9al - \xC9vite de g\xE2cher les ingr\xE9dients.\\n4 - Figeur de temps
+        - Gelez vos clients et mettez vos commandes \xE0 jour.\\n5. Serveur - sert
+        les plats aux clients automatiquement.\\n6. Combo-facile - vous donne du
+        temps pour effectuer des combos!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des3
+    - Name: $v
+      Entry: 1
+      Data: "Certains boosters ne s'activent que si vous perdez un niveau :\\n1.
+        + 30 Secondes - Ajoute 30 secondes au niveau.\\n2. +3 Clients - Am\xE8ne
+        3 clients suppl\xE9mentaires.\\n3. Rattrapage - profitez d'une deuxi\xE8me
+        chance quand vous br\xFBlez ou jetez de la nourriture dans les niveaux \xE9chou\xE9s."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_comment_des1
+    - Name: $v
+      Entry: 1
+      Data: "Les \xE9loges ouvrent de nouveaux niveaux."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_comment_des2
+    - Name: $v
+      Entry: 1
+      Data: "Recevez des \xE9loges dans chaque niveau."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_title
+    - Name: $v
+      Entry: 1
+      Data: "Cr\xE9er des combos"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_des1
+    - Name: $v
+      Entry: 1
+      Data: "\"Gagnez plus de pi\xE8ces en effectuant des combos. Vous pouvez faire
+        des combos pour 3, 4 ou 5 plats en servant les clients aussi vite que vous
+        pouvez.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_des2
+    - Name: $v
+      Entry: 1
+      Data: "\"V\xE9rifiez si effectuer des combos est un objectif de niveau - si
+        oui, vous devrez en faire pour remporter le niveau.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake_des1
+    - Name: $v
+      Entry: 1
+      Data: "Donnez des petis g\xE2teaux \xE0 vos clients impatients pour gagner
+        du temps pour les servir\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake_des2
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9cup\xE9rez des petits g\xE2teaux toutes les 4 heures!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des1
+    - Name: $v
+      Entry: 1
+      Data: "Vous obtenez des pi\xE8ces et des diamants lorsque vous terminez les
+        niveaux."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des2
+    - Name: $v
+      Entry: 1
+      Data: Achetez des boosts et restaurez des vies avec des diamants!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des3
+    - Name: $v
+      Entry: 1
+      Data: "Am\xE9liorez votre cuisine avec des pi\xE8ces de monnaie"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_title
+    - Name: $v
+      Entry: 1
+      Data: Jour {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_claim
+    - Name: $v
+      Entry: 1
+      Data: "<size=16>R\xE9cup\xE9rer</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: disconnect_title
+    - Name: $v
+      Entry: 1
+      Data: "D\xE9connect\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: disconnect_description
+    - Name: $v
+      Entry: 1
+      Data: Serveur indisponible
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_comingsoon_title
+    - Name: $v
+      Entry: 1
+      Data: <size=30></size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_comingsoon_mess
+    - Name: $v
+      Entry: 1
+      Data: Prochainement
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_title
+    - Name: $v
+      Entry: 1
+      Data: Nouvelles
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_description
+    - Name: $v
+      Entry: 1
+      Data: "Nous avons mis \xE0 jour le nouveau contenu et apport\xE9 des modifications
+        au jeu pour une meilleure exp\xE9rience!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_update_button
+    - Name: $v
+      Entry: 1
+      Data: "Faites la mise \xE0 jour maintenant!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_normal_button
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: limit_time
+    - Name: $v
+      Entry: 1
+      Data: "Temps limit\xE9 seulement!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1
+    - Name: $v
+      Entry: 1
+      Data: "Nouveau restaurant! Nouveaux plats\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_BurgerTruck
+    - Name: $v
+      Entry: 1
+      Data: Nouvelles boissons\n Nouveaux plats!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_BreakfastDinnerTruck
+    - Name: $v
+      Entry: 1
+      Data: Nouvelles boissons\n Nouveaux plats!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_SteakGrillTruck
+    - Name: $v
+      Entry: 1
+      Data: Nouvelles boissons\n Nouveaux plats!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_2
+    - Name: $v
+      Entry: 1
+      Data: "Ouvrez votre CADEAU gratuitement\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: conflict_title
+    - Name: $v
+      Entry: 1
+      Data: Attention!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: conflict_description
+    - Name: $v
+      Entry: 1
+      Data: "Diff\xE9rentes donn\xE9es de progression de votre compte Facebook ont
+        \xE9t\xE9 trouv\xE9es. Quelles donn\xE9es souhaitez-vous enregistrer?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: choose_local_button
+    - Name: $v
+      Entry: 1
+      Data: "Pr\xE9sent"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: choose_remote_button
+    - Name: $v
+      Entry: 1
+      Data: Facebook
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loading_lock_scene
+    - Name: $v
+      Entry: 1
+      Data: "Nous synchronisons vos donn\xE9es. {0} Veuillez patienter {1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_avoid_burn
+    - Name: $v
+      Entry: 1
+      Data: "\"Besoin de plats anti-g\xE2chis? N'en faites pas tout un plat, cette
+        offre est pour vous\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_double_coin
+    - Name: $v
+      Entry: 1
+      Data: "Ma ferme bio vous fournira en caf\xE9\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_instant_cook
+    - Name: $v
+      Entry: 1
+      Data: "Avez-vous besoin d'aide\_?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_helper
+    - Name: $v
+      Entry: 1
+      Data: "Pr\xEAt \xE0 donner un coup de main lorsque la pression monte!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_lollipop
+    - Name: $v
+      Entry: 1
+      Data: "Les bonbons distraient les clients et permettent de rattraper les commandes\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_avoid_burn_start_level
+    - Name: $v
+      Entry: 1
+      Data: "Cuisinez avec un rev\xEAtement anti-g\xE2chis et vos plats ne seront
+        jamais rat\xE9s!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_double_coin_start_level
+    - Name: $v
+      Entry: 1
+      Data: "Faites payer 2x plus cher pour les plats biologiques en utilisant le
+        booster Prix-double\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_instant_cook_start_level
+    - Name: $v
+      Entry: 1
+      Data: "Cuisson instantan\xE9e - \xC9limine le temps de cuisson."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_helper_start_level
+    - Name: $v
+      Entry: 1
+      Data: "Le serveur sert automatiquement les commandes pr\xEAtes!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: unlock_freeze
+    - Name: $v
+      Entry: 1
+      Data: Vous donne plus de temps pour effectuer des combos!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: unlock_freeze_start
+    - Name: $v
+      Entry: 1
+      Data: Essayons!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_welcome_talk_message
+    - Name: $v
+      Entry: 1
+      Data: "Bienvenue \xE0 vous!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "Le plus grand cuisinier du monde n'a pas les yeux plus grands que le
+        ventre\_! Commen\xE7ons par des petites douceurs."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_click_donut_embryos_message
+    - Name: $v
+      Entry: 1
+      Data: Faites frire le donut pendant quelques instants.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "Vous \xEAtes pass\xE9 ma\xEEtre \xE8s hamburgers! Suivez mes conseils."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_highlight_beef_message
+    - Name: $v
+      Entry: 1
+      Data: Faites cuire pendant un moment.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_return_burger_message
+    - Name: $v
+      Entry: 1
+      Data: "\"D\xE9p\xEAchez-vous\_! Le temps, c'est de l'argent\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "Voyons voir comment cr\xE9er des combos!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish1
+    - Name: $v
+      Entry: 1
+      Data: Touchez le premier plat
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_introduce_combo
+    - Name: $v
+      Entry: 1
+      Data: "Le chronom\xE8tre et le compte de combos ont d\xE9marr\xE9."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish2
+    - Name: $v
+      Entry: 1
+      Data: "\"Touchez un troisi\xE8me plat, et voil\xE0, vous avez cr\xE9\xE9 un
+        combo!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish3
+    - Name: $v
+      Entry: 1
+      Data: Attention au timer!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "Am\xE9liorer votre \xE9quipement vous permettra d'atteindre vos objectifs."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_donut_box_message
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez l'\xE9quipement recommand\xE9."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_donut_fryer_message
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez l'\xE9quipement recommand\xE9. C'est le choix le plus
+        s\xFBr\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_replay_introduce
+    - Name: $v
+      Entry: 1
+      Data: Rejouez certains niveaux pour avancer!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_replay_message
+    - Name: $v
+      Entry: 1
+      Data: Remportez le 2e sous-niveau pour recevoir une critique en or!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_time
+    - Name: $v
+      Entry: 1
+      Data: Servez le plus de clients possible dans le temps imparti.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_like_collect_message
+    - Name: $v
+      Entry: 1
+      Data: "M\xE9ritez des 'J'aime' pour terminer le niveau\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_like_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: Un service rapide vous fera gagner les 'J'aime' des clients.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_burn
+    - Name: $v
+      Entry: 1
+      Data: "Terminez les niveaux sans rien br\xFBler. C'est un objectif utile dans
+        la vie de tous les jours aussi\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_trash
+    - Name: $v
+      Entry: 1
+      Data: "Terminez le niveau sans rien jeter \xE0 la poubelle!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_angry
+    - Name: $v
+      Entry: 1
+      Data: Terminez le niveau en ne laissant partir aucun client les mains vides!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lost_life_message
+    - Name: $v
+      Entry: 1
+      Data: "\"Si vous n'atteignez pas votre objectif, vous perdrez des vies. Les
+        vies se r\xE9g\xE9n\xE8rent automatiquement.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lost_life_message2
+    - Name: $v
+      Entry: 1
+      Data: "\"Si vous perdez vos 5\_vies, vous devrez attendre qu'une d'entre elles
+        se r\xE9g\xE9n\xE8re.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_daily_gift
+    - Name: $v
+      Entry: 1
+      Data: "Visitez la boutique pour r\xE9cup\xE9rer votre r\xE9compense du jour!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_second_change_message
+    - Name: $v
+      Entry: 1
+      Data: "\"Saperlipopette! Tout le monde fait des erreurs, mais vous pouvez faire
+        comme si de rien n'\xE9tait et continuer!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_button_shop_message
+    - Name: $v
+      Entry: 1
+      Data: Besoin d'un booster? Achetez-en un dans la boutique.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_tab_diamond_message
+    - Name: $v
+      Entry: 1
+      Data: Vous pouvez aussi acheter des diamants!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_get_free_booster_message
+    - Name: $v
+      Entry: 1
+      Data: "L'utilisation du premier booster est toujours gratuite\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_booster_lollipop_click_message
+    - Name: $v
+      Entry: 1
+      Data: "Les bonbons distraient les clients et permettent de rattraper les commandes\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_level19_cupcake_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "Oh oh\_! Vos clients s'impatientent d\xE9j\xE0."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_level19_cupcake_use_message
+    - Name: $v
+      Entry: 1
+      Data: "\"Si vous leur donnez un petit g\xE2teau GRATUIT, la faim ne les rendra
+        pas si grincheux!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_gold
+    - Name: $v
+      Entry: 1
+      Data: "\"Oh, presque\_! C'est peut-\xEAtre le moment d'am\xE9liorer votre \xE9quipement.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_like
+    - Name: $v
+      Entry: 1
+      Data: "\"Votre cuisine est d\xE9licieuse, mais le service est trop lent\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_dish
+    - Name: $v
+      Entry: 1
+      Data: "Vous devez servir ces plats plus vite\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_burn
+    - Name: $v
+      Entry: 1
+      Data: "Vous ne pouvez pas vous permettre de g\xE2cher la nourriture\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_angry
+    - Name: $v
+      Entry: 1
+      Data: "Ne perdez pas de clients\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_trash
+    - Name: $v
+      Entry: 1
+      Data: "Ne jetez rien\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_bonus_level
+    - Name: $v
+      Entry: 1
+      Data: "Servez vos clients le plus longtemps possible\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_guide_message
+    - Name: $v
+      Entry: 1
+      Data: Vous pouvez aussi choisir vos boosters ici!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_tap_to_pause_message
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez pour mettre en pause"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_chef_star_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "Mettez les petits plats dans les grands et vous m\xE9riterez l'\xC9toile
+        du Chef\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_burned_message
+    - Name: $v
+      Entry: 1
+      Data: "Un moment d'inattention\_? Touchez deux fois pour jeter le plat g\xE2ch\xE9
+        \xE0 la poubelle."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lose_message
+    - Name: $v
+      Entry: 1
+      Data: "Vous devriez visiter la boutique de mise \xE0 niveau pour mettre \xE0
+        niveau la nourriture ou la machine du restaurant"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lollipop_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "Utilisez le booster Figeur de temps pour arr\xEAter le temps et pr\xE9parer
+        toute la nourriture sans perdre de clients !"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_mustard_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "Ce client pr\xE9f\xE8re la moutarde sur ses hot-dogs!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "Tout le monde adore les pancakes\_! Pourquoi ne pas s'y essayer\_?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_make_message
+    - Name: $v
+      Entry: 1
+      Data: "Patience. Laissons le temps faire son office\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_ready_message
+    - Name: $v
+      Entry: 1
+      Data: "Pr\xEAt \xE0 servir les amoureux du brunch\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_serve_message
+    - Name: $v
+      Entry: 1
+      Data: "Parfait\_! C'est pr\xEAt\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_avoid_burn_start_level_message
+    - Name: $v
+      Entry: 1
+      Data: "Cuisinez avec un rev\xEAtement anti-g\xE2chis et vos plats ne seront
+        jamais rat\xE9s!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_squidring_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "\"Ce client m\xE9rite d'\xEAtre servi aux petits oignons\_! Oignons
+        frits, bien s\xFBr\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_squidring_use_message
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez la friteuse pour les frire."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_cupcake_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "Vos petits g\xE2teaux sont pr\xEAts! R\xE9cup\xE9rez-les maintenant!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pause_message
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez pour mettre en pause"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pause_step2_message
+    - Name: $v
+      Entry: 1
+      Data: Vous pouvez aussi choisir vos boosters ici!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res1
+    - Name: $v
+      Entry: 1
+      Data: "\"Caf\xE9 et croissant, la meilleure fa\xE7on de commencer la journ\xE9e\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res2
+    - Name: $v
+      Entry: 1
+      Data: "\"Sautez le pas, essayez les cuisses de grenouilles, puis les escargots\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res3
+    - Name: $v
+      Entry: 1
+      Data: "Quel talent! Ce restaurant attirera la cr\xE8me de la cr\xE8me de Paris\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_bonus_level_played
+    - Name: $v
+      Entry: 1
+      Data: "\"L'heure du d\xEEner est pass\xE9e, revenez plus tard pour faire votre
+        beurre\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_unlock_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "Vos petits g\xE2teaux sont pr\xEAts! R\xE9cup\xE9rez-les maintenant!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_second_chance
+    - Name: $v
+      Entry: 1
+      Data: "\"Saperlipopette! Tout le monde fait des erreurs, mais vous pouvez faire
+        comme si de rien n'\xE9tait et continuer!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step1
+    - Name: $v
+      Entry: 1
+      Data: "Tout le monde adore les pancakes\_! Pourquoi ne pas s'y essayer\_?"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step2
+    - Name: $v
+      Entry: 1
+      Data: "Patience. Laissons le temps faire son office\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step3
+    - Name: $v
+      Entry: 1
+      Data: "Pr\xEAt \xE0 servir les amoureux du brunch\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step4
+    - Name: $v
+      Entry: 1
+      Data: "Parfait\_! C'est pr\xEAt\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res4_step1
+    - Name: $v
+      Entry: 1
+      Data: "C'est du g\xE2teau... du g\xE2teau au fromage\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res4_step2
+    - Name: $v
+      Entry: 1
+      Data: "Patience. Ce n'est pas de la restauration rapide\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_soup
+    - Name: $v
+      Entry: 1
+      Data: "N'oubliez pas d'ajouter du persil sur la soupe\_! Ces petits d\xE9tails
+        sont importants."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_syrup
+    - Name: $v
+      Entry: 1
+      Data: "Soyez particuli\xE8rement gentil avec ce client\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_hot_dog
+    - Name: $v
+      Entry: 1
+      Data: "Ce client pr\xE9f\xE8re la moutarde au poulet frit!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_almond_slice
+    - Name: $v
+      Entry: 1
+      Data: "Ce client aimerait de la noix de coco r\xE2p\xE9e sur ses donuts au
+        chocolat\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_chicken_step1
+    - Name: $v
+      Entry: 1
+      Data: "Servons ce client avec votre plat sp\xE9cial - Hot Dogs."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_chicken_step2
+    - Name: $v
+      Entry: 1
+      Data: Mettez d'abord la laitue dans l'assiette!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: play_btn
+    - Name: $v
+      Entry: 1
+      Data: <size=45>Commencer</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step1
+    - Name: $v
+      Entry: 1
+      Data: "\"Les Combos-faciles figent le chronom\xE8tre des combos, ce qui donne
+        plus de temps pour les r\xE9ussir!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step2
+    - Name: $v
+      Entry: 1
+      Data: Touchez le plat pour augmenter le compte de combos.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step3
+    - Name: $v
+      Entry: 1
+      Data: Ceci indique le montant qu'un combo vous fera gagner.
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step4
+    - Name: $v
+      Entry: 1
+      Data: "Gagnons plus d'argent gr\xE2ce aux prochains plats du combo!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step5
+    - Name: $v
+      Entry: 1
+      Data: Servez le dernier plat pour maximiser la valeur du combo!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_notice_upgrade_subscription_title
+    - Name: $v
+      Entry: 1
+      Data: Remarquer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_notice_upgrade_subscription_message
+    - Name: $v
+      Entry: 1
+      Data: "Un seul pack VIP peut \xEAtre activ\xE9 pour le moment"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: login_facebook_btn
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>Connectez-vous \xE0 Facebook!</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loin_facebook_title
+    - Name: $v
+      Entry: 1
+      Data: "Connectez-vous \xE0 Facebook"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus1
+    - Name: $v
+      Entry: 1
+      Data: Partagez des vies avec vos amis!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus2
+    - Name: $v
+      Entry: 1
+      Data: <size=24>Enregistrez votre progression!</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus3
+    - Name: $v
+      Entry: 1
+      Data: <size=23>Nous ne publierons rien sur votre mur</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: login_facebook_btn2
+    - Name: $v
+      Entry: 1
+      Data: <size=37>Se connecter</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_btn
+    - Name: $v
+      Entry: 1
+      Data: Cadeau du jour!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: full_live_title
+    - Name: $v
+      Entry: 1
+      Data: Pleine!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: recommended_title
+    - Name: $v
+      Entry: 1
+      Data: "Recommand\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: continue_btn
+    - Name: $v
+      Entry: 1
+      Data: Continuer
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: friend_btn
+    - Name: $v
+      Entry: 1
+      Data: Amis
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_btn
+    - Name: $v
+      Entry: 1
+      Data: Connectez-vous!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: silver_star_title
+    - Name: $v
+      Entry: 1
+      Data: "\xC9toile d'argent!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_description
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9ussissez tous les niveaux pour gagner une \xE9toile d'argent!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: balance_title
+    - Name: $v
+      Entry: 1
+      Data: 'Solde:'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: comment_card_receive
+    - Name: $v
+      Entry: 1
+      Data: "\xC9loges re\xE7us :"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: you_have
+    - Name: $v
+      Entry: 1
+      Data: Vous avez {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: have_a_live
+    - Name: $v
+      Entry: 1
+      Data: <size=30>Prenez une vie!</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_a_live
+    - Name: $v
+      Entry: 1
+      Data: <size=30>Donnez une vie!</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ask_all
+    - Name: $v
+      Entry: 1
+      Data: "Demander \xE0 tous"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_all
+    - Name: $v
+      Entry: 1
+      Data: Donne tout
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ask
+    - Name: $v
+      Entry: 1
+      Data: <size=33>Demander</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give
+    - Name: $v
+      Entry: 1
+      Data: Donner
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get
+    - Name: $v
+      Entry: 1
+      Data: Obtenir
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_btn
+    - Name: $v
+      Entry: 1
+      Data: Gagner plus de
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ok_btn
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_spanish
+    - Name: $v
+      Entry: 1
+      Data: "Espa\xF1ol"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: earn
+    - Name: $v
+      Entry: 1
+      Data: "Gagn\xE9 :"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: now_store
+    - Name: $v
+      Entry: 1
+      Data: "En r\xE9serve :"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: store_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "<size=28>{0}/{1} Petits g\xE2teaux</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_reach_limit_description
+    - Name: $v
+      Entry: 1
+      Data: "Vous pouvez garder {0} petits g\xE2teaux en r\xE9serve \xE0 la fois.
+        R\xE9cup\xE9rez {1} gratuits!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: collect_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9cup\xE9rer {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_full
+    - Name: $v
+      Entry: 1
+      Data: "\"<size=30>Vous ne pouvez garder que jusqu'\xE0 25 petits g\xE2teaux
+        en r\xE9serve. Pour r\xE9cup\xE9rer plus de petits g\xE2teaux gratuits, offrez-en
+        \xE0 vos clients impatients!</size>\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: general
+    - Name: $v
+      Entry: 1
+      Data: "G\xE9n\xE9rale"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_have_friend
+    - Name: $v
+      Entry: 1
+      Data: "Vous n'avez pas d'amis qui jouent \xE0 ce niveau"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: me
+    - Name: $v
+      Entry: 1
+      Data: Moi
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: like_us
+    - Name: $v
+      Entry: 1
+      Data: <size=30>Aimez-nous sur Facebook</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: claim_free
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9cup\xE9rer"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Street
+    - Name: $v
+      Entry: 1
+      Data: Donut Street
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut
+    - Name: $v
+      Entry: 1
+      Data: "Plateau \xE0 donuts"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Chocolate Icing
+    - Name: $v
+      Entry: 1
+      Data: "Gla\xE7age au chocolat"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Milk Shake
+    - Name: $v
+      Entry: 1
+      Data: Milk-shake
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strawberry Icing
+    - Name: $v
+      Entry: 1
+      Data: "Gla\xE7age \xE0 la fraise"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Almond Slice
+    - Name: $v
+      Entry: 1
+      Data: Tranche d'amande
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sprinkles
+    - Name: $v
+      Entry: 1
+      Data: "D\xE9corations"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Milk Shaker
+    - Name: $v
+      Entry: 1
+      Data: "M\xE9langeur \xE0 lait"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Fryer
+    - Name: $v
+      Entry: 1
+      Data: "Friteuse \xE0 donuts"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Box
+    - Name: $v
+      Entry: 1
+      Data: "Bo\xEEte \xE0 donuts"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Street
+    - Name: $v
+      Entry: 1
+      Data: Burger Street
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger
+    - Name: $v
+      Entry: 1
+      Data: Burgers
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Buns
+    - Name: $v
+      Entry: 1
+      Data: "Pains \xE0 burger"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cola Glass
+    - Name: $v
+      Entry: 1
+      Data: Verre de cola
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sausage
+    - Name: $v
+      Entry: 1
+      Data: Hot dogs
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hotdog
+    - Name: $v
+      Entry: 1
+      Data: Bollos para perros calientes
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mustard
+    - Name: $v
+      Entry: 1
+      Data: Moutarde
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tomatoes
+    - Name: $v
+      Entry: 1
+      Data: Tomates
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cheese
+    - Name: $v
+      Entry: 1
+      Data: Fromage
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Squid Rings
+    - Name: $v
+      Entry: 1
+      Data: Anneaux de calmar
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cola Machine
+    - Name: $v
+      Entry: 1
+      Data: Boisson au cola
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Fryer
+    - Name: $v
+      Entry: 1
+      Data: "Po\xEAle \xE0 burgers"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Plate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 burger"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotdogFryer
+    - Name: $v
+      Entry: 1
+      Data: "Po\xEAle \xE0 hot-dog"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotdogPlate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 hot-dog"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Deep Fryer
+    - Name: $v
+      Entry: 1
+      Data: Friteuse
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breakfast 'N Dinner Truck
+    - Name: $v
+      Entry: 1
+      Data: "Camion petit d\xE9jeuner et d\xEEner"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Eggs
+    - Name: $v
+      Entry: 1
+      Data: "\u0152ufs"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Batter
+    - Name: $v
+      Entry: 1
+      Data: Pancakes
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Orange Juice
+    - Name: $v
+      Entry: 1
+      Data: Jus d'orange
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Syrup
+    - Name: $v
+      Entry: 1
+      Data: "Sirop d'\xE9rable"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Toast
+    - Name: $v
+      Entry: 1
+      Data: Toasts
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bacon
+    - Name: $v
+      Entry: 1
+      Data: Poitrine de porc
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ice Cream
+    - Name: $v
+      Entry: 1
+      Data: Glace
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blue Berries
+    - Name: $v
+      Entry: 1
+      Data: Myrtilles
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Egg Fryer
+    - Name: $v
+      Entry: 1
+      Data: "Po\xEAle \xE0 \u0153ufs"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Juicer
+    - Name: $v
+      Entry: 1
+      Data: Extracteur de jus
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Skillet
+    - Name: $v
+      Entry: 1
+      Data: "Po\xEAle \xE0 pancakes"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breakfast Plate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 petit-d\xE9jeuner"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Plate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 pancake"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Toaster
+    - Name: $v
+      Entry: 1
+      Data: Grille-pain
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Freezer
+    - Name: $v
+      Entry: 1
+      Data: "Cong\xE9lateur"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Steak 'N Grill Truck
+    - Name: $v
+      Entry: 1
+      Data: Camion Steak et Grill
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Steak
+    - Name: $v
+      Entry: 1
+      Data: Steak
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ManhattanClamChowder
+    - Name: $v
+      Entry: 1
+      Data: "Chaudr\xE9e de palourdes Manhattan"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Coffee
+    - Name: $v
+      Entry: 1
+      Data: "Caf\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CheeseCake
+    - Name: $v
+      Entry: 1
+      Data: "G\xE2teau au fromage"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SoupVegetable
+    - Name: $v
+      Entry: 1
+      Data: Soupe
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Fries
+    - Name: $v
+      Entry: 1
+      Data: Frites
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrilledVegetables
+    - Name: $v
+      Entry: 1
+      Data: "L\xE9gumes saut\xE9s"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SalmonSteak
+    - Name: $v
+      Entry: 1
+      Data: Filet de saumon
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Greens
+    - Name: $v
+      Entry: 1
+      Data: Garniture
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SteakGrill
+    - Name: $v
+      Entry: 1
+      Data: "Gril \xE0 steak"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EntreeSteakPlates
+    - Name: $v
+      Entry: 1
+      Data: "Assiettes \xE0 steak entr\xE9e"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EntreeFishPlates
+    - Name: $v
+      Entry: 1
+      Data: "Assiettes de poisson d'entr\xE9e"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SoupPot
+    - Name: $v
+      Entry: 1
+      Data: "Soupi\xE8re"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CoffeeMachine
+    - Name: $v
+      Entry: 1
+      Data: "Machine \xE0 caf\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CheesecakeOven
+    - Name: $v
+      Entry: 1
+      Data: "Four \xE0 g\xE2teau au fromage"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FishGrill
+    - Name: $v
+      Entry: 1
+      Data: "Grille \xE0 poisson"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Patisserie Truck
+    - Name: $v
+      Entry: 1
+      Data: "P\xE2tisserie Truck"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Croissant
+    - Name: $v
+      Entry: 1
+      Data: "P\xE2te \xE0 croissant"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Chocolate Sauce
+    - Name: $v
+      Entry: 1
+      Data: Sauce au chocolat
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hot Chocolate
+    - Name: $v
+      Entry: 1
+      Data: Chocolat chaud
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Custard
+    - Name: $v
+      Entry: 1
+      Data: "Cr\xE8me dessert"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Berries
+    - Name: $v
+      Entry: 1
+      Data: Baies
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strawberry
+    - Name: $v
+      Entry: 1
+      Data: Fraises
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mint
+    - Name: $v
+      Entry: 1
+      Data: Menthe
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CroissantOven
+    - Name: $v
+      Entry: 1
+      Data: "Four \xE0 croissants"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotChocolate Machine
+    - Name: $v
+      Entry: 1
+      Data: "Machine \xE0 chocolat chaud"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Croissant Plate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 croissant"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CustardFridge
+    - Name: $v
+      Entry: 1
+      Data: "Frigo \xE0 cr\xE8me dessert"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Custard Plate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 cr\xE8me dessert"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cafe
+    - Name: $v
+      Entry: 1
+      Data: "Caf\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegs
+    - Name: $v
+      Entry: 1
+      Data: Cuisses de grenouille
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Juice
+    - Name: $v
+      Entry: 1
+      Data: Jus
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonBlue
+    - Name: $v
+      Entry: 1
+      Data: Macaron bleu
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonGreen
+    - Name: $v
+      Entry: 1
+      Data: Macaron vert
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonPink
+    - Name: $v
+      Entry: 1
+      Data: Macaron rose
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Asparagus
+    - Name: $v
+      Entry: 1
+      Data: Asperges
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Escargot
+    - Name: $v
+      Entry: 1
+      Data: Escargots
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GarlicSauce
+    - Name: $v
+      Entry: 1
+      Data: "Sauce \xE0 l'ail"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: TomatoSauce
+    - Name: $v
+      Entry: 1
+      Data: Sauce tomate
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lemon
+    - Name: $v
+      Entry: 1
+      Data: Citron
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_complete_map_step1
+    - Name: $v
+      Entry: 1
+      Data: Appuyez sur le chef pour terminer la ville!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_complete_map_step2
+    - Name: $v
+      Entry: 1
+      Data: Appuyez pour voyager dans d'autres villes!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_Cafe
+    - Name: $v
+      Entry: 1
+      Data: Nouvelles boissons\n Nouveaux plats!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: restore_purchase
+    - Name: $v
+      Entry: 1
+      Data: RESTAURER L'ACHAT
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_apple
+    - Name: $v
+      Entry: 1
+      Data: Connectez-vous avec Apple
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_facebook
+    - Name: $v
+      Entry: 1
+      Data: Connectez-vous avec Facebook
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_or
+    - Name: $v
+      Entry: 1
+      Data: ou
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_EULA
+    - Name: $v
+      Entry: 1
+      Data: "\"<size=20>En proc\xE9dant, j'accepte les <color=#29867b><u><link=\"\"https://www.beemob.vn/terms-of-service/\"\">
+        Conditions d'utilisation </link></u></color> et je reconnais avoir lu le
+        <color=#29867b><u><link=\"\"https://www.beemob.vn/terms-of-service/\"\">
+        Politique de confidentialit\xE9 </link></u></color>.</size>\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_text1
+    - Name: $v
+      Entry: 1
+      Data: Jouer avec des amis!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_text2
+    - Name: $v
+      Entry: 1
+      Data: et synchronisez la progression du jeu sur tous les appareils!
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_1
+    - Name: $v
+      Entry: 1
+      Data: Chef
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_2
+    - Name: $v
+      Entry: 1
+      Data: "<size=24>Bons baisers de l\xE0-bas\_!</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_3
+    - Name: $v
+      Entry: 1
+      Data: "Un petit CADEAU pour avoir termin\xE9 la ville\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_4
+    - Name: $v
+      Entry: 1
+      Data: "R\xE9coltez tous les \xE9loges et nous partirons en voyage culinaire
+        autour du monde\_!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_email
+    - Name: $v
+      Entry: 1
+      Data: Email
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lollipop_step1
+    - Name: $v
+      Entry: 1
+      Data: Oh ! Tous vos clients attendent leurs commandes !
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_octopus_step1
+    - Name: $v
+      Entry: 1
+      Data: "\"Ce client m\xE9rite d'\xEAtre servi aux petits oignons\_! Oignons
+        frits, bien s\xFBr\_!\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_octopus_step2
+    - Name: $v
+      Entry: 1
+      Data: "S\xE9lectionnez la friteuse pour les frire."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_reach_limit_collect
+    - Name: $v
+      Entry: 1
+      Data: Collecter {0}
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook_logout
+    - Name: $v
+      Entry: 1
+      Data: "Se d\xE9connecter"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_avoidburn
+    - Name: $v
+      Entry: 1
+      Data: "\xC9vitez les Br\xFBlures"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_lollipop
+    - Name: $v
+      Entry: 1
+      Data: Sucette
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_doublecoin
+    - Name: $v
+      Entry: 1
+      Data: "Double Pi\xE8ce"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_instantcook
+    - Name: $v
+      Entry: 1
+      Data: "Cuisson Instantan\xE9e"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_helper
+    - Name: $v
+      Entry: 1
+      Data: Assistant
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_freezecombo
+    - Name: $v
+      Entry: 1
+      Data: Figer le Combo
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_30seconds
+    - Name: $v
+      Entry: 1
+      Data: +30 Secondes
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_3customers
+    - Name: $v
+      Entry: 1
+      Data: +3 Clients
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_secondchance
+    - Name: $v
+      Entry: 1
+      Data: "Deuxi\xE8me Chance"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_restaurant
+    - Name: $v
+      Entry: 1
+      Data: '"<font=""Roboto-Bold SDF"" material=""Roboto-Bold SDF Outline Green"">Nouveau\nRestaurant</font>"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: JuiceMachine
+    - Name: $v
+      Entry: 1
+      Data: "Machine \xE0 jus"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonOvenBlue
+    - Name: $v
+      Entry: 1
+      Data: "Four \xE0 macarons"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegsPan
+    - Name: $v
+      Entry: 1
+      Data: "Po\xEAle \xE0 cuisses de grenouille"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegsPlate
+    - Name: $v
+      Entry: 1
+      Data: "Verrine \xE0 cuisses de grenouille"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EscargotPan
+    - Name: $v
+      Entry: 1
+      Data: "Cocotte \xE0 escargots"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EscargotPlate
+    - Name: $v
+      Entry: 1
+      Data: "Assiette \xE0 escargots"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_hours
+    - Name: $v
+      Entry: 1
+      Data: h
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_minutes
+    - Name: $v
+      Entry: 1
+      Data: m
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_day
+    - Name: $v
+      Entry: 1
+      Data: j
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: term_of_use
+    - Name: $v
+      Entry: 1
+      Data: Conditions d'utilisation
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: private_policy
+    - Name: $v
+      Entry: 1
+      Data: "Politique de confidentialit\xE9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_short
+    - Name: $v
+      Entry: 1
+      Data: '{0}'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: extra_shift_text
+    - Name: $v
+      Entry: 1
+      Data: "Service suppl\xE9mentaire!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cancel_button
+    - Name: $v
+      Entry: 1
+      Data: Annuler
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: purchase_button
+    - Name: $v
+      Entry: 1
+      Data: Achat
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: subscription_detail_title
+    - Name: $v
+      Entry: 1
+      Data: "D\xE9tails de l'abonnement"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: google
+    - Name: $v
+      Entry: 1
+      Data: Google
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: apple
+    - Name: $v
+      Entry: 1
+      Data: Apple
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_1
+    - Name: $v
+      Entry: 1
+      Data: "L'abonnement vous permet de b\xE9n\xE9ficier des privil\xE8ges suivants
+        pendant toute la dur\xE9e de la p\xE9riode d'abonnement:"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_2
+    - Name: $v
+      Entry: 1
+      Data: "Le paiement sera d\xE9bit\xE9 du compte \xE0 la confirmation de l'achat.L'abonnement
+        se renouvelle automatiquement sauf si le renouvellement automatique est d\xE9sactiv\xE9
+        au moins 24 heures avant la fin de la p\xE9riode en cours."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_3
+    - Name: $v
+      Entry: 1
+      Data: '{0} / {1} jours'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_4
+    - Name: $v
+      Entry: 1
+      Data: "\"Le compte sera factur\xE9 pour le renouvellement dans les 24 heures
+        pr\xE9c\xE9dant la fin de la p\xE9riode en cours, et identifiera le co\xFBt
+        du renouvellement.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_5
+    - Name: $v
+      Entry: 1
+      Data: "Les abonnements peuvent \xEAtre g\xE9r\xE9s par l'utilisateur et le
+        renouvellement automatique peut \xEAtre d\xE9sactiv\xE9 en acc\xE9dant aux
+        param\xE8tres du compte de l'utilisateur apr\xE8s l'achat."
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_6
+    - Name: $v
+      Entry: 1
+      Data: "\"Toute portion inutilis\xE9e d'une p\xE9riode d'essai gratuite, si
+        elle est offerte, sera perdue lorsque l'utilisateur ach\xE8te un abonnement
+        \xE0 cette publication, le cas \xE9ch\xE9ant.\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_restore_purchase
+    - Name: $v
+      Entry: 1
+      Data: Restaurer les achats
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: avatar
+    - Name: $v
+      Entry: 1
+      Data: Avatar
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

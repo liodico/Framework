@@ -1,0 +1,6597 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a68340bc90ad448a53ed92642d5514, type: 3}
+  m_Name: Japanese
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: languageData
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 544
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_level_unlock
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB{0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_title_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB{0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_reward_text
+    - Name: $v
+      Entry: 1
+      Data: "\u8CDE\u54C1\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goals_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30B4\u30FC\u30EB\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_booster_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=40>\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_start_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=40>\u30B9\u30BF\u30FC\u30C8</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_find_a_job
+    - Name: $v
+      Entry: 1
+      Data: "\u4ED5\u4E8B\u3092\u63A2\u3059"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_nojob_title
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u3053\u3067\u306F\u8ABF\u7406\u4EBA\u3092\u52DF\u96C6\u3057\u3066\u3044\u306A\u3044\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_nojob_des
+    - Name: $v
+      Entry: 1
+      Data: "\u3059\u3079\u3066\u306E\u30B5\u30D6\u30EC\u30D9\u30EB\u3092\u30D7\u30EC\u30A4\u3057\u305F\u3068\u3044\u3046\u3053\u3068\u306F\u3001\u30D7\u30EC\u30A4\u53EF\u80FD\u306A\u30B7\u30D5\u30C8\u3092\u3059\u3079\u3066\u5B8C\u4E86\u3057\u305F\u3068\u3044\u3046\u3053\u3068\u3067\u3059\uFF01\u81E8\u6642\u30B7\u30D5\u30C8\u3092\u5F85\u3061\u307E\u3057\u3087\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_title_bonus_level
+    - Name: $v
+      Entry: 1
+      Data: "<size=33>\u30DC\u30FC\u30CA\u30B9\u30EC\u30D9\u30EB</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_limit_text
+    - Name: $v
+      Entry: 1
+      Data: "\u6761\u4EF6\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_available_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30D7\u30EC\u30A4\u3067\u304D\u308B\u307E\u3067\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_speed_up
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3059\u3050\u30D7\u30EC\u30A4\uFF1A{0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_upgrade_tooltip
+    - Name: $v
+      Entry: 1
+      Data: "<size=31>\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3057\u3088\u3046\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Coin
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30D5\u30C8\u304C\u7D42\u308F\u308B\u524D\u306B\u30B3\u30A4\u30F3\u3092{0}\u679A\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Like
+    - Name: $v
+      Entry: 1
+      Data: "\u201C\u3044\u3044\u306D\uFF01\u201D\u3092{0}\u500B\u96C6\u3081\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Dish
+    - Name: $v
+      Entry: 1
+      Data: "\u6599\u7406{0}\u76BF\u3092\u63D0\u4F9B\u3057\u3066\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Time
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u5185\u306B\u3067\u304D\u308B\u3060\u3051\u591A\u304F\u306E\u304A\u5BA2\u3055\u3093\u306E\u6CE8\u6587\u3092\u5B8C\u4E86\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Burn
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u306B\u5931\u6557\u3057\u306A\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Leave
+    - Name: $v
+      Entry: 1
+      Data: "\u6012\u3063\u3066\u5E30\u308B\u304A\u5BA2\u3055\u3093\u30BC\u30ED\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: start_level_goal_Trash
+    - Name: $v
+      Entry: 1
+      Data: "\u5EC3\u68C4\u7269\u30BC\u30ED\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_title_text_silver
+    - Name: $v
+      Entry: 1
+      Data: "\u9280\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_title_text_gold
+    - Name: $v
+      Entry: 1
+      Data: "\u91D1\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_progress_silver
+    - Name: $v
+      Entry: 1
+      Data: "\u3059\u3079\u3066\u306E\u7B2C2\u30B5\u30D6\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3066\u9280\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\u3057\u3088\u3046\uFF01\u5B8C\u4E86{0}/{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_progress_gold
+    - Name: $v
+      Entry: 1
+      Data: "\u3059\u3079\u3066\u306E\u7B2C3\u30B5\u30D6\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3066\u91D1\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\u3057\u3088\u3046\uFF01\u5B8C\u4E86{0}/{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_message_text_complete_gold
+    - Name: $v
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_button_find
+    - Name: $v
+      Entry: 1
+      Data: "\u96C6\u3081\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: confirm_upgrade_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cofirm_buy_booster_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: confirm_buy_booster_buy_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=60>\u8CFC\u5165</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_title_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u30C7\u30EA\u30D0\u30EA"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_countdown_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30EA\u30D0\u30EA\u30FC\u307E\u3067\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_delivery_button_text
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3059\u3050\u30C7\u30EA\u30D0\u30EA\u30FC\uFF1A\\n{0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_title_text
+    - Name: $v
+      Entry: 1
+      Data: "\u30B1\u30FC\u30AD\u306E\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_description
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30EA\u30D0\u30EA\u30FC\u306E\u500B\u6570\u3092\u5897\u3084\u3059"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_description_2
+    - Name: $v
+      Entry: 1
+      Data: "4\u6642\u9593\u3054\u3068"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_level_up_upgrade_button
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30EA\u30D0\u30EA\u30FC\u306E\u500B\u6570\u3092\u5897\u3084\u3059"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_not_active_content
+    - Name: $v
+      Entry: 1
+      Data: "\u624B\u6301\u3061{0}/{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_not_active_find_button
+    - Name: $v
+      Entry: 1
+      Data: "\u96C6\u3081\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gem_pack_title
+    - Name: $v
+      Entry: 1
+      Data: "\u5341\u5206\u306A\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u304C\u306A\u3044"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_title
+    - Name: $v
+      Entry: 1
+      Data: "\u3088\u308A\u591A\u304F\u306E\u547D\u3092\u5F97\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_time
+    - Name: $v
+      Entry: 1
+      Data: "\u6B21\u306E\u5FC3\u304C\u56DE\u5FA9\u3059\u308B\u307E\u3067\u306E\u6642\u9593"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_description
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>50 \u672C\u3067\u30E9\u30A4\u30D5\u3092\u88DC\u5145\u3057\u307E\u3059\u304B</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_refill_value
+    - Name: $v
+      Entry: 1
+      Data: "\u3067\u88DC\u5145"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_refill_button
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3059\u3050\u88DC\u5145"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_facebook_ask
+    - Name: $v
+      Entry: 1
+      Data: "\u30EA\u30AF\u30A8\u30B9\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get_more_live_watch_ad
+    - Name: $v
+      Entry: 1
+      Data: "<size=32>1\u30E9\u30A4\u30D5\u8FFD\u52A0</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gift_level_message
+    - Name: $v
+      Entry: 1
+      Data: "\u73FE\u5728\u306E\u7372\u5F97\u6570{0}/{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: gift_level_find
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>\u96C6\u3081\u308B {0}</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: infinity_live_title
+    - Name: $v
+      Entry: 1
+      Data: "<size=25>\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: infitity_live_description
+    - Name: $v
+      Entry: 1
+      Data: "\u7121\u9650\u30E9\u30A4\u30D5\u30D6\u30FC\u30B9\u30BF\u30FC\u958B\u59CB\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30EA\u30A2\u5931\u6557\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_goal
+    - Name: $v
+      Entry: 1
+      Data: "\u30B4\u30FC\u30EB\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_replay_button
+    - Name: $v
+      Entry: 1
+      Data: "\u518D\u6311\u6226"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: lose_level_backtomap_button
+    - Name: $v
+      Entry: 1
+      Data: "\u5730\u56F3\u306B\u623B\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_dish_have
+    - Name: $v
+      Entry: 1
+      Data: "\u73FE\u5728\u306E\u7372\u5F97\u6570{0}/{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_dish_find_button
+    - Name: $v
+      Entry: 1
+      Data: "\u96C6\u3081\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30A4\u30F3\u4E0D\u8DB3\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30A4\u30F3\u3068\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u3067\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3092\u8CFC\u5165\u3057\u307E\u3059\u304B\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_coin_button_upgrade
+    - Name: $v
+      Entry: 1
+      Data: "<size=38>\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_friends_list
+    - Name: $v
+      Entry: 1
+      Data: "\u30EA\u30B9\u30C8\u306E\u53CB\u9054\u3092\u8868\u793A\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u30EC\u30B9\u30C8\u30E9\u30F3\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: notification_show_achievement
+    - Name: $v
+      Entry: 1
+      Data: "\u30DD\u30C3\u30D7\u30A2\u30C3\u30D7\u30A2\u30C1\u30FC\u30D6\u30E1\u30F3\u30C8\u3092\u8868\u793A\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_enought_gem_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u304C\u8DB3\u308A\u307E\u305B\u3093"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_title
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u77E5\u3089\u305B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_title_success
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165\u5B8C\u4E86"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_retry
+    - Name: $v
+      Entry: 1
+      Data: "\u30EA\u30C8\u30E9\u30A4\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_fail
+    - Name: $v
+      Entry: 1
+      Data: "\u5E83\u544A\u306E\u8AAD\u307F\u8FBC\u307F\u306B\u5931\u6557\u3057\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_error
+    - Name: $v
+      Entry: 1
+      Data: "\u30A8\u30E9\u30FC\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_title
+    - Name: $v
+      Entry: 1
+      Data: "\u6CE8\u610F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_title_live
+    - Name: $v
+      Entry: 1
+      Data: "\u5E83\u544A\u3092\u898B\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u305B\u3093\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_message
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_message_success
+    - Name: $v
+      Entry: 1
+      Data: <size=28>+{0}</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_iap_subscription_message_success
+    - Name: $v
+      Entry: 1
+      Data: <size=28>+{0}</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_retry
+    - Name: $v
+      Entry: 1
+      Data: "\u5E83\u544A\u3092\u8AAD\u307F\u8FBC\u3081\u307E\u305B\u3093\u3002\u518D\u8A66\u884C\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_fail
+    - Name: $v
+      Entry: 1
+      Data: "\u62BC\u3057\u3066\u30D7\u30EC\u30A4\u3092\u7D9A\u3051\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_error
+    - Name: $v
+      Entry: 1
+      Data: "\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u306E\u5009\u5EAB\u304C\u6E80\u30BF\u30F3\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_cupcake_reach_limit_message
+    - Name: $v
+      Entry: 1
+      Data: "\u4FDD\u7BA1\u3067\u304D\u308B\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u306F25\u500B\u307E\u3067\u3067\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_live
+    - Name: $v
+      Entry: 1
+      Data: "\u30E9\u30A4\u30D5\u304C\u5168\u90E8\u88DC\u5145\u3055\u308C\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_ad_message_live_fail
+    - Name: $v
+      Entry: 1
+      Data: "\u4EBA\u751F\u3092\u5F97\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u305B\u3093\u3001\u3082\u3046\u4E00\u5EA6\u3084\u308A\u76F4\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_title_success
+    - Name: $v
+      Entry: 1
+      Data: "\u6210\u529F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_message_success
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u306B\u30ED\u30B0\u30A4\u30F3\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_title_fail
+    - Name: $v
+      Entry: 1
+      Data: "\u5931\u6557\u3057\u305F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_fb_message_fail
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u306B\u3088\u308B\u30ED\u30B0\u30A4\u30F3\u306B\u5931\u6557\u3057\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_turn_on_noti_title
+    - Name: $v
+      Entry: 1
+      Data: "\u901A\u77E5\u3092\u30AA\u30F3\u306B\u3059\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_turn_on_noti_message
+    - Name: $v
+      Entry: 1
+      Data: "\u8A2D\u5B9A\u3067\u901A\u77E5\u3092\u30AA\u30F3\u306B\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_sent_request_life_success
+    - Name: $v
+      Entry: 1
+      Data: "\u30EA\u30AF\u30A8\u30B9\u30C8\u304C\u9001\u4FE1\u3055\u308C\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_sent_life_success
+    - Name: $v
+      Entry: 1
+      Data: "\u30E9\u30A4\u30D5\u3092\u9001\u308A\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_no_internet_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u306B\u63A5\u7D9A\u3067\u304D\u307E\u305B\u3093\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_no_internet_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u306B\u63A5\u7D9A\u3055\u308C\u3066\u3044\u307E\u305B\u3093\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u9078\u3093\u3067\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_title
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u5207\u308C\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_burn_title
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u306B\u5931\u6557\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_leave_title
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u304C\u5E30\u3063\u3061\u3083\u3063\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_leave_trash
+    - Name: $v
+      Entry: 1
+      Data: "\u9593\u9055\u3048\u3066\u5EC3\u68C4\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_description
+    - Name: $v
+      Entry: 1
+      Data: "3\u4EBA\u8FFD\u52A0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_description
+    - Name: $v
+      Entry: 1
+      Data: "30\u79D2\u8FFD\u52A0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_description
+    - Name: $v
+      Entry: 1
+      Data: "\u30BB\u30AB\u30F3\u30C9\u30C1\u30E3\u30F3\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_customer_name
+    - Name: $v
+      Entry: 1
+      Data: "3\u4EBA\u8FFD\u52A0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_time_name
+    - Name: $v
+      Entry: 1
+      Data: "30\u79D2\u8FFD\u52A0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: out_of_goal_second_change_name
+    - Name: $v
+      Entry: 1
+      Data: "\u30BB\u30AB\u30F3\u30C9\u30C1\u30E3\u30F3\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB{0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_title_bonus
+    - Name: $v
+      Entry: 1
+      Data: "<size=50>\u30DC\u30FC\u30CA\u30B9\u30EC\u30D9\u30EB\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_button_continue
+    - Name: $v
+      Entry: 1
+      Data: "\u7D9A\u884C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pause_game_button_back_map
+    - Name: $v
+      Entry: 1
+      Data: "\u5730\u56F3\u306B\u623B\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: quit_game_text
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u7D42\u4E86\u3057\u307E\u3059\u304B\uFF1F\\n\u3053\u3053\u3067\u7D42\u4E86\u3059\u308B\u3068\u30E9\u30A4\u30D5\u304C1\u3064\u306A\u304F\u306A\u308A\u307E\u3059\u3002</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: quit_game_button
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title1
+    - Name: $v
+      Entry: 1
+      Data: "\u8A2D\u5B9A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title2
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_title3
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30DD\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_languages
+    - Name: $v
+      Entry: 1
+      Data: "\u8A00\u8A9E"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_help
+    - Name: $v
+      Entry: 1
+      Data: "\u30D8\u30EB\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_credits
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30EC\u30B8\u30C3\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_sound
+    - Name: $v
+      Entry: 1
+      Data: "\u97F3\u97FF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_music
+    - Name: $v
+      Entry: 1
+      Data: "\u97F3\u697D"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u306B\u30ED\u30B0\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_notify
+    - Name: $v
+      Entry: 1
+      Data: "\u901A\u77E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_feedback
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook_community
+    - Name: $v
+      Entry: 1
+      Data: Facebook
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_instagram
+    - Name: $v
+      Entry: 1
+      Data: Instagram
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_youtube
+    - Name: $v
+      Entry: 1
+      Data: Youtube
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_twitter
+    - Name: $v
+      Entry: 1
+      Data: Twitter
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_support
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30DD\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_privacy
+    - Name: $v
+      Entry: 1
+      Data: "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_term
+    - Name: $v
+      Entry: 1
+      Data: "\u5229\u7528\u898F\u7D04"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_community_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D1\u30FC\u30C6\u30A3\u306B\u53C2\u52A0\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_community_description
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3001\u30B9\u30DA\u30B7\u30E3\u30EB\u30A4\u30D9\u30F3\u30C8\u306A\u3069\u306B\u95A2\u3059\u308B\u60C5\u5831\u3092\u771F\u3063\u5148\u306B\u30B2\u30C3\u30C8\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: starter_pack_description
+    - Name: $v
+      Entry: 1
+      Data: "\u671F\u9593\u9650\u5B9A\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30E9\u30C3\u30AF\u3092\u5B8C\u6210\u3055\u305B\u308B!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_button_ok
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u898B\u4E8B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: truck_complete_button_fb
+    - Name: $v
+      Entry: 1
+      Data: "\u30ED\u30B0\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: upgrade_lock_message
+    - Name: $v
+      Entry: 1
+      Data: "\"\u30EC\u30D9\u30EB{0}\u3092\u30AF\u30EA\\n\u30A2\u3057\u3066\u30A2\u30F3\u30ED\u30C3\u30AF\"\"\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: upgrade_lock_button
+    - Name: $v
+      Entry: 1
+      Data: <size=55>OK</size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_title
+    - Name: $v
+      Entry: 1
+      Data: "\u3084\u3063\u305F\u306D\uFF01\u30AF\u30EA\u30A2\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_countinue
+    - Name: $v
+      Entry: 1
+      Data: "\u7D9A\u884C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_great
+    - Name: $v
+      Entry: 1
+      Data: "\u30CA\u30A4\u30B9\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: win_button_double_coin
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30A4\u30F3\u3092\u500D\u306B\u3059\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loading_text
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u4E2D{1} {0}%"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_0
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30D5\u306E\u52A9\u624B\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u4F7F\u3048\u3070\u3059\u3079\u3066\u306E\u6599\u7406\u304C\u77AC\u6642\u306B\u5B8C\u6210\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_1
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30A4\u30EA\u30FC\u30AF\u30A8\u30B9\u30C8\u3092\u5B8C\u4E86\u3057\u3066\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u30B2\u30C3\u30C8\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_2
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u3092\u4F5C\u308C\u3070\u4F5C\u308B\u307B\u3069\u7372\u5F97\u30B3\u30A4\u30F3\u304C\u5897\u3048\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_3
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u306B\u30D5\u30EA\u30FC\u30BA\u30DD\u30C3\u30D7\u3092\u3042\u3052\u308B\u3068\u6642\u9593\u3092\u4E00\u6642\u7684\u306B\u6B62\u3081\u3089\u308C\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_4
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u7D44\u307F\u5408\u308F\u305B\u3066\u30B2\u30FC\u30E0\u30D7\u30EC\u30A4\u3092\u30D1\u30EF\u30FC\u30A2\u30C3\u30D7\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_5
+    - Name: $v
+      Entry: 1
+      Data: "\u30D3\u30C3\u30B0\u306A\u30B3\u30F3\u30DC\u3092\u72D9\u3044\u305F\u3044\uFF1F\u304A\u5BA2\u3055\u3093\u306E\u5217\u306B\u4E00\u6C17\u306B\u6599\u7406\u3092\u914D\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_6
+    - Name: $v
+      Entry: 1
+      Data: "\u7121\u9650\u30E9\u30A4\u30D5\u4E2D\u306F\u30E9\u30A4\u30D5\u304C\u8CAF\u307E\u308B\u306E\u3092\u5F85\u305F\u305A\u306B\u30D7\u30EC\u30A4\u3067\u304D\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_7
+    - Name: $v
+      Entry: 1
+      Data: "\u30AA\u30FC\u30AC\u30CB\u30C3\u30AF\u30D1\u30EF\u30FC\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u4F7F\u3048\u30702\u500D\u306E\u30B3\u30A4\u30F3\u3092\u7A3C\u3052\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_8
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30A4\u30EA\u30FC\u8CDE\u54C1\u3068\u30C7\u30A4\u30EA\u30FC\u30AF\u30A8\u30B9\u30C8\u3067\u7121\u6599\u30D6\u30FC\u30B9\u30BF\u30FC\u3068\u30B3\u30A4\u30F3\u3092\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_9
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u3042\u3052\u3066\u304A\u5BA2\u3055\u3093\u304C\u304A\u5E97\u3092\u53BB\u308B\u306E\u3092\u9632\u3054\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_10
+    - Name: $v
+      Entry: 1
+      Data: "Facebook \u3067\u53CB\u9054\u3068\u3064\u306A\u304C\u308C\u3070\u3001\u96E3\u3057\u3044\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3059\u308B\u3068\u304D\u306B\u52A9\u3051\u3066\u3082\u3089\u3048\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_11
+    - Name: $v
+      Entry: 1
+      Data: "\u90FD\u5E02\u30EA\u30B9\u30C8\u3092\u30C1\u30A7\u30C3\u30AF\u3057\u3066\u65B0\u3057\u3044\u90FD\u5E02\u3092\u767A\u898B\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_12
+    - Name: $v
+      Entry: 1
+      Data: "\u53CB\u9054\u3082\u30D7\u30EC\u30A4\u3057\u3066\u308B\uFF1FFacebook
+        \u306B\u30ED\u30B0\u30A4\u30F3\u3059\u308B\u3068\u30AD\u30DF\u3082\u53CB\u9054\u3082\u7121\u6599\u3067\u30D6\u30FC\u30B9\u30BF\u30FC\u3084\u30E9\u30A4\u30D5\u3092\u3082\u3089\u3048\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_13
+    - Name: $v
+      Entry: 1
+      Data: "\u4E00\u5B9A\u6642\u9593\u6709\u52B9\u306E\u7121\u9650\u30E9\u30A4\u30D5\u304C\u4ED8\u3044\u3066\u3044\u308B\u30B9\u30D7\u30FC\u30F3\u30D1\u30C3\u30AF\u304C\u305F\u304F\u3055\u3093\u3042\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_14
+    - Name: $v
+      Entry: 1
+      Data: "\u96E3\u3057\u3044\u30EC\u30D9\u30EB\uFF1F\u30B7\u30E7\u30C3\u30D7\u306B\u884C\u3063\u3066\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u8CFC\u5165\u3057\u3066\u307F\u3066\u306F\uFF01\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_15
+    - Name: $v
+      Entry: 1
+      Data: "\u554F\u984C\u767A\u751F\uFF1F\u8A2D\u5B9A\u30E1\u30CB\u30E5\u30FC\u304B\u3089\u30B5\u30DD\u30FC\u30C8\u306B\u30A2\u30AF\u30BB\u30B9\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_16
+    - Name: $v
+      Entry: 1
+      Data: "\u3067\u304D\u308B\u3060\u3051\u305F\u304F\u3055\u3093\u306E\u6599\u7406\u3092\u63D0\u4F9B\u3057\u3066\u30B3\u30F3\u30DC\u3092\u4F5C\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_17
+    - Name: $v
+      Entry: 1
+      Data: "Facebook \u306B\u30ED\u30B0\u30A4\u30F3\u3059\u308C\u3070\u30B2\u30FC\u30E0\u30C7\u30FC\u30BF\u304C\u4FDD\u5B58\u3055\u308C\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_18
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30C3\u30AD\u30F3\u30B0 \u30AF\u30EC\u30A4\u30BA\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u306B\u53C2\u52A0\u3057\u3066\u6700\u65B0\u30CB\u30E5\u30FC\u30B9\u306B\u30A2\u30AF\u30BB\u30B9\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_19
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u30D6\u30FC\u30B9\u30BF\u30FC\u3067\u934B\u306A\u3069\u306B\u98DF\u6750\u3092\u7F6E\u3044\u3066\u304A\u3051\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_20
+    - Name: $v
+      Entry: 1
+      Data: "\u6599\u7406\u304C\u7126\u3052\u305D\u3046\u306B\u306A\u3063\u305F\u3089\u4F59\u5206\u306A\u6599\u7406\u3092\u6368\u3066\u3066\u30B9\u30DA\u30FC\u30B9\u3092\u4F5C\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_21
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30A4\u30F3\u304C\u5FC5\u8981\uFF1F\u30D4\u30F3\u30AF\u8272\u306E\u81E8\u6642\u30B7\u30D5\u30C8\u30EC\u30D9\u30EB\u3092\u30D7\u30EC\u30A4\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_22
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u4F7F\u3048\u3070\u8ABF\u7406\u306E\u5931\u6557\u30CA\u30B7\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_23
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30D5\u306E\u52A9\u624B\u3068\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u30D6\u30FC\u30B9\u30BF\u30FC\u306E\u5408\u308F\u305B\u6280\u306F\u30D0\u30C4\u30B0\u30F3\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_24
+    - Name: $v
+      Entry: 1
+      Data: "\u30E9\u30A4\u30D5\u304C\u8DB3\u308A\u306A\u3044\uFF1F\u5168\u90E8\u306A\u304F\u306A\u308B\u524D\u306B\u53CB\u9054\u306B\u30EA\u30AF\u30A8\u30B9\u30C8\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tip_message_25
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u5236\u9650\u3042\u308A\u306E\u30EC\u30D9\u30EB\u306F\u30B9\u30D4\u30FC\u30C9\u304C\u30AB\u30AE\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_avoidburn_des
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u308C\u306A\u3089\u8ABF\u7406\u306B\u5931\u6557\u3057\u307E\u305B\u3093\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_lollipop_des
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u3092\u4E00\u6642\u7684\u306B\u6B62\u3081\u3066\u6CE8\u6587\u3092\u5B8C\u4E86\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_cupcake_des
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_doublecoin_des
+    - Name: $v
+      Entry: 1
+      Data: "\u53CE\u5165\u304C2\u500D\u306B\u306A\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_instantcook_des
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u6642\u9593\u304C\u77ED\u7E2E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_helper_des
+    - Name: $v
+      Entry: 1
+      Data: "\u6CE8\u6587\u3055\u308C\u305F\u6599\u7406\u304C\u3067\u304D\u305F\u3089\u81EA\u52D5\u7684\u306B\u304A\u5BA2\u3055\u3093\u306B\u51FA\u3057\u3066\u304F\u308C\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_freezecombo_des
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u3092\u4F5C\u308B\u6642\u9593\u3092\u5EF6\u9577\u3067\u304D\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_30seconds_des
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u309230\u79D2\u8FFD\u52A0\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_3customers_des
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u30923\u4EBA\u8FFD\u52A0\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_secondchance_des
+    - Name: $v
+      Entry: 1
+      Data: "\u30BB\u30AB\u30F3\u30C9\u30C1\u30E3\u30F3\u30B9\u3067\u30DF\u30B9\u3092\u633D\u56DE\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: free_reward
+    - Name: $v
+      Entry: 1
+      Data: "\u7121\u6599\u306E\u5831\u916C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: watch_video
+    - Name: $v
+      Entry: 1
+      Data: "\u5165\u624B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: watch_video2
+    - Name: $v
+      Entry: 1
+      Data: "\u898B\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_title
+    - Name: $v
+      Entry: 1
+      Data: "<size=37>\u3053\u306E\u30B2\u30FC\u30E0\u304C\u597D\u304D\u3067\u3059\u304B\uFF1F</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_description
+    - Name: $v
+      Entry: 1
+      Data: "\u8A55\u4FA1\u3057\u3066\u3001\u6539\u5584\u306B\u3054\u5354\u529B\u304F\u3060\u3055\u3044"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_button
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>\u4ECA\u3059\u3050\u8A55\u4FA1</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: rating_later
+    - Name: $v
+      Entry: 1
+      Data: "<size=35>\u5F8C\u3067</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30A3\u30FC\u30C9\u30D0\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_subject
+    - Name: $v
+      Entry: 1
+      Data: "\u3069\u3046\u3059\u308C\u3070\u6539\u5584\u3067\u304D\u307E\u3059\u304B\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_subject2
+    - Name: $v
+      Entry: 1
+      Data: "\u79C1\u305F\u3061\u3092\u5FDC\u63F4\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_main
+    - Name: $v
+      Entry: 1
+      Data: "\u4F55\u304C\u554F\u984C\u3060\u3063\u305F\u304B\u6559\u3048\u3066\u304F\u3060\u3055\u3044\u3002
+        \u79C1\u305F\u3061\u306F\u305D\u308C\u306B\u53D6\u308A\u7D44\u307F\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_button
+    - Name: $v
+      Entry: 1
+      Data: "\u9001\u4FE1"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_subscription_title
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_bundle_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30BB\u30C3\u30C8\u5185\u5BB9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_subscription_detail
+    - Name: $v
+      Entry: 1
+      Data: "<align=center><size=20><b>\u3053\u308C\u306F\u81EA\u52D5\u66F4\u65B0\u53EF\u80FD\u306A\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u3067\u3059\u3002</b></size></align>\\n<size=18>
+        \u304A\u652F\u6255\u3044\u306F\u78BA\u8A8D\u6642\u306B{0}\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002VIP\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B\u5C11\u306A\u304F\u3068\u308224\u6642\u9593\u524D\u306B\u3001\u30A2\u30AB\u30A6\u30F3\u30C8\u8A2D\u5B9A\u3067\u66F4\u65B0\u3092\u30AA\u30D5\u306B\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_1
+    - Name: $v
+      Entry: 1
+      Data: "30\u65E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_2
+    - Name: $v
+      Entry: 1
+      Data: "90\u65E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_3
+    - Name: $v
+      Entry: 1
+      Data: "180\u65E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_popular
+    - Name: $v
+      Entry: 1
+      Data: "\uFF11\u756A\u4EBA\u6C17\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_diamond_best
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u8CB7\u3044\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: vip_add_title
+    - Name: $v
+      Entry: 1
+      Data: "+20\uFF05\u30B3\u30A4\u30F3\u53CE\u5165"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_title
+    - Name: $v
+      Entry: 1
+      Data: "VIP\u30B7\u30A7\u30D5\u306B\u306A\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_vip_des1
+    - Name: $v
+      Entry: 1
+      Data: "\u3059\u3079\u3066\u306E\u30DD\u30C3\u30D7\u30A2\u30C3\u30D7\u5E83\u544A\u3092\u524A\u9664"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: special_offer_title
+    - Name: $v
+      Entry: 1
+      Data: "\u7279\u5225\u306A\u30AA\u30D5\u30A1\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: off_title
+    - Name: $v
+      Entry: 1
+      Data: "{0}\uFF05\\n\u5272\u5F15"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_unlock
+    - Name: $v
+      Entry: 1
+      Data: "{0}\u30EC\u30D9\u30EB{1}\u3067\u30ED\u30C3\u30AF\u89E3\u9664"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_have
+    - Name: $v
+      Entry: 1
+      Data: "\u624B\u6301\u3061 {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_booster_buy
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165 {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_hide
+    - Name: $v
+      Entry: 1
+      Data: '"<font=""Latinotype"" material=""Latinotype Outline gray"">{0}</font>"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_STARTERPACK
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30BF\u30FC\u30BF\u30FC\u30D1\u30C3\u30AF80\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_300
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u306E\u30AB\u30C3\u30D760\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_650
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u306E\u30D1\u30F320\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_1400
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u306E\u7BB130\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_3000
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u306E\u30DD\u30C3\u30C850\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DIAMOND_8000
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u306E\u51B7\u8535\u5EAB70\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_1MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[30\u65E5]\u5E83\u544A\u3092\u524A\u966450\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_3MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[90\u65E5]\u5E83\u544A\u3092\u524A\u966450\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_VIP_6MONTH
+    - Name: $v
+      Entry: 1
+      Data: "[180\u65E5]\u5E83\u544A\u3092\u524A\u966450\uFF05\u30AA\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_DEMI
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u898B\u7FD2\u304440\uFF05\u5272\u5F15"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_SOUSCHEF
+    - Name: $v
+      Entry: 1
+      Data: "\u526F\u6599\u7406\u9577 30\uFF05\u5272\u5F15"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_STARCHEF
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30BF\u30FC\u30B7\u30A7\u30D5 80\uFF05\u5272\u5F15"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_APPRENTICE
+    - Name: $v
+      Entry: 1
+      Data: "\u6599\u7406\u9577 60\uFF05\u5272\u5F15"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: OFFER_EASTER
+    - Name: $v
+      Entry: 1
+      Data: "\u30A4\u30FC\u30B9\u30BF\u30FC\u30D1\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_DEMI
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u898B\u7FD2\u3044"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_SOUSCHEF
+    - Name: $v
+      Entry: 1
+      Data: "\u526F\u6599\u7406\u9577"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_STARCHEF
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30BF\u30FC\u30B7\u30A7\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_APPRENTICE
+    - Name: $v
+      Entry: 1
+      Data: "\u6599\u7406\u9577"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_coin
+    - Name: $v
+      Entry: 1
+      Data: 20%
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_vip
+    - Name: $v
+      Entry: 1
+      Data: "{0}\u304B\u6708"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: offer_end_in
+    - Name: $v
+      Entry: 1
+      Data: "\u7D42\u4E86\u307E\u3067\u3042\u3068 {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: shop_not_enough_diamond
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u304C\u8DB3\u308A\u307E\u305B\u3093\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_title
+    - Name: $v
+      Entry: 1
+      Data: "\u8A00\u8A9E"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_english
+    - Name: $v
+      Entry: 1
+      Data: English
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: credit_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30EC\u30B8\u30C3\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: credit_main
+    - Name: $v
+      Entry: 1
+      Data: '"<size=43><color=#90506A>Beemob Studio\n</color></size><size=26>Truong
+        Ta Van\nHai Vu Quang\nChuong Dau Phuc\nOanh Doan Van\nTung Luong Son\nThi
+        Le Thi Minh\nCuong Nguyen Van\nHieu Phan Dinh\nNgoc Anh Nguyen Ho\nBach Son
+        Le\nHuyen Vu Thi\nLinh Nguyen Tran Thao\nNghia Dao Tuan\nHa Nghiem Thi Thu\nThuan
+        Nguyen Duc\nVu Le Quang\nTu Nguyen Le\nHang Vo Thi Ngoc\nLuat Nguyen Khac</size>
+        <size=26><color=#90506A>\n\nBeemob Technology and Services Co., Lt All Rights
+        Reserved. Crazy Cooking, the Crazy Cooking logo are trademarks of Beemob
+        Technology and Services Co., Lt.</color></size>"'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D8\u30EB\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money
+    - Name: $v
+      Entry: 1
+      Data: "\u5831\u916C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_commend
+    - Name: $v
+      Entry: 1
+      Data: "\u91D1\u306E\u30AB\u30FC\u30C9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des1
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC\uFF1A\u30EC\u30D9\u30EB\u30AF\u30EA\u30A2\u306B\u5F79\u7ACB\u3064\u7279\u5225\u30DC\u30FC\u30CA\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des2
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB\u958B\u59CB\u524D\u306B\u9078\u629E\u3059\u308B\u30D6\u30FC\u30B9\u30BF\u30FC\uFF1A\\n1.
+        \u30AA\u30FC\u30AC\u30CB\u30C3\u30AF\u30D1\u30EF\u30FC\uFF1A\u30AA\u30FC\u30AC\u30CB\u30C3\u30AF\u306E\u98DF\u6750\u3067\u53CE\u5165\u30A2\u30C3\u30D7\uFF01\\n2.
+        \u30B7\u30A7\u30D5\u306E\u52A9\u624B\uFF1A\u6599\u7406\u304C\u77AC\u6642\u306B\u51FA\u6765\u4E0A\u304C\u308A\u307E\u3059\uFF01\\n3.
+        \u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\uFF1A\u3053\u308C\u306A\u3089\u8ABF\u7406\u306B\u5931\u6557\u3057\u307E\u305B\u3093\uFF01\\n4.
+        \u30D5\u30EA\u30FC\u30BA\u30DD\u30C3\u30D7\uFF1A\u5F85\u3061\u6642\u9593\u3092\u30D5\u30EA\u30FC\u30BA\u3057\u3066\u304A\u5BA2\u3055\u3093\u306B\u30AD\u30E3\u30F3\u30C7\u30A3\u3092\u3042\u3052\u3066\u3044\u308B\u9593\u306B\u6CE8\u6587\u3092\u5B8C\u4E86\u3067\u304D\u307E\u3059\uFF01\\n5.
+        \u30A6\u30A7\u30A4\u30BF\u30FC\uFF1A\u304A\u5BA2\u3055\u3093\u306B\u81EA\u52D5\u3067\u6599\u7406\u3092\u63D0\u4F9B\uFF01\\n6.
+        \u7C21\u5358\u30B3\u30F3\u30DC\uFF1A\u30B3\u30F3\u30DC\u3092\u4F5C\u308C\u308B\u6642\u9593\u3092\u5EF6\u9577\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_boost_des3
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB\u30AF\u30EA\u30A2\u5931\u6557\u6642\u306B\u9078\u629E\u3059\u308B\u30D6\u30FC\u30B9\u30BF\u30FC\uFF1A\\n1.
+        30\u79D2\u8FFD\u52A0\uFF1A\u30EC\u30D9\u30EB\u306B30\u79D2\u8FFD\u52A0\u3057\u307E\u3059\uFF01\\n2.
+        3\u4EBA\u8FFD\u52A0\uFF1A\u304A\u5BA2\u3055\u3093\u30923\u4EBA\u8FFD\u52A0\u3057\u307E\u3059\uFF01\\n3.
+        \u30BB\u30AB\u30F3\u30C9\u30C1\u30E3\u30F3\u30B9\uFF1A\u8ABF\u7406\u306B\u5931\u6557\u3057\u305F\u308A\u6599\u7406\u3092\u7834\u68C4\u3057\u3066\u30EC\u30D9\u30EB\u30AF\u30EA\u30A2\u306B\u5931\u6557\u3057\u305F\u3068\u304D\u306B\u3082\u3046\u4E00\u5EA6\u30C1\u30E3\u30F3\u30B9\u3092\u3082\u3089\u3048\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_comment_des1
+    - Name: $v
+      Entry: 1
+      Data: "\u91D1\u306E\u30AB\u30FC\u30C9\u3092\u7372\u5F97\u3059\u308B\u3068\u65B0\u3057\u3044\u30EC\u30D9\u30EB\u3092\u30A2\u30F3\u30ED\u30C3\u30AF\u3067\u304D\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_comment_des2
+    - Name: $v
+      Entry: 1
+      Data: "\u5404\u30EC\u30D9\u30EB\u3067\u91D1\u306E\u30AB\u30FC\u30C9\u3092\u898B\u3064\u3051\u307E\u3057\u3087\u3046\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u306E\u4F5C\u308A\u65B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_des1
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u3092\u4F5C\u3063\u3066\u30B3\u30A4\u30F3\u3092\u7A3C\u304E\u307E\u3057\u3087\u3046\uFF013\u30014\u30015\u30A2\u30A4\u30C6\u30E0\u3092\u77ED\u3044\u6642\u9593\u3067\u9023\u7D9A\u3067\u63D0\u4F9B\u3059\u308B\u3068\u3001\u30B3\u30F3\u30DC\u3092\u4F5C\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_combo_des2
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB\u306E\u30B4\u30FC\u30EB\u304C\u30B3\u30F3\u30DC\u304B\u78BA\u8A8D\u3057\u307E\u3057\u3087\u3046\u3002\u3053\u306E\u30EC\u30D9\u30EB\u306F\u30B3\u30F3\u30DC\u3092\u4F5C\u308B\u3068\u30AF\u30EA\u30A2\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake_des1
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u3042\u3052\u308B\u3068\u3001\u304A\u5BA2\u3055\u3093\u306E\u5F85\u3061\u6642\u9593\u3092\u5EF6\u9577\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_cupcake_des2
+    - Name: $v
+      Entry: 1
+      Data: "4\u6642\u9593\u3054\u3068\u306B\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u96C6\u3081\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des1
+    - Name: $v
+      Entry: 1
+      Data: "<size=28>\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3059\u308B\u3068\u5831\u916C\u3068\u3057\u3066\u30B3\u30A4\u30F3\u3068\u30B9\u30D7\u30FC\u30F3\u304C\u3082\u3089\u3048\u307E\u3059\u3002</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des2
+    - Name: $v
+      Entry: 1
+      Data: "<size=28>\u30B9\u30D7\u30FC\u30F3\u306F\u30D6\u30FC\u30B9\u30BF\u30FC\u3084\u8FFD\u52A0\u30E9\u30A4\u30D5\u3092\u8CFC\u5165\u3059\u308B\u305F\u3081\u306B\u4F7F\u3044\u307E\u3059\u3002</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: help_money_des3
+    - Name: $v
+      Entry: 1
+      Data: "<size=28>\u30B3\u30A4\u30F3\u306F\u30AD\u30C3\u30C1\u30F3\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3059\u308B\u305F\u3081\u306B\u4F7F\u3044\u307E\u3059\u3002</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_title
+    - Name: $v
+      Entry: 1
+      Data: "{0}\u65E5\u76EE"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_claim
+    - Name: $v
+      Entry: 1
+      Data: "\u5165\u624B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: disconnect_title
+    - Name: $v
+      Entry: 1
+      Data: "\u63A5\u7D9A\u3092\u4E2D\u65AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: disconnect_description
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30FC\u30D0\u30FC\u63A5\u7D9A\u4E0D\u53EF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_comingsoon_title
+    - Name: $v
+      Entry: 1
+      Data: <size=30></size>
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_comingsoon_mess
+    - Name: $v
+      Entry: 1
+      Data: "\u8FD1\u65E5\u767B\u5834\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30CB\u30E5\u30FC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_description
+    - Name: $v
+      Entry: 1
+      Data: "\u65B0\u3057\u3044\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u66F4\u65B0\u3057\u3001\u3088\u308A\u826F\u3044\u4F53\u9A13\u306E\u305F\u3081\u306B\u30B2\u30FC\u30E0\u306B\u5909\u66F4\u3092\u52A0\u3048\u307E\u3057\u305F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_update_update_button
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3059\u3050\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_normal_button
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: limit_time
+    - Name: $v
+      Entry: 1
+      Data: "\u9650\u3089\u308C\u305F\u6642\u9593\u306E\u307F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u65B0\u3057\u3044\u30EC\u30B9\u30C8\u30E9\u30F3\\n \u65B0\u3057\u3044\u30E1\u30CB\u30E5\u30FC\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_BurgerTruck
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u65B0\u3057\u3044\u30EC\u30B9\u30C8\u30E9\u30F3\\n \u65B0\u3057\u3044\u30E1\u30CB\u30E5\u30FC\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_BreakfastDinnerTruck
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u65B0\u3057\u3044\u30EC\u30B9\u30C8\u30E9\u30F3\\n \u65B0\u3057\u3044\u30E1\u30CB\u30E5\u30FC\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_SteakGrillTruck
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u65B0\u3057\u3044\u30EC\u30B9\u30C8\u30E9\u30F3\\n \u65B0\u3057\u3044\u30E1\u30CB\u30E5\u30FC\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_2
+    - Name: $v
+      Entry: 1
+      Data: "\u7121\u6599\u30AE\u30D5\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: conflict_title
+    - Name: $v
+      Entry: 1
+      Data: "\u6CE8\u610F\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: conflict_description
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u30A2\u30AB\u30A6\u30F3\u30C8\u3068\u306F\u7570\u306A\u308B\u9032\u6357\u30C7\u30FC\u30BF\u304C\u898B\u3064\u304B\u308A\u307E\u3057\u305F\u3002
+        \u3069\u306E\u30C7\u30FC\u30BF\u3092\u4FDD\u5B58\u3057\u307E\u3059\u304B\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: choose_local_button
+    - Name: $v
+      Entry: 1
+      Data: "\u73FE\u5728\u306E\u30C7\u30FC\u30BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: choose_remote_button
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30A7\u30A4\u30B9\u30D6\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loading_lock_scene
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30FC\u30BF\u3092\u540C\u671F\u3057\u3066\u3044\u307E\u3059\u3002\\n
+        {0}\u304A\u5F85\u3061\u304F\u3060\u3055\u3044{1}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_avoid_burn
+    - Name: $v
+      Entry: 1
+      Data: "\u6A39\u8102\u306E\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u3092\u3057\u305F\u30D5\u30E9\u30A4\u30D1\u30F3\u306F\u3069\u3046\u3060\u3044\uFF1F\u6599\u7406\u304C\u305A\u3063\u3068\u697D\u306B\u306A\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_double_coin
+    - Name: $v
+      Entry: 1
+      Data: "\u79C1\u306E\u30AA\u30FC\u30AC\u30CB\u30C3\u30AF\u8FB2\u5834\u306E\u304A\u304B\u3052\u3067\u3042\u306A\u305F\u306E\u30EC\u30B9\u30C8\u30E9\u30F3\u3082\u3059\u3063\u304B\u308A\u81EA\u7136\u6D3E\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_instant_cook
+    - Name: $v
+      Entry: 1
+      Data: "\u52A9\u624B\u3092\u52DF\u96C6\u4E2D\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_helper
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5E97\u304C\u6DF7\u3093\u3067\u304D\u305F\u3089\u30A6\u30A7\u30A4\u30BF\u30FC\u304C\u5927\u304D\u306A\u52A9\u3051\u306B\u306A\u308B\u3053\u3068\u9593\u9055\u3044\u306A\u3057\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: character_give_booster_lollipop
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u306B\u30AD\u30E3\u30F3\u30C7\u30A3\u3092\u3042\u3052\u3066\u5F85\u3061\u6642\u9593\u3092\u30D5\u30EA\u30FC\u30BA\u3057\u3066\u3082\u3089\u304A\u3046\uFF01\u305D\u306E\u9593\u306B\u6CE8\u6587\u3092\u5B8C\u4E86\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_avoid_burn_start_level
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u3057\u305F\u30D5\u30E9\u30A4\u30D1\u30F3\u3092\u4F7F\u3048\u3070\u98DF\u3079\u7269\u304C\u3053\u3052\u306A\u304F\u3066\u3059\u3080\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_double_coin_start_level
+    - Name: $v
+      Entry: 1
+      Data: "<size=20>\u30C0\u30D6\u30EB\u30D7\u30E9\u30A4\u30B9\u30D6\u30FC\u30B9\u30BF\u30FC\u3092\u4F7F\u3048\u3070\u3001\u30AA\u30FC\u30AC\u30CB\u30C3\u30AF\u306E\u98DF\u6750\u3092\u4F7F\u3048\u308B\u304B\u3089\u30E1\u30CB\u30E5\u30FC\u30A2\u30A4\u30C6\u30E0\u306E\u5024\u6BB5\u30922\u500D\u306B\u3067\u304D\u308B\u3088\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_instant_cook_start_level
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30D5\u306E\u52A9\u624B\uFF1A\u6599\u7406\u304C\u77AC\u6642\u306B\u51FA\u6765\u4E0A\u304C\u308A\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_helper_start_level
+    - Name: $v
+      Entry: 1
+      Data: "\u6CE8\u6587\u3055\u308C\u305F\u6599\u7406\u304C\u3067\u304D\u305F\u3089\u81EA\u52D5\u7684\u306B\u304A\u5BA2\u3055\u3093\u306B\u51FA\u3057\u3066\u304F\u308C\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: unlock_freeze
+    - Name: $v
+      Entry: 1
+      Data: "\u7C21\u5358\u30B3\u30F3\u30DC\u3092\u4F7F\u3046\u3068\u30B3\u30F3\u30DC\u3092\u4F5C\u308C\u308B\u6642\u9593\u304C\u5EF6\u9577\u3055\u308C\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: unlock_freeze_start
+    - Name: $v
+      Entry: 1
+      Data: "\u3084\u3063\u3066\u307F\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_welcome_talk_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3088\u3046\u3053\u305D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3044\u3057\u3044\u30D3\u30B8\u30CD\u30B9\u3067\u6210\u529F\u3057\u305F\u3044\u3063\u3066\uFF1F\u305D\u308C\u306A\u3089\u7518\u3044\u30B3\u30C4\u3092\u6559\u3048\u3066\u3084\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_donut_click_donut_embryos_message
+    - Name: $v
+      Entry: 1
+      Data: "\u751F\u5730\u3092\u63DA\u3052\u308B\u306E\u306F\u5C11\u3057\u6642\u9593\u304C\u304B\u304B\u308B\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "\u6700\u9AD8\u7D1A\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC\u306E\u30D7\u30ED\u3068\u547C\u3070\u308C\u305F\u304F\u306A\u3044\u304B\u3044\uFF1F\u624B\u3092\u8CB8\u3057\u3066\u3084\u308D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_highlight_beef_message
+    - Name: $v
+      Entry: 1
+      Data: "\u713C\u3051\u308B\u307E\u3067\u5C11\u3057\u6642\u9593\u304C\u304B\u304B\u308B\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_restaurant_burger_return_burger_message
+    - Name: $v
+      Entry: 1
+      Data: "\u6025\u3044\u3067\u304F\u308C\u3088\uFF01\u300C\u6642\u306F\u91D1\u306A\u308A\u300D\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u306E\u4F5C\u308A\u65B9\u3092\u5B66\u307C\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish1
+    - Name: $v
+      Entry: 1
+      Data: "\u6700\u521D\u306E\u6599\u7406\u3092\u30BF\u30C3\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_introduce_combo
+    - Name: $v
+      Entry: 1
+      Data: "2\u756A\u76EE\u306E\u6599\u7406\u3092\u30BF\u30C3\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish2
+    - Name: $v
+      Entry: 1
+      Data: "3\u756A\u76EE\u306E\u6599\u7406\u3092\u30BF\u30C3\u30D7\u3059\u308C\u3070\u30B3\u30F3\u30DC\u304C\u3067\u304D\u308B\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_combo_return_dish3
+    - Name: $v
+      Entry: 1
+      Data: "\u53EF\u80FD\u306A\u3068\u304D\u306F\u30B3\u30F3\u30DC\u3092\u4F5C\u3063\u3066\u8FFD\u52A0\u30B3\u30A4\u30F3\u3092\u3082\u3089\u304A\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_welcome_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30AD\u30C3\u30C1\u30F3\u306E\u5668\u5177\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3059\u308C\u3070\u30B4\u30FC\u30EB\u9054\u6210\u304C\u697D\u306B\u306A\u308B\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_donut_box_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30AA\u30B9\u30B9\u30E1\u306E\u5668\u5177\u3092\u30BF\u30C3\u30D7\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_upgrade_donut_fryer_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30AA\u30B9\u30B9\u30E1\u306E\u5668\u5177\u3092\u30BF\u30C3\u30D7\u3057\u3088\u3046\uFF01\u4ECA\u3001\u4E00\u756A\u5F79\u7ACB\u3064\u3082\u306E\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_replay_introduce
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30D9\u30EB\u3092\u3082\u3046\u4E00\u5EA6\u30D7\u30EC\u30A4\u3057\u3066\u307F\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_replay_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u30EC\u30D9\u30EB\u3067\u306F\u7B2C2\u30B5\u30D6\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3059\u308B\u3068\u91D1\u306E\u30AB\u30FC\u30C9\u304C\u3082\u3089\u3048\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_time
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593\u5207\u308C\u306B\u306A\u308B\u307E\u3067\u306B\u3067\u304D\u308B\u3060\u3051\u305F\u304F\u3055\u3093\u306E\u304A\u5BA2\u3055\u3093\u306E\u6CE8\u6587\u3092\u5B8C\u4E86\u3057\u3066\u304F\u308C\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_like_collect_message
+    - Name: $v
+      Entry: 1
+      Data: "\u201C\u3044\u3044\u306D\uFF01\u201D\u3092\u305F\u304F\u3055\u3093\u3082\u3089\u3063\u3066\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_like_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30D4\u30FC\u30C7\u30A3\u306A\u30B5\u30FC\u30D3\u30B9\u3067\u201C\u3044\u3044\u306D\uFF01\u201D\u304C\u305F\u304F\u3055\u3093\u3082\u3089\u3048\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_burn
+    - Name: $v
+      Entry: 1
+      Data: "\u98DF\u3079\u7269\u30921\u5EA6\u3082\u7126\u304C\u3055\u305A\u306B\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3066\u307F\u3088\u3046\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_trash
+    - Name: $v
+      Entry: 1
+      Data: "\u98DF\u3079\u7269\u3092\u6368\u3066\u308B\u3053\u3068\u306A\u304F\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_sub_mission_angry
+    - Name: $v
+      Entry: 1
+      Data: "\u6CE8\u6587\u304C\u9593\u306B\u5408\u308F\u305A\u3001\u5E30\u3063\u3066\u3057\u307E\u3046\u304A\u5BA2\u3055\u3093\u304C\u4E00\u4EBA\u3082\u51FA\u306A\u3044\u3088\u3046\u306B\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lost_life_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30B4\u30FC\u30EB\u3092\u9054\u6210\u3067\u304D\u306A\u3044\u3068\u30E9\u30A4\u30D5\u304C1\u3064\u6D88\u3048\u308B\u3093\u3060\u3002\u30E9\u30A4\u30D5\u306F\u6642\u9593\u304C\u305F\u3066\u3070\u81EA\u52D5\u7684\u306B\u88DC\u5145\u3055\u308C\u308B\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lost_life_message2
+    - Name: $v
+      Entry: 1
+      Data: "5\u3064\u3068\u3082\u306A\u304F\u306A\u3063\u305F\u3068\u304D\u306F1\u3064\u88DC\u5145\u3055\u308C\u308B\u307E\u3067\u5F85\u305F\u306A\u304F\u3061\u3083\u306A\u3089\u306A\u3044\u305E\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_daily_gift
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30E7\u30C3\u30D7\u3092\u30C1\u30A7\u30C3\u30AF\u3057\u3066\u30C7\u30A4\u30EA\u30FC\u8CDE\u54C1\u3092\u30B2\u30C3\u30C8\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_second_change_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3042\u308A\u3083\u308A\u3083\u2026\u3067\u3082\u5927\u4E08\u592B\uFF01\u5931\u6557\u3057\u3066\u3082\u3084\u308A\u76F4\u3057\u3066\u5F15\u304D\u7D9A\u304D\u30D7\u30EC\u30A4\u3067\u304D\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_button_shop_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30FC\u30B9\u30BF\u30FC\u304C\u5FC5\u8981\u3060\u3063\u3066\uFF1F\u305D\u308C\u306A\u3089\u30B7\u30E7\u30C3\u30D7\u3067\u8CFC\u5165\u3059\u308B\u3068\u3044\u3044\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_tab_diamond_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9\u3082\u8CB7\u3048\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_free_booster_click_get_free_booster_message
+    - Name: $v
+      Entry: 1
+      Data: "\u6700\u521D\u306E\u30D6\u30FC\u30B9\u30BF\u30FC\u306F\u3044\u3064\u3082\u7121\u6599\u3060\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_booster_lollipop_click_message
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u306B\u30AD\u30E3\u30F3\u30C7\u30A3\u3092\u3042\u3052\u3066\u5F85\u3061\u6642\u9593\u3092\u30D5\u30EA\u30FC\u30BA\u3057\u3066\u3082\u3089\u304A\u3046\uFF01\u305D\u306E\u9593\u306B\u6CE8\u6587\u3092\u5B8C\u4E86\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_level19_cupcake_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3063\u3068\uFF01\u304A\u5BA2\u3055\u3093\u306F\u305A\u3063\u3068\u5F85\u3063\u3066\u3044\u305F\u3088\u3046\u3060\u3088\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_level19_cupcake_use_message
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u306B\u7121\u6599\u306E\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u3042\u3052\u308C\u3070\u30CF\u30C3\u30D4\u30FC\u306B\u306A\u3063\u3066\u304F\u308C\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_gold
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3057\u3044\uFF01\u30AD\u30C3\u30C1\u30F3\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3059\u308B\u5FC5\u8981\u304C\u3042\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u306D\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_like
+    - Name: $v
+      Entry: 1
+      Data: "\u98DF\u3079\u7269\u306F\u6700\u9AD8\u306B\u3046\u307E\u3044\u3093\u3060\u304C\u3001\u30B5\u30FC\u30D3\u30B9\u304C\u9045\u3059\u304E\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_dish
+    - Name: $v
+      Entry: 1
+      Data: "<size=34>\uC5C5\uADF8\uB808\uC774\uB4DC\uD560 \uC2DC\uAC04\uC785\uB2C8\uB2E4!</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_burn
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u306B\u5931\u6557\u3057\u306A\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_angry
+    - Name: $v
+      Entry: 1
+      Data: "\u6012\u3063\u3066\u5E30\u308B\u304A\u5BA2\u3055\u3093\u30BC\u30ED\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lose_trash
+    - Name: $v
+      Entry: 1
+      Data: "\u5EC3\u68C4\u7269\u3092\u51FA\u3055\u306A\u3044"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_bonus_level
+    - Name: $v
+      Entry: 1
+      Data: "\u3069\u3053\u307E\u3067\u6301\u3061\u3053\u305F\u3048\u3089\u308C\u308B\u304B\u6311\u6226\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_guide_message
+    - Name: $v
+      Entry: 1
+      Data: "\u305D\u306E\u9593\u306B\u30D6\u30FC\u30B9\u30BF\u30FC\u3082\u9078\u629E\u3067\u304D\u308B\u3093\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_tap_to_pause_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u3053\u3092\u30BF\u30C3\u30D7\u3059\u308C\u3070\u4E00\u6642\u505C\u6B62\u3067\u304D\u308B\u3088\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_chef_star_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "\u305F\u304F\u3055\u3093\u306E\u6599\u7406\u3092\u3053\u306A\u3057\u3066\u30B7\u30A7\u30D5\u30B9\u30BF\u30FC\u3092\u7372\u5F97\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_burned_message
+    - Name: $v
+      Entry: 1
+      Data: "\u8ABF\u7406\u306B\u5931\u6557\u3057\u305F\u30892\u56DE\u30BF\u30C3\u30D7\u3057\u3066\u5EC3\u68C4\u3057\u3088\u3046\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_first_lose_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3042\u306A\u305F\u306F\u30EC\u30B9\u30C8\u30E9\u30F3\u306E\u98DF\u3079\u7269\u3084\u6A5F\u68B0\u3092\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u3059\u308B\u305F\u3081\u306B\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u30B7\u30E7\u30C3\u30D7\u306B\u884C\u304F\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lollipop_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30EA\u30FC\u30BA\u30DD\u30C3\u30D7\u3092\u4F7F\u3046\u3068\u30BF\u30A4\u30DE\u30FC\u304C\u30B9\u30C8\u30C3\u30D7\u3059\u308B\u3093\u3060\u3002\u304A\u5BA2\u3055\u3093\u3092\u5931\u3046\u3053\u3068\u306A\u304F\u3059\u3079\u3066\u306E\u6599\u7406\u3092\u6E96\u5099\u3067\u304D\u308B\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_mustard_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u304A\u5BA2\u3055\u3093\u306F\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u306B\u30DE\u30B9\u30BF\u30FC\u30C9\u3092\u304B\u3051\u3066\u307B\u3057\u3044\u3088\u3046\u3060\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3001\u30D1\u30F3\u30B1\u30FC\u30AD\u304C\u5927\u4EBA\u6C17\uFF01\u541B\u3082\u6311\u6226\u3057\u3066\u307F\u305F\u3089\u3069\u3046\u3060\u3044\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_make_message
+    - Name: $v
+      Entry: 1
+      Data: "\u5FCD\u8010\u3001\u5FCD\u8010\uFF01\u30D5\u30A1\u30B9\u30C8\u30D5\u30FC\u30C9\u3058\u3083\u306A\u3044\u3093\u3060\u304B\u3089\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_ready_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3044\u3044\u611F\u3058\u306B\u713C\u3051\u305F\u307F\u305F\u3044\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pancake_serve_message
+    - Name: $v
+      Entry: 1
+      Data: "\u5B8C\u74A7\u3060\uFF01\u3055\u3041\u3001\u304A\u5BA2\u3055\u3093\u306B\u51FA\u305D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_avoid_burn_start_level_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30C6\u30A3\u30F3\u30B0\u3057\u305F\u30D5\u30E9\u30A4\u30D1\u30F3\u3092\u4F7F\u3048\u3070\u98DF\u3079\u7269\u304C\u3053\u3052\u306A\u304F\u3066\u3059\u3080\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_squidring_intro_message
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3084\uFF01\u3053\u306E\u304A\u5BA2\u3055\u3093\u306F\u30AA\u30CB\u30AA\u30F3\u30EA\u30F3\u30B0\u3092\u3054\u6240\u671B\u3060\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_squidring_use_message
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30E9\u30A4\u30E4\u30FC\u3092\u4F7F\u3063\u3066\u307F\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_cupcake_introduce_message
+    - Name: $v
+      Entry: 1
+      Data: "\uCEF5\uCF00\uC775\uC774 \uC5EC\uAE30 \uC788\uC2B5\uB2C8\uB2E4! \uC9C0\uAE08
+        \uBC1B\uC544\uAC00\uC138\uC694!"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pause_message
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u3053\u3092\u30BF\u30C3\u30D7\u3059\u308C\u3070\u4E00\u6642\u505C\u6B62\u3067\u304D\u308B\u3088\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_pause_step2_message
+    - Name: $v
+      Entry: 1
+      Data: "\u305D\u306E\u9593\u306B\u30D6\u30FC\u30B9\u30BF\u30FC\u3082\u9078\u629E\u3067\u304D\u308B\u3093\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res1
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30D2\u30FC\u3068\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u2026\u4E00\u65E5\u3092\u8FCE\u3048\u308B\u306E\u306B\u3074\u3063\u305F\u308A\u306E\u671D\u98DF\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res2
+    - Name: $v
+      Entry: 1
+      Data: "\u30A8\u30B9\u30AB\u30EB\u30B4\u2026\u30D5\u30E9\u30F3\u30B9\u8A9E\u306A\u3089\u3044\u3044\u97FF\u304D\u3060\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_paris_res3
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u30AB\u30D5\u30A7\u306A\u3089\u30D1\u30EA\u30B8\u30A7\u30F3\u30CC\u306B\u3082\u5927\u4EBA\u6C17\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_bonus_level_played
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30A3\u30CA\u30FC\u306E\u6DF7\u96D1\u304C\u843D\u3061\u7740\u3044\u305F\u3088\uFF01\u5F8C\u3067\u307E\u305F\u6311\u6226\u3057\u3066\u30AC\u30C3\u30C4\u30EA\u7A3C\u3054\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_unlock_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u304C\u713C\u3051\u305F\u3088\uFF01\u4ECA\u3059\u3050\u96C6\u3081\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_second_chance
+    - Name: $v
+      Entry: 1
+      Data: "\u3042\u308A\u3083\u308A\u3083\u2026\u3067\u3082\u5927\u4E08\u592B\uFF01\u5931\u6557\u3057\u3066\u3082\u3084\u308A\u76F4\u3057\u3066\u5F15\u304D\u7D9A\u304D\u30D7\u30EC\u30A4\u3067\u304D\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u4ECA\u3001\u30D1\u30F3\u30B1\u30FC\u30AD\u304C\u5927\u4EBA\u6C17\uFF01\u541B\u3082\u6311\u6226\u3057\u3066\u307F\u305F\u3089\u3069\u3046\u3060\u3044\uFF1F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u5FCD\u8010\u3001\u5FCD\u8010\uFF01\u30D5\u30A1\u30B9\u30C8\u30D5\u30FC\u30C9\u3058\u3083\u306A\u3044\u3093\u3060\u304B\u3089\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step3
+    - Name: $v
+      Entry: 1
+      Data: "\u3044\u3044\u611F\u3058\u306B\u713C\u3051\u305F\u307F\u305F\u3044\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res3_step4
+    - Name: $v
+      Entry: 1
+      Data: "\u5B8C\u74A7\u3060\uFF01\u3055\u3041\u3001\u304A\u5BA2\u3055\u3093\u306B\u51FA\u305D\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res4_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u306F\u3044\u3001\u30C1\u30FC\u30BA\uFF01\u30C1\u30FC\u30BA\u30B1\u30FC\u30AD\u3092\u713C\u3044\u3066\u304F\u308C\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_map1_res4_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u8F9B\u62B1\u3001\u8F9B\u62B1\uFF01\u30D5\u30A1\u30B9\u30C8\u30D5\u30FC\u30C9\u3058\u3083\u306A\u3044\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_soup
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30FC\u30D7\u306B\u30D1\u30BB\u30EA\u3092\u306E\u305B\u308B\u306E\u3092\u5FD8\u308C\u305A\u306B\uFF01\u7D30\u304B\u3044\u6C17\u914D\u308A\u304C\u5927\u5207\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_syrup
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u5BA2\u3055\u3093\u306F\u7518\u3044\u30D1\u30F3\u30B1\u30FC\u30AD\u3092\u3054\u6240\u671B\u3060\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_hot_dog
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u304A\u5BA2\u3055\u3093\u306F\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u306B\u30DE\u30B9\u30BF\u30FC\u30C9\u3092\u304B\u3051\u3066\u307B\u3057\u3044\u3088\u3046\u3060\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_almond_slice
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u304A\u5BA2\u3055\u3093\u306F\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u30C9\u30FC\u30CA\u30C4\u306B\u30B3\u30B3\u30CA\u30C3\u30C4\u30C1\u30C3\u30D7\u3092\u304B\u3051\u3066\u307B\u3057\u3044\u3088\u3046\u3060\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_chicken_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u305D\u306E\u9867\u5BA2\u306B\u3042\u306A\u305F\u306E\u7279\u5225\u306A\u6599\u7406-\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u3092\u63D0\u4F9B\u3057\u307E\u3057\u3087\u3046\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_new_food_chicken_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u30D1\u30F3\u3092\u6700\u521D\u306B\u30D7\u30EC\u30FC\u30C8\u306B\u8F09\u305B\u307E\u3059\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: play_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30BF\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u7C21\u5358\u30B3\u30F3\u30DC\u3092\u4F7F\u3046\u3068\u3001\u30B3\u30F3\u30DC\u30BF\u30A4\u30DE\u30FC\u304C\u30B9\u30C8\u30C3\u30D7\u3057\u3066\u30B3\u30F3\u30DC\u3092\u4F5C\u308B\u6642\u9593\u304C\u5897\u3048\u308B\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u6599\u7406\u3092\u30BF\u30C3\u30D7\u3057\u3066\u30B3\u30F3\u30DC\u30AB\u30A6\u30F3\u30BF\u30FC\u3092\u5897\u3084\u305D\u3046\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step3
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30F3\u30DC\u3067\u7372\u5F97\u3067\u304D\u308B\u30B3\u30A4\u30F3\u306E\u6570\u306F\u3053\u3053\u3060\u305E\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step4
+    - Name: $v
+      Entry: 1
+      Data: "\u6B21\u306E\u6599\u7406\u3092\u63D0\u4F9B\u3057\u3066\u30B3\u30F3\u30DC\u3092\u8FFD\u52A0\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_freeze_in_game_step5
+    - Name: $v
+      Entry: 1
+      Data: "\u6700\u5F8C\u306E\u6599\u7406\u3092\u63D0\u4F9B\u3057\u30665\u30A2\u30A4\u30C6\u30E0\u30B3\u30F3\u30DC\u3092\u7372\u5F97\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_notice_upgrade_subscription_title
+    - Name: $v
+      Entry: 1
+      Data: "\u901A\u77E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: noti_notice_upgrade_subscription_message
+    - Name: $v
+      Entry: 1
+      Data: "\u73FE\u5728\u6709\u52B9\u306B\u3067\u304D\u308BVIP\u30D1\u30C3\u30AF\u306F1\u3064\u3060\u3051\u3067\u3059"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: login_facebook_btn
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u3067\u30ED\u30B0\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: loin_facebook_title
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u306B\u63A5\u7D9A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus1
+    - Name: $v
+      Entry: 1
+      Data: "<size=25>\u53CB\u9054\u304B\u3089\u30E9\u30A4\u30D5\u3092\u3082\u3089\u3063\u305F\u308A\u3001\u3042\u3052\u305F\u308A\u3067\u304D\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus2
+    - Name: $v
+      Entry: 1
+      Data: "<size=23>\u30B2\u30FC\u30E0\u306E\u9032\u884C\u30C7\u30FC\u30BF\u3092\u4FDD\u5B58\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_facebook_plus3
+    - Name: $v
+      Entry: 1
+      Data: "<size=19>\u3042\u306A\u305F\u306E\u30BF\u30A4\u30E0\u30E9\u30A4\u30F3\u306B\u306F\u4F55\u3082\u8868\u793A\u3055\u308C\u307E\u305B\u3093"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: login_facebook_btn2
+    - Name: $v
+      Entry: 1
+      Data: "<size=40>\u30ED\u30B0\u30A4\u30F3</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: daily_gift_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u30C7\u30A4\u30EA\u30FC\u8CDE\u54C1\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: full_live_title
+    - Name: $v
+      Entry: 1
+      Data: "\u6E80\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: recommended_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30AA\u30B9\u30B9\u30E1\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: continue_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u7D9A\u884C"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: friend_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u53CB\u9054"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: connect_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u30ED\u30B0\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: silver_star_title
+    - Name: $v
+      Entry: 1
+      Data: "\u9280\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: badge_level_description
+    - Name: $v
+      Entry: 1
+      Data: "\u3059\u3079\u3066\u306E\u7B2C2\u30B5\u30D6\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3066\u9280\u306E\u540D\u58F0\u306E\u661F\u3092\u7372\u5F97\u3057\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: balance_title
+    - Name: $v
+      Entry: 1
+      Data: "\u6B8B\u308A:"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: comment_card_receive
+    - Name: $v
+      Entry: 1
+      Data: "\u91D1\u306E\u30AB\u30FC\u30C9\u3092\u7372\u5F97\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: you_have
+    - Name: $v
+      Entry: 1
+      Data: "\u624B\u6301\u3061 {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: have_a_live
+    - Name: $v
+      Entry: 1
+      Data: "<size=23>\u30E9\u30A4\u30D5\u3092\u30EA\u30AF\u30A8\u30B9\u30C8</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_a_live
+    - Name: $v
+      Entry: 1
+      Data: "<size=23>\u30E9\u30A4\u30D5\u3092\u30D7\u30EC\u30BC\u30F3\u30C8</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ask_all
+    - Name: $v
+      Entry: 1
+      Data: "\u5168\u54E1\u306B\u30EA\u30AF\u30A8\u30B9\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give_all
+    - Name: $v
+      Entry: 1
+      Data: "\u307F\u3093\u306A\u306B\u3042\u3052\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ask
+    - Name: $v
+      Entry: 1
+      Data: "<size=33>\u30EA\u30AF\u30A8\u30B9\u30C8</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: give
+    - Name: $v
+      Entry: 1
+      Data: "\u9001\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: get
+    - Name: $v
+      Entry: 1
+      Data: "\u53D7\u3051\u53D6\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_btn
+    - Name: $v
+      Entry: 1
+      Data: "\u96C6\u3081\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ok_btn
+    - Name: $v
+      Entry: 1
+      Data: OK
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: language_spanish
+    - Name: $v
+      Entry: 1
+      Data: "Espa\xF1ol"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: earn
+    - Name: $v
+      Entry: 1
+      Data: "\u7372\u5F97\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: now_store
+    - Name: $v
+      Entry: 1
+      Data: "\u73FE\u5728\u306E\u6240\u6301\u6570\uFF1A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: store_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "<size=30>\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD {0}/{1}</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_reach_limit_description
+    - Name: $v
+      Entry: 1
+      Data: "\u4FDD\u7BA1\u3067\u304D\u308B\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u306F{0}\u500B\u307E\u3067\u3067\u3059\u3002{1}\u500B\u306E\u3092\u96C6\u3081\u307E\u3057\u3087\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: collect_cupcake
+    - Name: $v
+      Entry: 1
+      Data: "{0}\u500B\u96C6\u3081\u308B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_full
+    - Name: $v
+      Entry: 1
+      Data: "\u5009\u5EAB\u306B\u306F25\u500B\u307E\u3067\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u4FDD\u7BA1\u3067\u304D\u307E\u3059\u3002\u6A5F\u5ACC\u306E\u60AA\u3044\u304A\u5BA2\u3055\u3093\u306B\u4F7F\u3063\u3066\u6570\u3092\u6E1B\u3089\u305B\u3070\u5F15\u304D\u7D9A\u304D\u7121\u6599\u306E\u30AB\u30C3\u30D7\u30B1\u30FC\u30AD\u3092\u96C6\u3081\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: general
+    - Name: $v
+      Entry: 1
+      Data: "\u4E00\u822C\u7684\u306A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: not_have_friend
+    - Name: $v
+      Entry: 1
+      Data: "\u3053\u306E\u30EC\u30D9\u30EB\u3092\u30D7\u30EC\u30A4\u3057\u3066\u3044\u308B\u53CB\u9054\u306F\u3044\u307E\u305B\u3093"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: me
+    - Name: $v
+      Entry: 1
+      Data: "\u308F\u305F\u3057"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: like_us
+    - Name: $v
+      Entry: 1
+      Data: "Facebook \u3067\u201C\u3044\u3044\u306D\u201D\u3057\u3066\u306D\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: claim_free
+    - Name: $v
+      Entry: 1
+      Data: "\u5165\u624B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Street
+    - Name: $v
+      Entry: 1
+      Data: "\u30C9\u30FC\u30CA\u30C4\u30B9\u30C8\u30EA\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut
+    - Name: $v
+      Entry: 1
+      Data: "\u30C9\u30FC\u30CA\u30C4"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Chocolate Icing
+    - Name: $v
+      Entry: 1
+      Data: "\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8\u30AF\u30EA\u30FC\u30E0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Milk Shake
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30A4\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strawberry Icing
+    - Name: $v
+      Entry: 1
+      Data: "\u3044\u3061\u3054\u30AF\u30EA\u30FC\u30E0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Almond Slice
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30FC\u30E2\u30F3\u30C9\u30B9\u30E9\u30A4\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sprinkles
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30D7\u30EA\u30F3\u30AF\u30EB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Milk Shaker
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30A4\u30AF\u30DE\u30B7\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Fryer
+    - Name: $v
+      Entry: 1
+      Data: "\u30C9\u30FC\u30CA\u30C4\u30D5\u30E9\u30A4\u30E4\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Donut Box
+    - Name: $v
+      Entry: 1
+      Data: "\u30C9\u30FC\u30CA\u30C4\u306E\u7BB1"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Street
+    - Name: $v
+      Entry: 1
+      Data: "\u30D0\u30FC\u30AC\u30FC\u30B9\u30C8\u30EA\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger
+    - Name: $v
+      Entry: 1
+      Data: "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC\u30D1\u30C6\u30A3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Buns
+    - Name: $v
+      Entry: 1
+      Data: "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC\u306E\u30D0\u30F3\u30BA"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cola Glass
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30E9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Sausage
+    - Name: $v
+      Entry: 1
+      Data: "\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hotdog
+    - Name: $v
+      Entry: 1
+      Data: "\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u306E\u30D0\u30F3\u30BA"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mustard
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30B9\u30BF\u30FC\u30C9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Tomatoes
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30DE\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cheese
+    - Name: $v
+      Entry: 1
+      Data: "\u30C1\u30FC\u30BA"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Squid Rings
+    - Name: $v
+      Entry: 1
+      Data: "\u30A4\u30AB\u30EA\u30F3\u30B0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cola Machine
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30E9\u30DE\u30B7\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Fryer
+    - Name: $v
+      Entry: 1
+      Data: "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC\u306E\u30D5\u30E9\u30A4\u30D1\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Burger Plate
+    - Name: $v
+      Entry: 1
+      Data: "\u30CF\u30F3\u30D0\u30FC\u30AC\u30FC\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotdogFryer
+    - Name: $v
+      Entry: 1
+      Data: "\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u306E\u30D5\u30E9\u30A4\u30D1\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotdogPlate
+    - Name: $v
+      Entry: 1
+      Data: "\u30DB\u30C3\u30C8\u30C9\u30C3\u30B0\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Deep Fryer
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30E9\u30A4\u30E4\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breakfast 'N Dinner Truck
+    - Name: $v
+      Entry: 1
+      Data: "\u671D\u98DF\u3068\u30C7\u30A3\u30CA\u30FC\u30C8\u30E9\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Eggs
+    - Name: $v
+      Entry: 1
+      Data: "\u5375"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Batter
+    - Name: $v
+      Entry: 1
+      Data: "\u30D1\u30F3\u30B1\u30FC\u30AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Orange Juice
+    - Name: $v
+      Entry: 1
+      Data: "\u30AA\u30EC\u30F3\u30B8\u30B8\u30E5\u30FC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Syrup
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30ED\u30C3\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Toast
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30FC\u30B9\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Bacon
+    - Name: $v
+      Entry: 1
+      Data: "\u30D9\u30FC\u30B3\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Ice Cream
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30A4\u30B9\u30AF\u30EA\u30FC\u30E0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Blue Berries
+    - Name: $v
+      Entry: 1
+      Data: "\u30D6\u30EB\u30FC\u30D9\u30EA\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Egg Fryer
+    - Name: $v
+      Entry: 1
+      Data: "\u76EE\u7389\u713C\u304D\u306E\u30D5\u30E9\u30A4\u30D1\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Juicer
+    - Name: $v
+      Entry: 1
+      Data: "\u30B8\u30E5\u30FC\u30B5\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Skillet
+    - Name: $v
+      Entry: 1
+      Data: "\u30D1\u30F3\u30B1\u30FC\u30AD\u306E\u30D5\u30E9\u30A4\u30D1\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Breakfast Plate
+    - Name: $v
+      Entry: 1
+      Data: "\u671D\u3054\u306F\u3093\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Pancake Plate
+    - Name: $v
+      Entry: 1
+      Data: "\u30D1\u30F3\u30B1\u30FC\u30AD\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Toaster
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30FC\u30B9\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Freezer
+    - Name: $v
+      Entry: 1
+      Data: "\u51B7\u51CD\u5EAB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Steak 'N Grill Truck
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30C6\u30FC\u30AD\u3068\u30B0\u30EA\u30EB\u306E\u30C8\u30E9\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Steak
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30C6\u30FC\u30AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ManhattanClamChowder
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30F3\u30CF\u30C3\u30BF\u30F3\u30FB\u30AF\u30E9\u30E0\u30C1\u30E3\u30A6\u30C0\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Coffee
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30D2\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CheeseCake
+    - Name: $v
+      Entry: 1
+      Data: "\u30C1\u30FC\u30BA\u30B1\u30FC\u30AD"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SoupVegetable
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30FC\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Fries
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30E9\u30A4\u30C9\u30DD\u30C6\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GrilledVegetables
+    - Name: $v
+      Entry: 1
+      Data: "\u713C\u304D\u91CE\u83DC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SalmonSteak
+    - Name: $v
+      Entry: 1
+      Data: "\u9B5A\u6599\u7406"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Greens
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30E9\u30C0"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SteakGrill
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30C6\u30FC\u30AD\u306E\u30B0\u30EA\u30EB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EntreeSteakPlates
+    - Name: $v
+      Entry: 1
+      Data: "\u524D\u83DC\u30B9\u30C6\u30FC\u30AD\u30D7\u30EC\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EntreeFishPlates
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30F3\u30C8\u30EC\u9B5A\u30D7\u30EC\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SoupPot
+    - Name: $v
+      Entry: 1
+      Data: "\u30B9\u30FC\u30D7\u306E\u934B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CoffeeMachine
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30D2\u30FC\u30E1\u30FC\u30AB\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CheesecakeOven
+    - Name: $v
+      Entry: 1
+      Data: "\u30C1\u30FC\u30BA\u30B1\u30FC\u30AD\u306E\u30AA\u30FC\u30D6\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FishGrill
+    - Name: $v
+      Entry: 1
+      Data: "\u9B5A\u306E\u30B0\u30EA\u30EB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Patisserie Truck
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30E9\u30C3\u30AF\u83D3\u5B50"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Croissant
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u306E\u751F\u5730"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Chocolate Sauce
+    - Name: $v
+      Entry: 1
+      Data: "\u30C1\u30E7\u30B3\u30EC\u30FC\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Hot Chocolate
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30B3\u30A2"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Custard
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30B9\u30BF\u30FC\u30C9\u30D1\u30A4"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Berries
+    - Name: $v
+      Entry: 1
+      Data: "\u30D9\u30EA\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Strawberry
+    - Name: $v
+      Entry: 1
+      Data: "\u3044\u3061\u3054"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Mint
+    - Name: $v
+      Entry: 1
+      Data: "\u30DF\u30F3\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CroissantOven
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u306E\u30AA\u30FC\u30D6\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HotChocolate Machine
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30B3\u30A2\u30DE\u30B7\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Croissant Plate
+    - Name: $v
+      Entry: 1
+      Data: "\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CustardFridge
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30B9\u30BF\u30FC\u30C9\u306E\u51B7\u8535\u5EAB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Custard Plate
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30B9\u30BF\u30FC\u30C9\u30D1\u30A4\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Cafe
+    - Name: $v
+      Entry: 1
+      Data: "\u30B3\u30FC\u30D2\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegs
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30A8\u30EB\u306E\u811A"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Juice
+    - Name: $v
+      Entry: 1
+      Data: "\u30B8\u30E5\u30FC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonBlue
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30AB\u30ED\u30F3\u30D6\u30EB\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonGreen
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30AB\u30ED\u30F3\u30B0\u30EA\u30FC\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonPink
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30AB\u30ED\u30F3\u30D4\u30F3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Asparagus
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30B9\u30D1\u30E9\u30AC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Escargot
+    - Name: $v
+      Entry: 1
+      Data: "\u30A8\u30B9\u30AB\u30EB\u30B4"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GarlicSauce
+    - Name: $v
+      Entry: 1
+      Data: "\u30AC\u30FC\u30EA\u30C3\u30AF\u30BD\u30FC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: TomatoSauce
+    - Name: $v
+      Entry: 1
+      Data: "\u30C8\u30DE\u30C8\u30BD\u30FC\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Lemon
+    - Name: $v
+      Entry: 1
+      Data: "\u30EC\u30E2\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_complete_map_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30D5\u3092\u30BF\u30C3\u30D7\u3057\u3066\u90FD\u5E02\u3092\u5B8C\u4E86\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_complete_map_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u30BF\u30C3\u30D7\u3057\u3066\u307B\u304B\u306E\u90FD\u5E02\u3078\u51FA\u767A\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_truck_unlock_1_Cafe
+    - Name: $v
+      Entry: 1
+      Data: "\u65B0\u3057\u3044\u30EC\u30B9\u30C8\u30E9\u30F3\\n \u65B0\u3057\u3044\u30E1\u30CB\u30E5\u30FC\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: restore_purchase
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165\u3092\u5FA9\u5143"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_apple
+    - Name: $v
+      Entry: 1
+      Data: "Apple\u3067\u30B5\u30A4\u30F3\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_facebook
+    - Name: $v
+      Entry: 1
+      Data: "Facebook\u3067\u30ED\u30B0\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_or
+    - Name: $v
+      Entry: 1
+      Data: "\u307E\u305F\u306F"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_EULA
+    - Name: $v
+      Entry: 1
+      Data: "\"<size=20>\u51E6\u7406\u3059\u308B\u3053\u3068\u306B\u540C\u610F\u3057\u307E\u3059
+        <color=#29867b><u><link=\"\"https://www.beemob.vn/terms-of-service/\"\">\u5229\u7528\u898F\u7D04</link></u></color>
+        \u305D\u3057\u3066\u79C1\u304C\u8AAD\u3093\u3060\u3053\u3068\u3092\u8A8D\u3081\u307E\u3059
+        <color=#29867b><u><link=\"\"https://www.beemob.vn/terms-of-service/\"\">\u500B\u4EBA\u60C5\u5831\u4FDD\u8B77\u65B9\u91DD</link></u></color>.</size>\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_text1
+    - Name: $v
+      Entry: 1
+      Data: "\u53CB\u9054\u3068\u904A\u3076\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sign_in_text2
+    - Name: $v
+      Entry: 1
+      Data: "\u8907\u6570\u306E\u6A5F\u5668\u3067\u30B2\u30FC\u30E0\u306E\u9032\u884C\u72B6\u6CC1\u3092\u540C\u671F\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_1
+    - Name: $v
+      Entry: 1
+      Data: "\u30B7\u30A7\u30D5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_2
+    - Name: $v
+      Entry: 1
+      Data: "<size=20>\u30AD\u30DF\u304C\u3044\u3066\u304F\u308C\u305F\u3089\u306A\u3041\uFF01</size>"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_3
+    - Name: $v
+      Entry: 1
+      Data: "\u90FD\u5E02\u5B8C\u4E86\u306E\u7121\u6599\u30AE\u30D5\u30C8\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: find_ticket_endmap_NewYork_4
+    - Name: $v
+      Entry: 1
+      Data: "\u91D1\u306E\u30AB\u30FC\u30C9\u3092\u96C6\u3081\u3066\u4E16\u754C\u4E2D\u306E\u6599\u7406\u306E\u65C5\u306B\u51FA\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: feedback_email
+    - Name: $v
+      Entry: 1
+      Data: "E\u30E1\u30FC\u30EB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_lollipop_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3063\u3068\uFF01\u304A\u5BA2\u3055\u3093\u304C\u6CE8\u6587\u306E\u5B8C\u4E86\u3092\u5F85\u3063\u3066\u308B\u3088\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_octopus_step1
+    - Name: $v
+      Entry: 1
+      Data: "\u304A\u3084\uFF01\u3053\u306E\u304A\u5BA2\u3055\u3093\u306F\u30AA\u30CB\u30AA\u30F3\u30EA\u30F3\u30B0\u3092\u3054\u6240\u671B\u3060\u305E\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: tutorial_octopus_step2
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30E9\u30A4\u30E4\u30FC\u3092\u4F7F\u3063\u3066\u307F\u3088\u3046\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cupcake_reach_limit_collect
+    - Name: $v
+      Entry: 1
+      Data: "\u96C6\u3081\u308B {0}"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_facebook_logout
+    - Name: $v
+      Entry: 1
+      Data: "\u30ED\u30B0\u30A2\u30A6\u30C8"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_avoidburn
+    - Name: $v
+      Entry: 1
+      Data: "\u3084\u3051\u3069\u3092\u3057\u306A\u3044"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_lollipop
+    - Name: $v
+      Entry: 1
+      Data: "\u30ED\u30EA\u30DD\u30C3\u30D7"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_doublecoin
+    - Name: $v
+      Entry: 1
+      Data: "\u30C0\u30D6\u30EB\u30B3\u30A4\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_instantcook
+    - Name: $v
+      Entry: 1
+      Data: "\u30A4\u30F3\u30B9\u30BF\u30F3\u30C8\u30AF\u30C3\u30AF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_helper
+    - Name: $v
+      Entry: 1
+      Data: "\u30D8\u30EB\u30D1\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_freezecombo
+    - Name: $v
+      Entry: 1
+      Data: "\u30D5\u30EA\u30FC\u30BA\u30B3\u30F3\u30DC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_30seconds
+    - Name: $v
+      Entry: 1
+      Data: "+30 \u79D2"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_3customers
+    - Name: $v
+      Entry: 1
+      Data: "+3 \u9867\u5BA2"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: booster_secondchance
+    - Name: $v
+      Entry: 1
+      Data: "\u30BB\u30AB\u30F3\u30C9\u30C1\u30E3\u30F3\u30B9"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: new_restaurant
+    - Name: $v
+      Entry: 1
+      Data: "\"<font=\"\"NotoSansTC-Regular SDF\"\" material=\"\"NotoSansTC-Regular
+        SDF Outline brown\"\">\u8FD1\u65E5\\n\u30AA\u30FC\u30D7\u30F3\uFF01</font>\""
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: JuiceMachine
+    - Name: $v
+      Entry: 1
+      Data: "\u30B8\u30E5\u30FC\u30B5\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: MacaroonOvenBlue
+    - Name: $v
+      Entry: 1
+      Data: "\u30DE\u30AB\u30ED\u30F3\u306E\u30AA\u30FC\u30D6\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegsPan
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30A8\u30EB\u306E\u811A\u306E\u30D5\u30E9\u30A4\u30D1\u30F3"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FrogLegsPlate
+    - Name: $v
+      Entry: 1
+      Data: "\u30AB\u30A8\u30EB\u306E\u811A\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EscargotPan
+    - Name: $v
+      Entry: 1
+      Data: "\u30A8\u30B9\u30AB\u30EB\u30B4\u306E\u934B"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: EscargotPlate
+    - Name: $v
+      Entry: 1
+      Data: "\u30A8\u30B9\u30AB\u30EB\u30B4\u306E\u76BF"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_hours
+    - Name: $v
+      Entry: 1
+      Data: "\u6642\u9593"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_minutes
+    - Name: $v
+      Entry: 1
+      Data: "\u5206"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_day
+    - Name: $v
+      Entry: 1
+      Data: "\u65E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: term_of_use
+    - Name: $v
+      Entry: 1
+      Data: "\u5229\u7528\u898F\u7D04"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: private_policy
+    - Name: $v
+      Entry: 1
+      Data: "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Time_short
+    - Name: $v
+      Entry: 1
+      Data: '{0}'
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: extra_shift_text
+    - Name: $v
+      Entry: 1
+      Data: "\u81E8\u6642\u30B7\u30D5\u30C8\uFF01"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: cancel_button
+    - Name: $v
+      Entry: 1
+      Data: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: purchase_button
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: subscription_detail_title
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u306E\u8A73\u7D30"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: google
+    - Name: $v
+      Entry: 1
+      Data: Google
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: apple
+    - Name: $v
+      Entry: 1
+      Data: Apple
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_1
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u3067\u306F\u3001\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u671F\u9593\u4E2D\u306B\u6B21\u306E\u7279\u6A29\u3092\u697D\u3057\u3080\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_2
+    - Name: $v
+      Entry: 1
+      Data: "\u652F\u6255\u3044\u306F\u8CFC\u5165\u306E\u78BA\u8A8D\u6642\u306B\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002\u81EA\u52D5\u66F4\u65B0\u304C\u73FE\u5728\u306E\u671F\u9593\u306E\u7D42\u4E86\u306E\u5C11\u306A\u304F\u3068\u308224\u6642\u9593\u524D\u306B\u30AA\u30D5\u306B\u3055\u308C\u306A\u3044\u9650\u308A\u3001\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u306F\u81EA\u52D5\u7684\u306B\u66F4\u65B0\u3055\u308C\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_3
+    - Name: $v
+      Entry: 1
+      Data: "{0}/{1}\u65E5"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_4
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u306F\u3001\u73FE\u5728\u306E\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B\u524D\u306E24\u6642\u9593\u4EE5\u5185\u306B\u66F4\u65B0\u6599\u304C\u8ACB\u6C42\u3055\u308C\u3001\u66F4\u65B0\u306E\u30B3\u30B9\u30C8\u304C\u7279\u5B9A\u3055\u308C\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_5
+    - Name: $v
+      Entry: 1
+      Data: "\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u306F\u30E6\u30FC\u30B6\u30FC\u304C\u7BA1\u7406\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u3001\u8CFC\u5165\u5F8C\u306B\u30E6\u30FC\u30B6\u30FC\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u8A2D\u5B9A\u306B\u79FB\u52D5\u3059\u308B\u3053\u3068\u3067\u81EA\u52D5\u66F4\u65B0\u3092\u30AA\u30D5\u306B\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: sub_detail_6
+    - Name: $v
+      Entry: 1
+      Data: "\u7121\u6599\u8A66\u7528\u671F\u9593\u306E\u672A\u4F7F\u7528\u90E8\u5206\u304C\u63D0\u4F9B\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u3001\u30E6\u30FC\u30B6\u30FC\u304C\u305D\u306E\u30D1\u30D6\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u3078\u306E\u30B5\u30D6\u30B9\u30AF\u30EA\u30D7\u30B7\u30E7\u30F3\u3092\u8CFC\u5165\u3059\u308B\u3068\u3001\u8A72\u5F53\u3059\u308B\u5834\u5408\u3001\u305D\u308C\u306F\u6CA1\u53CE\u3055\u308C\u307E\u3059\u3002"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: setting_restore_purchase
+    - Name: $v
+      Entry: 1
+      Data: "\u8CFC\u5165\u3092\u5FA9\u5143"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: avatar
+    - Name: $v
+      Entry: 1
+      Data: "\u30A2\u30D0\u30BF\u30FC"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

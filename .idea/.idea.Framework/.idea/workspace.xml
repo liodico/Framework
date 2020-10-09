@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efde17d7-e629-4f00-873c-3d411aa29848" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Prefab/UI/LoadingPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Prefab/UI/LoadingPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Prefab/UI/SettingPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Prefab/UI/SettingPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scenes/Splash.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/barBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/barBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/bar_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/bar_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/Splash/splash.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/logo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/logo/redantz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/logo/redantz.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/logo/redantz_tran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Texture/logo/redantz_tran.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Resources/DevSetting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Resources/DevSetting.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/SystemKoTrungUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Other/CoroutineUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Data/Chest/PremiumChest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Other/CoroutineUtilMEC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/MainMenuPanel/BtnVehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Beemob/Localization/Scripts/LocalizeText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/GameplayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Beemob/Utilities/PsdToGUI/ConvertPsdToGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/GamePanel/WinPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Other/EventDispatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Beemob/Utilities/ImageSliceExporter/SliceImageTexturePacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/EditTeamPanel/EditTeamPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Extensions And Helper/SpineAnimationExtenstion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/Popups/EarlyAccessWarningPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/2DxFX/Scripts/_2dxFX_Outline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/Widgets/CurrencyView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Scene/SplashScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/IntroPanel/IntroPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iceUgF0V1cB18qLYYSTdV7K1dd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efde17d7-e629-4f00-873c-3d411aa29848" name="Default Changelist" comment="" />
+      <created>1602211331274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602211331274</updated>
+      <workItem from="1602211365433" duration="5392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="567" y="255" width="786" height="530" key="find.popup" timestamp="1602218959932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="567" y="255" width="786" height="530" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602218959932" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602219717746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602219717746" />
+  </component>
+</project>

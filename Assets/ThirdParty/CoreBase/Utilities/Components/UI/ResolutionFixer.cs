@@ -1,66 +1,61 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Utilities.Components
 {
+    [ExecuteInEditMode]
     public class ResolutionFixer : MonoBehaviour
     {
-        public CanvasScaler canvasScaler;
-        public int screenWithStandard = 1920;
-        public int screenHeightStandard = 1080;
-        public bool enableTest;
-        public int screenWidthTest = 1920;
-        public int screenHeightTest = 1080;
+        public Camera camera;
 
         private void OnEnable()
         {
-            Fix();
+            Match();
         }
 
-        public void Fix()
+        public void Match()
         {
-            var resolution = Screen.currentResolution;
-            float screenAspect = resolution.width * 1f / resolution.height;
-            float preferAspect = screenWithStandard / screenHeightStandard;
-            if (screenAspect < preferAspect)
-                canvasScaler.matchWidthOrHeight = 1f;
-            else
-                canvasScaler.matchWidthOrHeight = 0f;
-#if UNITY_EDITOR
-            if (enableTest)
+            //độ phân giải tiêu chuẩn
+            //720x1560
+            //1170x1560
+            float screenWidth = Screen.width;
+            float screenHeight = Screen.height;
+            float screenAspect = screenWidth * 1.0f / screenHeight;
+            float milestoneAspect = 9f / 19.5f;
+
+            if (screenAspect <= milestoneAspect)
             {
-                screenAspect = screenWidthTest * 1f / screenHeightTest;
-                preferAspect = screenWithStandard / screenHeightStandard;
-                if (screenAspect < preferAspect)
-                    canvasScaler.matchWidthOrHeight = 1f;
-                else
-                    canvasScaler.matchWidthOrHeight = 0f;
+                camera.orthographicSize = (720f / 100.0f) / (2 * screenAspect);
             }
-#endif
+            else
+            {
+                camera.orthographicSize = 7.8f; //1560f / 200f
+            }
         }
     }
 
 #if UNITY_EDITOR
 
     [UnityEditor.CustomEditor(typeof(ResolutionFixer))]
-    public class CanvasResolutionFixerEditor : UnityEditor.Editor
+    public class ResolutionMatchEditor : UnityEditor.Editor
     {
-        private ResolutionFixer mScript;
+        private ResolutionFixer script;
 
         private void OnEnable()
         {
-            mScript = (ResolutionFixer)target;
+            script = (ResolutionFixer)target;
         }
 
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
 
-            if (GUILayout.Button("Fix"))
-                mScript.Fix();
+            if (GUILayout.Button("Match")) { script.Match(); }
         }
     }
 #endif
+
 }

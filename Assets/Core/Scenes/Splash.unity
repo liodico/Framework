@@ -157,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2748, y: 1544}
+  m_SizeDelta: {x: 420, y: 132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &252675715
 Animator:
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &1512415975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 720, y: 1560}
   m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -904,6 +904,7 @@ GameObject:
   - component: {fileID: 1553443846}
   - component: {fileID: 1553443845}
   - component: {fileID: 1553443844}
+  - component: {fileID: 1553443847}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -946,7 +947,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.4
+  orthographic size: 7.7999997
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -976,6 +977,19 @@ Transform:
   m_Father: {fileID: 530398173}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553443847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553443843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4825ec18cffce7d418de9656f9051877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1553443845}
 --- !u!1 &1804421296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1016,7 @@ RectTransform:
   m_GameObject: {fileID: 1804421296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.18, y: 1.18, z: 1}
+  m_LocalScale: {x: 0.415, y: 0.415, z: 1}
   m_Children:
   - {fileID: 844753153}
   - {fileID: 1835480319}
