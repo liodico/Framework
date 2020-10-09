@@ -18,7 +18,7 @@ MonoBehaviour:
     crashEmail: pivot.leader@gmail.com
     enableLog: 0
     enableDraw: 0
-    showFPS: 0
+    showFPS: 1
     enableCheat: 0
     enableCheatTime: 0
     defines:
@@ -42,10 +42,10 @@ MonoBehaviour:
       enabled: 1
     - name: ACTIVE_FIREBASE
       color: {r: 1, g: 1, b: 1, a: 1}
-      enabled: 0
+      enabled: 1
     - name: ACTIVE_FIREBASE_ANALYTICS
       color: {r: 1, g: 1, b: 1, a: 1}
-      enabled: 0
+      enabled: 1
     - name: UNLOCK_ALL
       color: {r: 1, g: 1, b: 1, a: 1}
       enabled: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
       enabled: 0
     - name: ACTIVE_FIREBASE_CRASHLYTICS
       color: {r: 1, g: 1, b: 1, a: 1}
-      enabled: 0
+      enabled: 1
     - name: ACTIVE_FACEBOOK
       color: {r: 1, g: 1, b: 1, a: 1}
       enabled: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
       enabled: 1
     - name: ACTIVE_FBAN
       color: {r: 1, g: 1, b: 1, a: 1}
-      enabled: 0
+      enabled: 1
     - name: ACTIVE_IRONSOURCE
       color: {r: 1, g: 1, b: 1, a: 1}
       enabled: 1

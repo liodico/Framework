@@ -16,9 +16,9 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 555513878660072
+  - 274775616930737
   appLabels:
-  - Semi Heroes 2
+  - Zombie Defense 2
   cookie: 1
   logging: 1
   status: 1

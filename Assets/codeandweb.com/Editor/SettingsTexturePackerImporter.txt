@@ -1,6 +1,21 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Core/Texture/Atlas/atlas_all_1.tpsheet
+- Assets/Core/Texture/Atlas/atlas_all_2.tpsheet
+- Assets/Core/Texture/Atlas/atlas_perk_icons_1.tpsheet
+- Assets/Core/Texture/Atlas/atlas_shop_1.tpsheet
+- Assets/Core/Texture/Atlas/atlas_unit_icons_1.tpsheet
 textureFileNames:
+- Assets/Core/Texture/Atlas/atlas_all_1.png
+- Assets/Core/Texture/Atlas/atlas_all_2.png
+- Assets/Core/Texture/Atlas/atlas_perk_icons_1.png
+- Assets/Core/Texture/Atlas/atlas_shop_1.png
+- Assets/Core/Texture/Atlas/atlas_unit_icons_1.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
 enableDebugOutput: 0

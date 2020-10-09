@@ -64,6 +64,11 @@ namespace FoodZombie
                 Destroy(gameObject);
         }
 
+        private void Start()
+        {
+            Application.targetFrameRate = 60;
+        }
+
         private void OnApplicationPause(bool pause)
         {
             if (!mInitialized)

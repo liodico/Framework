@@ -124,7 +124,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.6.9
+  bundleVersion: 0.8.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -170,7 +170,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.redantz.game.zdefense2
   buildNumber: {}
-  AndroidBundleVersionCode: 69
+  AndroidBundleVersionCode: 80
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
@@ -415,7 +415,7 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -674,7 +674,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    7: DEVELOPMENT;UNITY_IAP;UNITY_ADS;UNITY_MONETIZATION;USE_DOTWEEN;ACTIVE_ADMOB;ACTIVE_IRONSOURCE
+    7: DEVELOPMENT;UNITY_IAP;UNITY_ADS;UNITY_MONETIZATION;USE_DOTWEEN;ACTIVE_FIREBASE;ACTIVE_FIREBASE_ANALYTICS;ACTIVE_FIREBASE_CRASHLYTICS;ACTIVE_ADMOB;ACTIVE_FBAN;ACTIVE_IRONSOURCE
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
