@@ -15,7 +15,7 @@ MonoBehaviour:
   profiles:
   - name: Development
     serverUrl: 
-    crashEmail: redantz.crash@gmail.com
+    crashEmail: pivot.leader@gmail.com
     enableLog: 0
     enableDraw: 0
     showFPS: 0

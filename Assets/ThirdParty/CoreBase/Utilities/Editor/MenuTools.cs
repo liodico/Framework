@@ -14,13 +14,13 @@ namespace Utilities.Editor
         private const string SHIFT = "#";
         private const string CTRL = "%";
 
-        [MenuItem("RUtilities/Save Assets " + SHIFT + "_1", priority = 1)]
+        [MenuItem("DevTools/Save Assets " + SHIFT + "_1", priority = 11)]
         private static void SaveAssets()
         {
             AssetDatabase.SaveAssets();
         }
 
-        [MenuItem("RUtilities/Dirty Selections " + SHIFT + "_2", priority = 2)]
+        [MenuItem("DevTools/Dirty Selections " + SHIFT + "_2", priority = 12)]
         private static void Dirty()
         {
             var objs = Selection.gameObjects;
@@ -30,7 +30,7 @@ namespace Utilities.Editor
 
         //==========================================================
 
-        [MenuItem("RUtilities/Group Scene Objects " + ALT + "_F1", priority = 31)]
+        [MenuItem("DevTools/Group Scene Objects " + ALT + "_F1", priority = 31)]
         private static void GroupSceneObjects()
         {
             var objs = Selection.gameObjects;
@@ -45,7 +45,7 @@ namespace Utilities.Editor
             }
         }
 
-        [MenuItem("RUtilities/Ungroup Scene Objects " + ALT + "_F2", priority = 32)]
+        [MenuItem("DevTools/Ungroup Scene Objects " + ALT + "_F2", priority = 32)]
         private static void UngroupSceneObjects()
         {
             var objs = Selection.gameObjects;
@@ -58,19 +58,19 @@ namespace Utilities.Editor
 
         //==========================================================
 
-        [MenuItem("RUtilities/Run _F5", priority = 61)]
+        [MenuItem("DevTools/Run _F5", priority = 61)]
         private static void Run()
         {
             EditorApplication.isPlaying = true;
         }
 
-        [MenuItem("RUtilities/Stop #_F5", priority = 62)]
+        [MenuItem("DevTools/Stop #_F5", priority = 62)]
         private static void Stop()
         {
             EditorApplication.isPlaying = false;
         }
 
-        //[MenuItem("RUtilities/Just Crash", priority = 63)]
+        //[MenuItem("DevTools/Just Crash", priority = 63)]
         //private static void JustCrash()
         //{
         //    //It used to test game behaviour if crashing happen

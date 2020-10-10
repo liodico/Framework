@@ -4,7 +4,7 @@ using UnityEngine;
 using Utilities.Inspector;
 using Debug = UnityEngine.Debug;
 
-[CreateAssetMenu(fileName = "DevSetting", menuName = "RUtilities/Dev Setting")]
+[CreateAssetMenu(fileName = "DevSetting", menuName = "DevTools/Dev Setting")]
 public class DevSetting : ScriptableObject
 {
     #region Internal Class

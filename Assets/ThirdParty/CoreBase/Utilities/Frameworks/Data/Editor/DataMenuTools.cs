@@ -7,27 +7,27 @@ namespace Utilities.Pattern.Data
 {
     public class DataMenuTools
     {
-        [MenuItem("RUtilities/Data/Open Data Window %_#_'")]
+        [MenuItem("DevTools/Data/Open Data Window %_#_'")]
         private static void OpenDataWindow()
         {
             var window = EditorWindow.GetWindow<DataWindow>("Game Data", true);
             window.Show();
         }
 
-        [MenuItem("RUtilities/Data/Clear PlayerPrefs")]
+        [MenuItem("DevTools/Data/Clear PlayerPrefs")]
         private static void ClearPlayerPrefs()
         {
             EditorHelper.ConfimPopup(() => { PlayerPrefs.DeleteAll(); });
         }
 
         /*
-        [MenuItem("RUtilities/Data/Clear Game Data")]
+        [MenuItem("DevTools/Data/Clear Game Data")]
         private static void ClearSaveData()
         {
             EditorHelper.ConfimPopup(() => { DataSaverContainer.DeleteAll(); });
         }
 
-        [MenuItem("RUtilities/Data/Backup Game Data")]
+        [MenuItem("DevTools/Data/Backup Game Data")]
         private static void BackUpData()
         {
             string path = EditorUtility.SaveFilePanelInProject("Save Backup", "GameData_" + System.DateTime.Now.ToString().Replace("/", "_").Replace(":", "_")
@@ -38,7 +38,7 @@ namespace Utilities.Pattern.Data
             }
         }
 
-        [MenuItem("RUtilities/Data/Restore Game Data")]
+        [MenuItem("DevTools/Data/Restore Game Data")]
         private static void RestoreData()
         {
             string path = EditorUtility.OpenFilePanel("Select Backup Data File", Application.dataPath, "txt");
@@ -48,13 +48,13 @@ namespace Utilities.Pattern.Data
             }
         }
 
-        [MenuItem("RUtilities/Data/Log Game Data")]
+        [MenuItem("DevTools/Data/Log Game Data")]
         private static void LogData()
         {
             DataSaverContainer.LogData();
         }
 
-        [MenuItem("RUtilities/Data/Save Game Data (In Game)")]
+        [MenuItem("DevTools/Data/Save Game Data (In Game)")]
         private static void Save()
         {
             if (!Application.isPlaying)

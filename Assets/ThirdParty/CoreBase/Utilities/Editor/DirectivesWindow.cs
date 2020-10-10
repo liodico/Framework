@@ -199,7 +199,7 @@ namespace Utilities.Common
             return false;
         }
 
-        [MenuItem("RUtilities/Tools/Open Directives Window (obsolete)")]
+        [MenuItem("DevTools/Tools/Open Directives Window (obsolete)")]
         private static void OpenDirectivesEditorWindow()
         {
             var window = EditorWindow.GetWindow<DirectivesWindow>("Directives Manager", true);

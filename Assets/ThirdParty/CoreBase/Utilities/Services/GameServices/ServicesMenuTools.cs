@@ -9,7 +9,7 @@ namespace Utilities.Service
 {
     public class ServicesMenuTools : Editor
     {
-        [MenuItem("RUtilities/Services/Add Firebase Manager")]
+        [MenuItem("DevTools/Services/Add Firebase Manager")]
         private static void AddFirebaseManager()
         {
             var manager = FindObjectOfType<RFirebase.RFirebaseManager>();
@@ -20,7 +20,7 @@ namespace Utilities.Service
             }
         }
 
-        [MenuItem("RUtilities/Services/Add Game Services")]
+        [MenuItem("DevTools/Services/Add Game Services")]
         private static void AddGameServices()
         {
             var manager = FindObjectOfType<GPGS.GameServices>();
@@ -31,7 +31,7 @@ namespace Utilities.Service
             }
         }
 
-        [MenuItem("RUtilities/Services/Add Ads Manager")]
+        [MenuItem("DevTools/Services/Add Ads Manager")]
         private static void AddAdsManager()
         {
             var manager = FindObjectOfType<Ads.AdsManager>();
@@ -42,7 +42,7 @@ namespace Utilities.Service
             }
         }
 
-        [MenuItem("RUtilities/Services/Add IAP Helper")]
+        [MenuItem("DevTools/Services/Add IAP Helper")]
         private static void AddIAPHelper()
         {
             var manager = FindObjectOfType<PaymentHelper>();
@@ -53,7 +53,7 @@ namespace Utilities.Service
             }
         }
 
-        [MenuItem("RUtilities/Services/Add Local Notification Helper")]
+        [MenuItem("DevTools/Services/Add Local Notification Helper")]
         private static void AddLocalNotificationHelper()
         {
             var manager = FindObjectOfType<Notification.LocalNotificationHelper>();

@@ -8,7 +8,7 @@ namespace Utilities.Components
 {
     public class AudioMenuTools : Editor
     {
-        [MenuItem("RUtilities/Audio/Add Audio Manager")]
+        [MenuItem("DevTools/Audio/Add Audio Manager")]
         private static void AddAudioManager()
         {
             var manager = GameObject.FindObjectOfType<AudioManager>();
@@ -19,7 +19,7 @@ namespace Utilities.Components
             }
         }
 
-        [MenuItem("RUtilities/Audio/Add Hybird Audio Manager")]
+        [MenuItem("DevTools/Audio/Add Hybird Audio Manager")]
         private static void AddHybirdAudioManager()
         {
             var manager = GameObject.FindObjectOfType<HybirdAudioManager>();
@@ -30,13 +30,13 @@ namespace Utilities.Components
             }
         }
 
-        [MenuItem("RUtilities/Audio/Open Audio Collection")]
+        [MenuItem("DevTools/Audio/Open Audio Collection")]
         private static void OpenAudioCollection()
         {
             Selection.activeObject = AudioCollection.Instance;
         }
 
-        [MenuItem("RUtilities/Audio/Open Hybird Audio Collection")]
+        [MenuItem("DevTools/Audio/Open Hybird Audio Collection")]
         private static void OpenHybirdAudioCollection()
         {
             Selection.activeObject = HybirdAudioCollection.Instance;

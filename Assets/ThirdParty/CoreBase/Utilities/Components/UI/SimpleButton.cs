@@ -65,7 +65,7 @@ namespace Utilities.Components
                 serializedObject.ApplyModifiedProperties();
         }
 
-        [MenuItem("RUtilities/UI/Replace Button By SimpleButton")]
+        [MenuItem("DevTools/UI/Replace Button By SimpleButton")]
         private static void ReplaceButton()
         {
             var gameobjects = Selection.gameObjects;

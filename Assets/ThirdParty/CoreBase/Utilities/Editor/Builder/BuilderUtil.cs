@@ -373,7 +373,7 @@ namespace Utilities.Editor
             Build(profile);
         }
 
-        [MenuItem("RUtilities/Tools/Open Builder Window")]
+        [MenuItem("DevTools/Tools/Open Builder Window")]
         private static void OpenDevEditorWindow()
         {
             var window = EditorWindow.GetWindow<BuilderWindow>("Builder Settings", true);
@@ -381,7 +381,7 @@ namespace Utilities.Editor
         }
 
         /*
-        [MenuItem("RUtilities/Tools/Build Now")]
+        [MenuItem("DevTools/Tools/Build Now")]
         static void BuildCurrent()
         {
             var profile = new BuildProfile();

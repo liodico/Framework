@@ -370,7 +370,7 @@ namespace Utilities.Editor
 
         //==========================
 
-        [MenuItem("RUtilities/Tools/Tools Collection")]
+        [MenuItem("DevTools/Tools/Tools Collection")]
         private static void OpenDevEditorWindow()
         {
             var window = GetWindow<ToolsCollectionWindow>("Tools Collection", true);

@@ -15,7 +15,7 @@ namespace Beemob.Utilities.PsdToGUI
 {
     public class ConvertPsdToGui : OdinEditorWindow
     {
-        [MenuItem("Beemob/Utilities/Psd To GUI")]
+        [MenuItem("DevTools/Psd To GUI", priority = 1)]
         private static void OpenWindow()
         {
             GetWindow<ConvertPsdToGui>().Show();

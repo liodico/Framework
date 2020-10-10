@@ -322,7 +322,7 @@ namespace Utilities.Components
             serializedObject.ApplyModifiedProperties();
         }
 
-        [UnityEditor.MenuItem("RUtilities/UI/Replace Button By JustButton")]
+        [UnityEditor.MenuItem("DevTools/UI/Replace Button By JustButton")]
         private static void ReplaceButton()
         {
             var gameobjects = UnityEditor.Selection.gameObjects;

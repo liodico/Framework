@@ -566,7 +566,7 @@ public class DevSettingEditor : Editor
 
     //======== CHEATS
 
-    [MenuItem("RUtilities/Tools/Open Dev Settings %_#_;")]
+    [MenuItem("DevTools/Tools/Open Dev Settings %_#_;")]
     private static void OpenDevSettings()
     {
         Selection.activeObject = DevSetting.Instance;

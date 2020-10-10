@@ -14,7 +14,7 @@ namespace Utilities.Components
     /// Require Pre-setup in Json Data, Json data must be seriealized List of SoundsCollection.Sound class
     /// It is suitable for game with many sounds and managed by Excel
     /// </summary>
-    [CreateAssetMenu(fileName = "HybirdAudioCollection", menuName = "RUtilities/Hybird Audio Collection")]
+    [CreateAssetMenu(fileName = "HybirdAudioCollection", menuName = "DevTools/Hybird Audio Collection")]
     public class HybirdAudioCollection : ScriptableObject
     {
         [System.Serializable]

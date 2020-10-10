@@ -15,7 +15,7 @@ namespace Utilities.Demo
         public override bool @readonly => false;
     }
 
-    [CreateAssetMenu(fileName = "ExampleAssetsCollection", menuName = "RUtilities/Assets Collection Example")]
+    [CreateAssetMenu(fileName = "ExampleAssetsCollection", menuName = "DevTools/Assets Collection Example")]
     public class ExampleAssetsCollection : ScriptableObject
     {
         public SpritesList icons;

@@ -13,7 +13,7 @@ namespace Utilities.Components
     /// Simple audio collection
     /// Simple enough for small game which does not require many sounds
     /// </summary>
-    [CreateAssetMenu(fileName = "AudioCollection", menuName = "RUtilities/Audio Collection")]
+    [CreateAssetMenu(fileName = "AudioCollection", menuName = "DevTools/Audio Collection")]
     public class AudioCollection : ScriptableObject
     {
         private static AudioCollection mInstance;
