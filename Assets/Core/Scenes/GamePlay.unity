@@ -740,7 +740,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.4
+  orthographic size: 7.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -783,12 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4825ec18cffce7d418de9656f9051877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasScaler: {fileID: 251201503}
-  screenWithStandard: 1920
-  screenHeightStandard: 1080
-  enableTest: 0
-  screenWidthTest: 1920
-  screenHeightTest: 1080
+  camera: {fileID: 602960678}
 --- !u!114 &602960681
 MonoBehaviour:
   m_ObjectHideFlags: 0

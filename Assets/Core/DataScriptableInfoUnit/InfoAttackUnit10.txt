@@ -1,1 +1,0 @@
-{"InfoAttackUnit":null,"InfoSkillUnit":"[{\"id\":1,\"typeSkill\":2,\"idSkill\":5}]","ListConditionAction":null,"ConditionAction":null}
