@@ -20,25 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efde17d7-e629-4f00-873c-3d411aa29848" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Beemob/Utilities/PsdToGUI/ConvertPsdToGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Beemob/Utilities/PsdToGUI/ConvertPsdToGUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scenes/Splash.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ProfilesCollection.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ProfilesCollection.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/DevSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/DevSetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Editor/DevSettingEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Editor/DevSettingEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Demo/Script/ExampleAssetsCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Demo/Script/ExampleAssetsCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioMenuTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioMenuTools.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/HybirdAudioCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/HybirdAudioCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/JustButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/JustButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleTMPButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleTMPButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/Builder/BuilderUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/Builder/BuilderUtil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/DirectivesWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/DirectivesWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/MenuTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/MenuTools.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/ToolsCollectionWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/ToolsCollectionWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/Editor/DataMenuTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/Editor/DataMenuTools.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Services/GameServices/ServicesMenuTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Services/GameServices/ServicesMenuTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF Outline Brown.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF Outline Brown.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF Outline Green.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF Outline Green.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Fonts/New/Burbank Big Condensed Black.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Prefab/UI/HubPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Prefab/UI/HubPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scenes/GamePlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/GameplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/GameplayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/SpineSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/ToolsCollectionWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/Editor/DataMenuTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/GameplayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Hero/HeroControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Services/GameServices/ServicesMenuTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Editor/DevSettingEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/HybirdAudioCollection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,17 +72,20 @@
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/Popups/EarlyAccessWarningPopup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/Widgets/CurrencyView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Enemy/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Scene/SplashScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/HubPanel/HubHeroButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleTMPButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/JustButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/MainMenuPanel/BtnVehicle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Demo/Script/ExampleAssetsCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/GamePanel/WinPanel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Beemob/Utilities/PsdToGUI/ConvertPsdToGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/MainGamePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/AntiCheat/Encryption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/DragCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Extensions And Helper/SpineAnimationExtenstion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/2DxFX/Scripts/_2dxFX_JellyAutoMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/2DxFX/Scripts/_2dxFX_Outline.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,6 +114,7 @@
         <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/Builder/BuilderUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/MenuTools.cs" />
         <option value="$PROJECT_DIR$/Assets/Beemob/Utilities/PsdToGUI/ConvertPsdToGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/GameplayController.cs" />
       </list>
     </option>
   </component>
@@ -130,10 +133,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6536">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="6536" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -155,6 +158,7 @@
       <updated>1602211331274</updated>
       <workItem from="1602211365433" duration="5392000" />
       <workItem from="1602296126602" duration="6500000" />
+      <workItem from="1602474329485" duration="7249000" />
     </task>
     <servers />
   </component>
@@ -243,13 +247,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602321406928" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1602478196194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602478196194" />
     <state x="323" y="18" width="786" height="697" key="find.popup" timestamp="1602320903218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="323" y="18" width="786" height="697" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602320903218" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602320940472">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602477522011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602320940472" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602477522011" />
   </component>
 </project>

@@ -36,19 +36,6 @@
             </e>
           </e>
         </e>
-        <e p="Beemob" t="Include">
-          <e p="Utilities" t="Include">
-            <e p="ImageSliceExporter" t="Include">
-              <e p="SliceImageTexturePacker.cs" t="Include" />
-            </e>
-            <e p="JsonHelper.cs" t="Include" />
-            <e p="PsdToGUI" t="Include">
-              <e p="ConvertPsdToGUI.cs" t="Include" />
-            </e>
-            <e p="ServiceLocator.cs" t="Include" />
-            <e p="Singleton.cs" t="Include" />
-          </e>
-        </e>
         <e p="BuildReport" t="Include">
           <e p="BuildReportToolOptions.xml" t="Include" />
           <e p="license.txt" t="Include" />
@@ -1794,6 +1781,14 @@
                   <e p="PanelStack.cs" t="Include" />
                 </e>
               </e>
+              <e p="ImageSliceExporter" t="Include">
+                <e p="SliceImageTexturePacker.cs" t="Include" />
+              </e>
+              <e p="JsonHelper.cs" t="Include" />
+              <e p="PsdToGUI" t="Include">
+                <e p="ConvertPsdToGUI.cs" t="Include" />
+              </e>
+              <e p="ServiceLocator.cs" t="Include" />
               <e p="Services" t="Include">
                 <e p="Advertising" t="Include">
                   <e p="AdId.cs" t="Include" />
@@ -1849,6 +1844,7 @@
                 </e>
                 <e p="PaymentHelper.cs" t="Include" />
               </e>
+              <e p="Singleton.cs" t="Include" />
             </e>
           </e>
           <e p="Demigiant" t="Include">

@@ -61,16 +61,6 @@ public class GameplayController : MonoBehaviour
     private HubPanel hubPanel;
 
     //stats
-    private static float TIME_UP_FOOD_NORMAL = 0.5f; //0.5 giây tăng 1 thịt
-
-    public float currentFood = 0f;
-    private float MAX_FOOD = 100;
-    private float timeUpFood = 0;//bao nhiêu giây hồi 1 food
-    private float countTimeUpFood = 0f;
-
-    public float currentRage = 0;
-    private float MAX_RAGE = 100;
-
     public Transform heroSpawnPos;
     public Transform transformPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<HeroControlsPool> heroControlsPool;
@@ -81,11 +71,9 @@ public class GameplayController : MonoBehaviour
 
     private List<HeroControl> heroes;
     private List<EnemyControl> enemies;
-    [SerializeField] private HeroControl vehicle;
     [SerializeField] private EnemyControl barrier;
 
     private SystemKoTrungUnit systemKoTrung = new SystemKoTrungUnit();
-    private List<HeroControl> koTrungHeroes;
     private List<EnemyControl> koTrungEnemies;
     private Dictionary<int, int> totalKills;
     // Start is called before the first frame update
@@ -108,61 +96,26 @@ public class GameplayController : MonoBehaviour
         textHpsPool.Free();
 
         hubPanel = _hubPanel;
-
-        //stats
-        currentFood = GameData.Instance.FoodGuyData.GetStartingFood();
-        timeUpFood = TIME_UP_FOOD_NORMAL / (1f + (GameData.Instance.FoodGuyData.GetFoodSpeed() / 100f));
-        hubPanel.ShowFood(currentFood, MAX_FOOD);
-
-        currentRage = 0;
-        hubPanel.ShowRage(currentRage, MAX_RAGE);
-
         var heroDatas = GameData.Instance.HeroesGroup.GetEquippedHeroes();
         hubPanel.ShowHubHeroButtons(heroDatas);
 
         listEnemyDatas = GameData.Instance.EnemiesGroup.GetAllEnemyDatas();
-
         heroes = new List<HeroControl>();
-        koTrungHeroes = new List<HeroControl>();
         enemies = new List<EnemyControl>();
         koTrungEnemies = new List<EnemyControl>();
-        vehicle.Init();
         barrier.Init();
 
         totalKills = new Dictionary<int, int>();
     }
 
-    private void FixedUpdate()
+    public void SpawnHero(HeroData heroData)
     {
-        countTimeUpFood += (Time.fixedDeltaTime /** ratePWRegen*/);
-        if (countTimeUpFood >= timeUpFood)
-        {
-            currentFood += 1;
-            countTimeUpFood -= timeUpFood;
-        }
-        if (currentFood > MAX_FOOD) currentFood = MAX_FOOD;
-        hubPanel.ShowFood(currentFood, MAX_FOOD);
-    }
-
-    public bool SpawnHero(HeroData heroData)
-    {
-        var foodCost = heroData.FoodRequired;
-        if (currentFood >= foodCost)
-        {
-            var idHero = heroData.Id;
-            var heroControl = heroControlsPool[idHero - 1].list.Obtain(transformPool);
-            var pos = heroSpawnPos.position;
-            heroControl.transform.position = pos; //+ new Vector3(GameplayConfig.EasyRandom(-0.2f, 0.2f), GameplayConfig.EasyRandom(-0.3f, 0.3f), 0f);
-            heroControl.Init(heroData);
-            heroControl.SetActive(true);
-
-            currentFood -= foodCost;
-            if (currentFood < 0f) currentFood = 0f;
-
-            return true;
-        }
-
-        return false;
+        var idHero = heroData.Id;
+        var heroControl = heroControlsPool[idHero - 1].list.Obtain(transformPool);
+        var pos = heroSpawnPos.position;
+        heroControl.transform.position = pos;
+        heroControl.Init(heroData);
+        heroControl.SetActive(true);
     }
 
     private void SpawnEnemy(EnemyData enemyData)
@@ -189,7 +142,6 @@ public class GameplayController : MonoBehaviour
     {
         while (true)
         {
-            systemKoTrung.UpdateCheckKoTrung(koTrungHeroes);
             systemKoTrung.UpdateCheckKoTrung(koTrungEnemies);
             yield return new WaitForSeconds(0.1f);
         }
@@ -203,13 +155,6 @@ public class GameplayController : MonoBehaviour
         textHp.SetActive(true);
     }
 
-    public void AddRage(float rageAdd)
-    {
-        currentRage += rageAdd;
-        if (currentRage > MAX_RAGE) currentRage = MAX_RAGE;
-        hubPanel.ShowRage(currentRage, MAX_RAGE);
-    }
-
     public List<HeroControl> GetHeroes()
     {
         return heroes;
@@ -218,14 +163,12 @@ public class GameplayController : MonoBehaviour
     public void AddHero(HeroControl hero)
     {
         heroes.Add(hero);
-        if (hero.type != EnemyControl.TYPE_DUMMY) koTrungHeroes.Add(hero);
     }
 
     public void RemoveHero(HeroControl hero)
     {
         heroes.Remove(hero);
-        if (hero.type != EnemyControl.TYPE_DUMMY) koTrungHeroes.Remove(hero);
-        else
+        if (hero.type == HeroControl.TYPE_DUMMY)
         {
             var rewards = GameData.Instance.MissionsGroup.Lose(Config.TYPE_MODE_NORMAL);
             MainGamePanel.instance.ShowLosePanel(rewards);
