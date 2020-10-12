@@ -14,13 +14,13 @@ namespace Utilities.Editor
         private const string SHIFT = "#";
         private const string CTRL = "%";
 
-        [MenuItem("DevTools/Save Assets " + SHIFT + "_1", priority = 11)]
+        [MenuItem("DevTools/Save Assets " + SHIFT + "_1", priority = 21)]
         private static void SaveAssets()
         {
             AssetDatabase.SaveAssets();
         }
 
-        [MenuItem("DevTools/Dirty Selections " + SHIFT + "_2", priority = 12)]
+        [MenuItem("DevTools/Dirty Selections " + SHIFT + "_2", priority = 22)]
         private static void Dirty()
         {
             var objs = Selection.gameObjects;
@@ -30,7 +30,7 @@ namespace Utilities.Editor
 
         //==========================================================
 
-        [MenuItem("DevTools/Group Scene Objects " + ALT + "_F1", priority = 31)]
+        [MenuItem("DevTools/Group Scene Objects " + ALT + "_F1", priority = 41)]
         private static void GroupSceneObjects()
         {
             var objs = Selection.gameObjects;
@@ -45,7 +45,7 @@ namespace Utilities.Editor
             }
         }
 
-        [MenuItem("DevTools/Ungroup Scene Objects " + ALT + "_F2", priority = 32)]
+        [MenuItem("DevTools/Ungroup Scene Objects " + ALT + "_F2", priority = 42)]
         private static void UngroupSceneObjects()
         {
             var objs = Selection.gameObjects;
