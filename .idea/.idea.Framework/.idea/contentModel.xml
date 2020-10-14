@@ -409,6 +409,16 @@
               <e p="SoundManagerEditor.cs" t="Include" />
             </e>
             <e p="Gameplay" t="Include">
+              <e p="Bullet" t="Include">
+                <e p="BaseShot.cs" t="Include" />
+                <e p="Bullet.cs" t="Include" />
+                <e p="BulletManager.cs" t="Include" />
+                <e p="BulletTimer.cs" t="Include" />
+                <e p="NwayLockOnShot.cs" t="Include" />
+                <e p="ShotControl.cs" t="Include" />
+                <e p="TentacleBullet.cs" t="Include" />
+                <e p="Util.cs" t="Include" />
+              </e>
               <e p="Common" t="Include">
                 <e p="HpBar.cs" t="Include" />
                 <e p="TextHp.cs" t="Include" />
@@ -2491,6 +2501,90 @@
                 <e p="SkeletonGraphicMultiObjectEditor.cs" t="Include" />
               </e>
               <e p="SkeletonGraphicMultiObject.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UniBulletHell" t="Include">
+            <e p="Example" t="Include">
+              <e p="PaintShotData" t="Include">
+                <e p="paint_shot_data_0001.txt" t="Include" />
+                <e p="paint_shot_data_0002.txt" t="Include" />
+              </e>
+              <e p="Script" t="Include">
+                <e p="UbhAutoDespawnParticle.cs" t="Include" />
+                <e p="UbhAutoScaleGUIText.cs" t="Include" />
+                <e p="UbhBackground.cs" t="Include" />
+                <e p="UbhDebugInfo.cs" t="Include" />
+                <e p="UbhDestroyArea.cs" t="Include" />
+                <e p="UbhEmitter.cs" t="Include" />
+                <e p="UbhEnemy.cs" t="Include" />
+                <e p="UbhExplosion.cs" t="Include" />
+                <e p="UbhManager.cs" t="Include" />
+                <e p="UbhPlayer.cs" t="Include" />
+                <e p="UbhScore.cs" t="Include" />
+                <e p="UbhSetting.cs" t="Include" />
+                <e p="UbhShowcaseCtrl.cs" t="Include" />
+                <e p="UbhSimpleBullet.cs" t="Include" />
+                <e p="UbhSpaceship.cs" t="Include" />
+                <e p="UbhTitle.cs" t="Include" />
+              </e>
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="Script" t="Include">
+              <e p="Bullet" t="Include">
+                <e p="UbhBullet.cs" t="Include" />
+                <e p="UbhTentacleBullet.cs" t="Include" />
+              </e>
+              <e p="Controller" t="Include">
+                <e p="UbhShotCtrl.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="UbhBaseShotInspector.cs" t="Include" />
+                <e p="UbhPaintShotInspector.cs" t="Include" />
+                <e p="UbhShotCtrlInspector.cs" t="Include" />
+                <e p="UbhTimerInspector.cs" t="Include" />
+              </e>
+              <e p="ShotPattern" t="Include">
+                <e p="UbhBaseShot.cs" t="Include" />
+                <e p="UbhCircleShot.cs" t="Include" />
+                <e p="UbhHoleCircleLockOnShot.cs" t="Include" />
+                <e p="UbhHoleCircleShot.cs" t="Include" />
+                <e p="UbhHomingShot.cs" t="Include" />
+                <e p="UbhLinearLockOnShot.cs" t="Include" />
+                <e p="UbhLinearShot.cs" t="Include" />
+                <e p="UbhNwayLockOnShot.cs" t="Include" />
+                <e p="UbhNwayShot.cs" t="Include" />
+                <e p="UbhOverTakeNwayLockOnShot.cs" t="Include" />
+                <e p="UbhOverTakeNwayShot.cs" t="Include" />
+                <e p="UbhPaintLockOnShot.cs" t="Include" />
+                <e p="UbhPaintShot.cs" t="Include" />
+                <e p="UbhRandomLockOnShot.cs" t="Include" />
+                <e p="UbhRandomShot.cs" t="Include" />
+                <e p="UbhRandomSpiralMultiShot.cs" t="Include" />
+                <e p="UbhRandomSpiralShot.cs" t="Include" />
+                <e p="UbhSinWaveBulletNwayLockOnShot.cs" t="Include" />
+                <e p="UbhSinWaveBulletNwayShot.cs" t="Include" />
+                <e p="UbhSpiralMultiNwayShot.cs" t="Include" />
+                <e p="UbhSpiralMultiShot.cs" t="Include" />
+                <e p="UbhSpiralNwayShot.cs" t="Include" />
+                <e p="UbhSpiralShot.cs" t="Include" />
+                <e p="UbhSpreadNwayLockOnShot.cs" t="Include" />
+                <e p="UbhSpreadNwayShot.cs" t="Include" />
+                <e p="UbhWavingNwayLockOnShot.cs" t="Include" />
+                <e p="UbhWavingNwayShot.cs" t="Include" />
+              </e>
+              <e p="Singleton" t="Include">
+                <e p="UbhBulletManager.cs" t="Include" />
+                <e p="UbhCoroutine.cs" t="Include" />
+                <e p="UbhObjectPool.cs" t="Include" />
+                <e p="UbhSingletonMonoBehavior.cs" t="Include" />
+                <e p="UbhTimer.cs" t="Include" />
+              </e>
+              <e p="Utility" t="Include">
+                <e p="UbhMonoBehaviour.cs" t="Include" />
+                <e p="UbhNonKinematic2D.cs" t="Include" />
+                <e p="UbhTransformExtention.cs" t="Include" />
+                <e p="UbhUtil.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>

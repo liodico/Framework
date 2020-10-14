@@ -66,6 +66,7 @@ public class GameplayController : MonoBehaviour
     [SerializeField, Tooltip("Buildin Pool")] private List<HeroControlsPool> heroControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<EnemyControlsPool> enemyControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<TextHp> textHpsPool;
+    [SerializeField, Tooltip("Buildin Pool")] private List<Bullet> heroBulletsPool;
 
     private List<EnemyData> listEnemyDatas;
 
@@ -94,7 +95,8 @@ public class GameplayController : MonoBehaviour
             item.list.Free();
         }
         textHpsPool.Free();
-
+        heroBulletsPool.Free();
+        
         hubPanel = _hubPanel;
         
         listEnemyDatas = GameData.Instance.EnemiesGroup.GetAllEnemyDatas();
@@ -222,6 +224,11 @@ public class GameplayController : MonoBehaviour
             var rewards = GameData.Instance.MissionsGroup.Cleared(Config.TYPE_MODE_NORMAL, totalKills);
             MainGamePanel.instance.ShowWinPanel(rewards, 0);
         }
+    }
+
+    public Bullet SpawnBullet()
+    {
+        return heroBulletsPool.Obtain(transformPool);
     }
 
     public void PauseGame()
