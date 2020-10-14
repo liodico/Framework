@@ -66,7 +66,6 @@ public class HeroAttack : MonoBehaviour {
 
     public virtual void Attack()
     {
-        heroExControl.StopMove(atkSpeed);
         heroExControl.AnimAttack();
     }
 
@@ -80,6 +79,8 @@ public class HeroAttack : MonoBehaviour {
             var animName = animNames[UnityEngine.Random.Range(0, animNames.Length)];
             var trackEntry = heroExControl.skeletonAnimation.AnimationState.SetAnimation(0, animName, false);
             trackEntry.Complete += AnimAttack_Complete;
+            var duration = trackEntry.Animation.Duration;
+            if(atkSpeed < duration) trackEntry.TimeScale = duration / atkSpeed;
             return trackEntry;
         }
         return null;
@@ -100,23 +101,11 @@ public class HeroAttack : MonoBehaviour {
         if (heroExControl.target == null) return false;
 
         Vector3 transformPos = transform.position;
-
-        //nếu hero quay lưng vào target
         Vector3 targetPosition = heroExControl.target.transform.position;
-        if (transformPos.x < targetPosition.x && heroExControl.GetDirect() == DIRECTION.Left)
-        {
-            indexAttack = -1;
-            return false;
-        }
-        if (transformPos.x > targetPosition.x && heroExControl.GetDirect() == DIRECTION.Right)
-        {
-            indexAttack = -1;
-            return false;
-        }
 
         //nếu khoảng cách giữa hero và target nhỏ hơn tầm đánh + một nửa size target
-        var canAttack = (Mathf.Abs(transformPos.x - targetPosition.x) < rangeAttack.x + heroExControl.target.size.x / 2
-                && Mathf.Abs(transformPos.y - targetPosition.y) < rangeAttack.y + heroExControl.target.size.y / 2);
+        var canAttack = (Mathf.Abs(transformPos.x - targetPosition.x) < rangeAttack.x / 2f + heroExControl.target.size.x / 2f
+                && Mathf.Abs(transformPos.y - targetPosition.y) < rangeAttack.y + heroExControl.target.size.y / 2f);
 
         if(canAttack)
         {
@@ -129,8 +118,8 @@ public class HeroAttack : MonoBehaviour {
                 //ở trong vùng đánh nào được xếp trước thì đánh kiểu đấy
                 //pos là vị trí khởi đầu vùng đánh
                 Vector2 pos = (Vector2)transformPos + transform.localScale.x * (originAttack - sizeAttack / 2f);
-                if (Mathf.Abs(pos.x - targetPosition.x) < sizeAttack.x + heroExControl.target.size.x / 2
-                        && Mathf.Abs(pos.y - targetPosition.y) < sizeAttack.y + heroExControl.target.size.y / 2)
+                if (Mathf.Abs(pos.x - targetPosition.x) < sizeAttack.x + heroExControl.target.size.x / 2f
+                        && Mathf.Abs(pos.y - targetPosition.y) < sizeAttack.y + heroExControl.target.size.y / 2f)
                 {
                     indexAttack = i;
 
@@ -155,6 +144,7 @@ public class HeroAttack : MonoBehaviour {
             indexAttack = -1;
         }
 
+        if (indexAttack == -1) return false;
         return canAttack;
     }
 
@@ -226,7 +216,7 @@ public class HeroAttack : MonoBehaviour {
         float x = transform.localScale.x;
 
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireCube(transform.position + new Vector3(rangeAttack.x * x / 2, rangeAttack.y / 2, 0f), rangeAttack);
+        Gizmos.DrawWireCube(transform.position + new Vector3(0f, rangeAttack.y / 2, 0f), rangeAttack);
 
         //vẽ các vùng đánh
         for (int i = 0; i < detailAttacks.Length; i++)

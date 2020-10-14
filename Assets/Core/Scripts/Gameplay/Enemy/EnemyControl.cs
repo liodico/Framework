@@ -43,13 +43,9 @@ public class EnemyControl : MonoBehaviour
         //máu của barrier, cái này kế thừa ra 1 cái riêng sau
         HP = LogicAPI.GetDummyHP();
         HP_MAX = HP;
-        hpBar.Init();
-        hpBar.ShowHP(HP, HP_MAX);
-
-        collider2D.enabled = true;
-
         type = TYPE_DUMMY;
-        stage = ANIM_IDLE_STAGE;
+        
+        Refresh();
         GameplayController.Instance.AddEnemy(this);
     }
 
@@ -57,14 +53,20 @@ public class EnemyControl : MonoBehaviour
     {
         HP = _enemyData.Hp;
         HP_MAX = HP;
+        type = TYPE_NORMAL;
+        
+        Refresh();
+        GameplayController.Instance.AddEnemy(this);
+    }
+
+    public virtual void Refresh()
+    {
         hpBar.Init();
         hpBar.ShowHP(HP, HP_MAX);
-
         collider2D.enabled = true;
-        
-        type = TYPE_NORMAL;
-        stage = ANIM_IDLE_STAGE;
-        GameplayController.Instance.AddEnemy(this);
+
+        stage = -1;
+        STAGE = ANIM_IDLE_STAGE;
     }
     
     public virtual void StopMove(float _length)
@@ -102,6 +104,8 @@ public class EnemyControl : MonoBehaviour
 
     public void GetHit(float damage)
     {
+        if(IsDead()) return;
+        
         HP -= damage;
         if (HP <= 0)
         {

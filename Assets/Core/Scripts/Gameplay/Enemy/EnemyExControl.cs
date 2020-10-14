@@ -84,12 +84,13 @@ public class EnemyExControl : EnemyControl
                     case ANIM_DEAD_STAGE:
                         if (stage != value)
                         {
-                            skeletonAnimation.AnimationState.SetAnimation(0, nameOfDeadAnimations[UnityEngine.Random.Range(0, nameOfDeadAnimations.Length)], false);
+                            trackEntry = skeletonAnimation.AnimationState.SetAnimation(0, nameOfDeadAnimations[UnityEngine.Random.Range(0, nameOfDeadAnimations.Length)], false);
+                            trackEntry.Complete += AnimDead_Complete;
                             stage = value;
                         }
                         break;
                     case ANIM_IDLE_STAGE:
-                        if (stage != value && attack.currentPlayAttackTime <= 0f)
+                        if (stage != value)
                         {
                             trackEntry = skeletonAnimation.AnimationState.SetAnimation(0, nameOfIdleAnimations[UnityEngine.Random.Range(0, nameOfIdleAnimations.Length)], true);
                             trackEntry.TimeScale = 1f;
@@ -121,12 +122,26 @@ public class EnemyExControl : EnemyControl
     public override void Init(EnemyData _enemyData)
     {
         base.Init(_enemyData);
+        
         enemyData = _enemyData;
         random = UnityEngine.Random.Range(-1f, 1f);
 
         autoMove.Init(this);
         if (attack != null) attack.Init(this);
         autoTarget.Init(this);
+    }
+
+    public override void Refresh()
+    {
+        skeletonAnimation.Initialize(false);
+        skeletonAnimation.skeleton.A = 1f;
+
+        hpBar.Init();
+        hpBar.ShowHP(HP, HP_MAX);
+        collider2D.enabled = true;
+
+        stage = -1;
+        STAGE = ANIM_IDLE_STAGE;
     }
 
     public override void StopMove(float _length)
@@ -151,8 +166,24 @@ public class EnemyExControl : EnemyControl
         if (autoMove != null) autoMove.enabled = false;
         if (attack != null) attack.End();
         if (autoTarget != null) autoTarget.enabled = false;
+    }
 
-        GameplayController.Instance.AddRage(enemyData.baseData.rageGain);
+    private void AnimDead_Complete(TrackEntry trackEntry)
+    {
+        StartCoroutine(IEDisapear());
+    }
+    
+    private IEnumerator IEDisapear()
+    {
+        float timePlay = 1.0f;
+        while (timePlay >= 0f)
+        {
+            yield return null;
+            timePlay -= Time.deltaTime;
+            skeletonAnimation.skeleton.A = timePlay;
+        }
+        
+        gameObject.SetActive(false);
     }
 
     public DIRECTION GetDirect()

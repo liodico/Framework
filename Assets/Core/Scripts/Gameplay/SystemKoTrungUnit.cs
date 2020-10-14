@@ -28,28 +28,28 @@ public class SystemKoTrungUnit
         XuLyKhongTrung();
     }
 
-    public void UpdateCheckKoTrung(List<HeroControl> listCheck)
-    {
-        //listCheck.Sort(SortByPosY);
-        int length = listCheck.Count;
-        if (length > 0)
-        {
-            CleartListTrung();
-            for (int i = 0; i < length - 1; i++)
-            {
-                for (int j = i + 1; j < length; j++)
-                {
-                    CheckCoTrungKo(listCheck[i], listCheck[j]);
-                }
-            }
-        }
-        XuLyKhongTrung();
-    }
+    // public void UpdateCheckKoTrung(List<HeroControl> listCheck)
+    // {
+    //     //listCheck.Sort(SortByPosY);
+    //     int length = listCheck.Count;
+    //     if (length > 0)
+    //     {
+    //         CleartListTrung();
+    //         for (int i = 0; i < length - 1; i++)
+    //         {
+    //             for (int j = i + 1; j < length; j++)
+    //             {
+    //                 CheckCoTrungKo(listCheck[i], listCheck[j]);
+    //             }
+    //         }
+    //     }
+    //     XuLyKhongTrung();
+    // }
 
-    float kcXTrung = 0.6f;
-    float kcYTrung = 0.65f;
-    float kcXTrungStep = 0.115f;
-    float kcYTrungStep = 0.115f;
+    float kcXTrung = 0.8f;
+    float kcYTrung = 0.7f;
+    float kcXTrungStep = 0.07f;
+    float kcYTrungStep = 0.07f;
     //truoc thap hon sau
     void CheckCoTrungKo(EnemyControl enemyTruoc, EnemyControl enemySau)
     {
@@ -82,8 +82,8 @@ public class SystemKoTrungUnit
             bool isHasGroup = false;
             if (length2 > 0)
             {
-                enemyTruoc.StopMove(0.4f);
-                enemySau.StopMove(0.4f);
+                // enemyTruoc.StopMove(0.4f);
+                // enemySau.StopMove(0.4f);
 
                 for (int i = 0; i < length2; i++)
                 {
@@ -132,86 +132,86 @@ public class SystemKoTrungUnit
         }
     }
 
-    void CheckCoTrungKo(HeroControl heroTruoc, HeroControl heroSau)
-    {
-        bool check = false;
-
-        var trTruoc = heroTruoc.transform;
-        var trSau = heroSau.transform;
-        kcX = trTruoc.position.x - trSau.position.x;
-        kcX = kcX > 0 ? kcX : -kcX;
-        if (kcX <= kcXTrung)
-        {
-            check = true;
-        }
-        if (check)
-        {
-            check = false;
-            kcY = trTruoc.position.y - trSau.position.y;
-            kcY = kcY > 0 ? kcY : -kcY;
-
-            if (kcY <= kcYTrung)
-            {
-                check = true;
-            }
-        }
-
-        if (check)
-        {
-            //trung nhau
-            int length2 = listGroupTrung.Count;
-            bool isHasGroup = false;
-            if (length2 > 0)
-            {
-                heroTruoc.StopMove(0.4f);
-                heroSau.StopMove(0.4f);
-
-                for (int i = 0; i < length2; i++)
-                {
-                    List<Transform> group2 = listGroupTrung[i];
-                    int length3 = group2.Count;
-                    if (group2.Contains(trTruoc))
-                    {
-                        isHasGroup = true;
-                        if (group2.Contains(trSau))
-                        {
-                            //ca 2 cung trong list
-                            break;
-                        }
-                        else
-                        {
-                            //trSau ko co trong list
-                            group2.Add(trSau);
-                            break;
-                        }
-                    }
-                    else
-                    {
-                        //trTruoc ko co trong list
-                        if (!group2.Contains(trSau))
-                        {
-                            //ca 2 cung ko co' trong list
-                            break;
-                        }
-                        else
-                        {
-                            //trSau co trong list
-                            isHasGroup = true;
-                            group2.Add(trTruoc);
-                            break;
-                        }
-                    }
-                }
-            }
-            if (!isHasGroup)
-            {
-                List<Transform> group = GetNewGroup();
-                group.Add(trTruoc);
-                group.Add(trSau);
-                listGroupTrung.Add(group);
-            }
-        }
-    }
+    // void CheckCoTrungKo(HeroControl heroTruoc, HeroControl heroSau)
+    // {
+    //     bool check = false;
+    //
+    //     var trTruoc = heroTruoc.transform;
+    //     var trSau = heroSau.transform;
+    //     kcX = trTruoc.position.x - trSau.position.x;
+    //     kcX = kcX > 0 ? kcX : -kcX;
+    //     if (kcX <= kcXTrung)
+    //     {
+    //         check = true;
+    //     }
+    //     if (check)
+    //     {
+    //         check = false;
+    //         kcY = trTruoc.position.y - trSau.position.y;
+    //         kcY = kcY > 0 ? kcY : -kcY;
+    //
+    //         if (kcY <= kcYTrung)
+    //         {
+    //             check = true;
+    //         }
+    //     }
+    //
+    //     if (check)
+    //     {
+    //         //trung nhau
+    //         int length2 = listGroupTrung.Count;
+    //         bool isHasGroup = false;
+    //         if (length2 > 0)
+    //         {
+    //             heroTruoc.StopMove(0.4f);
+    //             heroSau.StopMove(0.4f);
+    //
+    //             for (int i = 0; i < length2; i++)
+    //             {
+    //                 List<Transform> group2 = listGroupTrung[i];
+    //                 int length3 = group2.Count;
+    //                 if (group2.Contains(trTruoc))
+    //                 {
+    //                     isHasGroup = true;
+    //                     if (group2.Contains(trSau))
+    //                     {
+    //                         //ca 2 cung trong list
+    //                         break;
+    //                     }
+    //                     else
+    //                     {
+    //                         //trSau ko co trong list
+    //                         group2.Add(trSau);
+    //                         break;
+    //                     }
+    //                 }
+    //                 else
+    //                 {
+    //                     //trTruoc ko co trong list
+    //                     if (!group2.Contains(trSau))
+    //                     {
+    //                         //ca 2 cung ko co' trong list
+    //                         break;
+    //                     }
+    //                     else
+    //                     {
+    //                         //trSau co trong list
+    //                         isHasGroup = true;
+    //                         group2.Add(trTruoc);
+    //                         break;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //         if (!isHasGroup)
+    //         {
+    //             List<Transform> group = GetNewGroup();
+    //             group.Add(trTruoc);
+    //             group.Add(trSau);
+    //             listGroupTrung.Add(group);
+    //         }
+    //     }
+    // }
 
     void XuLyKhongTrung()
     {

@@ -11,13 +11,12 @@ public class HeroExControl : HeroControl
 {
     //public float knockBack;
 
-    private const int ANIM_RUN_STAGE = 2;
     private const int ANIM_ATTACK_STAGE = 3;
 
-    public HeroMove autoMove;
+    public SkeletonAnimation skeletonAnimation;
     public HeroAttack attack;
     public HeroAutoTarget autoTarget;
-
+    
     //info
     public float MeleeAtk
     {
@@ -62,8 +61,9 @@ public class HeroExControl : HeroControl
     public EnemyControl target;
     float random = 1f;
 
-    [SerializeField] private string[] nameOfRunAnimations;
-
+    [SerializeField] protected string[] nameOfIdleAnimations;
+    [SerializeField] protected string[] nameOfDeadAnimations;
+    
     private int stage = -1;
     public override int STAGE
     {
@@ -86,24 +86,14 @@ public class HeroExControl : HeroControl
                         }
                         break;
                     case ANIM_IDLE_STAGE:
-                        if (stage != value && attack.currentPlayAttackTime <= 0f)
+                        if (stage != value)
                         {
                             trackEntry = skeletonAnimation.AnimationState.SetAnimation(0, nameOfIdleAnimations[UnityEngine.Random.Range(0, nameOfIdleAnimations.Length)], true);
                             trackEntry.TimeScale = 1f;
                             stage = value;
                         }
                         break;
-                    case ANIM_RUN_STAGE:
-                        if (stage != value && attack.currentPlayAttackTime <= 0f)
-                        {
-                            skeletonAnimation.AnimationState.SetAnimation(0, nameOfRunAnimations[UnityEngine.Random.Range(0, nameOfRunAnimations.Length)], true);
-                            stage = value;
-                        }
-                        break;
                     case ANIM_ATTACK_STAGE:
-                        //trackEntry = skeletonAnimation.AnimationState.SetAnimation(0, nameOfAttackAnimations[UnityEngine.Random.Range(0, nameOfAttackAnimations.Length)], false);
-                        //trackEntry.Complete += AnimAtk_Complete;
-                        //OnAtk(trackEntry);
                         trackEntry = attack.OnAttack();
                         if (trackEntry != null)
                         {
@@ -118,17 +108,31 @@ public class HeroExControl : HeroControl
     public override void Init(HeroData _heroData)
     {
         base.Init(_heroData);
+        
         heroData = _heroData;
         random = UnityEngine.Random.Range(-1f, 1f);
 
-        autoMove.Init(this);
         if (attack != null) attack.Init(this);
         autoTarget.Init(this);
     }
-
-    public override void StopMove(float _length)
+    
+    public override void Refresh()
     {
-        if (autoMove != null) autoMove.StopMove(_length);
+        skeletonAnimation.Initialize(false);
+        skeletonAnimation.skeleton.A = 1f;
+
+        hpBar.Init();
+        hpBar.ShowHP(HP, HP_MAX);
+        collider2D.enabled = true;
+
+        stage = -1;
+        STAGE = ANIM_IDLE_STAGE;
+    }
+    
+    public override void LinkHubInfoHero(HubInfoHero _hubInfoHero)
+    {
+        base.LinkHubInfoHero(_hubInfoHero);
+        hubInfoHero.Init(heroData.GetIcon());
     }
     
     public void AnimAttack()
@@ -136,32 +140,12 @@ public class HeroExControl : HeroControl
         STAGE = ANIM_ATTACK_STAGE;
     }
 
-    public void AnimRun()
-    {
-        STAGE = ANIM_RUN_STAGE;
-    }
-
     public override void OnDead()
     {
         base.OnDead();
 
-        if (autoMove != null) autoMove.enabled = false;
         if (attack != null) attack.End();
         if (autoTarget != null) autoTarget.enabled = false;
-
-        GameplayController.Instance.AddRage(heroData.RageGain);
-    }
-    
-    public DIRECTION GetDirect()
-    {
-        if (transform.localScale.x >= 0)
-        {
-            return DIRECTION.Right;
-        }
-        else
-        {
-            return DIRECTION.Left;
-        }
     }
 
     public void SetTarget(EnemyControl _target)

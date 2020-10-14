@@ -210,7 +210,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: run1
+  _animationName: idle1
   loop: 1
   timeScale: 1
   isUseUpdateSkeleton: 1
@@ -350,7 +350,6 @@ GameObject:
   - component: {fileID: 6342953566007818986}
   - component: {fileID: 6284402657922129180}
   - component: {fileID: 9006252863558699672}
-  - component: {fileID: 743896559563849383}
   - component: {fileID: 5358472341821015464}
   m_Layer: 0
   m_Name: A2
@@ -426,21 +425,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  skeletonAnimation: {fileID: 6342953564366572502}
   hpBar: {fileID: 5163549781065307364}
   collider2D: {fileID: -5468427158381852880}
   size: {x: 1.4, y: 0.4}
+  skeletonAnimation: {fileID: 6342953564366572502}
+  attack: {fileID: 5358472341821015464}
+  autoTarget: {fileID: 9006252863558699672}
+  target: {fileID: 0}
   nameOfIdleAnimations:
   - idle1
   nameOfDeadAnimations:
   - die1
   - die2
-  autoMove: {fileID: 743896559563849383}
-  attack: {fileID: 5358472341821015464}
-  autoTarget: {fileID: 9006252863558699672}
-  target: {fileID: 0}
-  nameOfRunAnimations:
-  - run1
 --- !u!114 &9006252863558699672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,18 +447,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4a4adf9ff7982d40b286f97b16b028b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &743896559563849383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6342953566007818988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a3ebe6405b183b42af9903de3bc9fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &5358472341821015464
@@ -488,10 +472,11 @@ MonoBehaviour:
   - nameOfAttackAnimations:
     - attackRange1
     attackType: 1
-    originAttack: {x: 3.2, y: 0.95}
-    sizeAttack: {x: 6, y: 1.8}
+    originAttack: {x: 0, y: 4.25}
+    sizeAttack: {x: 6, y: 8.5}
     attackColor: {r: 1, g: 0.5019608, b: 0, a: 1}
-  rangeAttack: {x: 6, y: 1}
+  rangeAttack: {x: 6, y: 8}
+  currentPlayAttackTime: 0
 --- !u!1001 &4556714482368318925
 PrefabInstance:
   m_ObjectHideFlags: 0

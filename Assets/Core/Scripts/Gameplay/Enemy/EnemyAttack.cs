@@ -80,6 +80,8 @@ public class EnemyAttack : MonoBehaviour {
             var animName = animNames[UnityEngine.Random.Range(0, animNames.Length)];
             var trackEntry = enemyExControl.skeletonAnimation.AnimationState.SetAnimation(0, animName, false);
             trackEntry.Complete += AnimAttack_Complete;
+            var duration = trackEntry.Animation.Duration;
+            if(atkSpeed < duration) trackEntry.TimeScale = duration / atkSpeed;
             return trackEntry;
         }
         return null;
@@ -115,7 +117,7 @@ public class EnemyAttack : MonoBehaviour {
         }
 
         //nếu khoảng cách giữa hero và target nhỏ hơn tầm đánh + một nửa size target
-        var canAttack = (Mathf.Abs(transformPos.x - targetPosition.x) < rangeAttack.x + enemyExControl.target.size.x / 2
+        var canAttack = (Mathf.Abs(transformPos.x - targetPosition.x) < rangeAttack.x / 2f + enemyExControl.target.size.x / 2
                 && Mathf.Abs(transformPos.y - targetPosition.y) < rangeAttack.y + enemyExControl.target.size.y / 2);
 
         if (canAttack)
@@ -155,6 +157,7 @@ public class EnemyAttack : MonoBehaviour {
             indexAttack = -1;
         }
 
+        if (indexAttack == -1) return false;
         return canAttack;
     }
 
@@ -226,7 +229,7 @@ public class EnemyAttack : MonoBehaviour {
         float x = transform.localScale.x;
 
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireCube(transform.position + new Vector3(rangeAttack.x * x / 2, rangeAttack.y / 2, 0f), rangeAttack);
+        Gizmos.DrawWireCube(transform.position + new Vector3(0f, -rangeAttack.y / 2f, 0f), rangeAttack);
 
         //vẽ các vùng đánh
         for (int i = 0; i < detailAttacks.Length; i++)

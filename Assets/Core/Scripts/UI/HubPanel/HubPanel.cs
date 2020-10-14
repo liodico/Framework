@@ -20,14 +20,10 @@ namespace FoodZombie.UI
 {
     public class HubPanel : MyGamesBasePanel
     {
-        public TextMeshProUGUI txtFood;
-        public TextMeshProUGUI txtRage;
         public CurrencyView coinView;
         public SimpleTMPButton btnPause;
-
-        [SerializeField, Tooltip("Buildin Pool")] public List<HubHeroButton> hubHeroButtonsPool;
-        public Transform hubHeroButtonsGrid;
-
+        public HubInfoHero[] hubInfoHeroes;
+        
         private bool initialized;
 
         private GameData GameData => GameData.Instance;
@@ -39,8 +35,6 @@ namespace FoodZombie.UI
 
         internal override void Init()
         {
-            hubHeroButtonsPool.Free();
-
             coinView.Init(IDs.CURRENCY_COIN);
 
             initialized = true;
@@ -51,23 +45,16 @@ namespace FoodZombie.UI
             MainGamePanel.instance.ShowPausePanel();
         }
 
-        public void ShowFood(float currentFood, float MAX_FOOD)
+        public void LinkHubInfoHero()
         {
-            txtFood.text = currentFood.ToString("0") + "/" + MAX_FOOD.ToString("0");
-        }
-
-        public void ShowRage(float currentRage, float MAX_RAGE)
-        {
-            txtRage.text = currentRage.ToString("0") + "/" + MAX_RAGE.ToString("0");
-        }
-
-        public void ShowHubHeroButtons(List<HeroData> heroDatas)
-        {
-            foreach (var item in heroDatas)
+            var heroes = GameplayController.Instance.GetHeroes();
+            var lenght = heroes.Count;
+            for (int i = 0; i < lenght; i++)
             {
-                var hubHeroButton = hubHeroButtonsPool.Obtain(hubHeroButtonsGrid);
-                hubHeroButton.Init(this, item);
-                hubHeroButton.SetActive(true);
+                var hero = heroes[i];
+                var hubInfoHero = hubInfoHeroes[i];
+                hero.LinkHubInfoHero(hubInfoHero);
+                hubInfoHero.SetActive(true);
             }
         }
     }

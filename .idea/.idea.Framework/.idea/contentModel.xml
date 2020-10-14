@@ -430,7 +430,6 @@
                 <e p="HeroCloseAttack.cs" t="Include" />
                 <e p="HeroControl.cs" t="Include" />
                 <e p="HeroExControl.cs" t="Include" />
-                <e p="HeroMove.cs" t="Include" />
                 <e p="HeroRangeAttack.cs" t="Include" />
               </e>
               <e p="OderLayerZ.cs" t="Include" />
@@ -527,7 +526,7 @@
                 <e p="WinPanel.cs" t="Include" />
               </e>
               <e p="HubPanel" t="Include">
-                <e p="HubHeroButton.cs" t="Include" />
+                <e p="HubInfoHero.cs" t="Include" />
                 <e p="HubPanel.cs" t="Include" />
               </e>
               <e p="IntroPanel" t="Include">

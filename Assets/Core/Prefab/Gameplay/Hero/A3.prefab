@@ -154,8 +154,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e7e7b0e3a8cdc14ba0cf4f47db47e4c, type: 2}
-  - {fileID: 2100000, guid: 4e7e7b0e3a8cdc14ba0cf4f47db47e4c, type: 2}
+  - {fileID: 2100000, guid: 14394236bc44a9d44b45265dede5a303, type: 2}
+  - {fileID: 2100000, guid: 14394236bc44a9d44b45265dede5a303, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: run1
+  _animationName: idle1
   loop: 1
   timeScale: 1
   isUseUpdateSkeleton: 1
@@ -350,7 +350,6 @@ GameObject:
   - component: {fileID: 6342953566007818986}
   - component: {fileID: 1558899435983830520}
   - component: {fileID: 9006252863558699672}
-  - component: {fileID: 743896559563849383}
   - component: {fileID: 1334709850990527998}
   m_Layer: 0
   m_Name: A3
@@ -426,21 +425,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  skeletonAnimation: {fileID: 6342953564366572502}
   hpBar: {fileID: 5545454231993689988}
   collider2D: {fileID: 8339823646709489263}
   size: {x: 1.4, y: 0.4}
+  skeletonAnimation: {fileID: 6342953564366572502}
+  attack: {fileID: 1334709850990527998}
+  autoTarget: {fileID: 9006252863558699672}
+  target: {fileID: 0}
   nameOfIdleAnimations:
   - idle1
   nameOfDeadAnimations:
   - die1
-  autoMove: {fileID: 743896559563849383}
-  attack: {fileID: 1334709850990527998}
-  autoTarget: {fileID: 9006252863558699672}
-  target: {fileID: 0}
-  nameOfRunAnimations:
-  - run1
-  - run2
 --- !u!114 &9006252863558699672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,18 +446,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4a4adf9ff7982d40b286f97b16b028b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &743896559563849383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6342953566007818988}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a3ebe6405b183b42af9903de3bc9fe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1334709850990527998
@@ -483,10 +466,11 @@ MonoBehaviour:
     - attackMelee1
     - attackMelee2
     attackType: 2
-    originAttack: {x: 1.5, y: 1}
-    sizeAttack: {x: 2.2, y: 2}
+    originAttack: {x: 0, y: 3}
+    sizeAttack: {x: 6, y: 6}
     attackColor: {r: 1, g: 0, b: 0, a: 1}
-  rangeAttack: {x: 2.1, y: 1}
+  rangeAttack: {x: 6, y: 5.8}
+  currentPlayAttackTime: 0
 --- !u!1001 &3774376821536800429
 PrefabInstance:
   m_ObjectHideFlags: 0

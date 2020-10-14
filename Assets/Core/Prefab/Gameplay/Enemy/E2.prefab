@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 47fa4c042a25f6e4590f28d718da4702, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: ee76d8a726430224183bf629a432e7b7, type: 2}
   initialSkinName: skin1
   initialFlipX: 0
   initialFlipY: 0
@@ -199,7 +199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 939076e124b39aa4cac667f927c32933, type: 2}
+  - {fileID: 2100000, guid: 463bd35c37ce69148b036ca5fa33656b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -304,7 +304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 939076e124b39aa4cac667f927c32933, type: 2}
+  - {fileID: 2100000, guid: 463bd35c37ce69148b036ca5fa33656b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -399,7 +399,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1.7}
+  m_Size: {x: 1.7, y: 1.7}
   m_EdgeRadius: 0
 --- !u!114 &4574062175715529444
 MonoBehaviour:
@@ -428,7 +428,7 @@ MonoBehaviour:
   type: 1
   hpBar: {fileID: 2942355466422933251}
   collider2D: {fileID: 5566310479479974985}
-  size: {x: 1.2, y: 0.4}
+  size: {x: 1.7, y: 0.4}
   skeletonAnimation: {fileID: 4574062173675611096}
   autoMove: {fileID: 8824749261072023857}
   attack: {fileID: 9014046621423709580}
@@ -439,8 +439,6 @@ MonoBehaviour:
   - idle2
   nameOfRunAnimations:
   - run1
-  - run2
-  - run3
   nameOfDeadAnimations:
   - die1
   - die2
@@ -484,12 +482,12 @@ MonoBehaviour:
   detailAttacks:
   - nameOfAttackAnimations:
     - attackMelee1
-    - attackMelee2
     attackType: 0
-    originAttack: {x: 0.93, y: 0.9}
-    sizeAttack: {x: 1.5, y: 1.8}
+    originAttack: {x: 0, y: -0.5}
+    sizeAttack: {x: 2, y: 1}
     attackColor: {r: 1, g: 0, b: 0, a: 1}
-  rangeAttack: {x: 1.5, y: 0.5}
+  rangeAttack: {x: 2, y: 0.8}
+  currentPlayAttackTime: 0
 --- !u!1001 &5783033361879649834
 PrefabInstance:
   m_ObjectHideFlags: 0

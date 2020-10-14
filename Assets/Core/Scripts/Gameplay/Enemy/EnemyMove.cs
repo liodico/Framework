@@ -21,7 +21,6 @@ public class EnemyMove : MonoBehaviour
         if (length > 0f)
         {
             length -= Time.fixedDeltaTime;
-            enemyExControl.AnimIdle();
         }
         else
         {

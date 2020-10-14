@@ -61,7 +61,7 @@ public class GameplayController : MonoBehaviour
     private HubPanel hubPanel;
 
     //stats
-    public Transform heroSpawnPos;
+    public Transform[] heroSpawnPoses;
     public Transform transformPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<HeroControlsPool> heroControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<EnemyControlsPool> enemyControlsPool;
@@ -96,9 +96,7 @@ public class GameplayController : MonoBehaviour
         textHpsPool.Free();
 
         hubPanel = _hubPanel;
-        var heroDatas = GameData.Instance.HeroesGroup.GetEquippedHeroes();
-        hubPanel.ShowHubHeroButtons(heroDatas);
-
+        
         listEnemyDatas = GameData.Instance.EnemiesGroup.GetAllEnemyDatas();
         heroes = new List<HeroControl>();
         enemies = new List<EnemyControl>();
@@ -106,13 +104,24 @@ public class GameplayController : MonoBehaviour
         barrier.Init();
 
         totalKills = new Dictionary<int, int>();
+        
+        //load team
+        var heroDatas = GameData.Instance.HeroesGroup.GetEquippedHeroes();
+        var lenght = heroDatas.Count;
+        if (lenght > heroSpawnPoses.Length) lenght = heroSpawnPoses.Length;
+        for (int i = 0; i < lenght; i++)
+        {
+            SpawnHero(heroDatas[i], heroSpawnPoses[i].position);
+        }
+        
+        hubPanel.LinkHubInfoHero();
     }
 
-    public void SpawnHero(HeroData heroData)
+    public void SpawnHero(HeroData heroData, Vector3 heroSpawnPos)
     {
         var idHero = heroData.Id;
         var heroControl = heroControlsPool[idHero - 1].list.Obtain(transformPool);
-        var pos = heroSpawnPos.position;
+        var pos = heroSpawnPos;
         heroControl.transform.position = pos;
         heroControl.Init(heroData);
         heroControl.SetActive(true);
@@ -122,7 +131,7 @@ public class GameplayController : MonoBehaviour
     {
         var idEnemy = enemyData.Id;
         var enemyControl = enemyControlsPool[idEnemy - 1].list.Obtain(transformPool);
-        var pos = new Vector3(Config.EasyRandom(11.3f, 17f), Config.EasyRandom(-5.11f, 1.07f), OderLayerZ.PIVOT_POINT);
+        var pos = new Vector3(Config.EasyRandom(-2.3f, 2.3f), Config.EasyRandom(9f, 11f), OderLayerZ.PIVOT_POINT);
         enemyControl.transform.position = pos;
         enemyControl.Init(enemyData);
         enemyControl.SetActive(true);
@@ -133,6 +142,9 @@ public class GameplayController : MonoBehaviour
     {
         while(true)
         {
+            SpawnEnemy(listEnemyDatas[Config.EasyRandom(listEnemyDatas.Count)]);
+            SpawnEnemy(listEnemyDatas[Config.EasyRandom(listEnemyDatas.Count)]);
+            SpawnEnemy(listEnemyDatas[Config.EasyRandom(listEnemyDatas.Count)]);
             SpawnEnemy(listEnemyDatas[Config.EasyRandom(listEnemyDatas.Count)]);
             yield return new WaitForSeconds(5f);
         }

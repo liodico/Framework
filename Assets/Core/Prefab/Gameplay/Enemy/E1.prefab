@@ -486,10 +486,11 @@ MonoBehaviour:
     - attackMelee1
     - attackMelee2
     attackType: 0
-    originAttack: {x: 0.93, y: 0.9}
-    sizeAttack: {x: 1.5, y: 1.8}
+    originAttack: {x: 0, y: -0.5}
+    sizeAttack: {x: 1.5, y: 1}
     attackColor: {r: 1, g: 0, b: 0, a: 1}
-  rangeAttack: {x: 1.5, y: 0.5}
+  rangeAttack: {x: 1.5, y: 0.8}
+  currentPlayAttackTime: 0
 --- !u!1001 &7401522346652033501
 PrefabInstance:
   m_ObjectHideFlags: 0
