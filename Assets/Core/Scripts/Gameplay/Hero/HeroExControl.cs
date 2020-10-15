@@ -152,4 +152,11 @@ public class HeroExControl : HeroControl
     {
         target = _target;
     }
+
+    public override void LookAt(Transform target)
+    {
+        base.LookAt(target);
+        
+        skeletonAnimation.transform.rotation = Quaternion.Euler(0f, 0f, Util.GetAngleFromTwoPosition(transform, target, Util.AXIS.X_AND_Y));
+    }
 }

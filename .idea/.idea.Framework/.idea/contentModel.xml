@@ -415,7 +415,8 @@
                 <e p="BulletManager.cs" t="Include" />
                 <e p="BulletTimer.cs" t="Include" />
                 <e p="NwayLockOnShot.cs" t="Include" />
-                <e p="ShotControl.cs" t="Include" />
+                <e p="NwayShot.cs" t="Include" />
+                <e p="TapToTarget.cs" t="Include" />
                 <e p="TentacleBullet.cs" t="Include" />
                 <e p="Util.cs" t="Include" />
               </e>

@@ -36,6 +36,7 @@ public class Config
     public const string TAG_ENEMY_ATTACK = "EnemyAttack";
     public const string TAG_HERO = "Hero";
     public const string TAG_ENEMY = "Enemy";
+    public const string TAG_DESTROY_BULLET = "DestroyBullet";
     public const string TAG_FISH = "Fish";
     public const string TAG_COIN = "Coin";
     public const string TAG_NADE = "Nade";

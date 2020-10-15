@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 /// <summary>
 /// bullet.
@@ -24,6 +25,9 @@ public class Bullet : MonoBehaviour
     private float m_selfTimeCount;
 
     private TentacleBullet m_tentacleBullet;
+    
+    //dongdd
+    private float atk;
 
     public bool shooting
     {
@@ -43,6 +47,11 @@ public class Bullet : MonoBehaviour
         shooting = false;
     }
 
+    public void Init(float _atk)
+    {
+        atk = _atk;
+    }
+    
     /// <summary>
     /// Bullet Shot
     /// </summary>
@@ -197,6 +206,25 @@ public class Bullet : MonoBehaviour
         {
             // Update tentacles
             m_tentacleBullet.UpdateRotate();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag(Config.TAG_ENEMY))
+        {
+            GameplayController.Instance.ReleaseBullet(this);
+
+            var enemyControl = other.GetComponent<EnemyControl>();
+            enemyControl.GetHit(atk);
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag(Config.TAG_DESTROY_BULLET))
+        {
+            GameplayController.Instance.ReleaseBullet(this);
         }
     }
 }

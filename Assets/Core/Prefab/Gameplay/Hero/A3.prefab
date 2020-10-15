@@ -471,6 +471,7 @@ MonoBehaviour:
     attackColor: {r: 1, g: 0, b: 0, a: 1}
   rangeAttack: {x: 6, y: 5.8}
   currentPlayAttackTime: 0
+  shot: {fileID: 0}
 --- !u!1001 &3774376821536800429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,7 +497,7 @@ PrefabInstance:
     - target: {fileID: 4952540624871292239, guid: 3289c5e5b1372b24e9b3a77caba220f9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4952540624871292239, guid: 3289c5e5b1372b24e9b3a77caba220f9,
         type: 3}

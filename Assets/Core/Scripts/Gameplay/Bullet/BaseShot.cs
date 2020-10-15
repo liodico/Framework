@@ -13,7 +13,7 @@ public abstract class BaseShot : MonoBehaviour
     [Header("===== Common Settings =====")]
     // "Set a bullet prefab for the shot. (ex. sprite or model)"
     [FormerlySerializedAs("_BulletPrefab")]
-    public GameObject m_bulletPrefab;
+    public Bullet m_bulletPrefab;
     // "Set a bullet number of shot."
     [FormerlySerializedAs("_BulletNum")]
     public int m_bulletNum = 10;
@@ -53,20 +53,6 @@ public abstract class BaseShot : MonoBehaviour
 
     protected bool m_shooting;
 
-    private ShotControl m_shotControl;
-
-    protected ShotControl shotControl
-    {
-        get
-        {
-            if (m_shotControl == null)
-            {
-                m_shotControl = transform.GetComponentInParent<ShotControl>();
-            }
-            return m_shotControl;
-        }
-    }
-
     /// <summary>
     /// is shooting flag.
     /// </summary>
@@ -84,16 +70,8 @@ public abstract class BaseShot : MonoBehaviour
     /// <summary>
     /// Abstract shot method.
     /// </summary>
-    public abstract void Shot();
-
-    /// <summary>
-    /// ShotControl setter.
-    /// </summary>
-    public void SetShotControl(ShotControl shotControl)
-    {
-        m_shotControl = shotControl;
-    }
-
+    public abstract void Shot(float atk);
+    
     /// <summary>
     /// Fired shot.
     /// </summary>
@@ -114,7 +92,7 @@ public abstract class BaseShot : MonoBehaviour
     /// <summary>
     /// Get Bullet object from object pool.
     /// </summary>
-    protected Bullet GetBullet(Vector3 position, Quaternion rotation, bool forceInstantiate = false)
+    protected Bullet GetBullet(float atk, Vector3 position, Quaternion rotation)
     {
         if (m_bulletPrefab == null)
         {
@@ -123,7 +101,7 @@ public abstract class BaseShot : MonoBehaviour
         }
 
         // get Bullet from ObjectPool
-        Bullet bullet = ObjectPool.instance.GetBullet(m_bulletPrefab, position, rotation, forceInstantiate);
+        Bullet bullet = GameplayController.Instance.SpawnBullet(atk, m_bulletPrefab, position, rotation);
         if (bullet == null)
         {
             return null;
@@ -146,8 +124,7 @@ public abstract class BaseShot : MonoBehaviour
         bullet.Shot(speed, angle, m_accelerationSpeed, m_accelerationTurn,
                     homing, homingTarget, homingAngleSpeed,
                     wave, waveSpeed, waveRangeSize,
-                    m_usePauseAndResume, m_pauseTime, m_resumeTime,
-                    shotControl != null ? shotControl.m_axisMove : Util.AXIS.X_AND_Y);
+                    m_usePauseAndResume, m_pauseTime, m_resumeTime, Util.AXIS.X_AND_Y);
     }
 
     /// <summary>
@@ -161,7 +138,7 @@ public abstract class BaseShot : MonoBehaviour
         }
         UbhCoroutine.StartIE(AutoReleaseBulletCoroutine(bullet));
     }
-
+    
     private IEnumerator AutoReleaseBulletCoroutine(Bullet bullet)
     {
         float countUpTime = 0f;
@@ -183,6 +160,6 @@ public abstract class BaseShot : MonoBehaviour
             countUpTime += BulletTimer.instance.deltaTime;
         }
 
-        ObjectPool.instance.ReleaseBullet(bullet);
+        GameplayController.Instance.ReleaseBullet(bullet);
     }
 }

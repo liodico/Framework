@@ -125,4 +125,9 @@ public class HeroControl : MonoBehaviour
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireCube(transform.position, size);
     }
+
+    public virtual void LookAt(Transform target)
+    {
+        
+    }
 }

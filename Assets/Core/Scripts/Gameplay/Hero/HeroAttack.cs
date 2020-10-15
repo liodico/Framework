@@ -38,7 +38,11 @@ public class HeroAttack : MonoBehaviour {
     public Vector2 rangeAttack = new Vector2(0.2f, 0.05f);
 
     private int indexAttack = -1;
+    
+    [HideInInspector]
     public float currentPlayAttackTime;
+
+    public BaseShot shot;
     
     public void Init(HeroExControl _heroExControl)
     {
@@ -164,49 +168,60 @@ public class HeroAttack : MonoBehaviour {
             float x = transform.localScale.x;
             RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position + new Vector3(originAtt.x * x, originAtt.y, 0f), sizeAttack, 0f, Vector2.zero);
 
-            var type = detailAttacks[indexAttack].attackType;
-            switch (type)
+            if (shot != null)
             {
-                case HeroAttackType.ATK_TYPE_MELEE:
-                    foreach (var item in hits)
-                    {
-                        if (item.collider.CompareTag(Config.TAG_ENEMY))
+                shot.Shot(heroExControl.RangeAtk);
+            }
+            else
+            {
+                var type = detailAttacks[indexAttack].attackType;
+                switch (type)
+                {
+                    case HeroAttackType.ATK_TYPE_MELEE:
+                        foreach (var item in hits)
                         {
-                            var enemyControl = item.collider.GetComponent<EnemyControl>();
-                            if (enemyControl == heroExControl.target) enemyControl.GetHit(heroExControl.MeleeAtk);
+                            if (item.collider.CompareTag(Config.TAG_ENEMY))
+                            {
+                                var enemyControl = item.collider.GetComponent<EnemyControl>();
+                                if (enemyControl == heroExControl.target) enemyControl.GetHit(heroExControl.MeleeAtk);
+                            }
                         }
-                    }
-                    break;
-                case HeroAttackType.ATK_TYPE_RANGE:
-                    foreach (var item in hits)
-                    {
-                        if (item.collider.CompareTag(Config.TAG_ENEMY))
+
+                        break;
+                    case HeroAttackType.ATK_TYPE_RANGE:
+                        foreach (var item in hits)
                         {
-                            var enemyControl = item.collider.GetComponent<EnemyControl>();
-                            if (enemyControl == heroExControl.target) enemyControl.GetHit(heroExControl.RangeAtk);
+                            if (item.collider.CompareTag(Config.TAG_ENEMY))
+                            {
+                                var enemyControl = item.collider.GetComponent<EnemyControl>();
+                                if (enemyControl == heroExControl.target) enemyControl.GetHit(heroExControl.RangeAtk);
+                            }
                         }
-                    }
-                    break;
-                case HeroAttackType.ATK_TYPE_MULTI_MELEE:
-                    foreach (var item in hits)
-                    {
-                        if (item.collider.CompareTag(Config.TAG_ENEMY))
+
+                        break;
+                    case HeroAttackType.ATK_TYPE_MULTI_MELEE:
+                        foreach (var item in hits)
                         {
-                            var enemyControl = item.collider.GetComponent<EnemyControl>();
-                            enemyControl.GetHit(heroExControl.MeleeAtk);
+                            if (item.collider.CompareTag(Config.TAG_ENEMY))
+                            {
+                                var enemyControl = item.collider.GetComponent<EnemyControl>();
+                                enemyControl.GetHit(heroExControl.MeleeAtk);
+                            }
                         }
-                    }
-                    break;
-                case HeroAttackType.ATK_TYPE_MULTI_RANGE:
-                    foreach (var item in hits)
-                    {
-                        if (item.collider.CompareTag(Config.TAG_ENEMY))
+
+                        break;
+                    case HeroAttackType.ATK_TYPE_MULTI_RANGE:
+                        foreach (var item in hits)
                         {
-                            var enemyControl = item.collider.GetComponent<EnemyControl>();
-                            enemyControl.GetHit(heroExControl.RangeAtk);
+                            if (item.collider.CompareTag(Config.TAG_ENEMY))
+                            {
+                                var enemyControl = item.collider.GetComponent<EnemyControl>();
+                                enemyControl.GetHit(heroExControl.RangeAtk);
+                            }
                         }
-                    }
-                    break;
+
+                        break;
+                }
             }
         }
     }

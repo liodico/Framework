@@ -2,6 +2,7 @@
 using FoodZombie.UI;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Utilities.Common;
 
@@ -37,6 +38,13 @@ public class EnemyControlsPool
     }
 }
 
+[System.Serializable]
+public class BuiltInPoolingBullet
+{
+    public Bullet prefab;
+    public List<Bullet> builtIn;
+}
+
 public class GameplayController : MonoBehaviour
 {
     private static GameplayController instance;
@@ -60,14 +68,18 @@ public class GameplayController : MonoBehaviour
 
     private HubPanel hubPanel;
 
-    //stats
+    public Camera camera;
+    
+    //pool
     public Transform[] heroSpawnPoses;
     public Transform transformPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<HeroControlsPool> heroControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<EnemyControlsPool> enemyControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<TextHp> textHpsPool;
-    [SerializeField, Tooltip("Buildin Pool")] private List<Bullet> heroBulletsPool;
 
+    private PoolsContainer<Bullet> bulletPools;
+    [SerializeField] private List<BuiltInPoolingBullet> builtInBullet;
+    
     private List<EnemyData> listEnemyDatas;
 
     private List<HeroControl> heroes;
@@ -77,7 +89,7 @@ public class GameplayController : MonoBehaviour
     private SystemKoTrungUnit systemKoTrung = new SystemKoTrungUnit();
     private List<EnemyControl> koTrungEnemies;
     private Dictionary<int, int> totalKills;
-    // Start is called before the first frame update
+
     void Start()
     {
         StartCoroutine(IEAutoSpawnEnemy());
@@ -95,7 +107,14 @@ public class GameplayController : MonoBehaviour
             item.list.Free();
         }
         textHpsPool.Free();
-        heroBulletsPool.Free();
+        
+        bulletPools = new PoolsContainer<Bullet>("PoolsBullet", 20, transformPool);
+        for (int i = 0; i < builtInBullet.Count; i++)
+        {
+            var prefab = builtInBullet[i].prefab;
+            var pool = bulletPools.Get(prefab);
+            pool.AddOutsiders(builtInBullet[i].builtIn);
+        }
         
         hubPanel = _hubPanel;
         
@@ -225,10 +244,30 @@ public class GameplayController : MonoBehaviour
             MainGamePanel.instance.ShowWinPanel(rewards, 0);
         }
     }
-
-    public Bullet SpawnBullet()
+    
+    public Bullet SpawnBullet(float atk, Bullet bullet, Vector3 pos, Quaternion rot)
     {
-        return heroBulletsPool.Obtain(transformPool);
+        var pool = bulletPools.Get(bullet);
+        var obj = pool.Spawn(pos, true);
+        obj.transform.rotation = rot;
+        obj.Init(atk);
+        
+        BulletManager.instance.AddBullet(obj);
+        return obj;
+    }
+
+    public void ReleaseBullet(Bullet bullet)
+    {
+        BulletManager.instance.RemoveBullet(bullet);
+        bulletPools.Release(bullet);
+    }
+
+    public void SetHeroesLookAt(Transform target)
+    {
+        for (int i = 0; i < heroes.Count; i++)
+        {
+            heroes[i].LookAt(target);
+        }
     }
 
     public void PauseGame()

@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 /// <summary>
-/// Ubh nWay shot.
+/// nWay shot.
 /// </summary>
 [AddComponentMenu("Bullet/Shot Pattern/nWay Shot")]
-public class UbhNwayShot : UbhBaseShot
+public class NwayShot : BaseShot
 {
     [Header("===== NwayShot Settings =====")]
     // "Set a number of shot way."
@@ -22,12 +22,12 @@ public class UbhNwayShot : UbhBaseShot
     [FormerlySerializedAs("_NextLineDelay")]
     public float m_nextLineDelay = 0.1f;
 
-    public override void Shot()
+    public override void Shot(float atk)
     {
-        StartCoroutine(ShotCoroutine());
+        StartCoroutine(ShotCoroutine(atk));
     }
 
-    private IEnumerator ShotCoroutine()
+    private IEnumerator ShotCoroutine(float atk)
     {
         if (m_bulletNum <= 0 || m_bulletSpeed <= 0f || m_wayNum <= 0)
         {
@@ -51,11 +51,11 @@ public class UbhNwayShot : UbhBaseShot
                 if (0f < m_nextLineDelay)
                 {
                     FiredShot();
-                    yield return UbhUtil.WaitForSeconds(m_nextLineDelay);
+                    yield return Util.WaitForSeconds(m_nextLineDelay);
                 }
             }
 
-            var bullet = GetBullet(transform.position, transform.rotation);
+            var bullet = GetBullet(atk, transform.position, transform.rotation);
             if (bullet == null)
             {
                 break;
@@ -63,7 +63,7 @@ public class UbhNwayShot : UbhBaseShot
 
             float baseAngle = m_wayNum % 2 == 0 ? m_centerAngle - (m_betweenAngle / 2f) : m_centerAngle;
 
-            float angle = UbhUtil.GetShiftedAngle(wayIndex, baseAngle, m_betweenAngle);
+            float angle = Util.GetShiftedAngle(wayIndex, baseAngle, m_betweenAngle);
 
             ShotBullet(bullet, m_bulletSpeed, angle);
 
