@@ -28,7 +28,8 @@ public class Bullet : MonoBehaviour
     
     //dongdd
     private float atk;
-
+    private int countPierce;
+    
     public bool shooting
     {
         get;
@@ -49,6 +50,7 @@ public class Bullet : MonoBehaviour
 
     public void Init(float _atk)
     {
+        countPierce = 0;
         atk = _atk;
     }
     
@@ -215,8 +217,12 @@ public class Bullet : MonoBehaviour
         {
             GameplayController.Instance.ReleaseBullet(this);
 
-            var enemyControl = other.GetComponent<EnemyControl>();
-            enemyControl.GetHit(atk);
+            if (countPierce == 0)
+            {
+                var enemyControl = other.GetComponent<EnemyControl>();
+                enemyControl.GetHit(atk);
+                countPierce++;
+            }
         }
     }
     

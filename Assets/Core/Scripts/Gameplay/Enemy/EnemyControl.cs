@@ -7,11 +7,16 @@ using System.Collections.Generic;
 using System;
 using FoodZombie;
 
+[System.Serializable]
+public enum EnemyType
+{
+    TYPE_DUMMY,
+    TYPE_NORMAL
+}
+
 public class EnemyControl : MonoBehaviour
 {
-    public const int TYPE_DUMMY = 1;
-    public const int TYPE_NORMAL = 2;
-    public int type = TYPE_DUMMY;
+    public EnemyType type = EnemyType.TYPE_DUMMY;
 
     //public float knockBack = 1f;
     protected float HP;
@@ -43,7 +48,6 @@ public class EnemyControl : MonoBehaviour
         //máu của barrier, cái này kế thừa ra 1 cái riêng sau
         HP = LogicAPI.GetDummyHP();
         HP_MAX = HP;
-        type = TYPE_DUMMY;
         
         Refresh();
         GameplayController.Instance.AddEnemy(this);
@@ -53,7 +57,6 @@ public class EnemyControl : MonoBehaviour
     {
         HP = _enemyData.Hp;
         HP_MAX = HP;
-        type = TYPE_NORMAL;
         
         Refresh();
         GameplayController.Instance.AddEnemy(this);

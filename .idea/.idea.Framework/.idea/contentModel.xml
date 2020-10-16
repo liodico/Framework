@@ -436,6 +436,7 @@
               </e>
               <e p="GameplayController.cs" t="Include" />
               <e p="Hero" t="Include">
+                <e p="BarrierControl.cs" t="Include" />
                 <e p="HeroAttack.cs" t="Include" />
                 <e p="HeroAutoTarget.cs" t="Include" />
                 <e p="HeroCloseAttack.cs" t="Include" />
@@ -449,6 +450,9 @@
               <e p="OderLayerZUpdate.cs" t="Include" />
               <e p="QuickDragCamera.cs" t="Include" />
               <e p="SystemKoTrungUnit.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="ButtonItemGameplay.cs" t="Include" />
+              </e>
             </e>
             <e p="Manager" t="Include">
               <e p="AdsHelper.cs" t="Include" />

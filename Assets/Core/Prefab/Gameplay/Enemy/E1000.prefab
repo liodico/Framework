@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85db291d5aadeeb4e8c9b4213e409f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
   hpBar: {fileID: 1030300535401431681}
   collider2D: {fileID: 4236359477290533445}
   size: {x: 1.1, y: 7}

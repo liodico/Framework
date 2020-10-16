@@ -75,6 +75,7 @@ public class GameplayController : MonoBehaviour
     public Transform transformPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<HeroControlsPool> heroControlsPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<EnemyControlsPool> enemyControlsPool;
+    [SerializeField, Tooltip("Buildin Pool")] private List<HeroControl> barriersPool;
     [SerializeField, Tooltip("Buildin Pool")] private List<TextHp> textHpsPool;
 
     private PoolsContainer<Bullet> bulletPools;
@@ -83,13 +84,15 @@ public class GameplayController : MonoBehaviour
     private List<EnemyData> listEnemyDatas;
 
     private List<HeroControl> heroes;
+    [SerializeField] private HeroControl baseHome;
     private List<EnemyControl> enemies;
-    [SerializeField] private EnemyControl barrier;
 
     private SystemKoTrungUnit systemKoTrung = new SystemKoTrungUnit();
     private List<EnemyControl> koTrungEnemies;
     private Dictionary<int, int> totalKills;
 
+    public bool autoPlay = false;
+    public TapToTarget tapToTarget;    
     void Start()
     {
         StartCoroutine(IEAutoSpawnEnemy());
@@ -106,6 +109,8 @@ public class GameplayController : MonoBehaviour
         {
             item.list.Free();
         }
+
+        barriersPool.Free();
         textHpsPool.Free();
         
         bulletPools = new PoolsContainer<Bullet>("PoolsBullet", 20, transformPool);
@@ -120,9 +125,9 @@ public class GameplayController : MonoBehaviour
         
         listEnemyDatas = GameData.Instance.EnemiesGroup.GetAllEnemyDatas();
         heroes = new List<HeroControl>();
+        baseHome.Init(GameData.Instance.VehicleData.GetHp());
         enemies = new List<EnemyControl>();
         koTrungEnemies = new List<EnemyControl>();
-        barrier.Init();
 
         totalKills = new Dictionary<int, int>();
         
@@ -134,8 +139,8 @@ public class GameplayController : MonoBehaviour
         {
             SpawnHero(heroDatas[i], heroSpawnPoses[i].position);
         }
-        
-        hubPanel.LinkHubInfoHero();
+
+        LoadAutoPlay();
     }
 
     public void SpawnHero(HeroData heroData, Vector3 heroSpawnPos)
@@ -146,6 +151,7 @@ public class GameplayController : MonoBehaviour
         heroControl.transform.position = pos;
         heroControl.Init(heroData);
         heroControl.SetActive(true);
+        hubPanel.LinkHubInfoHero((HeroExControl) heroControl);
     }
 
     private void SpawnEnemy(EnemyData enemyData)
@@ -187,7 +193,7 @@ public class GameplayController : MonoBehaviour
         textHp.SetInfo(hp, isRight, crit, typeAttack);
         textHp.SetActive(true);
     }
-
+    
     public List<HeroControl> GetHeroes()
     {
         return heroes;
@@ -201,7 +207,7 @@ public class GameplayController : MonoBehaviour
     public void RemoveHero(HeroControl hero)
     {
         heroes.Remove(hero);
-        if (hero.type == HeroControl.TYPE_DUMMY)
+        if (hero == baseHome)
         {
             var rewards = GameData.Instance.MissionsGroup.Lose(Config.TYPE_MODE_NORMAL);
             MainGamePanel.instance.ShowLosePanel(rewards);
@@ -216,13 +222,13 @@ public class GameplayController : MonoBehaviour
     public void AddEnemy(EnemyControl enemy)
     {
         enemies.Add(enemy);
-        if (enemy.type != EnemyControl.TYPE_DUMMY) koTrungEnemies.Add(enemy);
+        if (enemy.type != EnemyType.TYPE_DUMMY) koTrungEnemies.Add(enemy);
     }
 
     public void RemoveEnemy(EnemyControl enemy)
     {
         enemies.Remove(enemy);
-        if (enemy.type != EnemyControl.TYPE_DUMMY) {
+        if (enemy.type != EnemyType.TYPE_DUMMY) {
             var enemyEx = (EnemyExControl)enemy;
             var id = enemyEx.enemyData.Id;
             if (!totalKills.ContainsKey(id))
@@ -280,5 +286,24 @@ public class GameplayController : MonoBehaviour
     {
         //Config.stageGamePlay = Config.STAGE_GAMEPLAY_PLAYING;
         Time.timeScale = 1f;
+    }
+
+    public void ChangeAutoPlay()
+    {
+        autoPlay = !autoPlay;
+        LoadAutoPlay();
+    }
+
+    public void LoadAutoPlay()
+    {
+        tapToTarget.SetActive(!autoPlay);
+    }
+
+    public void AddBarrier(Vector2 pos)
+    {
+        var barrier = barriersPool.Obtain(transformPool);
+        barrier.Init(2000f);
+        barrier.transform.position = new Vector3(pos.x, pos.y, OderLayerZ.PIVOT_POINT);
+        barrier.SetActive(true);
     }
 }

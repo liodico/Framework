@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d05dbe43255ff6544a12c449f0bec1ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   hpBar: {fileID: 5545454231993689988}
   collider2D: {fileID: 8339823646709489263}
   size: {x: 1.4, y: 0.4}
@@ -468,10 +468,10 @@ MonoBehaviour:
     - attackMelee2
     - attackMelee3
     attackType: 0
-    originAttack: {x: 0, y: 2.3}
-    sizeAttack: {x: 6, y: 4.8}
+    originAttack: {x: 0, y: 6}
+    sizeAttack: {x: 6, y: 12}
     attackColor: {r: 1, g: 0, b: 0, a: 1}
-  rangeAttack: {x: 6, y: 4.5}
+  rangeAttack: {x: 6, y: 11}
   currentPlayAttackTime: 0
   shot: {fileID: 0}
 --- !u!1001 &3774376821536800429

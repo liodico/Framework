@@ -10,6 +10,7 @@ using UnityEngine;
 public class HeroExControl : HeroControl
 {
     //public float knockBack;
+    private HubInfoHero hubInfoHero;
 
     private const int ANIM_ATTACK_STAGE = 3;
 
@@ -129,9 +130,9 @@ public class HeroExControl : HeroControl
         STAGE = ANIM_IDLE_STAGE;
     }
     
-    public override void LinkHubInfoHero(HubInfoHero _hubInfoHero)
+    public void LinkHubInfoHero(HubInfoHero _hubInfoHero)
     {
-        base.LinkHubInfoHero(_hubInfoHero);
+        hubInfoHero = _hubInfoHero;
         hubInfoHero.Init(heroData.GetIcon());
     }
     
@@ -148,9 +149,24 @@ public class HeroExControl : HeroControl
         if (autoTarget != null) autoTarget.enabled = false;
     }
 
+    public override void GetHit(float damage)
+    {
+        base.GetHit(damage);
+        
+        if (hubInfoHero != null)
+        {
+            hubInfoHero.ShowHP(HP, HP_MAX);
+        }
+    }
+
     public void SetTarget(EnemyControl _target)
     {
         target = _target;
+
+        if (GameplayController.Instance.autoPlay)
+        {
+            LookAt(target.transform);
+        }
     }
 
     public override void LookAt(Transform target)

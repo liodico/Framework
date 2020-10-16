@@ -61,7 +61,8 @@ public class NwayShot : BaseShot
                 break;
             }
 
-            float baseAngle = m_wayNum % 2 == 0 ? m_centerAngle - (m_betweenAngle / 2f) : m_centerAngle;
+            var centerAngle = m_centerAngle + transform.rotation.eulerAngles.z;
+            float baseAngle = m_wayNum % 2 == 0 ? centerAngle - (m_betweenAngle / 2f) : centerAngle;
 
             float angle = Util.GetShiftedAngle(wayIndex, baseAngle, m_betweenAngle);
 

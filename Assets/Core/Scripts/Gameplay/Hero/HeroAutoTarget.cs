@@ -43,7 +43,7 @@ public class HeroAutoTarget : MonoBehaviour
     IEnumerator IEFindTarget()
     {
         var enemies = GameplayController.Instance.GetEnemies();
-        while (true)
+        while (true && !heroExControl.IsDead())
         {
             heroExControl.SetTarget(GetNearestEnemy(enemies));
 

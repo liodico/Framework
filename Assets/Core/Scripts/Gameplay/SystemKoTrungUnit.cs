@@ -46,10 +46,10 @@ public class SystemKoTrungUnit
     //     XuLyKhongTrung();
     // }
 
-    float kcXTrung = 0.8f;
-    float kcYTrung = 0.7f;
-    float kcXTrungStep = 0.07f;
-    float kcYTrungStep = 0.07f;
+    float kcXTrung = 1.2f;
+    float kcYTrung = 0.8f;
+    float kcXTrungStep = 0.1f;
+    float kcYTrungStep = 0f;
     //truoc thap hon sau
     void CheckCoTrungKo(EnemyControl enemyTruoc, EnemyControl enemySau)
     {

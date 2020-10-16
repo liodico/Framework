@@ -1725,7 +1725,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.8
+  orthographic size: 7.7999997
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3734,7 +3734,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you know that you can upgrade your unit? Let's tap on him!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a5f121f971300b94ea69c79d080d9fac, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2010235416679106287, guid: a5f121f971300b94ea69c79d080d9fac,
     type: 2}
   m_fontSharedMaterials: []

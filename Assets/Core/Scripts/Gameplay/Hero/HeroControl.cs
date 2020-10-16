@@ -7,11 +7,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public enum HeroType
+{
+    TYPE_DUMMY,
+    TYPE_BARRIER,
+    TYPE_NORMAL
+}
+
 public class HeroControl : MonoBehaviour
 {
-    public const int TYPE_DUMMY = 1;
-    public const int TYPE_NORMAL = 2;
-    public int type = TYPE_DUMMY;
+    public HeroType type = HeroType.TYPE_DUMMY;
 
     //public float knockBack;
     protected float HP;
@@ -21,7 +27,6 @@ public class HeroControl : MonoBehaviour
     protected const int ANIM_DEAD_STAGE = 0;
 
     public HpBar hpBar;
-    protected HubInfoHero hubInfoHero;
     public BoxCollider2D collider2D;
 
     public Vector2 size = new Vector2(0.4f, 0.1f);
@@ -39,12 +44,11 @@ public class HeroControl : MonoBehaviour
         }
     }
 
-    public void Init()
+    public void Init(float _HP)
     {
         //máu của barrier, cái này kế thừa ra 1 cái riêng sau
-        HP = GameData.Instance.VehicleData.GetHp();
+        HP = _HP;
         HP_MAX = HP;
-        type = TYPE_DUMMY;
         
         Refresh();
         GameplayController.Instance.AddHero(this);
@@ -54,7 +58,6 @@ public class HeroControl : MonoBehaviour
     {
         HP = _heroData.Hp;
         HP_MAX = HP;
-        type = TYPE_NORMAL;
         
         Refresh();
         GameplayController.Instance.AddHero(this);
@@ -62,17 +65,16 @@ public class HeroControl : MonoBehaviour
 
     public virtual void Refresh()
     {
-        hpBar.Init();
-        hpBar.ShowHP(HP, HP_MAX);
+        if (hpBar != null)
+        {
+            hpBar.Init();
+            hpBar.ShowHP(HP, HP_MAX);
+        }
+
         collider2D.enabled = true;
 
         stage = -1;
         STAGE = ANIM_IDLE_STAGE;
-    }
-
-    public virtual void LinkHubInfoHero(HubInfoHero _hubInfoHero)
-    {
-        hubInfoHero = _hubInfoHero;
     }
     
     public void AnimIdle()
@@ -103,7 +105,7 @@ public class HeroControl : MonoBehaviour
         GameplayController.Instance.RemoveHero(this);
     }
     
-    public void GetHit(float damage)
+    public virtual void GetHit(float damage)
     {
         if(IsDead()) return;
 
@@ -114,9 +116,12 @@ public class HeroControl : MonoBehaviour
             AnimDead();
         }
 
-        var pos = hpBar.ShowHP(HP, HP_MAX);
-        GameplayController.Instance.SpawnHp(pos + new Vector3(0f, 0f, -1f), damage, false, false, TextHp.TEXT_DAMAGE_HP);
-        hubInfoHero.ShowHP(HP, HP_MAX);
+        if (hpBar != null)
+        {
+            var pos = hpBar.ShowHP(HP, HP_MAX);
+            GameplayController.Instance.SpawnHp(pos + new Vector3(0f, 0f, -1f), damage, false, false,
+                TextHp.TEXT_DAMAGE_HP);
+        }
     }
 
     public virtual void OnDrawGizmosSelected()
