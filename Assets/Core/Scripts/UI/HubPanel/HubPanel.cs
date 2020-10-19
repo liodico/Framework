@@ -25,6 +25,7 @@ namespace FoodZombie.UI
         public SimpleTMPButton btnPause;
         public SimpleTMPButton btnAutoPlay;
         public ButtonItemGameplay btnItemBarrier;
+        public Image imgDragItemBarrier;
         public TextMeshProUGUI txtAutoPlay;
         public HubInfoHero[] hubInfoHeroes;
         
@@ -62,17 +63,20 @@ namespace FoodZombie.UI
 
         private void BtnItemBarrier_OnDragStart(Gesture gesture)
         {
-            // GameplayController.Instance.AddBarrier();
+            imgDragItemBarrier.rectTransform.anchoredPosition = gesture.GetTouchToWorldPoint(gesture.position) * 100f;
+            imgDragItemBarrier.SetActive(true);
         }
         
         private void BtnItemBarrier_OnDrag(Gesture gesture)
         {
-            // GameplayController.Instance.AddBarrier();
+            imgDragItemBarrier.rectTransform.anchoredPosition = gesture.GetTouchToWorldPoint(gesture.position) * 100f;
+            imgDragItemBarrier.SetActive(true);
         }
         
         private void BtnItemBarrier_OnDragEnd(Gesture gesture)
         {
-            GameplayController.Instance.AddBarrier(gesture.swipeVector / 100f);
+            GameplayController.Instance.AddBarrier(gesture.GetTouchToWorldPoint(gesture.position));
+            imgDragItemBarrier.SetActive(false);
         }
 
         private void ShowTextAutoPlay()

@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "1038699956042",
-    "firebase_url": "https://zombie-defense-2-a3dc5.firebaseio.com",
-    "project_id": "zombie-defense-2-a3dc5",
-    "storage_bucket": "zombie-defense-2-a3dc5.appspot.com"
+    "firebase_url": "https://zombie-defend-a3dc5.firebaseio.com",
+    "project_id": "zombie-defend-a3dc5",
+    "storage_bucket": "zombie-defend-a3dc5.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:1038699956042:android:56a52c025233b355b7e3b3",
         "android_client_info": {
-          "package_name": "com.redantz.game.zdefense2"
+          "package_name": "com.test.game.zdefend"
         }
       },
       "oauth_client": [

@@ -124,7 +124,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.8.0
+  bundleVersion: 0.0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -168,9 +168,9 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.redantz.game.zdefense2
+    Android: com.test.game.zdefend
   buildNumber: {}
-  AndroidBundleVersionCode: 80
+  AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
@@ -675,7 +675,7 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: ODIN_INSPECTOR
-    7: DEVELOPMENT;UNITY_IAP;UNITY_ADS;UNITY_MONETIZATION;USE_DOTWEEN;ACTIVE_FIREBASE;ACTIVE_FIREBASE_ANALYTICS;ACTIVE_FIREBASE_CRASHLYTICS;ACTIVE_ADMOB;ACTIVE_IRONSOURCE;ODIN_INSPECTOR
+    7: DEVELOPMENT;UNITY_IAP;UNITY_ADS;UNITY_MONETIZATION;USE_DOTWEEN;ACTIVE_ADMOB;ACTIVE_IRONSOURCE;ODIN_INSPECTOR
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

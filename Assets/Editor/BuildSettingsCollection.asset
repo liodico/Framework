@@ -35,5 +35,8 @@ MonoBehaviour:
       active: 1
     customDirectives: 0
     directives:
-    - 
+    - enable: 0
+      directive: 
     selected: 0
+    customBuildName: 0
+    customPackage: 0

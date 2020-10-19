@@ -511,6 +511,7 @@
               </e>
               <e p="ScriptableObject" t="Include">
                 <e p="AssetsCollection.cs" t="Include" />
+                <e p="GameIDsConverter.cs" t="Include" />
               </e>
               <e p="ServerManager.cs" t="Include" />
               <e p="SoundManager.cs" t="Include" />
