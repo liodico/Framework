@@ -22,116 +22,14 @@
     <list default="true" id="efde17d7-e629-4f00-873c-3d411aa29848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Framework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Prefab/UI/HubPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Prefab/UI/HubPanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/UI/HubPanel/HubPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/UI/HubPanel/HubPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/BuildSettingsCollection.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/BuildSettingsCollection.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/google-services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/Firebase/res/values/google-services.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.activity.activity-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.activity.activity-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.annotation.annotation-1.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.annotation.annotation-1.1.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.appcompat.appcompat-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.appcompat.appcompat-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.appcompat.appcompat-resources-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.appcompat.appcompat-resources-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-common-2.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-common-2.1.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.arch.core.core-runtime-2.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.asynclayoutinflater.asynclayoutinflater-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.browser.browser-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.browser.browser-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.cardview.cardview-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.cardview.cardview-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.collection.collection-1.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.collection.collection-1.1.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.coordinatorlayout.coordinatorlayout-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.core.core-1.2.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.core.core-1.2.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.customview.customview-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.documentfile.documentfile-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.drawerlayout.drawerlayout-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.fragment.fragment-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.fragment.fragment-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-ui-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-core-utils-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-v4-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.legacy.legacy-support-v4-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.1.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-2.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-livedata-core-2.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.lifecycle.lifecycle-viewmodel-2.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.loader.loader-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.localbroadcastmanager.localbroadcastmanager-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.media.media-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.media.media-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.print.print-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.print.print-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.savedstate.savedstate-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.savedstate.savedstate-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.slidingpanelayout.slidingpanelayout-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-animated-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-animated-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.installreferrer.installreferrer-1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.android.installreferrer.installreferrer-1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.audience-network-sdk-5.11.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.audience-network-sdk-5.11.0.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.audience-network-sdk-5.11.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.audience-network-sdk-5.11.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-applinks-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-applinks-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-common-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-core-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-gamingservices-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-gamingservices-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-login-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-login-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-share-8.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.facebook.android.facebook-share-8.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-api-2.2.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-api-2.2.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-2.2.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-backend-cct-2.2.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-2.2.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.datatransport.transport-runtime-2.2.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-19.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-19.3.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-19.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-19.3.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-identifier-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.3.0.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.3.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-base-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-base-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.2.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.2.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-gass-19.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-gass-19.3.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-impl-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.auto.value.auto-value-annotations-1.6.5.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.auto.value.auto-value-annotations-1.6.5.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.dagger.dagger-2.27.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.dagger.dagger-2.27.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.4.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-17.4.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.15.2.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.15.2.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.15.2.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-analytics-unity-6.15.2.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.15.2.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.15.2.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.15.2.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-app-unity-6.15.2.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-common-19.3.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-components-16.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-unity-6.15.2.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-unity-6.15.2.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-unity-6.15.2.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-crashlytics-unity-6.15.2.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-encoders-json-16.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-encoders-json-16.1.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-20.1.5.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-20.1.5.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-iid-interop-17.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-16.2.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-16.2.1.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-installations-interop-16.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.zxing.core-3.3.3.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.zxing.core-3.3.3.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.ironsource.sdk.mediationsdk-7.0.2.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.ironsource.sdk.mediationsdk-7.0.2.aar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-android-1.4.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-android-1.4.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-applinks-1.4.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-applinks-1.4.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-tasks-1.4.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.parse.bolts.bolts-tasks-1.4.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.squareup.okhttp3.okhttp-3.12.1.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.squareup.okhttp3.okhttp-3.12.1.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.squareup.okio.okio-1.15.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.squareup.okio.okio-1.15.0.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/javax.inject.javax.inject-1.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/javax.inject.javax.inject-1.jar.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/google-services-desktop.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Resources/DevSetting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Resources/DevSetting.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/google-services.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/google-services.json.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Resources/BGMap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Resources/BGMap.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Resources/Tool.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Resources/Tool/GameIDsConverter.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Resources/Tool/GameIDsConverter.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/Manager/ScriptableObject/GameIDsConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Core/Scripts/Manager/ScriptableObject/GameIDsConverter.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/GamePanel/WinPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Bullet/BaseShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/ResolutionFixer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/Utitlites/UITooltips.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Example/Script/UbhDestroyArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Bullet/NwayLockOnShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Common/Extensions And Helper/SpineAnimationExtenstion.cs" root0="FORCE_HIGHLIGHTING" />
@@ -183,6 +82,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Example/Script/UbhScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/MenuTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/IntroPanel/IntroPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickSheet/Editor/BaseMachineEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/DirectivesWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Editor/ToolsCollectionWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Example/Script/UbhTitle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -193,6 +93,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GoogleMobileAds/Common/DummyClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Example/Script/UbhShowcaseCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Bullet/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickSheet/Example/Difficulty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/EditTeamPanel/EditTeamPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioMenuTools.cs" root0="FORCE_HIGHLIGHTING" />
@@ -205,8 +106,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Script/Bullet/UbhTentacleBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/2DxFX/Scripts/_2dxFX_JellyAutoMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Program Files/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Config/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Config/Localization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickSheet/ExcelPlugin/Editor/ExcelMachineEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickSheet/ExcelPlugin/Editor/ExcelMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Services/GameServices/ServicesMenuTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Services/GameServices/GameServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/LogicAPI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/24/f45d8f2b/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/26/11712361/Ray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/7f/1f2793f6/Directory.cs" root0="SKIP_HIGHLIGHTING" />
@@ -214,25 +121,33 @@
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/UI/ButtonItemGameplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickSheet/GDataPlugin/Editor/GoogleMachineEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/DataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Spine Examples/Scripts/Mix and Match Character Customize/EquipButtonExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/AntiCheat/Encryption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Engine/Gesture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/Base/DataSaverContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Data/Hero/HeroesGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Data/Chest/PremiumChest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/DevSetting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Frameworks/Data/Editor/DataMenuTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Data/Enemy/EnemiesGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Editor/DevSettingEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Hero/BarrierControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/EasyTouchBundle/EasyTouch/Plugins/Components/QuickDrag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Data/Enemy/Runtime/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Scene/SplashScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/Scene/GameplayScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Prefab/UI/HubPanel.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Prefab/UI/EditTeamPanel.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/UI/MainGamePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/DragCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/Spine/Runtime/spine-csharp/AnimationState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Gameplay/Bullet/NwayShot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Manager/ScriptableObject/GameIDsConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Core/Scripts/Tool/LevelDesign/LevelDesignTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Script/ShotPattern/UbhNwayLockOnShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/UniBulletHell/Script/ShotPattern/UbhBaseShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/2DxFX/Scripts/_2dxFX_Outline.cs" root0="FORCE_HIGHLIGHTING" />
@@ -244,12 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/DevSetting.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Config/Editor/DevSettingEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Demo/Script/ExampleAssetsCollection.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioCollection.cs" />
-        <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/AudioMenuTools.cs" />
         <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/Audio/HybirdAudioCollection.cs" />
         <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/JustButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ThirdParty/CoreBase/Utilities/Components/UI/SimpleTMPButton.cs" />
@@ -295,6 +204,12 @@
         <option value="$PROJECT_DIR$/Assets/Core/google-services_live.json" />
         <option value="$PROJECT_DIR$/Assets/Core/google-services.json" />
         <option value="$PROJECT_DIR$/Assets/ThirdParty/QuickSheet/Example/Data/Runtime/ExcelExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Data/_IDs.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuickSheet/ExcelPlugin/Editor/ExcelMachineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuickSheet/GDataPlugin/Editor/GoogleMachineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/QuickSheet/Editor/BaseMachineEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/Config/IDs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Core/Scripts/Tool/LevelDesign/LevelDesignTool.cs" />
       </list>
     </option>
   </component>
@@ -345,6 +260,8 @@
       <workItem from="1602814036393" duration="20906000" />
       <workItem from="1603074930900" duration="11975000" />
       <workItem from="1603100532777" duration="3453000" />
+      <workItem from="1603162950444" duration="11278000" />
+      <workItem from="1603187286821" duration="2736000" />
     </task>
     <servers />
   </component>
@@ -453,18 +370,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602478196194" />
-    <state x="323" y="18" width="786" height="697" key="find.popup" timestamp="1602559285163">
+    <state x="1032" y="250" width="786" height="697" key="find.popup" timestamp="1603187923439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1032" y="250" width="786" height="697" key="find.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1603187923439" />
     <state x="323" y="18" width="786" height="697" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602559285163" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602815448528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1602815448528" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602843889098">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603189569179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1602843889098" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.0.1600.860@0.0.1920.1040" timestamp="1603189569179" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602744289598" />
   </component>
 </project>

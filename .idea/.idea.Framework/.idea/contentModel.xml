@@ -367,6 +367,18 @@
               </e>
             </e>
           </e>
+          <e p="Data" t="Include">
+            <e p="Enemy" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EnemyAssetPostProcessor.cs" t="Include" />
+                <e p="EnemyEditor.cs" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Enemy.cs" t="Include" />
+                <e p="EnemyBase.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Material" t="Include">
             <e p="Fill.shader" t="Include" />
           </e>
@@ -511,7 +523,6 @@
               </e>
               <e p="ScriptableObject" t="Include">
                 <e p="AssetsCollection.cs" t="Include" />
-                <e p="GameIDsConverter.cs" t="Include" />
               </e>
               <e p="ServerManager.cs" t="Include" />
               <e p="SoundManager.cs" t="Include" />
@@ -522,6 +533,11 @@
                 <e p="TutorialsManager.cs" t="Include" />
                 <e p="TutorialUpgradeUnit.cs" t="Include" />
                 <e p="TutorialWheel.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tool" t="Include">
+              <e p="LevelDesign" t="Include">
+                <e p="LevelDesignTool.cs" t="Include" />
               </e>
             </e>
             <e p="UI" t="Include">
@@ -1043,6 +1059,115 @@
               <e p="IAPListener.cs" t="Include" />
               <e p="link.xml" t="Include" />
               <e p="PurchasingCheck.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="QuickSheet" t="Include">
+          <e p="Editor" t="Include">
+            <e p="BaseEditor.cs" t="Include" />
+            <e p="BaseMachine.cs" t="Include" />
+            <e p="BaseMachineEditor.cs" t="Include" />
+            <e p="CustomAssetUtility.cs" t="Include" />
+            <e p="GUIHelper.cs" t="Include" />
+            <e p="ScriptGenerator.cs" t="Include" />
+            <e p="ScriptPrescription.cs" t="Include" />
+            <e p="Util" t="Include">
+              <e p="Cloner.cs" t="Include" />
+              <e p="CsvParser.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="SingletonScriptableObject.cs" t="Include" />
+              <e p="Util.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Example" t="Include">
+            <e p="Data" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ExcelExampleAssetPostProcessor.cs" t="Include" />
+                <e p="ExcelExampleEditor.cs" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="ExcelExample.cs" t="Include" />
+                <e p="ExcelExampleData.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Difficulty.cs" t="Include" />
+          </e>
+          <e p="ExcelPlugin" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BaseExcelEditor.cs" t="Include" />
+              <e p="ExcelMachine.cs" t="Include" />
+              <e p="ExcelMachineEditor.cs" t="Include" />
+              <e p="ExcelQuery.cs" t="Include" />
+              <e p="ExcelSettings.cs" t="Include" />
+              <e p="ExcelSettingsEditor.cs" t="Include" />
+              <e p="Library" t="Include">
+                <e p="NPOI.2.1.1.txt" t="Include" />
+                <e p="Release Notes.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Templates" t="Include">
+              <e p="DataClass.txt" t="Include" />
+              <e p="PostProcessor.txt" t="Include" />
+              <e p="ScriptableObjectClass.txt" t="Include" />
+              <e p="ScriptableObjectEditorClass.txt" t="Include" />
+            </e>
+          </e>
+          <e p="GDataPlugin" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BaseGoogleEditor.cs" t="Include" />
+              <e p="GDataDB" t="Include">
+                <e p="GDataDB" t="Include">
+                  <e p="DatabaseClient.cs" t="Include" />
+                  <e p="IDatabase.cs" t="Include" />
+                  <e p="IDatabaseClient.cs" t="Include" />
+                  <e p="Impl" t="Include">
+                    <e p="Database.cs" t="Include" />
+                    <e p="GDataDBRequestFactory.cs" t="Include" />
+                    <e p="Row.cs" t="Include" />
+                    <e p="Serializer.cs" t="Include" />
+                    <e p="Table.cs" t="Include" />
+                  </e>
+                  <e p="IRow.cs" t="Include" />
+                  <e p="ITable.cs" t="Include" />
+                  <e p="Order.cs" t="Include" />
+                  <e p="Query.cs" t="Include" />
+                </e>
+                <e p="GDataDB.Linq" t="Include">
+                  <e p="Impl" t="Include">
+                    <e p="Evaluator.cs" t="Include" />
+                    <e p="ExpressionVisitor.cs" t="Include" />
+                    <e p="GDataDBQueryProvider.cs" t="Include" />
+                    <e p="OrderTranslator.cs" t="Include" />
+                    <e p="Query.cs" t="Include" />
+                    <e p="QueryProvider.cs" t="Include" />
+                    <e p="QueryTranslator.cs" t="Include" />
+                    <e p="TypeSystem.cs" t="Include" />
+                    <e p="WhereTranslator.cs" t="Include" />
+                  </e>
+                  <e p="ITableExtensions.cs" t="Include" />
+                </e>
+                <e p="license.txt" t="Include" />
+              </e>
+              <e p="Google" t="Include">
+                <e p="Google.GData.license.txt" t="Include" />
+                <e p="license.txt" t="Include" />
+              </e>
+              <e p="GoogleDataSettings.cs" t="Include" />
+              <e p="GoogleDataSettingsEditor.cs" t="Include" />
+              <e p="GoogleMachine.cs" t="Include" />
+              <e p="GoogleMachineEditor.cs" t="Include" />
+            </e>
+            <e p="Templates" t="Include">
+              <e p="AssetFileClass.txt" t="Include" />
+              <e p="DataClass.txt" t="Include" />
+              <e p="ScriptableObjectClass.txt" t="Include" />
+              <e p="ScriptableObjectEditorClass.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="ExposePropertyAttribute.cs" t="Include" />
+            <e p="Util" t="Include">
+              <e p="ConvertExt.cs" t="Include" />
             </e>
           </e>
         </e>

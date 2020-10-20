@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 public class IDs
 {
@@ -86,6 +86,18 @@ public class IDs
 	public const int E3 = 3;
 	public const int E4 = 4;
 	public const int E5 = 5;
+	public const int E6 = 6;
+	public const int E7 = 7;
+	public const int E8 = 8;
+	public const int E9 = 9;
+	public const int E10 = 10;
+	public const int E11 = 11;
+	public const int E12 = 12;
+	public const int E13 = 13;
+	public const int E14 = 14;
+	public const int E15 = 15;
+	public const int E16 = 16;
+
 	#endregion
 	#region PowerUps Items
 	public const int PW_SPEED = 1;
@@ -101,11 +113,6 @@ public class IDs
 	public const int REWARD_TYPE_COIN_BY_MISSION = 4;
 	public const int REWARD_TYPE_PRE_UNIT = 5;
 	public enum Reward_Types { REWARD_TYPE_CURRENCY = 1, REWARD_TYPE_UNLOCK_CHARACTER = 2, REWARD_TYPE_POWER_UP = 3, REWARD_TYPE_COIN_BY_MISSION = 4, REWARD_TYPE_PRE_UNIT = 5,  }
-	#endregion
-	#region Currencies [enum]
-	public const int CURRENCY_COIN = 1;
-	public const int CURRENCY_CASH = 2;
-	public enum Currencies { CURRENCY_COIN = 1, CURRENCY_CASH = 2,  }
 	#endregion
 	#region Areas
 	public const int AREA_1 = 1;
@@ -142,5 +149,83 @@ public class IDs
 	public const int RANDOM_FROM_NORMAL_CHEST = -2;
 	public const int RANDOM_FROM_PREMIUM_CHEST = -3;
 	#endregion
+	#region Currencies [enum]
+	public const int CURRENCY_COIN = 1;
+	public const int CURRENCY_CASH = 2;
+	public enum Currencies { CURRENCY_COIN = 1, CURRENCY_CASH = 2,  }
+	#endregion
+}
 
+public enum EnemyID
+{
+	Empty,
+	E1,
+	E2,
+	E3,
+	E4,
+	E5,
+	E6,
+	E7,
+	E8,
+	E9,
+	E10,
+	E11,
+	E12,
+	E13,
+	E14,
+	E15,
+	E16
+}
+public enum Rank
+{
+	Empty,
+	C,
+	B,
+	A,
+	S,
+	SS
+}
+
+public enum AttackType
+{
+	Empty,
+	Melee,
+	Range,
+	Fly
+}
+
+public enum Race
+{
+	Empty,
+	Human,
+	Cyborg,
+	Humanoid_Biotic,
+	Robotic,
+	Monster
+}
+
+public enum Element
+{
+	Empty,
+	Electric,
+	Metalic,
+	Nitrogen,
+	Lava
+}
+
+public enum RangeType
+{
+	Empty,
+	Melee_Range,
+	Medium_Range,
+	Long_Range
+}
+
+public enum Target
+{
+	Empty,
+	Trap,
+	Melee_Hero,
+	Range_Hero,
+	Base
 }

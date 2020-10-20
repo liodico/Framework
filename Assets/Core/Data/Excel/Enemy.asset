@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece50d9431908cf469c92ded4c91e2e2, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Core/Data/Excel/Enemy.xlsx
+  WorksheetName: Enemy
+  dataArray:
+  - enemyid: 1
+    name: Crazy ball
+    attacktype:
+    - Range
+    race: 4
+    element: 3
+    rangetype: 1
+    target: 2
+    ai: "l\u0103n tr\xF2n t\u1EDBi g\u1EA7n base. T\u1EDBi \u0111\u1EE7 kho\u1EA3ng
+      c\xE1ch n\xF3 s\u1EBD t\xE1ch ra , m\u1ECDc s\xFAng b\u1EAFn v\u1EC1 ph\xEDa
+      hero."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 25
+    accuracy: 15
+    dodge: 35
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 2
+    name: Roach
+    attacktype:
+    - Melee
+    race: 5
+    element: 2
+    rangetype: 1
+    target: 2
+    ai: "Con n\xE0y t\u1EA5n c\xF4ng b\u1EB1ng 2 c\xE1i c\xE0ng tr\xEAn \u0111\u1EA7u."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 26
+    accuracy: 16
+    dodge: 36
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 3
+    name: Devil Drone
+    attacktype:
+    - Range
+    race: 4
+    element: 4
+    rangetype: 1
+    target: 2
+    ai: "Bay t\u1EDBi \u0111\u1EE7 kho\u1EA3ng c\xE1ch th\xEC d\u1EEBng l\u1EA1i
+      b\u1EAFn"
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 27
+    accuracy: 17
+    dodge: 37
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 4
+    name: Viper
+    attacktype:
+    - Range
+    - Fly
+    race: 2
+    element: 1
+    rangetype: 1
+    target: 3
+    ai: "tr\u01B0\u1EDDn t\u1EDBi \u0111\u1EE7 kho\u1EA3ng c\xE1ch th\xEC d\u1EEBng
+      l\u1EA1i b\u1EAFn \u0111\u1ED9c v\u1EC1 ph\xEDa ranger hero."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 28
+    accuracy: 18
+    dodge: 38
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 5
+    name: Chines
+    attacktype:
+    - Melee
+    race: 5
+    element: 2
+    rangetype: 1
+    target: 2
+    ai: "Di chuy\u1EC3n theo \u0111\u01B0\u1EDDng s\xF3ng v\xE0 t\u1EA5n c\xF4ng
+      b\u1EA5t c\u1EE9 th\u1EE9 g\xEC n\xF3 g\u1EB7p ph\u1EA3i."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 29
+    accuracy: 19
+    dodge: 39
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 6
+    name: Spider
+    attacktype:
+    - Melee
+    race: 4
+    element: 1
+    rangetype: 1
+    target: 2
+    ai: "con nh\u1EC7n m\xE1y , c\xF3 th\u1EC3 ph\xF3ng t\u01A1 ra t\u1EEB xa khi\u1EBFn
+      Hero ko th\u1EC3 h\xE0nh \u0111\u1ED9ng. S\u1EED d\u1EE5ng ph\xF3ng t\u01A1
+      [7s] 1 l\u1EA7n. Khi b\u1ECB d\xEDnh t\u01A1 trong [2s]  Hero ko th\u1EC3 b\u1EAFn.
+      Tap \u0111\u1EE7 [5] l\u1EA7n v\xE0o hero b\u1ECB d\xEDnh t\u01A1 c\xF3 th\u1EC3
+      ph\xE1 t\u01A1."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 210
+    accuracy: 110
+    dodge: 310
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 7
+    name: Crumble
+    attacktype:
+    - Melee
+    race: 2
+    element: 3
+    rangetype: 1
+    target: 4
+    ai: "tr\xF4ng gi\u1ED1ng con r\u1EADn, th\xE2n n\xF3 ph\xECnh ra th\xE0nh nh\u1EEFng
+      qu\u1EA3 b\xF3ng to ch\u1EE9a \u0111\u1EA7y axit, khi l\u1EA1i g\u1EA7n hero
+      ho\u1EB7c base n\xF3 s\u1EBD t\u1EF1 ph\xE1t n\u1ED5. N\xF3 s\u1EBD c\u1ED1
+      g\u1EAFng di chuy\u1EC3n g\u1EA7n base nh\u1EA5t c\xF3 th\u1EC3. Khi \u0111\u1EE9ng
+      s\xE1t base n\xF3 s\u1EBD ng\u1EEBng l\u1EA1i r\u1ED3i ph\xECnh l\xEAn. Ph\xE1t
+      n\u1ED5 [2s] sau \u0111\xF3. N\xF3 c\u0169ng s\u1EBD ph\xE1t n\u1ED5 ngay l\u1EADp
+      t\u1EE9c khi h\u1EBFt m\xE1u. Khi n\xF3 ph\xE1t n\u1ED5 s\u1EBD g\xE2y damage
+      Aoe trong di\u1EC7n t\xEDch 1 \xF4 xung quanh v\u1ECB tr\xED n\xF3 \u0111\u1EE9ng
+      , k\u1EC3 c\u1EA3 qu\xE2n \u0111\u1ECBch c\u0169ng d\xEDnh damage. Damage khi
+      b\u1ECB b\u1EAFn ch\u1EBFt ph\xE1t n\u1ED5 = 1/2 damage c\u01A1 b\u1EA3n. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 211
+    accuracy: 111
+    dodge: 311
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 8
+    name: Crazy machine
+    attacktype:
+    - Range
+    race: 4
+    element: 4
+    rangetype: 2
+    target: 2
+    ai: "Nh\u1EEFng c\u1ED1 m\xE1y nh\u1ECF di chuy\u1EC3n b\u1EB1ng 2 ch\xE2n, tr\xEAn
+      th\xE2n c\u1EE7a ch\xFAng c\xF3 g\u1EAFn 2 kh\u1EA9u s\xFAng v\u1EDBi h\u1ECFa
+      l\u1EF1c m\u1EA1nh. T\u1EA5n c\xF4ng li\xEAn ti\u1EBFp 2 l\u1EA7n."
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 212
+    accuracy: 112
+    dodge: 312
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 9
+    name: Devil Mech
+    attacktype:
+    - Range
+    race: 4
+    element: 2
+    rangetype: 2
+    target: 2
+    ai: "C\xF3 h\xECnh d\xE1ng gi\u1ED1ng Crazy machine nh\u01B0ng l\u1EDBn h\u01A1n
+      v\xE0 \u0111\u01B0\u1EE3c trang b\u1ECB h\u1ECFa l\u1EF1c nhi\u1EC1u v\xE0
+      m\u1EA1nh h\u01A1n. C\xF3 c\u1EA3 b\u1EC7 ph\xF3ng t\xEAn l\u1EEDa nh\u1ECF.
+      T\u1EA5n c\xF4ng 2 l\u1EA7n sau \u0111\xF3 ph\xF3ng t\xEAn l\u1EEDa = 1/2 damage
+      c\u01A1 b\u1EA3n. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 213
+    accuracy: 113
+    dodge: 313
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 10
+    name: Shadow
+    attacktype:
+    - Melee
+    race: 3
+    element: 1
+    rangetype: 3
+    target: 3
+    ai: "C\xF3 h\xECnh d\xE1ng gi\u1ED1ng nh\u01B0 nh\u1EEFng s\xE1t th\u1EE7 , ch\xFAng
+      c\xF3 k\u1EF9 n\u0103ng \u1EA9n th\xE2n v\xE0 t\xE0ng h\xECnh . V\u0169 kh\xED
+      l\xE0 2 thanh dao \u0111i\u1EC7n m\u1ECDc ra t\u1EEB gi\xE1p b\u1EA3o v\u1EC7
+      tay. \nPh\xE1t \u0111\xE1nh \u0111\u1EA7u ti\xEAn khi h\u1EBFt t\xE0ng h\xECnh
+      g\xE2y damage= 300% damage c\u01A1 b\u1EA3n. S\u1EBD hi\u1EC7n h\xECnh n\u1EBFu
+      d\xEDnh s\xE1t th\u01B0\u01A1ng t\u1EDBi t\u1EEB skill. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 214
+    accuracy: 114
+    dodge: 314
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 11
+    name: Canonvic
+    attacktype:
+    - Range
+    race: 4
+    element: 2
+    rangetype: 3
+    target: 4
+    ai: "H\xECnh d\xE1ng nh\u01B0 nh\u1EEFng con r\xF9a, c\xF3 4 ch\xE2n to. Tr\xEAn
+      mai c\u1EE7a n\xF3 g\u1EAFn 1 kh\u1EA9u canon h\u1EA1ng n\u1EB7ng. Di chuy\u1EC3n
+      kh\xE1 ch\u1EADm ch\u1EA1p. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 215
+    accuracy: 115
+    dodge: 315
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 12
+    name: Punch
+    attacktype:
+    - melee
+    race: 5
+    element: 2
+    rangetype: 3
+    target: 4
+    ai: "h\xECnh d\xE1ng gi\u1ED1ng nh\u01B0 con t\xEA gi\xE1c, nh\u01B0ng c\xF3
+      1 c\xE1i mai nh\u01B0 v\u1ECF c\u1EE7a b\u1ECD c\xE1nh c\u1EE9ng, tr\xEAn \u0111\u1EA7u
+      c\xF3 1 c\xE1i s\u1EEBng kh\u1ED5ng l\u1ED3 v\xE0 si\xEAu c\u1EE9ng. N\xF3
+      c\xF3 th\u1EC3 Charge t\u1EEB kho\u1EA3ng c\xE1ch xa \u0111\xE2m v\xE0o Hero
+      v\xE0 base. \u0110i t\u1EDBi gi\u1EEFa m\xE0n h\xECnh c\xF3 th\u1EC3 charge.
+      M\u1EA5t 1s \u0111\u1EC3 l\u1EA5y \u0111\xE0 sau \u0111\xF3 \u0111\xE2m th\u1EB3ng
+      v\xE0o base v\u1EDBi 500% t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 216
+    accuracy: 116
+    dodge: 316
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 13
+    name: The Butcher
+    attacktype:
+    - Melee
+    race: 2
+    element: 1
+    rangetype: 3
+    target: 3
+    ai: "Ng\u01B0\u1EDDi d\xE0i, m\u1EA3nh. C\xF3 4 c\xE1nh tay d\xE0i c\u1EA7m 4
+      thanh ki\u1EBFm nh\u1ECDn ho\u1EAFt , n\u1EEDa ch\xE2n d\u01B0\u1EDBi c\xF3
+      g\u1EAFn b\xE1nh xe nh\u01B0 patin.\nT\u1EDBi \u0111\u1EE7 kho\u1EA3ng c\xE1ch
+      th\xEC ng\u1EEBng l\u1EA1i , phi l\xEAn t\u1EA5n c\xF4ng ranger hero trong
+      1s sau \u0111\xF3 quay l\u1EA1i v\u1ECB tr\xED c\u0169. 2s sau ti\u1EBFp t\u1EE5c
+      t\u1EA5n c\xF4ng l\u1EB7p l\u1EA1i. "
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 217
+    accuracy: 117
+    dodge: 317
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 14
+    name: octopus
+    attacktype:
+    - melee
+    race: 3
+    element: 1
+    rangetype: 3
+    target: 2
+    ai: "Th\xE2n h\xECnh ng\u01B0\u1EDDi nh\u01B0ng c\xF3 c\xE1i \u0111\u1EA7u v\xE0
+      4 c\xE1nh tay nh\u01B0 nh\u1EEFng c\xE1i v\xF2i con b\u1EA1ch tu\u1ED9c. N\xE9
+      tr\xE1nh cao"
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 218
+    accuracy: 118
+    dodge: 318
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 15
+    name: EE666
+    attacktype:
+    - Range
+    race: 4
+    element: 4
+    rangetype: 3
+    target: 2
+    ai: "Con m\u1EAFt bay l\u01A1 l\u1EEDng, n\xF3 c\xF3 1 v\xE0i c\xE1i x\xFAc tu
+      v\xE0 tr\xF4ng nh\u01B0 1 con m\u1EAFt kh\u1ED5ng l\u1ED3. N\xF3 t\u1EA5n c\xF4ng
+      b\u1EB1ng c\xE1ch b\u1EAFn lazer v\xE0o ph\xEDa Hero. Crit cao"
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 219
+    accuracy: 119
+    dodge: 319
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
+  - enemyid: 16
+    name: the Rock
+    attacktype:
+    - Melee
+    race: 4
+    element: 2
+    rangetype: 3
+    target: 2
+    ai: "L\xE0 1 con robo h\xECnh ng\u01B0\u1EDDi, to tr\xF2n v\u1EDBi l\u1EDBp gi\xE1p
+      si\xEAu d\xE0y. C\u1EF1c k\u1EF3 c\u1EE9ng c\xE1p. Armor cao"
+    lv: 1
+    hp: 100
+    hpregen: 1
+    damage: 10
+    movement: 10
+    armor: 10
+    attackspeed: 220
+    accuracy: 120
+    dodge: 320
+    critrate: 50
+    critdamage: 20
+    attackrange: 30
+    invisible: 5
+    coindrop: 30
+    gemdrop: 40
