@@ -538,6 +538,8 @@
             <e p="Tool" t="Include">
               <e p="LevelDesign" t="Include">
                 <e p="LevelDesignTool.cs" t="Include" />
+                <e p="MapInfo.cs" t="Include" />
+                <e p="MissionInfo.cs" t="Include" />
               </e>
             </e>
             <e p="UI" t="Include">
