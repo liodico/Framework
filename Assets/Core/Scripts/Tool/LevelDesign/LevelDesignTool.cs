@@ -152,6 +152,13 @@ public class LevelDesignTool : MonoBehaviour
         }
         listBtnBlock = new List<SimpleTMPButton>();
         listBtnBlockHighLight = new List<GameObject>();
+
+        for (int i = listBtnBlock.Count - 1; i >= 0; i--)
+        {
+            Destroy(listBtnBlock[i].gameObject);
+        }
+        listBtnBlock = new List<SimpleTMPButton>();
+        listBtnBlockHighLight = new List<GameObject>();
     }
 
     private string GetFolderMap()
@@ -319,7 +326,7 @@ public class LevelDesignTool : MonoBehaviour
             else
             {
                 var wayInfos = new List<WaveInfo>();
-                for (int i = 0; i < currentMissionInfo.waveNumber; i++)
+                for (int i = 0; i < 10; i++)
                 {
                     var enemiesIds = new int[11 * 13];
                     wayInfos.Add(new WaveInfo(i, enemiesIds));
@@ -374,8 +381,11 @@ public class LevelDesignTool : MonoBehaviour
 
     private void InputMissionWaveNumber_Changed(string s)
     {
-        currentMissionInfo.waveNumber = int.Parse(inputMissionWaveNumber.text);
-        LoadAllWave();
+        if (!s.Equals(""))
+        {
+            currentMissionInfo.waveNumber = int.Parse(inputMissionWaveNumber.text);
+            LoadAllWave();
+        }
     }
 
     private void LoadAllWave()
@@ -423,7 +433,7 @@ public class LevelDesignTool : MonoBehaviour
     private void ChoiceWave(int index)
     {
         currentWaveIndex = index;
-        ChoiceEnemy();
+        ChoiceWave();
     }
     
     private void LoadAllBlock()
