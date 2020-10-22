@@ -537,6 +537,9 @@
             </e>
             <e p="Tool" t="Include">
               <e p="LevelDesign" t="Include">
+                <e p="BlockEnemy.cs" t="Include" />
+                <e p="EnemyInfoTool.cs" t="Include" />
+                <e p="EnemyStatisticTool.cs" t="Include" />
                 <e p="LevelDesignTool.cs" t="Include" />
                 <e p="MapInfo.cs" t="Include" />
                 <e p="MissionInfo.cs" t="Include" />

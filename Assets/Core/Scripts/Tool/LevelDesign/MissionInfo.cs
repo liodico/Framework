@@ -11,6 +11,7 @@ public class MissionInfo
     public int heroEXPBonus;
     public int gemBonus;
     public List<WaveInfo> waveInfos;
+    public List<EnemyInfo> enemyInfos;
     
     public MissionInfo(int _id, 
                     int _waveNumber, 
@@ -18,7 +19,8 @@ public class MissionInfo
                     int _userEXPBonus, 
                     int _heroEXPBonus,
                     int _gemBonus,
-                    List<WaveInfo> _waveInfos)
+                    List<WaveInfo> _waveInfos,
+                    List<EnemyInfo> _enemyInfos)
     {
         id = _id;
         waveNumber = _waveNumber;
@@ -27,6 +29,7 @@ public class MissionInfo
         heroEXPBonus = _heroEXPBonus;
         gemBonus = _gemBonus;
         waveInfos = _waveInfos;
+        enemyInfos = _enemyInfos;
     }
 }
 
@@ -34,11 +37,32 @@ public class MissionInfo
 public class WaveInfo
 {
     public int id;
-    public int[] enemiesIds;
+    public float time;
+    public EnemyInfo[] enemyInfos;
 
-    public WaveInfo(int _id, int[] _enemiesIds)
+    public WaveInfo(int _id, float _time, EnemyInfo[] _enemyInfos)
     {
         id = _id;
-        enemiesIds = _enemiesIds;
+        time = _time;
+        enemyInfos = _enemyInfos;
+    }
+}
+
+[System.Serializable]
+public class EnemyInfo
+{
+    public int id;
+    public int level;
+
+    public EnemyInfo()
+    {
+        id = 0;
+        level = 0;
+    }
+    
+    public EnemyInfo(int _id, int _level)
+    {
+        id = _id;
+        level = _level;
     }
 }

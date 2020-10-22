@@ -102,11 +102,11 @@ MonoBehaviour:
     name: Invisible
     isEnable: 0
     isArray: 0
-  - type: 5
+  - type: 3
     name: CoinDrop
     isEnable: 0
     isArray: 0
-  - type: 5
+  - type: 3
     name: GemDrop
     isEnable: 0
     isArray: 0

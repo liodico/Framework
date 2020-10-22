@@ -93,11 +93,11 @@ public class EnemyBase
   public float Invisible { get {return invisible; } set { this.invisible = value;} }
   
   [SerializeField]
-  float coindrop;
-  public float Coindrop { get {return coindrop; } set { this.coindrop = value;} }
+  int coindrop;
+  public int Coindrop { get {return coindrop; } set { this.coindrop = value;} }
   
   [SerializeField]
-  float gemdrop;
-  public float Gemdrop { get {return gemdrop; } set { this.gemdrop = value;} }
+  int gemdrop;
+  public int Gemdrop { get {return gemdrop; } set { this.gemdrop = value;} }
   
 }

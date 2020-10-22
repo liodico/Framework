@@ -7,6 +7,7 @@ using Utilities.Common;
 using Utilities.Components;
 using System.IO;
 using FoodZombie;
+using UnityEngine.EventSystems;
 using Utilities.Inspector;
 
 public class LevelDesignTool : MonoBehaviour
@@ -37,7 +38,9 @@ public class LevelDesignTool : MonoBehaviour
     public List<GameObject> listBtnEnemyHighLight;
     public List<SimpleTMPButton> listBtnEnemy;
     private int currentEnemyIndex = 0;
-    
+    public SimpleTMPButton btnAddEnemy;
+    public SimpleTMPButton btnRemoveEnemy;
+
     [Separator("Mission List")]
     public SimpleTMPButton btnMissionPrefab;
     public GameObject btnMissionHighLightPrefab;
@@ -61,21 +64,32 @@ public class LevelDesignTool : MonoBehaviour
     public Transform transformBtnWavesPool;
     public List<GameObject> listBtnWaveHighLight;
     public List<SimpleTMPButton> listBtnWave;
+    public TMP_InputField inputWaveTime;
     private int currentWaveIndex = 0;
     private WaveInfo currentWaveInfo;
     
     [Separator("Block List")]
-    public SimpleTMPButton btnBlockPrefab;
-    public GameObject btnBlockHighLightPrefab;
+    public BlockEnemy btnBlockPrefab;
     public Transform transformBtnBlocksPool;
-    public List<GameObject> listBtnBlockHighLight;
-    public List<SimpleTMPButton> listBtnBlock;
-    private int currentBlockIndex = 0;
+    public List<BlockEnemy> listBtnBlock;
+    
+    [Separator("Mission Enemies List")]
+    public EnemyInfoTool btnMissionEnemyPrefab;
+    public Transform transformBtnMissionEnemiesPool;
+    public List<EnemyInfoTool> listBtnMissionEnemy;
+    private int currentMissionEnemyIndex = 0;
+    private EnemyInfo currentMissionEnemyInfo;
 
-    //
-    public SimpleTMPButton btnSave;
+    [Separator("Wave Statistic")]
+    public EnemyStatisticTool enemyStatisticToolPrefab;
+    public Transform transformEnemyStatisticToolsPool;
+    public List<EnemyStatisticTool> listEnemyStatisticTool;
+    public TextMeshProUGUI txtTotalPower;
+    public TextMeshProUGUI txtTotalCoinDrop;
 
     
+    public SimpleTMPButton btnSave;
+
     private int currentMapIndex = 0;
     // Start is called before the first frame update
     void Start()
@@ -102,7 +116,11 @@ public class LevelDesignTool : MonoBehaviour
         btnBuildMap.onClick.AddListener(BtnBuildMap_Pressed);
         btnSave.onClick.AddListener(BtnSave_Pressed);
         inputMissionWaveNumber.onValueChanged.AddListener(InputMissionWaveNumber_Changed);
+        inputWaveTime.onValueChanged.AddListener(InputWaveTime_Changed);
         
+        btnAddEnemy.onClick.AddListener(BtnAddEnemy_Pressed);
+        btnRemoveEnemy.onClick.AddListener(BtnRemoveEnemy_Pressed);
+
         LoadMap();
         LoadAllEnemy();
         LoadAllMission();
@@ -150,15 +168,14 @@ public class LevelDesignTool : MonoBehaviour
         {
             Destroy(listBtnBlock[i].gameObject);
         }
-        listBtnBlock = new List<SimpleTMPButton>();
-        listBtnBlockHighLight = new List<GameObject>();
-
-        for (int i = listBtnBlock.Count - 1; i >= 0; i--)
+        listBtnBlock = new List<BlockEnemy>();
+        
+        for (int i = listBtnMissionEnemy.Count - 1; i >= 0; i--)
         {
-            Destroy(listBtnBlock[i].gameObject);
+            Destroy(listBtnMissionEnemy[i].gameObject);
         }
-        listBtnBlock = new List<SimpleTMPButton>();
-        listBtnBlockHighLight = new List<GameObject>();
+        listBtnMissionEnemy = new List<EnemyInfoTool>();
+        inputWaveTime.text = "";
     }
 
     private string GetFolderMap()
@@ -328,8 +345,12 @@ public class LevelDesignTool : MonoBehaviour
                 var wayInfos = new List<WaveInfo>();
                 for (int i = 0; i < 10; i++)
                 {
-                    var enemiesIds = new int[11 * 13];
-                    wayInfos.Add(new WaveInfo(i, enemiesIds));
+                    var enemiesInfos = new EnemyInfo[11 * 13];
+                    for (int j = 0; j < enemiesInfos.Length; j++)
+                    {
+                        enemiesInfos[j] = new EnemyInfo();
+                    }
+                    wayInfos.Add(new WaveInfo(i, 10f, enemiesInfos));
                 }
                 
                 currentMissionInfo = new MissionInfo(currentMissionIndex, 10, 
@@ -337,7 +358,8 @@ public class LevelDesignTool : MonoBehaviour
                     currentMapInfo.userEXPStartBonus + currentMapInfo.userEXPNextMissionAdd * currentMissionIndex,
                     currentMapInfo.heroEXPStartBonus + currentMapInfo.heroEXPNextMissionAdd * currentMissionIndex,
                     currentMapInfo.gemBonus,
-                    wayInfos
+                    wayInfos,
+                    new List<EnemyInfo>()
                     );
             }
             inputMissionWaveNumber.text = currentMissionInfo.waveNumber + "";
@@ -347,6 +369,7 @@ public class LevelDesignTool : MonoBehaviour
             inputMissionHeroEXPBonus.text = currentMissionInfo.heroEXPBonus + "";
 
             LoadAllWave();
+            LoadAllMissionEnemy();
         }
     }
     
@@ -358,21 +381,13 @@ public class LevelDesignTool : MonoBehaviour
 
     private void BtnSave_Pressed()
     {
-        var wayInfos = new List<WaveInfo>();
-        for (int i = 0; i < currentMissionInfo.waveNumber; i++)
-        {
-            var enemiesIds = new int[11 * 13];
-            wayInfos.Add(new WaveInfo(i, enemiesIds));
-        }
+        // currentMissionInfo.id = currentMissionIndex;
+        currentMissionInfo.waveNumber = int.Parse(inputMissionWaveNumber.text);
+        currentMissionInfo.coinBonus = int.Parse(inputMissionCoinBonus.text);
+        currentMissionInfo.userEXPBonus = int.Parse(inputMissionUserEXPBonus.text);
+        currentMissionInfo.heroEXPBonus = int.Parse(inputMissionHeroEXPBonus.text);
+        currentMissionInfo.gemBonus = int.Parse(inputGemBonus.text);
         
-        currentMissionInfo = new MissionInfo(currentMissionIndex,
-            int.Parse(inputMissionWaveNumber.text),
-            int.Parse(inputMissionCoinBonus.text),
-            int.Parse(inputMissionUserEXPBonus.text),
-            int.Parse(inputMissionHeroEXPBonus.text),
-            int.Parse(inputGemBonus.text),
-            wayInfos
-        );
             
         var json = JsonUtility.ToJson(currentMissionInfo);
         
@@ -421,6 +436,8 @@ public class LevelDesignTool : MonoBehaviour
     
     private void ChoiceWave()
     {
+        currentWaveInfo = currentMissionInfo.waveInfos[currentWaveIndex];
+        
         for (int i = 0; i < listBtnWaveHighLight.Count; i++)
         {
             listBtnWaveHighLight[i].SetActive(false);
@@ -428,6 +445,8 @@ public class LevelDesignTool : MonoBehaviour
         listBtnWaveHighLight[currentWaveIndex].SetActive(true);
         
         LoadAllBlock();
+        
+        inputWaveTime.text = currentWaveInfo.time + "";
     }
     
     private void ChoiceWave(int index)
@@ -442,28 +461,163 @@ public class LevelDesignTool : MonoBehaviour
         {
             Destroy(listBtnBlock[i].gameObject);
         }
-        listBtnBlock = new List<SimpleTMPButton>();
-        listBtnBlockHighLight = new List<GameObject>();
+        listBtnBlock = new List<BlockEnemy>();
 
-        var lenght = currentMissionInfo.waveInfos[currentWaveIndex].enemiesIds.Length;
-        for (int i = 0; i < lenght; i++)
+        var length = currentWaveInfo.enemyInfos.Length;
+        for (int i = 0; i < length; i++)
         {
-            int index = i;
+            var enemyInfo = currentWaveInfo.enemyInfos[i];
             var btnBlock = GameObject.Instantiate(btnBlockPrefab, transformBtnBlocksPool);
-            btnBlock.onClick.AddListener(() =>
-            {
-                // ChoiceBlock(index);
-            });
+            btnBlock.Init(i, enemyInfo, AddEnemy, RemoveEnemy);
             btnBlock.SetActive(true);
-            var btnBlockHighLight = GameObject.Instantiate(btnBlockHighLightPrefab, btnBlock.transform);
-            btnBlockHighLight.transform.localPosition = Vector3.zero;
-            btnBlockHighLight.SetActive(false);
-            listBtnBlockHighLight.Add(btnBlockHighLight);
             listBtnBlock.Add(btnBlock);
         }
 
-        currentBlockIndex = 0;
-        // ChoiceLine();
+        ShowWaveStatistic();
+    }
+    
+    private void AddEnemy(int index)
+    {
+        currentWaveInfo.enemyInfos[index] = currentMissionEnemyInfo;
+
+        LoadAllBlock();
+    }
+
+    private void RemoveEnemy(int index)
+    {
+        currentWaveInfo.enemyInfos[index] = new EnemyInfo(0, 0);
+
+        LoadAllBlock();
+    }
+
+    private void LoadAllMissionEnemy()
+    {
+        for (int i = listBtnMissionEnemy.Count - 1; i >= 0; i--)
+        {
+            Destroy(listBtnMissionEnemy[i].gameObject);
+        }
+        listBtnMissionEnemy = new List<EnemyInfoTool>();
+
+        var length = currentMissionInfo.enemyInfos.Count;
+        for (int i = 0; i < length; i++)
+        {
+            int index = i;
+            var enemyInfo = currentMissionInfo.enemyInfos[index];
+            var btnMissionEnemy = GameObject.Instantiate(btnMissionEnemyPrefab, transformBtnMissionEnemiesPool);
+            btnMissionEnemy.Init(index, enemyInfo, ChoiceMissionEnemy, ChangeMissionEnemy);
+            btnMissionEnemy.SetActive(true);
+            listBtnMissionEnemy.Add(btnMissionEnemy);
+        }
+
+        currentMissionEnemyIndex = 0;
+        ChoiceMissionEnemy();
+    }
+    
+    private void ChoiceMissionEnemy()
+    {
+        if (currentMissionInfo.enemyInfos.Count > 0)
+        {
+            currentMissionEnemyInfo = currentMissionInfo.enemyInfos[currentMissionEnemyIndex];
+        }
+
+        for (int i = 0; i < listBtnMissionEnemy.Count; i++)
+        {
+            listBtnMissionEnemy[i].UnChoice();
+        }
+        listBtnMissionEnemy[currentMissionEnemyIndex].Choice();
+        
+        LoadAllBlock();
+    }
+    
+    private void ChoiceMissionEnemy(int index)
+    {
+        currentMissionEnemyIndex = index;
+        ChoiceMissionEnemy();
+    }
+
+    private void ChangeMissionEnemy(int index, int level)
+    {
+        var idOld = currentMissionInfo.enemyInfos[index].id;
+        var levelOld = currentMissionInfo.enemyInfos[index].level;
+        currentMissionInfo.enemyInfos[index].level = level;
+        for (int i = 0; i < currentMissionInfo.waveNumber; i++)
+        {
+            var enemyInfos = currentMissionInfo.waveInfos[i].enemyInfos;
+            for (int j = 0; j < enemyInfos.Length; j++)
+            {
+                if (enemyInfos[j].id == idOld && enemyInfos[j].level == levelOld)
+                {
+                    enemyInfos[j].level = level;
+                }
+            }
+        }
+        LoadAllBlock();
+    }
+    
+    private void BtnAddEnemy_Pressed()
+    {
+        var enemyId = (int) enemy.dataArray[currentEnemyIndex].ENEMYID;
+        currentMissionInfo.enemyInfos.Add(new EnemyInfo(enemyId, 1));
+        
+        LoadAllMissionEnemy();
+    }
+
+    private void BtnRemoveEnemy_Pressed()
+    {
+        // var enemyId = (int) enemy.dataArray[currentEnemyIndex].ENEMYID;
+        // if (currentMissionInfo.enemyInfos.Contains(enemyId))
+        // {
+        //     currentMissionInfo.enemyInfos.Remove(enemyId);
+        // }
+
+        LoadAllMissionEnemy();
+    }
+    
+    private void InputWaveTime_Changed(string s)
+    {
+        if (!s.Equals(""))
+        {
+            currentWaveInfo.time = int.Parse(inputWaveTime.text);
+        }
+    }
+
+    private void ShowWaveStatistic()
+    {
+        for (int i = listEnemyStatisticTool.Count - 1; i >= 0; i--)
+        {
+            Destroy(listEnemyStatisticTool[i].gameObject);
+        }
+        listEnemyStatisticTool = new List<EnemyStatisticTool>();
+
+        var length = currentMissionInfo.enemyInfos.Count;
+        int totalCoin = 0;
+        for (int i = 0; i < length; i++)
+        {
+            int index = i;
+            int count = 0;
+            var enemyInfo = currentMissionInfo.enemyInfos[index];
+            for (int j = 0; j < currentWaveInfo.enemyInfos.Length; j++)
+            {
+                var enemyInfoInWave = currentWaveInfo.enemyInfos[j];
+                if (enemyInfoInWave.id == enemyInfo.id && enemyInfoInWave.level == enemyInfo.level)
+                {
+                    count++;
+                }
+            }
+
+            if (count > 0)
+            {
+                var enemyStatisticTool = GameObject.Instantiate(enemyStatisticToolPrefab, transformEnemyStatisticToolsPool);
+                var coinDrop = enemy.dataArray[enemyInfo.id].Coindrop;
+                enemyStatisticTool.Init(enemyInfo, count, 0, enemy.dataArray[enemyInfo.id].Coindrop);
+                totalCoin += count * coinDrop;
+                enemyStatisticTool.SetActive(true);
+                listEnemyStatisticTool.Add(enemyStatisticTool);
+            }
+        }
+
+        txtTotalPower.text = "Power 0";
+        txtTotalCoinDrop.text = "Coin " + totalCoin;
     }
     
     //===========================================
