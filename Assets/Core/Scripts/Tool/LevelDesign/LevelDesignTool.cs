@@ -12,6 +12,9 @@ using Utilities.Inspector;
 
 public class LevelDesignTool : MonoBehaviour
 {
+    public Enemy enemy;
+    public EnemyLevelUpStat enemyLevelUpStat;
+
     [Separator("List Maps")]
     public SimpleTMPButton btnMapPrefab;
     public Transform transformBtnMapsPool;
@@ -31,7 +34,6 @@ public class LevelDesignTool : MonoBehaviour
     public SimpleTMPButton btnBuildMap;
 
     [Separator("Enemies List")]
-    public Enemy enemy;
     public SimpleTMPButton btnEnemyPrefab;
     public GameObject btnEnemyHighLightPrefab;
     public Transform transformBtnEnemiesPool;
@@ -39,7 +41,6 @@ public class LevelDesignTool : MonoBehaviour
     public List<SimpleTMPButton> listBtnEnemy;
     private int currentEnemyIndex = 0;
     public SimpleTMPButton btnAddEnemy;
-    public SimpleTMPButton btnRemoveEnemy;
 
     [Separator("Mission List")]
     public SimpleTMPButton btnMissionPrefab;
@@ -79,6 +80,7 @@ public class LevelDesignTool : MonoBehaviour
     public List<EnemyInfoTool> listBtnMissionEnemy;
     private int currentMissionEnemyIndex = 0;
     private EnemyInfo currentMissionEnemyInfo;
+    public SimpleTMPButton btnRemoveEnemy;
 
     [Separator("Wave Statistic")]
     public EnemyStatisticTool enemyStatisticToolPrefab;
@@ -315,7 +317,35 @@ public class LevelDesignTool : MonoBehaviour
                 var txtMissionPower = GameObject.Instantiate(txtMissionPowerPrefab, btnMission.transform);
                 txtMissionPower.transform.localPosition = new Vector3(80f, 0f, 0f);
                 txtMissionPower.SetActive(true);
-                txtMissionPower.text = "P 4000";
+                
+                var missionInfo = JsonUtility.FromJson<MissionInfo>(ReadString(GetFolderMap() + "/mission_" + (index + 1) + ".json"));
+                int totalPower = 0;
+                if(missionInfo != null) {
+                    for (int j = 0; j < missionInfo.waveInfos.Count; j++)
+                    {
+                        var waveInfo = missionInfo.waveInfos[j];
+
+                        for (int k = 0; k < waveInfo.enemyInfos.Length; k++)
+                        {
+                            var enemyInfo = waveInfo.enemyInfos[k];
+                            if(enemyInfo.id != 0) {
+                                var HP = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].HP, enemyLevelUpStat.dataArray[enemyInfo.id].HP, enemyInfo.level);
+                                var damage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Damage, enemyLevelUpStat.dataArray[enemyInfo.id].Damage, enemyInfo.level);
+                                var armor = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Armor, enemyLevelUpStat.dataArray[enemyInfo.id].Armor, enemyInfo.level);
+                                var attackSpeed = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Attackspeed, enemyLevelUpStat.dataArray[enemyInfo.id].Attackspeed, enemyInfo.level);
+                                var critRate = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate, enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+                                var accuracy = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Accuracy, enemyLevelUpStat.dataArray[enemyInfo.id].Accuracy, enemyInfo.level);
+                                var dodge = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Dodge, enemyLevelUpStat.dataArray[enemyInfo.id].Dodge, enemyInfo.level);
+                                var critDamage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate, enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+                                
+                                var power = ConfigStats.GetPower(HP, damage, armor, attackSpeed, critRate, accuracy, dodge, critDamage);
+                                totalPower += power;
+                            }
+                        }
+                    }
+                }
+                txtMissionPower.text = "P " + totalPower;
+
                 listBtnMissionHighLight.Add(btnMissionHighLight);
                 listBtnMission.Add(btnMission);
             }
@@ -387,11 +417,48 @@ public class LevelDesignTool : MonoBehaviour
         currentMissionInfo.userEXPBonus = int.Parse(inputMissionUserEXPBonus.text);
         currentMissionInfo.heroEXPBonus = int.Parse(inputMissionHeroEXPBonus.text);
         currentMissionInfo.gemBonus = int.Parse(inputGemBonus.text);
-        
-            
+
+
         var json = JsonUtility.ToJson(currentMissionInfo);
-        
-        WriteString(GetFolderMap()  + "/mission_" + (currentMissionIndex + 1) + ".json", json);
+
+        WriteString(GetFolderMap() + "/mission_" + (currentMissionIndex + 1) + ".json", json);
+
+        //f5 power mission
+        int totalPower = 0;
+        for (int j = 0; j < currentMissionInfo.waveInfos.Count; j++)
+        {
+            var waveInfo = currentMissionInfo.waveInfos[j];
+
+            for (int k = 0; k < waveInfo.enemyInfos.Length; k++)
+            {
+                var enemyInfo = waveInfo.enemyInfos[k];
+                if (enemyInfo.id != 0)
+                {
+                    var HP = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].HP,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].HP, enemyInfo.level);
+                    var damage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Damage,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Damage, enemyInfo.level);
+                    var armor = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Armor,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Armor, enemyInfo.level);
+                    var attackSpeed = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Attackspeed,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Attackspeed, enemyInfo.level);
+                    var critRate = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+                    var accuracy = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Accuracy,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Accuracy, enemyInfo.level);
+                    var dodge = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Dodge,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Dodge, enemyInfo.level);
+                    var critDamage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate,
+                        enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+
+                    var power = ConfigStats.GetPower(HP, damage, armor, attackSpeed, critRate, accuracy, dodge,
+                        critDamage);
+                    totalPower += power;
+                }
+            }
+        }
+
+        listBtnMission[currentMissionIndex].transform.FindInChildren("txtPower(Clone)").GetComponent<TextMeshProUGUI>().text = "P " + totalPower;
     }
 
     private void InputMissionWaveNumber_Changed(string s)
@@ -564,12 +631,24 @@ public class LevelDesignTool : MonoBehaviour
 
     private void BtnRemoveEnemy_Pressed()
     {
-        // var enemyId = (int) enemy.dataArray[currentEnemyIndex].ENEMYID;
-        // if (currentMissionInfo.enemyInfos.Contains(enemyId))
-        // {
-        //     currentMissionInfo.enemyInfos.Remove(enemyId);
-        // }
+        var idOld = currentMissionEnemyInfo.id;
+        var levelOld = currentMissionEnemyInfo.level;
+        for (int i = 0; i < currentMissionInfo.waveNumber; i++)
+        {
+            var enemyInfos = currentMissionInfo.waveInfos[i].enemyInfos;
+            for (int j = 0; j < enemyInfos.Length; j++)
+            {
+                if (enemyInfos[j].id == idOld && enemyInfos[j].level == levelOld)
+                {
+                    enemyInfos[j].id = 0;
+                    enemyInfos[j].level = 0;
+                }
+            }
+        }
 
+        currentMissionInfo.enemyInfos.Remove(currentMissionEnemyInfo);
+        
+        LoadAllBlock();
         LoadAllMissionEnemy();
     }
     
@@ -590,6 +669,7 @@ public class LevelDesignTool : MonoBehaviour
         listEnemyStatisticTool = new List<EnemyStatisticTool>();
 
         var length = currentMissionInfo.enemyInfos.Count;
+        int totalPower = 0;
         int totalCoin = 0;
         for (int i = 0; i < length; i++)
         {
@@ -608,16 +688,29 @@ public class LevelDesignTool : MonoBehaviour
             if (count > 0)
             {
                 var enemyStatisticTool = GameObject.Instantiate(enemyStatisticToolPrefab, transformEnemyStatisticToolsPool);
-                var coinDrop = enemy.dataArray[enemyInfo.id].Coindrop;
-                enemyStatisticTool.Init(enemyInfo, count, 0, enemy.dataArray[enemyInfo.id].Coindrop);
+                
+                var HP = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].HP, enemyLevelUpStat.dataArray[enemyInfo.id].HP, enemyInfo.level);
+                var damage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Damage, enemyLevelUpStat.dataArray[enemyInfo.id].Damage, enemyInfo.level);
+                var armor = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Armor, enemyLevelUpStat.dataArray[enemyInfo.id].Armor, enemyInfo.level);
+                var attackSpeed = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Attackspeed, enemyLevelUpStat.dataArray[enemyInfo.id].Attackspeed, enemyInfo.level);
+                var critRate = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate, enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+                var accuracy = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Accuracy, enemyLevelUpStat.dataArray[enemyInfo.id].Accuracy, enemyInfo.level);
+                var dodge = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Dodge, enemyLevelUpStat.dataArray[enemyInfo.id].Dodge, enemyInfo.level);
+                var critDamage = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Critrate, enemyLevelUpStat.dataArray[enemyInfo.id].Critrate, enemyInfo.level);
+                var coinDrop = ConfigStats.GetStat(enemy.dataArray[enemyInfo.id].Coindrop, enemyLevelUpStat.dataArray[enemyInfo.id].Coindrop, enemyInfo.level);
+                
+                var power = ConfigStats.GetPower(HP, damage, armor, attackSpeed, critRate, accuracy, dodge, critDamage);
+                
+                enemyStatisticTool.Init(enemyInfo, count, power, coinDrop);
+                totalPower += count * power;
                 totalCoin += count * coinDrop;
                 enemyStatisticTool.SetActive(true);
                 listEnemyStatisticTool.Add(enemyStatisticTool);
             }
         }
 
-        txtTotalPower.text = "Power 0";
-        txtTotalCoinDrop.text = "Coin " + totalCoin;
+        txtTotalPower.text = "P " + totalPower;
+        txtTotalCoinDrop.text = "C " + totalCoin;
     }
     
     //===========================================

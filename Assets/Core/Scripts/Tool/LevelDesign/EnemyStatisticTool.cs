@@ -21,7 +21,7 @@ public class EnemyStatisticTool : MonoBehaviour
 
         txtLevel.text = _enemyInfo.level + "";
         txtCount.text = "x" + count + "";
-        txtPower.text = "Power " + power + "";
-        txtCoinDrop.text = "Coin " + coinDrop + "";
+        txtPower.text = "P " + power + "";
+        txtCoinDrop.text = "C " + coinDrop + "";
     }
 }

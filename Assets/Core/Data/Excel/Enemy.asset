@@ -38,7 +38,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 2
@@ -62,7 +62,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 3
@@ -87,7 +87,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 4
@@ -113,7 +113,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 5
@@ -138,7 +138,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 6
@@ -166,7 +166,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 7
@@ -199,7 +199,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 8
@@ -225,7 +225,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 9
@@ -253,7 +253,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 10
@@ -282,7 +282,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 11
@@ -308,7 +308,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 12
@@ -338,7 +338,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 13
@@ -367,7 +367,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 14
@@ -393,7 +393,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 15
@@ -419,7 +419,7 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40
   - enemyid: 16
@@ -444,6 +444,6 @@ MonoBehaviour:
     critrate: 50
     critdamage: 20
     attackrange: 30
-    invisible: 5
+    invisible: 0
     coindrop: 30
     gemdrop: 40

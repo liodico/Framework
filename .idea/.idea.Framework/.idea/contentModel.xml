@@ -372,10 +372,14 @@
               <e p="Editor" t="Include">
                 <e p="EnemyAssetPostProcessor.cs" t="Include" />
                 <e p="EnemyEditor.cs" t="Include" />
+                <e p="EnemyLevelUpStatAssetPostProcessor.cs" t="Include" />
+                <e p="EnemyLevelUpStatEditor.cs" t="Include" />
               </e>
               <e p="Runtime" t="Include">
                 <e p="Enemy.cs" t="Include" />
                 <e p="EnemyBase.cs" t="Include" />
+                <e p="EnemyLevelUpStat.cs" t="Include" />
+                <e p="EnemyLevelUpStatBase.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -408,6 +412,7 @@
           <e p="Scripts" t="Include">
             <e p="Config" t="Include">
               <e p="Config.cs" t="Include" />
+              <e p="ConfigStats.cs" t="Include" />
               <e p="Constants.cs" t="Include" />
               <e p="FBServices.cs" t="Include" />
               <e p="IDs.cs" t="Include" />

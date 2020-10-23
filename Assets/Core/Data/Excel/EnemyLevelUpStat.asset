@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae6e13b5c522c448a368ffbdddaa8dd, type: 3}
+  m_Name: EnemyLevelUpStat
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Core/Data/Excel/Enemy.xlsx
+  WorksheetName: EnemyLevelUpStat
+  dataArray:
+  - enemyid: 1
+    name: Crazy ball
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 2
+    name: Roach
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 3
+    name: Devil Drone
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 4
+    name: Viper
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 5
+    name: Chines
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 6
+    name: Spider
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 7
+    name: Crumble
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 8
+    name: Crazy machine
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 9
+    name: Devil Mech
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 10
+    name: Shadow
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 11
+    name: Canonvic
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 12
+    name: Punch
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 13
+    name: The Butcher
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 14
+    name: octopus
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 15
+    name: EE666
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
+  - enemyid: 16
+    name: the Rock
+    lvup: 1
+    hp: 1
+    hpregen: 2
+    damage: 3
+    movement: 4
+    armor: 5
+    attackspeed: 6
+    accuracy: 7
+    dodge: 8
+    critrate: 9
+    critdamage: 10
+    attackrange: 11
+    coindrop: 13
+    gemdrop: 14
